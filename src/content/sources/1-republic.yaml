@@ -1,0 +1,632 @@
+- id: twelve-tables
+  title: The Twelve Tables (fragments)
+  kind: law
+  date: {from: -451, to: -450, label: '451–450 BC (traditional)', note: 'The code survives only in later quotations; the archaic Latin has been partly modernised by those who quoted it.'}
+  origin: Rome
+  language: Latin
+  citation: 'Twelve Tables I.1, III.6, IV.2, VIII.2, VIII.21, X.1 (traditional numbering; Crawford, Roman Statutes, numbers differently)'
+  themes: [legal, social]
+  original:
+    - Si in ius vocat, ito. Ni it, antestamino. Igitur em capito.
+    - Tertiis nundinis partis secanto. Si plus minusve secuerunt, se fraude esto.
+    - Si pater filium ter venum duit, filius a patre liber esto.
+    - Si membrum rupsit, ni cum eo pacit, talio esto.
+    - Patronus si clienti fraudem fecerit, sacer esto.
+    - Hominem mortuum in urbe ne sepelito neve urito.
+  translation:
+    - If someone summons a man to court, he is to go. If he does not go, the summoner is to call a witness. Then he is to seize him.
+    - "[Of a debtor handed over to several creditors:] On the third market day they are to cut shares. If they cut more or less than their due, it is to be without penalty."
+    - If a father sells his son three times, the son is to be free from his father.
+    - If someone has broken another's limb, unless he comes to an agreement with him, there is to be retaliation in kind.
+    - If a patron has defrauded his client, he is to be accursed (sacer).
+    - No one is to bury or burn a dead person in the city.
+  translator: 'Course translation from the Latin, literal. The bracketed context comes from Aulus Gellius 20.1, who quotes the debt clause.'
+  context: >-
+    Roman tradition held that after plebeian agitation a board of ten men (decemviri) drafted a written code in 451–450 BC,
+    displayed on bronze or wooden tablets in the Forum. The code was memorised by schoolboys in Cicero's time but the
+    original did not survive; we know it from quotations by antiquarians, jurists and grammarians.
+  creator: >-
+    The decemvirs, according to Livy, after studying Greek laws. Modern scholars accept a mid-fifth-century codification but
+    doubt the details of the story, including the Greek embassy.
+  audience: >-
+    All citizens: the point of publication was that the rules governing summons, debt, family and property would be known and
+    not left to the discretion of patrician magistrates and priests.
+  tells: >-
+    A rural society of households (the father's power to sell his son), debtors and creditors (the brutal "cutting" clause,
+    which later Romans already found embarrassing), self-help in legal process, patronage as a sacred bond, and religious
+    rules separating the dead from the city. Its concerns fit the social tensions described for the [[term:conflict-orders]].
+  limits: >-
+    Every fragment comes through a later author with his own purpose, often antiquarian curiosity about strange old words.
+    Language was modernised in transmission, so the "archaic" Latin is partly reconstructed. The order and numbering of the
+    tables are a modern reconstruction. We cannot tell how the rules worked in practice.
+  usage: >-
+    Historians use the fragments as the earliest substantial evidence for Roman society, comparing them with archaeology of
+    early Latium and with later law. The debt clause is central to debates over whether creditors literally divided bodies
+    or property (most think the clause was never applied). The rule on patrons and clients shows patronage already embedded
+    in law and religion.
+  related: [livy-preface, scipio-barbatus]
+  exercise:
+    - q: What does the clause on selling a son three times reveal about the power of a Roman father, and about how that power was limited?
+      model: >-
+        It assumes that a father could sell his son, probably into a form of bondage, and that the son reverted to his father's
+        power when released. The law limits this by freeing the son after the third sale. Later jurists used the clause as a
+        legal fiction to emancipate sons (by three formal sales). It shows patria potestas as real but already subject to rules.
+    - q: Why might a historian hesitate to use the debt clause as evidence that creditors dismembered debtors?
+      model: >-
+        It survives only in a second-century AD quotation by Aulus Gellius, whose speaker says no one had ever heard of it being
+        applied. Its wording may refer to shares of property, and it may have functioned as a deterrent. More broadly, a law's
+        existence does not prove its enforcement.
+  editions: [crawford-statutes-1996, lewis-reinhold-1990]
+- id: livy-preface
+  title: Livy on the evidence for early Rome
+  kind: history
+  author: Livy
+  date: {from: -27, to: -9, circa: true, label: 'c. 27–9 BC (Books 1–6)'}
+  origin: Rome / Patavium
+  language: Latin
+  citation: 'Livy, Preface 6–7 and 10; 6.1.2'
+  themes: [cultural, political]
+  original:
+    - Quae ante conditam condendamve urbem poeticis magis decora fabulis quam incorruptis rerum gestarum monumentis traduntur, ea nec adfirmare nec refellere in animo est. Datur haec venia antiquitati ut miscendo humana divinis primordia urbium augustiora faciat.
+    - Hoc illud est praecipue in cognitione rerum salubre ac frugiferum, omnis te exempli documenta in inlustri posita monumento intueri; inde tibi tuaeque rei publicae quod imitere capias, inde foedum inceptu foedum exitu quod vites.
+    - "[Res] cum vetustate nimia obscuras, velut quae magno ex intervallo loci vix cernuntur, tum quod parvae et rarae per eadem tempora litterae fuere, una custodia fidelis memoriae rerum gestarum, et quod, etiam si quae in commentariis pontificum aliisque publicis privatisque erant monumentis, incensa urbe pleraeque interiere."
+  translation:
+    - The traditions about events before the city was founded, or was about to be founded, are more fit for the ornaments of poetry than for the reliable records of history, and I intend neither to affirm nor to refute them. Antiquity is granted this indulgence, that by mingling the human with the divine it makes the beginnings of cities more august.
+    - This above all is what makes the study of history healthy and profitable, that you behold examples of every kind set out on a conspicuous monument; from these you may choose for yourself and your country what to imitate, and what to avoid, foul in its beginning and foul in its outcome.
+    - "[Of the first 360 years:] matters obscure both through their great age, like things scarcely visible at a great distance, and because in those times writing was little used and rare, the only faithful guardian of the memory of events; and because, even if there were some records in the commentaries of the pontiffs and other public and private documents, most of them perished when the city was burned [by the Gauls]."
+  translator: Course translation from the Latin.
+  context: >-
+    Livy began his history of Rome "from the foundation of the city" in the early years of Augustus' rule, after decades of
+    civil war. These passages come from the general preface and from the opening of Book 6, where he starts again after the
+    Gallic sack of 390 BC.
+  creator: >-
+    Titus Livius of Patavium (Padua), a man of letters rather than a senator or soldier, writing for a Roman elite readership.
+  audience: >-
+    Educated Romans who read history for moral instruction and for pleasure; Augustus himself read Livy.
+  tells: >-
+    Livy is explicit that the earliest stories are legend, that early records were scarce, and that most were lost in the
+    Gallic fire. He states his purpose: history as a store of moral examples. He also mentions the kinds of records that did
+    exist, such as the pontiffs' commentaries.
+  limits: >-
+    His caution is selective: having disclaimed the foundation legends, he goes on to narrate them at length, with speeches.
+    The claim that everything burned in 390 is itself convenient, and no destruction layer of 390 has been securely identified.
+    Moral purpose shapes what he includes.
+  usage: >-
+    Every modern history of early Rome starts by quoting Livy's own warnings. Historians debate how much reliable "structural"
+    information (institutions, names of officials, treaties) survived in sources such as the pontifical records and family
+    traditions, as opposed to narrative detail.
+  related: [twelve-tables, scipio-barbatus]
+  exercise:
+    - q: Livy says he will "neither affirm nor refute" the legends. What does he do with them in practice, and why?
+      model: >-
+        He narrates them in full, because they serve his moral and patriotic purpose: they offer examples to imitate and avoid
+        and give the Roman people a divine ancestry suited to an imperial power. His disclaimer protects his credibility while
+        allowing him to use the material.
+    - q: How does the passage from Book 6 help a historian decide which parts of Livy's early books to trust?
+      model: >-
+        It identifies the scarcity of writing and the loss of records, implying that narratives before 390 are weakest. It
+        also names record types that may have survived (pontifical commentaries), suggesting that lists of officials, dates of
+        temples and similar data may be more reliable than speeches and motives.
+  editions: [livy-luce-1998]
+- id: scipio-barbatus
+  title: Epitaph of Lucius Cornelius Scipio Barbatus
+  kind: inscription
+  date: {from: -280, to: -200, label: 'c. 280–200 BC', note: 'Barbatus was consul in 298 BC; the verse epitaph may be later than the sarcophagus.'}
+  origin: Tomb of the Scipios, Via Appia, Rome
+  language: Latin
+  citation: 'CIL I² 6–7 = ILLRP 309'
+  themes: [political, cultural]
+  original:
+    - Cornelius Lucius Scipio Barbatus, Gnaivod patre prognatus, fortis vir sapiensque, quoius forma virtutei parisuma fuit, consol censor aidilis quei fuit apud vos, Taurasia Cisauna Samnio cepit, subigit omne Loucanam opsidesque abdoucit.
+  translation:
+    - Cornelius Lucius Scipio Barbatus, born of his father Gnaeus, a brave and wise man, whose appearance was fully equal to his virtue, who was consul, censor and aedile among you, captured Taurasia and Cisauna in Samnium, subdued all Lucania and led away hostages.
+  translator: Course translation from the Latin. Note the archaic spellings (Gnaivod for Gnaeo, quoius for cuius, consol for consul).
+  context: >-
+    Found in 1780 in the family tomb of the Cornelii Scipiones just inside the later Aurelian Walls on the Via Appia. The
+    sarcophagus, carved in local volcanic stone with Greek-style decoration, is now in the Vatican Museums.
+  creator: >-
+    The Scipio family, commissioning a verse text in the native Saturnian metre. The painted name on the lid and the verse below
+    may have been added at different times.
+  audience: >-
+    Visitors to the tomb and, by its phrase "among you" (apud vos), the Roman people, whose votes gave the offices it lists.
+  tells: >-
+    The values of the early Roman aristocracy in their own words: courage and wisdom, physical presence, offices held by
+    election and military conquest. It is among the earliest Latin verse inscriptions and shows Greek cultural influence
+    (the sarcophagus form) alongside Italian traditions.
+  limits: >-
+    It is a family boast, not a record. Livy's account of the Third Samnite War does not match its claims (he credits
+    Barbatus with campaigns in Etruria). The dating of the text is disputed, so it may reflect values of a later generation.
+  usage: >-
+    Historians use the Scipionic epitaphs to study aristocratic ideology and competition (Flower, Hölkeskamp), and the
+    discrepancy with Livy as a case study in how family traditions entered and conflicted with historical narratives.
+  related: [livy-preface, polybius-constitution]
+  exercise:
+    - q: What qualities make a man worthy of remembrance according to this epitaph?
+      model: >-
+        Courage and practical wisdom (fortis, sapiens), a fine appearance matching his virtue, elected office in an ascending
+        sequence, and military success measured in captured towns, conquered territory and hostages. Public service and war
+        are inseparable.
+    - q: Livy's account of Barbatus' campaigns differs from the epitaph. How would you decide between them?
+      model: >-
+        Neither is neutral: the epitaph is a family's praise, possibly written generations later; Livy wrote two and a half
+        centuries later from sources that included family traditions. One might ask which campaigns fit the wider chronology,
+        whether other families claimed the same victories, and whether the discrepancy reflects competing family memories.
+  editions: [crawford-statutes-1996]
+- id: polybius-constitution
+  title: Polybius on the mixed constitution
+  kind: history
+  author: Polybius
+  date: {from: -150, circa: true, label: 'written c. 150 BC'}
+  origin: Rome
+  language: Greek
+  citation: 'Polybius 6.11.11–12; 6.18.1–2'
+  themes: [political]
+  translation:
+    - The three kinds of government that I spoke of earlier all shared in the control of the Roman state. And such fairness and propriety was shown in the use of these three elements, both in framing the constitution and in its subsequent administration, that it was impossible even for a native to say with certainty whether the whole system was aristocratic, democratic or monarchical. This was only natural. For if one fixed one's eyes on the power of the consuls, the constitution seemed completely monarchical and royal; if on that of the Senate, it seemed aristocratic; and when one looked at the power of the many, it seemed clearly a democracy.
+    - Such being the power that each part has to hamper the others or to cooperate with them, their union is adequate to every emergency, so that it is impossible to find a better form of constitution. For whenever some common danger from outside compels them to unite and work together, the strength of the state becomes so great that nothing that is needed is neglected.
+  translator: 'Adapted from the translation by W. R. Paton (Loeb Classical Library, 1923; public domain in the US), lightly modernised. Check against Waterfield (2010) before quoting.'
+  context: >-
+    Book 6 interrupts Polybius' narrative after the disaster of Cannae (216 BC) to explain how Rome could survive it: the answer
+    is its constitution. He describes consuls, Senate and people, and the checks each places on the others, then the army and
+    Roman religion and customs.
+  creator: >-
+    Polybius of Megalopolis, a Greek statesman deported to Rome in 167 BC who became close to the Scipios. He applies Greek
+    political theory (the cycle of constitutions) to Rome.
+  audience: >-
+    Greeks who wanted to understand the power that had conquered them, and who knew the theory of mixed constitutions.
+  tells: >-
+    How an intelligent insider-outsider understood the Republic around 150 BC: powerful magistrates, an authoritative Senate
+    controlling finance and foreign affairs, and a people that elected, legislated and judged. It is the starting point for all
+    modern analysis of Republican institutions.
+  limits: >-
+    Polybius fits Rome into a Greek theoretical scheme, which makes the system look more balanced and deliberate than it was.
+    He says little about patronage, wealth or the informal power of the nobility, which modern historians see as decisive. He
+    wrote as a friend of the elite.
+  usage: >-
+    Read alongside Livy and Cicero, Polybius is the foundation of the debate about how democratic the Republic was: Millar
+    took his emphasis on the people seriously; critics stress what his scheme leaves out.
+  related: [scipio-barbatus, polybius-manpower]
+  exercise:
+    - q: Why might Polybius have found the "mixed constitution" a satisfying explanation for Rome's success?
+      model: >-
+        Greek theory held that simple constitutions decay (monarchy into tyranny and so on) and that mixtures are stable. Rome's
+        rise demanded explanation, and the theory offered a flattering, systematic one to a Greek audience. It also suited his
+        Roman friends, whose Senate appears as the stabilising element.
+    - q: What important features of Roman politics does this passage leave out?
+      model: >-
+        Patronage and clientship; the role of wealth in the centuriate assembly; the domination of the consulship by a small
+        number of noble families; religion as a political tool (though Polybius discusses it elsewhere); and the informal norms
+        (mos maiorum) that made formal powers workable.
+  editions: [polybius-waterfield-2010]
+- id: polybius-manpower
+  title: Polybius on Roman and allied manpower in 225 BC
+  kind: history
+  author: Polybius
+  date: {from: -150, circa: true, label: 'written c. 150 BC, describing 225 BC'}
+  origin: Rome
+  language: Greek
+  citation: 'Polybius 2.24'
+  themes: [military, political]
+  translation:
+    - "[Summary of 2.24.1–15:] Polybius lists the forces mustered or registered when a Gallic invasion threatened Italy in 225 BC: the consular armies, the reserves at Rome, and the numbers of men fit to serve reported by Latins, Samnites, Iapygians and Messapians, Lucanians, Marsi, Marrucini, Frentani, Vestini and others."
+    - So the total number of Romans and allies able to bear arms was over 700,000 infantry and about 70,000 cavalry, while Hannibal invaded Italy with fewer than 20,000 men.
+  translator: Course summary of 2.24.1–15 and course translation of 2.24.16–17. Polybius' figures were probably derived from the Roman lists (formulae) of allied obligations, perhaps via Fabius Pictor.
+  context: >-
+    Polybius includes this catalogue before narrating the Gallic war of 225 BC, but its real point is the Second Punic War: he
+    wants readers to grasp what Hannibal attacked.
+  creator: Polybius, using Roman sources, probably including the senator-historian Fabius Pictor.
+  audience: Greek readers comparing Rome with the Hellenistic kingdoms.
+  tells: >-
+    The scale of military manpower available through the Roman alliance in Italy: a potential far larger than any rival could
+    match. It underpins arguments that Rome won the Second Punic War because it could absorb losses like Cannae.
+  limits: >-
+    The figures are theoretical capacity, not mobilised armies; their sources and the way they were added up are debated. Some
+    totals in the manuscripts are corrupt. Population historians (Brunt) have worked hard to reconcile them with census figures.
+  usage: >-
+    Brunt's Italian Manpower and later demographic studies use the list as a key datum for Italian population. Military
+    historians use it to explain Roman resilience; historians of the alliance use it to show how deeply Italian communities
+    were integrated into Rome's war-making.
+  related: [polybius-constitution]
+  exercise:
+    - q: How does this passage help explain why Rome did not surrender after Cannae?
+      model: >-
+        Even losing perhaps 50,000 men at Cannae left Rome and its allies with vast reserves; provided most allies stayed
+        loyal, Rome could keep raising legions. Hannibal's strategy therefore depended on breaking the alliance, which this list
+        shows was the foundation of Roman power.
+    - q: Why should a historian treat the total of "over 700,000" with caution?
+      model: >-
+        It is a sum of registers of men eligible to serve, not soldiers in the field; Polybius may have added categories
+        inconsistently; numbers in ancient manuscripts are easily corrupted; and his source had reasons to stress Roman strength.
+  editions: [polybius-waterfield-2010]
+- id: sc-bacchanalibus
+  title: The Senate's decree on the Bacchanals
+  kind: inscription
+  date: {from: -186, label: '186 BC'}
+  origin: Tiriolo, Calabria (bronze tablet, now in Vienna)
+  language: Latin
+  citation: 'CIL I² 581 = ILLRP 511'
+  themes: [religious, political, legal]
+  original:
+    - "Q. Marcius L. f., S. Postumius L. f. cos. senatum consoluerunt N(onis) Octob(ribus), apud aedem Duelonai. Sc(ribendo) arf(uerunt) M. Claudi(us) M. f., L. Valeri(us) P. f., Q. Minuci(us) C. f."
+    - "De Bacanalibus quei foideratei esent, ita exdeicendum censuere: Neiquis eorum Bacanal habuise velet. Sei ques esent, quei sibei deicerent necesus ese Bacanal habere, eeis utei ad pr(aetorem) urbanum Romam venirent, deque eeis rebus, ubei eorum verba audita esent, utei senatus noster decerneret, dum ne minus senatoribus C adesent, quom ea res cosoleretur."
+  translation:
+    - Quintus Marcius son of Lucius and Spurius Postumius son of Lucius, consuls, consulted the Senate on the Nones of October at the temple of Bellona. Present at the drafting were Marcus Claudius son of Marcus, Lucius Valerius son of Publius, Quintus Minucius son of Gaius.
+    - Concerning the Bacchanalia, they resolved that the following should be proclaimed to those who were bound by treaty. Let none of them wish to have a shrine of Bacchus. If there are any who say it is necessary for them to have one, they are to come to the urban praetor at Rome, and when their words have been heard, our Senate is to decide on these matters, provided that not fewer than 100 senators are present when the matter is discussed.
+  translator: Course translation from the Latin. The decree continues with limits on gatherings (no more than five people at a rite) and penalties of death.
+  context: >-
+    Livy (39.8–19) describes a panic in 186 BC about Bacchic worship spreading through Italy, which he presents as a
+    conspiracy involving sexual crimes and murder. The Senate ordered investigations across Italy and thousands were said to
+    have been executed. This bronze copy was posted in the territory of the ager Teuranus in the far south.
+  creator: The Senate, through the consuls; the text was sent to local officials, who were instructed to engrave and display it.
+  audience: Italian allied communities ("those bound by treaty") and their magistrates.
+  tells: >-
+    The Senate claimed authority over religious practice even in allied communities in Italy, using treaties as a channel of
+    control. The decree did not ban Bacchic worship outright but subjected it to Roman permission and limits on numbers and
+    organisation, suggesting fear of autonomous associations more than of the god.
+  limits: >-
+    It records the decision, not its enforcement or the facts behind the panic. Livy's lurid narrative was written 170 years
+    later and shaped by Roman moralising. The archaic spellings may be partly deliberate archaism by the engraver.
+  usage: >-
+    A classic case for how historians combine a document with a literary narrative. It is central to debates about Roman
+    religion (Beard, North and Price), about Rome's control over the Italian allies, and about anxieties caused by conquest
+    and new cults.
+  related: [polybius-constitution, twelve-tables]
+  exercise:
+    - q: What does the requirement of "not fewer than 100 senators" suggest about the Senate's view of the issue?
+      model: >-
+        It treats exemptions as matters of high state importance requiring a large quorum, making permission hard to obtain and
+        asserting the Senate's collective authority over religious life throughout Italy.
+    - q: Compare the decree with Livy's account. What does each tell us that the other cannot?
+      model: >-
+        The decree gives the exact legal mechanism, its date and its reach to allies, but not the motives or events. Livy gives a
+        narrative of motives and scandal, but late and moralised. Together they show a real, far-reaching intervention, while
+        warning us that the panic's explanation may be largely Roman projection.
+  editions: [crawford-statutes-1996, beard-north-price-1998]
+- id: gracchus-speech
+  title: Tiberius Gracchus on the landless soldier
+  kind: speech
+  author: Plutarch (reporting Tiberius Gracchus)
+  date: {from: 100, to: 120, circa: true, label: 'written c. AD 100–120, reporting 133 BC'}
+  origin: Chaeronea, Greece
+  language: Greek
+  citation: 'Plutarch, Tiberius Gracchus 9.4–5'
+  themes: [political, social]
+  translation:
+    - The wild beasts that roam over Italy have every one of them a cave or lair to lurk in; but the men who fight and die for Italy enjoy the common air and light, indeed, but nothing else. Houseless and homeless they wander about with their wives and children.
+    - And it is with lying lips that their generals exhort the soldiers in their battles to defend sepulchres and shrines from the enemy; for not a man of them has an hereditary altar, not one of all these many Romans an ancestral tomb, but they fight and die to support others in wealth and luxury, and though they are styled masters of the world, they have not a single clod of earth to call their own.
+  translator: 'Adapted from the translation by Bernadotte Perrin (Loeb Classical Library, 1921; public domain in the US).'
+  context: >-
+    Plutarch presents this as part of Tiberius' speeches in support of his land bill of 133 BC, delivered from the Rostra.
+  creator: >-
+    Plutarch, a Greek biographer writing over two centuries later, who probably drew on Gaius Gracchus' own writings and
+    speeches about his brother; the wording is Plutarch's Greek version of a Latin original.
+  audience: Plutarch's educated Greek and Roman readers, interested in moral character and political example.
+  tells: >-
+    The core argument of the Gracchan programme as later remembered: conquest had enriched a few while the citizen-soldiers who
+    won it lost their land, and this threatened both justice and Rome's military manpower.
+  limits: >-
+    This is not a transcript; ancient historians composed speeches. Whether Italian smallholders were really declining, and
+    why, is debated (Rosenstein, Rich). The pathos serves Plutarch's sympathetic portrait.
+  usage: >-
+    Used to reconstruct Gracchan ideology and as a starting point for debates about the agrarian crisis. Historians compare it
+    with Appian's more economic account (Civil Wars 1.7–13) and with archaeological surveys of Italian rural settlement.
+  related: [polybius-manpower]
+  exercise:
+    - q: What two problems does the speech link, and why was the link politically powerful?
+      model: >-
+        Landlessness among citizen-soldiers and the security of the state, since only property-owners were liable for legion
+        service. Linking social justice to military necessity let Tiberius appeal both to the poor and to those worried about
+        recruitment.
+    - q: What would you need to know before using this passage as evidence for the condition of Italian farmers in 133 BC?
+      model: >-
+        Whether the words go back to Tiberius or were shaped by Gaius' later propaganda and Plutarch's art; independent evidence
+        such as census figures, archaeological field surveys of farms and villas, and the operation of the land commission
+        (boundary stones); and alternative explanations for any shortage of recruits.
+  editions: [plutarch-waterfield-1999, appian-carter-1996]
+- id: cicero-attic-49
+  title: Cicero on Caesar's invasion of Italy
+  kind: letter
+  author: Cicero
+  date: {from: -49, label: 'about 21 January 49 BC'}
+  origin: Formiae or nearby, Italy
+  language: Latin
+  citation: 'Cicero, Letters to Atticus 7.11.1'
+  themes: [political]
+  original:
+    - Obsecro te, quid hoc est? aut quid agitur? mihi enim tenebrae sunt. "Cingulum" inquit "nos tenemus, Anconem amisimus; Labienus discessit a Caesare." Utrum de imperatore populi Romani an de Hannibale loquimur?
+    - O hominem amentem et miserum, qui ne umbram quidem umquam τοῦ καλοῦ viderit! Atque haec ait omnia facere se dignitatis causa. Ubi est autem dignitas nisi ubi honestas?
+  translation:
+    - I beg you, what is this? What is going on? It is all darkness to me. "We hold Cingulum," someone says, "we have lost Ancona; Labienus has left Caesar." Are we talking about a Roman commander or about Hannibal?
+    - What a crazed and wretched man, who has never seen even the shadow of the good! And he says he is doing all this for the sake of his dignitas. But where is dignitas except where there is honour?
+  translator: Course translation from the Latin. Cicero slips into Greek ("the good", tou kalou), as educated Romans did in private letters.
+  context: >-
+    Caesar crossed the Rubicon around 10–11 January 49 BC and advanced rapidly down the Adriatic coast. Pompey and the consuls
+    abandoned Rome. Cicero, appointed to supervise the Campanian coast, wrote anxious letters almost daily to his friend
+    Atticus as news arrived.
+  creator: Cicero, writing privately to Titus Pomponius Atticus, his closest friend and financial adviser.
+  audience: Atticus alone; the letters were published after both men's deaths.
+  tells: >-
+    How fast and confusing events felt from inside; how a senator framed Caesar's invasion (as Hannibal-like aggression against
+    the fatherland); and how the language of dignitas was contested: Caesar claimed to defend his standing, Cicero insisted that
+    dignitas without honestas is no dignitas at all.
+  limits: >-
+    Cicero's judgements change from letter to letter, and he writes to a friend in a mood of the moment. He was not neutral, and
+    he soon negotiated with Caesar himself. We hear the Pompeian side; Caesar's own account (Civil War 1) gives his.
+  usage: >-
+    Cicero's letters are the densest contemporary evidence for any period of ancient history. Historians use them to recover
+    the uncertainty of decision-making in 49 BC, which hindsight erases, and to analyse the values of the senatorial class.
+  related: [eid-mar]
+  exercise:
+    - q: Why does Cicero compare Caesar to Hannibal?
+      model: >-
+        Hannibal was the archetype of a foreign invader marching on Italian towns. The comparison denies Caesar the status of a
+        Roman magistrate and casts his advance as war against the fatherland, rejecting his claim to be defending his rights.
+    - q: What can this letter tell us that Caesar's Civil War cannot, and vice versa?
+      model: >-
+        The letter preserves an immediate, private reaction and the confusion of the moment from the senatorial side. Caesar's
+        polished account, written for publication, gives his justification (defence of his dignitas and of the tribunes' rights)
+        and his own military narrative. Each must be read against its purpose.
+  editions: [cicero-letters-sb-1986]
+- id: eid-mar
+  title: The "Ides of March" denarius of Brutus
+  kind: coin
+  author: Mint of M. Junius Brutus
+  date: {from: -43, to: -42, label: '43–42 BC'}
+  origin: Mint moving with Brutus' army, probably in northern Greece
+  language: Latin
+  citation: 'Crawford, RRC 508/3; Cassius Dio 47.25.3'
+  themes: [political]
+  coin:
+    denomination: Silver denarius
+    ref: 'RRC 508/3'
+    obverse:
+      legend: BRVT IMP · L PLAET CEST
+      device: Bare head of Brutus facing right.
+      motif: portrait
+      gloss:
+        - {abbr: BRVT IMP, full: Brutus imperator, meaning: Brutus hailed as victorious commander by his soldiers.}
+        - {abbr: L PLAET CEST, full: Lucius Plaetorius Cestianus, meaning: The moneyer responsible for the issue.}
+    reverse:
+      legend: EID MAR
+      device: A pileus (the felt cap given to freed slaves) between two daggers.
+      motif: daggers
+      gloss:
+        - {abbr: EID MAR, full: Eidibus Martiis, meaning: '"On the Ides of March": the date of Caesar''s murder, presented as the day of liberation.'}
+  translation:
+    - Brutus stamped upon the coins which were being minted his own likeness and a cap and two daggers, indicating by this and by the inscription that he, together with Cassius, had liberated the fatherland.
+  translator: 'Course translation of Cassius Dio 47.25.3 (Greek), the only ancient description of the coin.'
+  context: >-
+    After Caesar's murder Brutus and Cassius left Italy and raised armies in the East to fight Antony and Octavian. They minted
+    coins to pay their troops. This issue was struck shortly before Philippi.
+  creator: Brutus' mint, under the moneyer L. Plaetorius Cestianus.
+  audience: Brutus' soldiers and the populations of the East through which the coins circulated.
+  tells: >-
+    How the assassins justified the killing: as tyrannicide restoring liberty, symbolised by the cap of the freed slave, with
+    the daggers as instruments of liberation. It is also striking that Brutus put his own portrait on a coin, as Caesar had
+    been the first living Roman to do in 44.
+  limits: >-
+    A coin shows the message its issuer intended, not how it was received. Fewer than a hundred examples survive, so its
+    circulation was limited. Some surviving gold versions are forgeries or debated.
+  usage: >-
+    A textbook example of Roman coinage as political communication (Howgego), and of the contradictions of the Liberators'
+    position: a defender of the Republic adopting the monarchic practice of portrait coinage.
+  related: [cicero-attic-49, aegypto-capta]
+  exercise:
+    - q: Explain the symbolism of the pileus and the daggers.
+      model: >-
+        The pileus was the cap placed on a slave's head at manumission; here it represents the Roman people freed from
+        Caesar's "tyranny". The daggers are those used on the Ides; together they claim the murder as an act of liberation.
+    - q: What is paradoxical about the obverse of this coin?
+      model: >-
+        It bears the portrait of a living man, a practice Caesar had just introduced and which was associated with Hellenistic
+        kings. A coin celebrating liberation from monarchy uses a monarchical medium, suggesting how far the Republic's norms had
+        already changed.
+  editions: [crawford-1974, crro]
+- id: res-gestae
+  title: Res Gestae Divi Augusti
+  kind: inscription
+  author: Augustus
+  date: {from: 14, label: 'final version AD 14'}
+  origin: 'Rome (original on bronze pillars at the Mausoleum, lost); copies from Ancyra, Apollonia and Antioch in Pisidia'
+  language: Latin (with Greek version)
+  citation: 'Res Gestae 1 and 34'
+  themes: [political]
+  original:
+    - Annos undeviginti natus exercitum privato consilio et privata impensa comparavi, per quem rem publicam a dominatione factionis oppressam in libertatem vindicavi.
+    - In consulatu sexto et septimo, postquam bella civilia exstinxeram, per consensum universorum potens rerum omnium, rem publicam ex mea potestate in senatus populique Romani arbitrium transtuli. Quo pro merito meo senatus consulto Augustus appellatus sum et laureis postes aedium mearum vestiti publice coronaque civica super ianuam meam fixa est et clupeus aureus in curia Iulia positus, quem mihi senatum populumque Romanum dare virtutis clementiaeque et iustitiae et pietatis causa testatum est per eius clupei inscriptionem.
+    - Post id tempus auctoritate omnibus praestiti, potestatis autem nihilo amplius habui quam ceteri qui mihi quoque in magistratu conlegae fuerunt.
+  translation:
+    - At the age of nineteen, on my own initiative and at my own expense, I raised an army, by means of which I liberated the state, which had been oppressed by the domination of a faction.
+    - In my sixth and seventh consulships [28–27 BC], after I had put an end to the civil wars, having been in control of all affairs by universal consent, I transferred the state from my own power to the judgement of the Senate and People of Rome. For this service I was named Augustus by decree of the Senate; the doorposts of my house were publicly decked with laurels, a civic crown was fixed over my door, and a golden shield was set up in the Curia Julia, which, as its inscription testifies, the Senate and People of Rome gave me for my courage, clemency, justice and piety.
+    - After that time I excelled all in authority, but I had no more power than the others who were my colleagues in each magistracy.
+  translator: 'Course translation from the Latin. "Potens rerum omnium" follows the reading supported by the Antioch fragments; older editions read "potitus".'
+  context: >-
+    Augustus wrote and revised this account of his achievements; Suetonius says it was deposited with his will to be inscribed
+    in front of his Mausoleum. The best-preserved copy is on the temple of Rome and Augustus at Ancyra (Ankara), with a Greek
+    paraphrase for provincials.
+  creator: Augustus himself, in the first person.
+  audience: Romans passing the Mausoleum, and through the copies, provincial communities. It is addressed to posterity.
+  tells: >-
+    The official self-image of the Principate: legality, consensus, honours freely given, restoration of liberty, victory,
+    generosity to the people and soldiers, and a distinction between auctoritas (pre-eminent influence) and potestas (legal power).
+  limits: >-
+    Everything is selective. "A faction" means Antony; the proscriptions, Perusia and the purge of opponents are absent. The
+    claim to have had no more power than colleagues ignores tribunician power held for life, superior imperium and control of
+    the armies, and the fact that he had no real colleague.
+  usage: >-
+    The essential text for Augustus' ideology, read against Tacitus Annals 1.2–10 and Dio. Syme read it as masterful
+    propaganda; Galinsky stresses the reality of auctoritas as a cultural concept. Cooley's commentary analyses each claim.
+  related: [tacitus-annals-1, aegypto-capta, prima-porta]
+  exercise:
+    - q: Identify three things the Res Gestae leaves out of its account of 44–27 BC, and explain why.
+      model: >-
+        The proscriptions, including Cicero's death (incompatible with clemency); the brutality at Perusia (incompatible with
+        consensus); the fact that the "faction" were Caesarians like himself; and the continuing military basis of his position.
+        Omitting them presents him as a liberator, not a winner of civil war.
+    - q: Explain the distinction between auctoritas and potestas in chapter 34 and assess it.
+      model: >-
+        Potestas is legal power attached to office; auctoritas is personal authority that commands deference. Augustus claims to
+        rule by the latter, so his supremacy appears moral, not legal. It is partly true (much of his power was informal) and
+        partly misleading (he held unprecedented legal powers and controlled the army).
+  editions: [cooley-2009, cooley-lactor-2003]
+- id: tacitus-annals-1
+  title: Tacitus on how Augustus took power
+  kind: history
+  author: Tacitus
+  date: {from: 115, to: 120, circa: true, label: 'written c. AD 115–120'}
+  origin: Rome
+  language: Latin
+  citation: 'Tacitus, Annals 1.2'
+  themes: [political]
+  original:
+    - Postquam Bruto et Cassio caesis nulla iam publica arma, Pompeius apud Siciliam oppressus exutoque Lepido, interfecto Antonio ne Iulianis quidem partibus nisi Caesar dux reliquus, posito triumviri nomine consulem se ferens et ad tuendam plebem tribunicio iure contentum, ubi militem donis, populum annona, cunctos dulcedine otii pellexit, insurgere paulatim, munia senatus magistratuum legum in se trahere, nullo adversante, cum ferocissimi per acies aut proscriptione cecidissent, ceteri nobilium, quanto quis servitio promptior, opibus et honoribus extollerentur ac novis ex rebus aucti tuta et praesentia quam vetera et periculosa mallent.
+  translation:
+    - 'When, after the killing of Brutus and Cassius, there was no longer any army of the state, when Pompeius had been crushed off Sicily, Lepidus stripped of power and Antony killed, and not even the Julian party had any leader left but Caesar, he laid aside the title of triumvir, presenting himself as consul and content with the tribune''s right to protect the people. Once he had seduced the soldiers with gifts, the people with grain, and everyone with the sweetness of peace, he rose higher little by little and drew into his own hands the functions of the Senate, the magistrates and the laws. No one opposed him: the boldest had fallen in battle or in the proscriptions, and the rest of the nobility, the readier each was for servitude, were raised by wealth and honours, and, having profited from the new order, preferred the safety of the present to the dangers of the past.'
+  translator: Course translation from the Latin. Tacitus' single sentence is broken into two in English.
+  context: >-
+    The opening of the Annals, which narrate the reigns of Tiberius to Nero. Tacitus summarises Augustus' rise in a few
+    devastating sentences before explaining the accession of Tiberius.
+  creator: >-
+    Tacitus, a senator who had prospered under the Flavians and Trajan and who wrote about the loss of senatorial liberty.
+  audience: The senatorial and equestrian elite of Trajan's and Hadrian's Rome.
+  tells: >-
+    A hostile analysis of the mechanics of the Principate: the elimination of rivals, the buying of soldiers and people, the
+    gradual absorption of Republican institutions, and the collusion of a nobility exhausted by civil war and rewarded for
+    servility.
+  limits: >-
+    Written a century after Augustus' death by a man with his own preoccupations; the tone is deliberately cynical and the
+    sentence is constructed to make each step look calculated. It compresses forty years into a pattern.
+  usage: >-
+    Read directly against Res Gestae 34 as the classic pairing of official image and critical analysis. Syme's Roman Revolution
+    is in many ways an extended development of this paragraph.
+  related: [res-gestae]
+  exercise:
+    - q: List the means by which, according to Tacitus, Augustus won and kept support. Which groups are named?
+      model: >-
+        The soldiers with gifts (donatives and land), the people with grain (the annona), everyone with peace (otium). The
+        nobility were co-opted with wealth and honours. Opponents had been eliminated in war and proscriptions.
+    - q: How does Tacitus' grammar and word choice convey his judgement?
+      model: >-
+        The long ablative absolutes list rivals removed as if inevitable; verbs of seduction (pellexit) and gradual encroachment
+        (insurgere paulatim, in se trahere) imply calculation; "the readier for servitude" turns rewards into the price of
+        servility. The style makes the analysis feel like exposure of a hidden truth.
+  editions: [tacitus-annals-woodman-2004]
+- id: aegypto-capta
+  title: '"Egypt captured" denarius of Octavian'
+  kind: coin
+  date: {from: -28, label: '28 BC'}
+  origin: Uncertain eastern mint
+  language: Latin
+  citation: 'Denarius of Octavian, 28 BC'
+  themes: [political, military]
+  coin:
+    denomination: Silver denarius
+    obverse:
+      legend: CAESAR · COS · VI
+      device: Bare head of Octavian facing right.
+      motif: portrait
+      gloss:
+        - {abbr: CAESAR, full: Caesar, meaning: 'Octavian''s name as Caesar''s adopted son; "Augustus" was not yet granted.'}
+        - {abbr: COS VI, full: consul sextum, meaning: Consul for the sixth time (28 BC); legitimacy through Republican office.}
+    reverse:
+      legend: AEGVPTO · CAPTA
+      device: A crocodile facing right.
+      motif: crocodile
+      gloss:
+        - {abbr: AEGVPTO CAPTA, full: Aegypto capta, meaning: '"Egypt having been captured": the conquest of a foreign kingdom, not victory in civil war.'}
+  translation:
+    - '[Obverse] Caesar, consul for the sixth time. [Reverse] Egypt captured.'
+  translator: Course translation.
+  context: >-
+    After Actium and the deaths of Antony and Cleopatra, Octavian annexed Egypt (30 BC) and celebrated a triple triumph in
+    29 BC. This coin belongs to the period of the first "restoration" of 28–27 BC.
+  creator: The mint working for Octavian.
+  audience: Users of the coin across the eastern provinces and Italy.
+  tells: >-
+    How the victory over Antony was presented: as the conquest of Egypt, a foreign enemy symbolised by the Nile crocodile, not
+    as the defeat of a Roman. The obverse anchors Octavian's position in a regular Republican office.
+  limits: >-
+    It shows the official framing only. The quantity minted and the reach of its message are hard to measure.
+  usage: >-
+    Paired with the Res Gestae and Augustan poetry (Virgil's shield of Aeneas, Horace's Cleopatra ode), it shows how civil war
+    was rewritten as foreign war.
+  related: [res-gestae, eid-mar, prima-porta]
+  exercise:
+    - q: Why does the coin name Egypt rather than Antony?
+      model: >-
+        Celebrating victory over a Roman would remind people of civil war; a triumph could not formally be held over citizens.
+        Framing the war as against Egypt and its queen made it a patriotic foreign war and Octavian its saviour.
+  editions: [howgego-1995, ocre]
+- id: prima-porta
+  title: The Augustus of Prima Porta
+  kind: archaeology
+  date: {from: -20, to: 20, label: 'probably after 20 BC; this copy perhaps early 1st c. AD', note: 'The marble may be a copy of a bronze original; its date is debated.'}
+  origin: Villa of Livia at Prima Porta, north of Rome; Vatican Museums
+  language: Image
+  citation: 'Vatican Museums, Braccio Nuovo'
+  themes: [political, cultural]
+  image: prima-porta
+  translation:
+    - A marble statue just over two metres tall shows Augustus in military dress, barefoot, his right arm raised in the gesture of an orator addressing troops. His face is youthful and idealised, following the proportions of the Greek sculptor Polyclitus' Doryphoros. A small Cupid riding a dolphin at his feet alludes to the descent of the Julii from Venus.
+    - The breastplate shows, at its centre, a Parthian handing back a Roman military standard to a Roman figure (often identified as Mars or Tiberius), surrounded by personifications of conquered provinces, the Sky, the Sun, the Earth with a cornucopia, and Apollo and Diana. Traces of paint survive.
+  translator: Description (the statue has no inscription).
+  context: >-
+    In 20 BC diplomacy secured the return of the legionary standards lost by Crassus at Carrhae. Augustus presented this as a
+    great victory (Res Gestae 29). The statue was found in 1863 at the villa of Livia, where it may have been set up after his
+    death.
+  creator: Unknown sculptors working for the imperial household.
+  audience: Visitors to Livia's villa; the type it copies may have stood in public.
+  tells: >-
+    A visual programme: peace through victory, divine ancestry, cosmic order and fertility under Augustus, and an ageless,
+    classicising ruler. It exemplifies what Zanker called the Augustan "power of images".
+  limits: >-
+    We do not know where the original stood or who saw it; identifications of the breastplate figures are debated; the bare
+    feet may indicate a posthumous, deified image.
+  usage: >-
+    Read together with the Res Gestae and coinage of the "signis receptis" type to study how Augustus turned diplomacy into
+    triumph and how imagery communicated legitimacy.
+  related: [res-gestae, aegypto-capta]
+  exercise:
+    - q: How does the statue present a diplomatic success as a military triumph?
+      model: >-
+        The breastplate puts the return of the standards at the centre of a cosmic scene with gods and conquered provinces, and
+        the figure wears armour and addresses troops, so a negotiated return becomes a victory guaranteeing world order.
+  editions: [zanker-1988, galinsky-1996]
+- id: laudatio-turiae
+  title: The "Laudatio Turiae", a husband's eulogy for his wife
+  kind: inscription
+  date: {from: -10, to: 1, circa: true, label: 'late 1st c. BC'}
+  origin: Rome (fragments of a marble slab)
+  language: Latin
+  citation: 'CIL VI 1527 and 37053 = ILS 8393'
+  themes: [social, political]
+  original:
+    - Rara sunt tam diuturna matrimonia, finita morte, non divertio interrupta. Nam contigit nobis ut ad annum XXXX[I] sine offensa perduceretur.
+    - Domestica bona pudicitiae, opsequi, comitatis, facilitatis, lanificiis tuis adsiduitatis, religionis sine superstitione, ornatus non conspiciendi, cultus modici cur memorem?
+  translation:
+    - Marriages so long, ended by death and not broken by divorce, are rare. For it was our lot that ours should be carried on to its forty-first year without a quarrel.
+    - Why should I recall your domestic virtues, chastity, obedience, kindness, good nature, diligence in working wool, religion without superstition, adornment not seeking notice, modest dress?
+  translator: Course translation from the Latin. The woman's name is lost; the traditional identification as "Turia" is probably wrong.
+  context: >-
+    A long funeral speech inscribed on stone, addressed by a husband to his dead wife. It describes how she avenged her murdered
+    parents, defended the family inheritance, hid her husband when he was proscribed in 43 BC and pleaded for him before Lepidus,
+    and offered to divorce him so he could have children with another wife, an offer he rejected.
+  creator: The unnamed husband, a man of senatorial or equestrian rank.
+  audience: Passers-by at the tomb, and the dead wife herself, addressed in the second person.
+  tells: >-
+    Ideals of the Roman matron (chastity, obedience, wool-working, modesty) alongside a woman's courage and legal initiative in
+    the civil wars; the real impact of the proscriptions on families; attitudes to childlessness and divorce.
+  limits: >-
+    A eulogy idealises; conventional virtues may say more about expectations than about her. The text is fragmentary and partly
+    restored.
+  usage: >-
+    Central to studies of Roman marriage (Treggiari), women's agency, and the experience of the triumviral period. It shows
+    the gap between ideals and the actions women took within them.
+  related: [res-gestae]
+  exercise:
+    - q: The list of virtues is conventional. Where in the inscription do we glimpse the individual woman?
+      model: >-
+        In the narrative of her actions: pursuing justice for her parents, defending her inheritance against relatives,
+        protecting and pleading for her proscribed husband, and proposing a divorce for his sake. These go beyond domestic virtue
+        to legal and political courage.
+  editions: [lefkowitz-fant-2016, shelton-1998]

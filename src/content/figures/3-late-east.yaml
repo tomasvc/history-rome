@@ -1,0 +1,820 @@
+- id: septimius-severus
+  name: Septimius Severus
+  full: Lucius Septimius Severus
+  born: {from: 145}
+  died: {from: 211}
+  category: ruler
+  roles: [emperor 193–211]
+  dynasty: Severan
+  summary: Governor of Upper Pannonia from Lepcis Magna in Africa who won the civil wars of 193–197, raised army pay, and founded a military monarchy.
+  bio: >-
+    After the murders of Commodus and Pertinax and the auction of the throne to Didius Julianus, the Danubian legions
+    proclaimed Severus in 193. He replaced the Praetorian Guard with his own legionaries, defeated Pescennius Niger in the
+    East and Clodius Albinus at Lugdunum (197), fought Parthia and created the province of Mesopotamia. He increased army
+    pay, allowed soldiers to marry, and stationed a legion near Rome. He died at York on campaign in Britain.
+  evidence: Dio (eyewitness, hostile to aspects of the regime), Herodian, the Historia Augusta; the arches at Rome and Lepcis; the Severan tondo with the erased face of Geta.
+  relations:
+    - {to: julia-domna, type: spouse}
+    - {to: caracalla, type: parent, note: 'Recorded on Caracalla''s entry.'}
+    - {to: geta, type: parent, note: 'Recorded on Geta''s entry.'}
+  sources: [dio-severus]
+- id: julia-domna
+  name: Julia Domna
+  born: {from: 160, circa: true}
+  died: {from: 217}
+  category: woman
+  roles: [Augusta]
+  dynasty: Severan
+  summary: Syrian wife of Septimius Severus from the priestly family of Emesa, mother of Caracalla and Geta, patron of intellectuals and a powerful presence in government.
+  bio: >-
+    Julia Domna accompanied Severus on campaign and was hailed "mother of the camps". Under Caracalla she handled
+    petitions and correspondence. Her sister Julia Maesa and nieces later secured the throne for Elagabalus and Severus
+    Alexander. She starved herself after Caracalla's murder in 217.
+  evidence: Dio, Herodian, Philostratus (who wrote his Life of Apollonius at her request), coins and inscriptions.
+  relations:
+    - {to: septimius-severus, type: spouse}
+    - {to: caracalla, type: parent, note: 'Recorded on Caracalla''s entry.'}
+- id: caracalla
+  name: Caracalla
+  full: Lucius Septimius Bassianus, later Marcus Aurelius Antoninus
+  born: {from: 188}
+  died: {from: 217}
+  category: ruler
+  roles: [emperor 198/211–217]
+  dynasty: Severan
+  summary: Son of Severus who murdered his brother Geta in 211, granted citizenship to almost all free people of the empire in 212, and was assassinated on campaign in 217.
+  bio: >-
+    Co-emperor from 198, Caracalla had Geta killed in their mother's arms and purged his supporters. The Constitutio
+    Antoniniana (212) made nearly all free inhabitants citizens. He raised army pay again, introduced a new silver coin, and
+    built the great baths in Rome. His praetorian prefect Macrinus arranged his murder near Carrhae.
+  evidence: Dio (hostile), Herodian, the Giessen papyrus of the citizenship edict, coins.
+  relations:
+    - {to: septimius-severus, type: parent}
+    - {to: julia-domna, type: parent}
+    - {to: geta, type: killed, note: 'Caracalla had Geta killed in December 211.'}
+  sources: [constitutio-antoniniana]
+- id: geta
+  name: Geta
+  full: Publius Septimius Geta
+  born: {from: 189}
+  died: {from: 211}
+  category: ruler
+  roles: [co-emperor 209–211]
+  dynasty: Severan
+  summary: Younger son of Severus, murdered by Caracalla in 211; his name and images were erased across the empire.
+  bio: Made Augustus in 209, Geta shared power uneasily with his brother until his murder. The systematic erasure of his memory, visible on the Severan tondo, inscriptions and coins, is the best-documented case of what historians call damnatio memoriae.
+  evidence: Dio, Herodian; erasures on monuments.
+  relations:
+    - {to: septimius-severus, type: parent}
+    - {to: julia-domna, type: parent}
+    - {to: caracalla, type: sibling}
+- id: elagabalus
+  name: Elagabalus
+  full: Varius Avitus Bassianus, as emperor Marcus Aurelius Antoninus
+  born: {from: 204}
+  died: {from: 222}
+  category: ruler
+  roles: [emperor 218–222]
+  dynasty: Severan
+  summary: Teenage priest of the sun god of Emesa, made emperor by his grandmother Julia Maesa, whose religious innovations scandalised Rome; murdered by the Guard.
+  bio: Elagabalus brought the sacred stone of his god to Rome and placed the god above Jupiter. Senatorial writers retail lurid sexual stories that are hard to separate from invective. He was killed with his mother in 222 and replaced by his cousin.
+  evidence: Dio and Herodian (contemporaries) and the fantastical Historia Augusta life.
+  relations:
+    - {to: severus-alexander, type: successor}
+- id: severus-alexander
+  name: Severus Alexander
+  full: Marcus Aurelius Severus Alexander
+  born: {from: 208}
+  died: {from: 235}
+  category: ruler
+  roles: [emperor 222–235]
+  dynasty: Severan
+  summary: The last Severan, dominated by his mother Julia Mamaea, whose failures against the new Sasanian Persia and on the Rhine ended in his murder by his soldiers in 235.
+  bio: Alexander's reign relied on senatorial advisers and jurists such as Ulpian, who was killed by the Guard in 223. The rise of the Sasanian dynasty in Persia (224) created a new threat in the East. His attempt to buy peace on the Rhine angered the troops, who killed him and his mother at Mainz and proclaimed Maximinus.
+  evidence: Herodian, Dio (to 229), and the idealising Historia Augusta life.
+  relations:
+    - {to: julia-mamaea, type: parent}
+    - {to: ulpian, type: patron}
+    - {to: maximinus-thrax, type: successor}
+- id: julia-mamaea
+  name: Julia Mamaea
+  died: {from: 235}
+  category: woman
+  roles: [Augusta, mother of Severus Alexander]
+  dynasty: Severan
+  summary: Niece of Julia Domna and the power behind her son Severus Alexander, killed with him in 235.
+  bio: Mamaea presided over government in her son's name. Christian writers record that she summoned the theologian Origen to discuss religion.
+  evidence: Herodian; Eusebius; coins and inscriptions.
+  relations:
+    - {to: severus-alexander, type: parent}
+    - {to: julia-domna, type: other-family, note: 'Domna''s niece.'}
+- id: ulpian
+  name: Ulpian
+  full: Domitius Ulpianus
+  died: {from: 223}
+  category: jurist
+  roles: [jurist, praetorian prefect]
+  summary: Jurist from Tyre whose writings make up about a third of Justinian's Digest; killed by the Praetorian Guard as prefect in 223.
+  bio: Ulpian's commentaries on the praetor's edict and other works systematised classical Roman law. His definition of justice ("the constant and perpetual will to give each his due") opens Justinian's Institutes and Digest.
+  evidence: The Digest; Dio's report of his death.
+  relations:
+    - {to: severus-alexander, type: patron}
+- id: maximinus-thrax
+  name: Maximinus Thrax
+  full: Gaius Julius Verus Maximinus
+  born: {from: 173, circa: true}
+  died: {from: 238}
+  category: ruler
+  roles: [emperor 235–238]
+  summary: An equestrian officer of humble Balkan origin, the first emperor who never visited Rome; senatorial revolt in 238 and his own soldiers ended his reign.
+  bio: Acclaimed by the Rhine army, Maximinus campaigned in Germany and on the Danube, financing the army with heavy exactions. A revolt in Africa in 238 led to the Senate's recognition of the Gordians, then of Pupienus and Balbinus; Maximinus was killed by his troops while besieging Aquileia.
+  evidence: Herodian (contemporary) and the Historia Augusta.
+- id: decius
+  name: Decius
+  full: Gaius Messius Quintus Decius
+  born: {from: 201, circa: true}
+  died: {from: 251}
+  category: ruler
+  roles: [emperor 249–251]
+  summary: Emperor who ordered all inhabitants of the empire to sacrifice in 249–250, the first empire-wide action that fell on Christians, and the first emperor killed by a foreign enemy, at Abritus.
+  bio: Decius' edict required every household to sacrifice and obtain a certificate (libellus); many such certificates survive on papyrus from Egypt. Its aim was probably to secure the gods' favour for the empire rather than to target Christians, but its effect on them was severe. He died fighting the Goths at Abritus in 251.
+  evidence: Papyrus libelli; Cyprian's letters and treatises; Eusebius; Zosimus.
+  relations:
+    - {to: cyprian, type: rival}
+- id: cyprian
+  name: Cyprian
+  full: Thascius Caecilius Cyprianus
+  born: {from: 200, circa: true}
+  died: {from: 258}
+  category: religious
+  roles: [bishop of Carthage]
+  summary: Bishop of Carthage whose letters describe the Decian persecution and a devastating plague, and who was executed under Valerian in 258.
+  bio: Cyprian went into hiding in 250 and afterwards dealt with the "lapsed" who had sacrificed. His treatise On Mortality describes a plague in the 250s. Arrested under Valerian's edicts, he was beheaded at Carthage, and the official record of his trial survives.
+  evidence: His letters and treatises; the Acta Proconsularia of his martyrdom; Pontius' Life.
+  relations:
+    - {to: decius, type: rival}
+    - {to: valerian, type: rival}
+- id: valerian
+  name: Valerian
+  full: Publius Licinius Valerianus
+  born: {from: 199, circa: true}
+  died: {from: 260, circa: true}
+  category: ruler
+  roles: [emperor 253–260]
+  summary: Emperor who persecuted Christian clergy and was captured by the Persian king Shapur I near Edessa in 260, the only Roman emperor taken alive by an enemy.
+  bio: Valerian ruled the East while his son Gallienus held the West. His capture was a catastrophe for Roman prestige, celebrated by Shapur in rock reliefs and in a trilingual inscription at Naqsh-e Rustam.
+  evidence: Shapur's inscription (the Res Gestae Divi Saporis); rock reliefs; Lactantius' gleeful Christian account of his humiliation.
+  relations:
+    - {to: shapur-i, type: rival}
+    - {to: gallienus, type: parent}
+- id: shapur-i
+  name: Shapur I
+  born: {from: 215, circa: true}
+  died: {from: 270, circa: true}
+  category: foreign
+  roles: [King of Kings of Iran]
+  summary: Second Sasanian king of Persia, who defeated three Roman emperors and captured Valerian.
+  bio: Shapur defeated Gordian III, made peace with Philip, sacked Antioch, and captured Valerian (260). His great inscription at Naqsh-e Rustam, in Middle Persian, Parthian and Greek, gives the Persian view of these wars.
+  evidence: The Res Gestae Divi Saporis inscription and rock reliefs at Bishapur and Naqsh-e Rustam.
+  relations:
+    - {to: valerian, type: rival}
+- id: gallienus
+  name: Gallienus
+  full: Publius Licinius Egnatius Gallienus
+  born: {from: 218, circa: true}
+  died: {from: 268}
+  category: ruler
+  roles: [emperor 253–268]
+  summary: Emperor through the worst years of the third century, who lost control of the Gallic provinces and the East, ended persecution, and reorganised the army.
+  bio: After his father's capture, Gallienus faced usurpers, the breakaway Gallic Empire of Postumus, and the semi-independent power of Odaenathus of Palmyra in the East. He developed a mobile cavalry force and excluded senators from military commands. He was murdered by his officers, who included Claudius and Aurelian.
+  evidence: Fragmentary; Zosimus, the Historia Augusta (hostile), Aurelius Victor; coins.
+  relations:
+    - {to: valerian, type: parent}
+    - {to: postumus, type: rival}
+- id: postumus
+  name: Postumus
+  full: Marcus Cassianius Latinius Postumus
+  died: {from: 269}
+  category: ruler
+  roles: [emperor of the "Gallic Empire" 260–269]
+  summary: Governor on the Rhine who was proclaimed emperor in 260 and ruled Gaul, Britain and for a time Spain, defending the Rhine frontier without trying to take Rome.
+  bio: The "Gallic Empire" (a modern name) kept Roman institutions, with its own consuls and Praetorian Guard. It lasted until Aurelian reconquered it in 274.
+  evidence: Coins in large numbers; a victory altar from Augsburg (found 1992); late Latin summaries.
+  relations:
+    - {to: gallienus, type: rival}
+- id: zenobia
+  name: Zenobia
+  died: {from: 274, circa: true, note: 'Fate after 274 uncertain.'}
+  category: woman
+  roles: [ruler of Palmyra]
+  summary: Queen of Palmyra who, after the death of her husband Odaenathus, took Egypt and much of the East in her son's name before defeat by Aurelian in 272.
+  bio: Zenobia governed for her son Vaballathus and in 270–271 occupied Egypt and Asia Minor, eventually claiming imperial titles. Aurelian defeated her armies and took Palmyra (272). Accounts of her fate differ; one says she lived out her life near Tibur.
+  evidence: Coins and inscriptions of Vaballathus and Zenobia; Zosimus; the romanticised Historia Augusta.
+  relations:
+    - {to: aurelian, type: rival}
+- id: aurelian
+  name: Aurelian
+  full: Lucius Domitius Aurelianus
+  born: {from: 214, circa: true}
+  died: {from: 275}
+  category: ruler
+  roles: [emperor 270–275]
+  summary: Balkan officer who reunited the empire by defeating Palmyra and the Gallic Empire, built new walls around Rome and promoted the cult of the Unconquered Sun.
+  bio: Aurelian abandoned Dacia north of the Danube, defeated Zenobia (272) and Tetricus (274), and was hailed "restorer of the world". He reformed the coinage and began the walls that still ring Rome. He was murdered in 275 by officers misled by a forged list.
+  evidence: Zosimus, the Historia Augusta, coins, and the Aurelian Walls.
+  relations:
+    - {to: zenobia, type: rival}
+- id: diocletian
+  name: Diocletian
+  full: Gaius Aurelius Valerius Diocletianus
+  born: {from: 244, circa: true}
+  died: {from: 311, circa: true, note: 'Year of death disputed (311–316).'}
+  category: ruler
+  roles: [emperor 284–305]
+  dynasty: Tetrarchy
+  summary: Dalmatian officer who ended the third-century crisis, created the Tetrarchy, reformed provinces, army and taxation, launched the Great Persecution, and abdicated in 305.
+  bio: >-
+    Acclaimed by the eastern army in 284, Diocletian made Maximian co-Augustus (286) and added two Caesars, Galerius and
+    Constantius (293). The empire's provinces were roughly doubled in number and grouped into dioceses; the army was
+    enlarged; a new tax system assessed land and labour; and the Price Edict of 301 tried to fix maximum prices. From 303
+    the tetrarchs ordered the destruction of churches and scriptures and later sacrifice by all. In 305 Diocletian and
+    Maximian abdicated, the first emperors to do so, and Diocletian retired to his palace at Split.
+  evidence: Lactantius' hostile De Mortibus Persecutorum; Eusebius; legal texts; the Price Edict inscriptions; papyri; coins; the tetrarchic portraits.
+  relations:
+    - {to: maximian, type: colleague}
+    - {to: galerius, type: colleague}
+    - {to: constantius-i, type: colleague}
+  sources: [price-edict, tetrarchs-porphyry]
+- id: maximian
+  name: Maximian
+  full: Marcus Aurelius Valerius Maximianus
+  born: {from: 250, circa: true}
+  died: {from: 310}
+  category: ruler
+  roles: [Augustus 286–305]
+  dynasty: Tetrarchy
+  summary: Diocletian's fellow Augustus in the West, who abdicated reluctantly in 305, re-emerged to support his son Maxentius, and died after plotting against his son-in-law Constantine.
+  bio: Maximian took the name Herculius to Diocletian's Iovius. He fought in Gaul and Africa, abdicated in 305, returned to power with Maxentius in 306, quarrelled with him, and fled to Constantine, who had married his daughter Fausta. After an attempted coup he died, probably forced to suicide, in 310.
+  evidence: Panegyrics delivered in Gaul; Lactantius.
+  relations:
+    - {to: diocletian, type: colleague}
+    - {to: maxentius, type: parent, note: 'Recorded on Maxentius'' entry.'}
+- id: galerius
+  name: Galerius
+  full: Gaius Galerius Valerius Maximianus
+  born: {from: 258, circa: true}
+  died: {from: 311}
+  category: ruler
+  roles: [Caesar 293–305, Augustus 305–311]
+  dynasty: Tetrarchy
+  summary: Diocletian's Caesar who won a decisive victory over Persia (298), drove the Great Persecution, and issued an edict of toleration on his deathbed in 311.
+  bio: Galerius' victory forced Persia to cede territory beyond the Tigris. Lactantius makes him the chief instigator of persecution. His edict of April 311 allowed Christians to exist again and pray for the emperors.
+  evidence: Lactantius DMP (which quotes the edict); Eusebius; his arch at Thessalonica.
+  relations:
+    - {to: diocletian, type: colleague}
+    - {to: constantine, type: rival}
+- id: constantius-i
+  name: Constantius I
+  full: Flavius Valerius Constantius "Chlorus"
+  born: {from: 250, circa: true}
+  died: {from: 306}
+  category: ruler
+  roles: [Caesar 293–305, Augustus 305–306]
+  dynasty: Constantinian
+  summary: Tetrarch in the West who recovered Britain from the usurper Allectus; his death at York in 306 led his army to proclaim his son Constantine.
+  bio: Constantius ruled Gaul and Britain from Trier. Christian writers claim he applied the persecution lightly. His son by Helena, Constantine, joined him in Britain shortly before his death.
+  evidence: Panegyrics; Lactantius; Eusebius; the Arras medallion celebrating his entry to London.
+  relations:
+    - {to: helena, type: spouse}
+    - {to: constantine, type: parent, note: 'Recorded on Constantine''s entry.'}
+    - {to: diocletian, type: colleague}
+- id: helena
+  name: Helena
+  full: Flavia Iulia Helena
+  born: {from: 248, circa: true}
+  died: {from: 329, circa: true}
+  category: woman
+  roles: [Augusta, mother of Constantine]
+  dynasty: Constantinian
+  summary: Mother of Constantine, of humble origin, made Augusta in 324; her pilgrimage to Palestine became the basis of the legend of the finding of the True Cross.
+  bio: Helena's journey to the Holy Land (c. 326–327) was associated with church building in Jerusalem and Bethlehem. The story of her discovery of the Cross appears only later in the fourth century.
+  evidence: Eusebius' Life of Constantine; later church historians; coins and inscriptions.
+  relations:
+    - {to: constantius-i, type: spouse}
+    - {to: constantine, type: parent, note: 'Recorded on Constantine''s entry.'}
+- id: constantine
+  name: Constantine
+  full: Flavius Valerius Constantinus
+  born: {from: 272, circa: true, note: 'Year of birth uncertain (c. 272–285).'}
+  died: {from: 337, label: '22 May 337'}
+  category: ruler
+  roles: [emperor 306–337]
+  dynasty: Constantinian
+  summary: Proclaimed at York in 306, he defeated Maxentius at the Milvian Bridge in 312 under a Christian sign, became sole emperor in 324, founded Constantinople, and made the empire's ruler a patron of the Church.
+  bio: >-
+    Constantine fought his way through the collapsing Tetrarchy: victory over Maxentius at the Milvian Bridge (312) gave him
+    the West, and over Licinius at Adrianople and Chrysopolis (324) the whole empire. He favoured Christians with privileges,
+    church building and money, intervened in church disputes, and presided at the Council of Nicaea (325). He disbanded the
+    Praetorian Guard, separated civil from military commands, issued the gold solidus, and in 324–330 refounded Byzantium as
+    Constantinople. In 326 he had his eldest son Crispus and his wife Fausta killed in obscure circumstances. He was baptised
+    on his deathbed in 337.
+  evidence: >-
+    Exceptionally rich but partisan: Eusebius' Life and Lactantius (Christian panegyric), Latin panegyrics, Zosimus (pagan
+    hostility), laws in the Theodosian Code, coins, the Arch of Constantine.
+  relations:
+    - {to: constantius-i, type: parent}
+    - {to: helena, type: parent}
+    - {to: maxentius, type: rival}
+    - {to: licinius, type: rival}
+    - {to: eusebius, type: patron}
+    - {to: constantius-ii, type: parent, note: 'Recorded on Constantius II''s entry.'}
+  sources: [lactantius-vision, eusebius-vision, milan-letter]
+- id: maxentius
+  name: Maxentius
+  full: Marcus Aurelius Valerius Maxentius
+  born: {from: 278, circa: true}
+  died: {from: 312, label: '28 October 312'}
+  category: ruler
+  roles: [emperor in Italy 306–312]
+  dynasty: Tetrarchy
+  summary: Son of Maximian, excluded from the tetrarchic succession, who seized Rome in 306 and drowned in the Tiber after defeat by Constantine at the Milvian Bridge.
+  bio: Maxentius built extensively in Rome, including the great basilica later finished by Constantine. Constantinian propaganda made him a tyrant.
+  evidence: Victorious enemies' panegyric and history; his coins and buildings.
+  relations:
+    - {to: maximian, type: parent}
+    - {to: constantine, type: rival}
+- id: licinius
+  name: Licinius
+  full: Valerius Licinianus Licinius
+  born: {from: 265, circa: true}
+  died: {from: 325}
+  category: ruler
+  roles: [emperor 308–324]
+  summary: Emperor in the East who issued with Constantine the "Edict of Milan" in 313, then fought him twice and was defeated and executed.
+  bio: Licinius married Constantine's half-sister Constantia and defeated Maximinus Daia in 313. Tensions with Constantine led to war in 316 and decisive defeat in 324; he was executed in 325.
+  evidence: Lactantius (who quotes Licinius' letter of 313); Eusebius (hostile after 324).
+  relations:
+    - {to: constantine, type: rival}
+  sources: [milan-letter]
+- id: eusebius
+  name: Eusebius of Caesarea
+  born: {from: 260, circa: true}
+  died: {from: 339, circa: true}
+  category: religious
+  roles: [bishop, historian]
+  summary: Bishop of Caesarea, author of the first Church History and of the Life of Constantine, the main architect of the image of Constantine as a God-chosen Christian emperor.
+  bio: A scholar trained in Origen's library at Caesarea, Eusebius witnessed the Great Persecution and attended Nicaea. His histories quote documents verbatim, which makes them invaluable, but his theology of a Christian empire shapes everything he selected.
+  evidence: His works.
+  relations:
+    - {to: constantine, type: patron}
+  sources: [eusebius-vision]
+- id: lactantius
+  name: Lactantius
+  full: Lucius Caecilius Firmianus Lactantius
+  born: {from: 250, circa: true}
+  died: {from: 325, circa: true}
+  category: writer
+  roles: [rhetorician, Christian apologist]
+  summary: North African teacher of rhetoric at Diocletian's court who converted, lost his post in the persecution, became tutor to Constantine's son Crispus and wrote On the Deaths of the Persecutors.
+  bio: Lactantius' Divine Institutes defended Christianity in polished Latin. On the Deaths of the Persecutors, written c. 315, argues that God punished each persecuting emperor and preserves Galerius' edict and Licinius' letter of 313.
+  evidence: His works and Jerome's notice.
+  relations:
+    - {to: constantine, type: patron}
+  sources: [lactantius-vision, milan-letter]
+- id: constantius-ii
+  name: Constantius II
+  full: Flavius Julius Constantius
+  born: {from: 317}
+  died: {from: 361}
+  category: ruler
+  roles: [emperor 337–361]
+  dynasty: Constantinian
+  summary: Constantine's son who ruled the East, became sole emperor in 353, favoured non-Nicene bishops and developed Constantinople, dying as his cousin Julian marched against him.
+  bio: After a massacre of male relatives in 337, Constantine's three sons divided the empire. Constantius fought Persia and, after his brothers' deaths and the usurper Magnentius' defeat, ruled alone. He made his cousins Gallus and then Julian Caesars; he executed Gallus.
+  evidence: Ammianus (hostile), Julian's writings, church historians.
+  relations:
+    - {to: constantine, type: parent}
+    - {to: julian, type: rival}
+- id: julian
+  name: Julian
+  full: Flavius Claudius Julianus
+  born: {from: 331}
+  died: {from: 363}
+  category: ruler
+  roles: [emperor 361–363]
+  dynasty: Constantinian
+  summary: Constantine's nephew, raised Christian, who as emperor promoted traditional cults and restricted Christian teachers; killed on campaign against Persia.
+  bio: As Caesar in Gaul Julian won the battle of Strasbourg (357). Proclaimed Augustus by his troops in 360, he became sole ruler on Constantius' death. He restored temples and sacrifices, forbade Christians to teach classical literature, and planned to rebuild the Temple in Jerusalem. His Persian invasion ended with his death in 363.
+  evidence: Ammianus, who served on the Persian campaign and admired him; Julian's own letters, speeches and satires; Christian denunciations.
+  relations:
+    - {to: constantius-ii, type: rival}
+    - {to: ammianus, type: patron, note: 'Ammianus served on Julian''s Persian campaign.'}
+- id: valens
+  name: Valens
+  born: {from: 328}
+  died: {from: 378, label: '9 August 378'}
+  category: ruler
+  roles: [emperor in the East 364–378]
+  summary: Emperor in the East who admitted the Goths across the Danube in 376 and died with much of his army at Adrianople in 378.
+  bio: Made co-emperor by his brother Valentinian I, Valens faced a usurper, a Gothic war (367–369) and Persia. His decision to fight at Adrianople before his nephew Gratian's western army arrived is the most debated decision of the late Roman period.
+  evidence: Ammianus Book 31, our main account of the Gothic crossing and the battle.
+  relations:
+    - {to: theodosius-i, type: successor}
+- id: theodosius-i
+  name: Theodosius I
+  full: Flavius Theodosius
+  born: {from: 347}
+  died: {from: 395}
+  category: ruler
+  roles: [emperor 379–395]
+  dynasty: Theodosian
+  summary: Spanish general made emperor after Adrianople, who settled the Goths within the empire, made Nicene Christianity the state orthodoxy, and was the last ruler of both halves of the empire.
+  bio: >-
+    Theodosius ended the Gothic war in 382 with a treaty that settled Goths on Roman soil under their own leaders. His edict
+    of 380 (Cunctos populos) defined orthodox Christianity, and laws of 391–392 banned public sacrifice. He submitted to
+    public penance demanded by Ambrose after the massacre at Thessalonica (390). He won civil wars against Magnus Maximus and
+    Eugenius (battle of the Frigidus, 394) and died in Milan in 395, leaving the East to Arcadius and the West to Honorius.
+  evidence: The Theodosian Code, church historians, Ambrose's letters, Zosimus (hostile), panegyric.
+  relations:
+    - {to: arcadius, type: parent, note: 'Recorded on Arcadius'' entry.'}
+    - {to: honorius, type: parent, note: 'Recorded on Honorius'' entry.'}
+    - {to: ambrose, type: rival}
+    - {to: galla-placidia, type: parent, note: 'Recorded on Galla Placidia''s entry.'}
+  sources: [cunctos-populos]
+- id: ambrose
+  name: Ambrose
+  born: {from: 339, circa: true}
+  died: {from: 397}
+  category: religious
+  roles: [bishop of Milan]
+  summary: Governor turned bishop of Milan who faced down emperors, opposed the restoration of the Altar of Victory and imposed penance on Theodosius.
+  bio: Ambrose was acclaimed bishop while still unbaptised in 374. He resisted the court's attempts to give a church to non-Nicene Christians, argued against Symmachus over the Altar of Victory (384) and baptised Augustine (387).
+  evidence: His letters and treatises; Paulinus' Life; church historians.
+  relations:
+    - {to: theodosius-i, type: rival}
+    - {to: augustine, type: teacher}
+- id: augustine
+  name: Augustine
+  full: Aurelius Augustinus
+  born: {from: 354}
+  died: {from: 430}
+  category: religious
+  roles: [bishop of Hippo, theologian]
+  summary: North African rhetorician turned bishop of Hippo, whose Confessions and City of God shaped Western Christianity; he died as the Vandals besieged his city.
+  bio: After a career teaching rhetoric in Carthage, Rome and Milan, Augustine converted in 386 and became bishop of Hippo Regius in 395. He wrote the City of God after the sack of Rome in 410 to rebut pagan claims that Christianity had weakened Rome.
+  evidence: His enormous corpus of works, letters and sermons; Possidius' Life.
+  relations:
+    - {to: ambrose, type: teacher}
+  sources: [jerome-410]
+- id: ammianus
+  name: Ammianus Marcellinus
+  born: {from: 330, circa: true}
+  died: {from: 395, circa: true}
+  category: writer
+  roles: [historian, army officer]
+  summary: Greek-speaking officer from Antioch who wrote the last great Latin history of Rome, covering events he witnessed down to Adrianople.
+  bio: Ammianus served on the staff of the general Ursicinus and with Julian in Persia. His Res Gestae continued Tacitus; the surviving books cover 353–378. He was a polytheist writing in a Christian empire, tolerant in tone and fascinated by digressions on geography and peoples.
+  evidence: His history.
+  relations:
+    - {to: julian, type: patron}
+  sources: [ammianus-adrianople]
+- id: hypatia
+  name: Hypatia
+  born: {from: 355, circa: true}
+  died: {from: 415}
+  category: woman
+  roles: [philosopher, mathematician]
+  summary: Alexandrian philosopher and mathematician, killed by a Christian mob in 415 amid a power struggle between the bishop Cyril and the prefect Orestes.
+  bio: Hypatia taught Neoplatonist philosophy to pagan and Christian students and was respected by the city's elite. Her murder was a political killing in a factional conflict, later turned by Enlightenment writers into a symbol of science destroyed by religion.
+  evidence: Socrates Scholasticus' Church History, letters of her pupil Synesius, and the hostile Chronicle of John of Nikiu.
+- id: stilicho
+  name: Stilicho
+  died: {from: 408}
+  category: general
+  roles: [magister militum, regent]
+  summary: Son of a Vandal officer and a Roman mother, the dominant general of the West from 395 until his execution in 408.
+  bio: Theodosius' son-in-law, Stilicho claimed guardianship of both his sons. He fought Alaric repeatedly without destroying him and defeated Radagaisus in 406. Suspected of treachery after the Rhine crossing and usurpations in Britain and Gaul, he was executed on Honorius' orders; massacres of barbarian soldiers' families followed.
+  evidence: Claudian's panegyrics (for), Zosimus and Orosius (against).
+  relations:
+    - {to: honorius, type: ally}
+    - {to: alaric, type: rival}
+- id: alaric
+  name: Alaric
+  died: {from: 410}
+  category: foreign
+  roles: [Gothic leader, Roman general]
+  summary: Leader of a Gothic army in Roman service who, unable to obtain a satisfactory office and settlement, sacked Rome in 410.
+  bio: Alaric led Gothic troops at the Frigidus (394) and then pressed both halves of the empire for a command and land. After Stilicho's death he besieged Rome three times, set up a rival emperor, and in August 410 sacked the city for three days. He died soon after in southern Italy.
+  evidence: Zosimus, Orosius, Olympiodorus (fragments), Jordanes. Kulikowski and Halsall stress that Alaric sought a Roman career, not the destruction of Rome.
+  relations:
+    - {to: stilicho, type: rival}
+    - {to: honorius, type: rival}
+- id: arcadius
+  name: Arcadius
+  born: {from: 377}
+  died: {from: 408}
+  category: ruler
+  roles: [emperor in the East 383/395–408]
+  dynasty: Theodosian
+  summary: Elder son of Theodosius, emperor in Constantinople, whose reign saw ministers and generals compete for control and the anti-Gothic reaction of 400.
+  bio: Arcadius rarely led in person; power lay with ministers such as Rufinus and Eutropius and with his wife Eudoxia. Constantinople's civilian court learned to manage generals, a key difference from the West.
+  evidence: Zosimus, church historians, Synesius.
+  relations:
+    - {to: theodosius-i, type: parent}
+    - {to: honorius, type: sibling}
+    - {to: theodosius-ii, type: parent, note: 'Recorded on Theodosius II''s entry.'}
+- id: honorius
+  name: Honorius
+  born: {from: 384}
+  died: {from: 423}
+  category: ruler
+  roles: [emperor in the West 393/395–423]
+  dynasty: Theodosian
+  summary: Younger son of Theodosius, emperor in the West from Ravenna during the Rhine crossing, the loss of Britain and the sack of Rome.
+  bio: Honorius moved the court to Ravenna in 402. His reign saw the execution of Stilicho, the sack of Rome (410), usurpers in Gaul and the settlement of the Goths in Aquitaine (418). Procopius' story that he mistook the news of Rome's fall for the death of his pet chicken is a later joke.
+  evidence: Zosimus, Olympiodorus, Orosius; laws in the Theodosian Code.
+  relations:
+    - {to: theodosius-i, type: parent}
+    - {to: arcadius, type: sibling}
+    - {to: stilicho, type: ally}
+    - {to: galla-placidia, type: sibling}
+- id: galla-placidia
+  name: Galla Placidia
+  born: {from: 390, circa: true}
+  died: {from: 450}
+  category: woman
+  roles: [Augusta, regent]
+  dynasty: Theodosian
+  summary: Daughter of Theodosius, captured in the sack of Rome, married to the Gothic king Athaulf and then to Constantius III, and regent of the West for her son Valentinian III.
+  bio: Galla Placidia's life traces the fifth century's entanglement of Roman and Gothic power. As regent (425–437) she contended with the generals Boniface and Aetius. Her mausoleum at Ravenna preserves celebrated mosaics.
+  evidence: Olympiodorus (fragments), Orosius, Procopius, coins and inscriptions.
+  relations:
+    - {to: theodosius-i, type: parent}
+    - {to: honorius, type: sibling}
+    - {to: alaric, type: other-family, note: 'Captive of Alaric''s Goths; married Alaric''s brother-in-law Athaulf.'}
+    - {to: aetius, type: rival}
+- id: theodosius-ii
+  name: Theodosius II
+  born: {from: 401}
+  died: {from: 450}
+  category: ruler
+  roles: [emperor in the East 408–450]
+  dynasty: Theodosian
+  summary: Long-reigning eastern emperor under whom the great land walls of Constantinople were built and the Theodosian Code compiled.
+  bio: Emperor as a child, Theodosius II ruled with his sister Pulcheria's and his officials' guidance. His reign produced the Theodosian Walls (completed 413, rebuilt 447), the law code of 438, and costly payments to Attila.
+  evidence: Church historians, Priscus, the Code itself; Millar's study of the eastern government.
+  relations:
+    - {to: arcadius, type: parent}
+    - {to: attila, type: rival}
+- id: aetius
+  name: Aetius
+  full: Flavius Aetius
+  born: {from: 391, circa: true}
+  died: {from: 454}
+  category: general
+  roles: [magister militum]
+  summary: The dominant general of the West from the 430s, who used Hunnic allies to contain the Goths and Burgundians and checked Attila in 451; murdered by Valentinian III.
+  bio: Aetius had been a hostage among the Goths and the Huns, and used Hunnic troops to secure his position. He fought Attila with a coalition including the Visigoths at the Catalaunian Plains (451). Valentinian III killed him with his own hands in 454 and was assassinated in revenge the next year.
+  evidence: Fragmentary; Priscus, Jordanes, chronicles, Sidonius Apollinaris.
+  relations:
+    - {to: attila, type: rival}
+    - {to: galla-placidia, type: rival}
+- id: attila
+  name: Attila
+  died: {from: 453}
+  category: foreign
+  roles: [ruler of the Huns]
+  summary: Ruler of a Hunnic empire north of the Danube who extracted huge payments from Constantinople, invaded Gaul in 451 and Italy in 452, and died in 453.
+  bio: With his brother Bleda (killed c. 445) Attila ruled a multi-ethnic empire. His power depended on tribute and plunder to reward followers. After his death his empire collapsed within a few years.
+  evidence: Priscus' account of his embassy to Attila's court in 449 is the key source; Jordanes and chronicles.
+  relations:
+    - {to: aetius, type: rival}
+    - {to: theodosius-ii, type: rival}
+  sources: [priscus-attila]
+- id: gaiseric
+  name: Gaiseric
+  born: {from: 389, circa: true}
+  died: {from: 477}
+  category: foreign
+  roles: [king of the Vandals and Alans]
+  summary: King who led the Vandals and Alans into Africa in 429, took Carthage in 439, and sacked Rome in 455, depriving the West of its richest provinces.
+  bio: Gaiseric built a fleet and a durable kingdom, persecuted Nicene clergy as an Arian, and repelled Roman expeditions in 460 and 468, the latter a disastrous combined eastern and western effort.
+  evidence: Victor of Vita (hostile Catholic account), Procopius, chronicles.
+- id: ricimer
+  name: Ricimer
+  died: {from: 472}
+  category: general
+  roles: [magister militum]
+  summary: General of Suevic and Visigothic royal descent who made and unmade western emperors from 456 to 472.
+  bio: Unable as an Arian of barbarian descent to become emperor himself, Ricimer ruled through puppets, deposing Avitus and Majorian and quarrelling with Anthemius, whom he besieged and killed in Rome in 472.
+  evidence: Chronicles, Sidonius, John of Antioch (fragments).
+- id: romulus-augustulus
+  name: Romulus Augustulus
+  full: Flavius Romulus Augustus
+  born: {from: 460, circa: true}
+  died: {from: 507, circa: true, note: 'Possibly alive in 507–511.'}
+  category: ruler
+  roles: [emperor in the West 475–476]
+  summary: The boy emperor installed by his father Orestes, deposed by Odoacer in 476 and pensioned off in Campania; conventionally the last western emperor.
+  bio: >-
+    The nickname "Augustulus" ("little Augustus") was contemptuous. Constantinople never recognised him; the legitimate
+    western emperor in eastern eyes, Julius Nepos, lived in Dalmatia until 480. Odoacer sent the imperial regalia to Zeno,
+    saying the West needed no emperor of its own.
+  evidence: The Anonymus Valesianus, Jordanes, Malchus (fragments), Marcellinus Comes.
+  relations:
+    - {to: odoacer, type: rival}
+- id: odoacer
+  name: Odoacer
+  born: {from: 433}
+  died: {from: 493}
+  category: foreign
+  roles: [king in Italy 476–493]
+  summary: Commander of the federate soldiers in Italy who deposed Romulus Augustulus in 476 and ruled Italy as king, nominally under Constantinople, until killed by Theoderic.
+  bio: Odoacer's troops demanded a third of Italian land. He kept the Senate and Roman administration intact. Zeno sent Theoderic's Ostrogoths against him; after a long siege at Ravenna, Theoderic killed him at a banquet in 493.
+  evidence: Anonymus Valesianus, Malchus, Jordanes, Procopius.
+  relations:
+    - {to: romulus-augustulus, type: rival}
+    - {to: theoderic, type: rival}
+- id: theoderic
+  name: Theoderic the Great
+  born: {from: 454}
+  died: {from: 526}
+  category: foreign
+  roles: [king of the Ostrogoths and of Italy]
+  summary: Ostrogothic king, raised as a hostage in Constantinople, who ruled Italy from 493 to 526 through Roman institutions and Gothic arms.
+  bio: Theoderic governed with Roman ministers such as Cassiodorus and Boethius and kept Gothic soldiers and Roman civilians legally distinct. Late in his reign he executed Boethius and Symmachus on charges of treason.
+  evidence: Cassiodorus' Variae; Anonymus Valesianus; Procopius; Jordanes.
+  relations:
+    - {to: odoacer, type: killed}
+- id: justinian
+  name: Justinian
+  full: Flavius Petrus Sabbatius Iustinianus
+  born: {from: 482}
+  died: {from: 565}
+  category: ruler
+  roles: [emperor 527–565]
+  dynasty: Justinianic
+  summary: Nephew of Justin I from the Latin-speaking Balkans, whose reign brought the codification of Roman law, Hagia Sophia, the reconquest of Africa and Italy, plague and exhaustion.
+  bio: >-
+    Justinian was the power behind his uncle Justin before his own accession. He married the former actress Theodora,
+    commissioned the Corpus Iuris Civilis (529–534), survived the Nika riot (532), rebuilt Hagia Sophia (532–537), and sent
+    Belisarius to destroy the Vandal kingdom (533–534) and begin the Gothic War in Italy (535–554). Persian wars, the plague
+    from 541 and Slav and Avar pressure in the Balkans strained resources. He also pursued religious unity with mixed success,
+    closed the Academy's public teaching (529, as usually understood) and persecuted heretics and pagans.
+  evidence: Procopius' Wars, Buildings and Secret History; John Malalas; John Lydus; the legal texts; Hagia Sophia and the Ravenna mosaics.
+  relations:
+    - {to: theodora, type: spouse}
+    - {to: belisarius, type: patron}
+    - {to: tribonian, type: patron}
+    - {to: procopius, type: patron}
+  sources: [justinian-institutes, procopius-nika, procopius-buildings]
+- id: theodora
+  name: Theodora
+  born: {from: 497, circa: true}
+  died: {from: 548}
+  category: woman
+  roles: [Augusta]
+  dynasty: Justinianic
+  summary: Former actress who married Justinian and became empress, influential in policy and patronage, remembered for her speech during the Nika riot and vilified in Procopius' Secret History.
+  bio: Justinian changed the law to marry her. Theodora protected Miaphysite clergy, intervened in appointments and legislation on women, and appears in the mosaics of San Vitale in Ravenna.
+  evidence: Procopius (both the Wars speech and the obscene invective of the Secret History), John of Ephesus (sympathetic Miaphysite source), laws, mosaics.
+  relations:
+    - {to: justinian, type: spouse}
+- id: belisarius
+  name: Belisarius
+  born: {from: 500, circa: true}
+  died: {from: 565}
+  category: general
+  roles: [general]
+  summary: Justinian's general who crushed the Nika riot, conquered the Vandal kingdom in 533–534 and led the first phase of the Gothic War in Italy.
+  bio: Belisarius won at Dara (530) against Persia, took Carthage (533) and Ravenna (540). Recalled and distrusted, he returned to an exhausting war in Italy with inadequate resources. Procopius served as his secretary.
+  evidence: Procopius' Wars and Secret History.
+  relations:
+    - {to: justinian, type: patron}
+    - {to: procopius, type: patron}
+- id: procopius
+  name: Procopius
+  born: {from: 500, circa: true}
+  died: {from: 565, circa: true}
+  category: writer
+  roles: [historian]
+  summary: Belisarius' secretary and historian of Justinian's wars, who also wrote a panegyric on his buildings and a secret invective against him.
+  bio: Procopius of Caesarea wrote in classicising Greek modelled on Thucydides. The Wars, Buildings and Secret History present radically different Justinians, which makes him a test case for reading an author's genre and purpose.
+  evidence: His works.
+  relations:
+    - {to: belisarius, type: patron}
+    - {to: justinian, type: patron}
+  sources: [procopius-nika, procopius-buildings]
+- id: tribonian
+  name: Tribonian
+  died: {from: 542, circa: true}
+  category: jurist
+  roles: [quaestor, lawyer]
+  summary: Justinian's legal minister who directed the compilation of the Digest, Institutes and revised Codex.
+  bio: Tribonian's commissions read and excerpted some 2,000 books of classical law in three years. He was dismissed briefly during the Nika riot as a concession to the crowd.
+  evidence: The prefatory constitutions to the Corpus; Procopius; Honoré's study.
+  relations:
+    - {to: justinian, type: patron}
+- id: heraclius
+  name: Heraclius
+  born: {from: 575, circa: true}
+  died: {from: 641}
+  category: ruler
+  roles: [emperor 610–641]
+  dynasty: Heraclian
+  summary: Son of the exarch of Africa who overthrew Phocas in 610, survived Persian conquest of the East and the siege of 626, defeated Persia, then lost Syria and Egypt to the Arab conquests.
+  bio: >-
+    Heraclius inherited a war in which Persia took Syria, Jerusalem (614) and Egypt (619). He led campaigns deep into
+    Persian territory from 622, while Constantinople withstood an Avar-Persian siege in 626, and won at Nineveh (627);
+    Khosrow II was overthrown and the True Cross restored to Jerusalem (630). Within a decade Arab armies defeated Roman
+    forces at the Yarmuk (636) and took Syria and Egypt.
+  evidence: George of Pisidia's poems, the Chronicon Paschale, Theophanes, Armenian and Syriac chronicles.
+  relations:
+    - {to: khosrow-ii, type: rival}
+- id: khosrow-ii
+  name: Khosrow II
+  born: {from: 570, circa: true}
+  died: {from: 628}
+  category: foreign
+  roles: [King of Kings of Iran]
+  summary: Sasanian king restored with Roman help in 591, whose war on Rome from 602 conquered the Near East before collapse and his overthrow in 628.
+  bio: Khosrow invaded on the pretext of avenging the emperor Maurice. The war exhausted both empires on the eve of the Arab conquests.
+  evidence: Theophylact Simocatta, Theophanes, Sebeos (Armenian), Persian traditions preserved in Arabic historians.
+  relations:
+    - {to: heraclius, type: rival}
+- id: basil-ii
+  name: Basil II
+  born: {from: 958}
+  died: {from: 1025}
+  category: ruler
+  roles: [emperor 976–1025]
+  dynasty: Macedonian
+  summary: Macedonian emperor who crushed aristocratic rebels and annexed Bulgaria, leaving the empire at its medieval height; his nickname "Bulgar-slayer" is later.
+  bio: Basil defeated the rebels Bardas Skleros and Bardas Phokas with help from the Rus, whose ruler Vladimir converted to Christianity. A long war ended Bulgarian independence by 1018. Stephenson has shown that the epithet and the blinding legend grew in later centuries.
+  evidence: Psellos' Chronographia, Skylitzes, Yahya of Antioch, Armenian sources.
+- id: alexios-i
+  name: Alexios I Komnenos
+  born: {from: 1057, circa: true}
+  died: {from: 1118}
+  category: ruler
+  roles: [emperor 1081–1118]
+  dynasty: Komnenian
+  summary: General who seized the throne in 1081 after the crises following Manzikert, defeated the Normans and Pechenegs, and appealed to the West for help, triggering the First Crusade.
+  bio: Alexios rebuilt the state around his family network, debased and then reformed the coinage, granted trading privileges to Venice, and managed the passage of the crusader armies in 1096–1097.
+  evidence: His daughter Anna Komnene's Alexiad; Western crusade chronicles.
+  relations:
+    - {to: anna-komnene, type: parent, note: 'Recorded on Anna''s entry.'}
+- id: anna-komnene
+  name: Anna Komnene
+  born: {from: 1083}
+  died: {from: 1153, circa: true}
+  category: writer
+  roles: [historian, princess]
+  summary: Daughter of Alexios I and author of the Alexiad, the first history written by a woman in the Greek tradition.
+  bio: After an attempt to place her husband on the throne instead of her brother John failed, Anna lived in a monastery and wrote her father's history, combining classical learning with personal testimony.
+  evidence: The Alexiad.
+  relations:
+    - {to: alexios-i, type: parent}
+- id: enrico-dandolo
+  name: Enrico Dandolo
+  born: {from: 1107, circa: true}
+  died: {from: 1205}
+  category: foreign
+  roles: [doge of Venice]
+  summary: Elderly and nearly blind doge of Venice who led the Venetian fleet of the Fourth Crusade and shared in the conquest of Constantinople in 1204.
+  bio: Venice built the crusade's fleet and, when the crusaders could not pay, the expedition was diverted first to Zara and then to Constantinople to restore the pretender Alexios IV. Dandolo died in Constantinople in 1205.
+  evidence: Villehardouin, Robert of Clari, Niketas Choniates.
+- id: michael-viii
+  name: Michael VIII Palaiologos
+  born: {from: 1223}
+  died: {from: 1282}
+  category: ruler
+  roles: [emperor 1259–1282]
+  dynasty: Palaiologan
+  summary: Nicaean aristocrat who seized power and recovered Constantinople from the Latins in 1261, founding the last Byzantine dynasty.
+  bio: Michael blinded the legitimate child-emperor John IV, survived Western plans for a new crusade by diplomacy, including church union at Lyon (1274) and support for the Sicilian Vespers (1282).
+  evidence: Pachymeres and Gregoras; his own autobiography in a monastic typikon.
+- id: constantine-xi
+  name: Constantine XI Palaiologos
+  born: {from: 1405}
+  died: {from: 1453, label: '29 May 1453'}
+  category: ruler
+  roles: [last emperor 1449–1453]
+  dynasty: Palaiologan
+  summary: The last Roman emperor, who died defending Constantinople when it fell to Mehmed II on 29 May 1453.
+  bio: Formerly despot of the Morea, Constantine accepted church union with Rome in the hope of Western aid that came only in small numbers. His body was never securely identified, which fed later legends.
+  evidence: Sphrantzes, Doukas, Kritoboulos, Chalkokondyles, Barbaro and other eyewitnesses.
+  relations:
+    - {to: mehmed-ii, type: rival}
+- id: mehmed-ii
+  name: Mehmed II
+  born: {from: 1432}
+  died: {from: 1481}
+  category: foreign
+  roles: [Ottoman sultan]
+  summary: Ottoman sultan who besieged and took Constantinople in 1453 and made it his capital, adopting among other titles that of "Caesar of Rome" (Kayser-i Rum).
+  bio: Mehmed built the fortress of Rumeli Hisarı to control the Bosporus, deployed giant cannon and moved ships overland into the Golden Horn. After the conquest he repopulated the city and appointed a new Orthodox patriarch.
+  evidence: Kritoboulos (written for him), Tursun Beg, Doukas, Barbaro.
+  relations:
+    - {to: constantine-xi, type: rival}
+  sources: [kritoboulos-1453]

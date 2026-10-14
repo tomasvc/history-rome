@@ -1,0 +1,680 @@
+- id: q-m12
+  module: m12
+  title: Justinian's Empire
+  checks:
+    - id: q12-1
+      type: match
+      skill: recall
+      lesson: justinian
+      prompt: Match each person to their role in Justinian's reign.
+      pairs:
+        - {left: Tribonian, right: 'Quaestor who directed the compilation of the Digest'}
+        - {left: Belisarius, right: 'General who conquered the Vandal kingdom and fought in Italy'}
+        - {left: Narses, right: 'Eunuch general who completed the Gothic War'}
+        - {left: Procopius, right: 'Historian of the wars and author of the Secret History'}
+      explain: Justinian's achievements depended on talented servants, several of whom the sources present in contradictory ways.
+    - id: q12-2
+      type: mcq
+      skill: interpretation
+      lesson: justinian
+      prompt: What position do Mordechai and Eisenberg take on the Justinianic plague?
+      options:
+        - text: They argue that maximalist accounts have overstated its demographic and economic impact on the basis of thin evidence.
+          correct: true
+          why: Their 2019 article "Rejecting Catastrophe" questioned the catastrophe narrative.
+        - text: They argue the pathogen was smallpox.
+          why: Ancient DNA has identified Yersinia pestis.
+        - text: They argue that the plague killed nine-tenths of the population.
+          why: That is the opposite of their argument.
+        - text: They deny that any pandemic occurred.
+          why: They accept the pandemic but question its scale.
+    - id: q12-3
+      type: source
+      skill: source
+      lesson: justinian
+      sourceId: procopius-buildings
+      prompt: How does the genre of the Buildings shape what Procopius says about Hagia Sophia?
+      model: >-
+        The Buildings is a panegyric praising Justinian's construction; it emphasises wonder, divine inspiration and the emperor's piety and omits cost and
+        controversy. Read alongside the Secret History and the building itself, it shows how imperial architecture was meant to be seen.
+      rubric:
+        - Identifies panegyric.
+        - Notes what it emphasises and omits.
+        - Suggests comparison with other evidence.
+    - id: q12-4
+      type: short
+      skill: causation
+      lesson: justinian
+      prompt: Why did Justinian's reconquest of Italy prove so costly?
+      model: >-
+        The Gothic War lasted almost twenty years (535–554), because the Persian war of 540, the plague of 541 and Totila's revival diverted and depleted
+        resources; it devastated Italy, and soon after (568) the Lombards conquered much of the peninsula.
+      rubric:
+        - Notes the length of the war.
+        - Mentions at least one cause of prolongation.
+        - Mentions consequences for Italy.
+
+- id: q-m13
+  module: m13
+  title: Survival and Transformation
+  checks:
+    - id: q13-1
+      type: order
+      skill: chronology
+      lesson: heraclius-islam
+      prompt: Put these events in order.
+      items:
+        - Persians capture Jerusalem
+        - Avar–Persian siege of Constantinople
+        - Battle of the Yarmuk
+        - Loss of Egypt
+        - Arab siege of Constantinople under Maslama
+        - Restoration of icons at the Second Council of Nicaea
+        - Battle of Manzikert
+      explain: 614; 626; 636; 641–642; 717–718; 787; 1071.
+    - id: q13-2
+      type: mcq
+      skill: interpretation
+      lesson: middle-byzantium
+      prompt: Why are our narratives of iconoclasm problematic?
+      options:
+        - text: They were mostly written by the victorious iconophiles after 843, who exaggerated the iconoclasts' violence.
+          correct: true
+          why: Brubaker and Haldon showed how later sources shaped the story.
+        - text: They were all written in Latin by western observers.
+          why: The main sources are Byzantine and Greek.
+        - text: No sources mention iconoclasm.
+          why: Councils, chronicles and saints' lives discuss it.
+        - text: The iconoclasts wrote all the surviving accounts.
+          why: Most iconoclast writings were destroyed.
+    - id: q13-3
+      type: short
+      skill: causation
+      lesson: heraclius-islam
+      prompt: Give two reasons why the empire survived the Arab conquests when the Persian empire did not.
+      model: >-
+        Constantinople's walls, fleet and Greek fire made the capital nearly impregnable; Anatolia behind the Taurus mountains was defensible; and the state
+        reorganised its armies (later themes) to fight a long defensive war. Persia's heartland in Mesopotamia lay open, and its capital fell early.
+      rubric:
+        - Mentions Constantinople's defences.
+        - Mentions geography or reorganisation.
+        - Contrasts with Persia.
+    - id: q13-4
+      type: mcq
+      skill: recall
+      lesson: middle-byzantium
+      prompt: Which emperor annexed the Bulgarian empire after decades of war?
+      options:
+        - text: Basil II.
+          correct: true
+          why: He completed the conquest around 1018, after the victory at Kleidion in 1014.
+        - text: Heraclius.
+          why: Heraclius fought Persia and the Arabs.
+        - text: Alexios I Komnenos.
+          why: Alexios fought Normans, Pechenegs and Turks.
+        - text: Leo III.
+          why: Leo defeated the Arab siege of 717–718.
+
+- id: q-m14
+  module: m14
+  title: The Last Centuries
+  checks:
+    - id: q14-1
+      type: mcq
+      skill: recall
+      lesson: fall-of-constantinople
+      prompt: Which event saved Constantinople from Bayezid I's blockade in the early fifteenth century?
+      options:
+        - text: Timur's defeat of the Ottomans at Ankara in 1402.
+          correct: true
+          why: The Ottoman state fell into civil war for a decade.
+        - text: The Council of Florence.
+          why: Florence came in 1439 and brought little effective help.
+        - text: The Fourth Crusade.
+          why: The Fourth Crusade sacked Constantinople in 1204.
+        - text: A Venetian conquest of the Ottoman capital.
+          why: No such conquest happened.
+    - id: q14-2
+      type: mcq
+      skill: interpretation
+      lesson: roman-or-byzantine
+      prompt: Who popularised the term "Byzantine" for the eastern Roman empire?
+      options:
+        - text: Western scholars from the sixteenth century, notably Hieronymus Wolf in 1557.
+          correct: true
+          why: The empire's people called themselves Romans.
+        - text: Constantine the Great.
+          why: Constantine called his city Constantinople, New Rome.
+        - text: The Ottoman sultans.
+          why: The Ottomans called the empire Rum.
+        - text: Justinian's law code.
+          why: Justinian's laws speak of the Roman people.
+    - id: q14-3
+      type: source
+      skill: source
+      lesson: fall-of-constantinople
+      sourceId: choniates-1204
+      prompt: Why does Choniates contrast the crusaders' conduct with that of Saladin?
+      model: >-
+        Saladin had spared Jerusalem's Christians in 1187; by comparison, Choniates presents the Latin Christians who sacked Constantinople as worse than
+        Muslims, sharpening the opposition between Romans and Latins and casting the crusaders' Christianity as hypocritical.
+      rubric:
+        - Identifies Saladin's capture of Jerusalem.
+        - Explains the rhetorical effect.
+        - Connects to Roman–Latin identity.
+    - id: q14-4
+      type: short
+      skill: argument
+      lesson: roman-or-byzantine
+      prompt: Give one argument for and one against calling the medieval empire "Byzantine".
+      model: >-
+        For: by the seventh century it was Greek-speaking, Orthodox and medieval in structure, so a distinct label marks real change. Against: its people,
+        state and neighbours called it Roman, the term was imposed later with prejudice, and it obscures the continuity of the Roman state.
+      rubric:
+        - Gives a valid argument for.
+        - Gives a valid argument against.
+
+- id: q-t01
+  module: t01
+  title: Power and Legitimacy
+  checks:
+    - id: qt01-1
+      type: mcq
+      skill: interpretation
+      lesson: power-legitimacy
+      prompt: In Egon Flaig's "acceptance system", what role did usurpation play?
+      options:
+        - text: It was a mechanism by which emperors who had lost the support of key groups were removed, in the absence of any legal procedure.
+          correct: true
+          why: Flaig saw usurpation as part of how the system worked.
+        - text: It was always illegal and therefore irrelevant to legitimacy.
+          why: Successful usurpers became legitimate emperors.
+        - text: It happened only in Byzantium.
+          why: It happened throughout Roman imperial history.
+        - text: It was prevented by a law of succession.
+          why: There was no law of succession.
+    - id: qt01-2
+      type: match
+      skill: comparison
+      lesson: power-legitimacy
+      prompt: Match each period with its dominant image of the emperor.
+      pairs:
+        - {left: Augustus, right: 'First citizen, accessible, idealised and youthful'}
+        - {left: The Tetrarchs, right: 'Identical, collegial rulers embracing in porphyry'}
+        - {left: Justinian at Ravenna, right: 'Haloed, frontal, surrounded by clergy and officials'}
+      explain: The image of the ruler changed from civic to sacred, reflecting changes in how legitimacy was claimed.
+    - id: qt01-3
+      type: short
+      skill: argument
+      lesson: power-legitimacy
+      prompt: Why were imperial women so often presented negatively by ancient historians?
+      model: >-
+        Because their power came from proximity to the emperor rather than office, senatorial historians saw it as illegitimate; attacking them was also a
+        way of attacking the emperor and the court. Their real influence derived from the dynastic and personal nature of power.
+      rubric:
+        - Mentions the informal basis of their power.
+        - Mentions senatorial values or bias.
+        - Notes the indirect criticism of emperors.
+
+- id: q-t02
+  module: t02
+  title: Soldiers and Warfare
+  checks:
+    - id: qt02-1
+      type: mcq
+      skill: recall
+      lesson: soldiers-lives
+      prompt: In Polybius' manipular legion, which troops formed the third line?
+      options:
+        - text: The triarii, the oldest and most experienced men.
+          correct: true
+          why: The phrase "it has come to the triarii" meant a desperate situation.
+        - text: The hastati.
+          why: They formed the first line.
+        - text: The velites.
+          why: They were light troops in front.
+        - text: The auxilia.
+          why: Auxilia belong to the imperial army.
+    - id: qt02-2
+      type: source
+      skill: source
+      lesson: soldiers-lives
+      sourceId: josephus-drill
+      prompt: Why must Josephus' praise of the Roman army be read critically?
+      model: >-
+        He wrote under Flavian patronage after surrendering to Rome; praising Roman discipline flattered his patrons, explained Jewish defeat and, as he says,
+        was meant to deter revolt. It idealises and omits indiscipline and defeat.
+      rubric:
+        - Notes his position.
+        - Notes his stated purpose.
+        - Notes idealisation.
+    - id: qt02-3
+      type: mcq
+      skill: interpretation
+      lesson: soldiers-lives
+      prompt: Which statement about the late Roman army do most historians now accept?
+      options:
+        - text: It was larger than the Principate army and won many battles; its problems were as much financial and political as military.
+          correct: true
+          why: Vegetius' complaints about decline are moralising and should not be taken at face value.
+        - text: It had no Roman citizens.
+          why: Citizens served throughout.
+        - text: It never fought pitched battles.
+          why: It fought many, including Strasbourg (357) and Adrianople (378).
+        - text: It was abolished by Constantine.
+          why: Constantine reorganised it.
+
+- id: q-t03
+  module: t03
+  title: Law and Citizenship
+  checks:
+    - id: qt03-1
+      type: mcq
+      skill: recall
+      lesson: roman-law
+      prompt: Which part of Justinian's codification preserved the writings of the classical jurists?
+      options:
+        - text: The Digest.
+          correct: true
+          why: Fifty books of excerpts from jurists such as Ulpian and Paul.
+        - text: The Novels.
+          why: The Novels were Justinian's own new laws.
+        - text: The Theodosian Code.
+          why: That code collected imperial constitutions from Constantine onwards.
+        - text: The Twelve Tables.
+          why: The Tables were the early Republican code.
+    - id: qt03-2
+      type: short
+      skill: interpretation
+      lesson: roman-law
+      prompt: How did the praetor's edict allow Roman law to develop without legislation?
+      model: >-
+        Each year the praetor announced the remedies he would grant; by adding new actions and defences he could respond to new situations and fill gaps,
+        and successful innovations were carried forward by his successors until Hadrian fixed the edict.
+      rubric:
+        - Explains the annual edict.
+        - Explains how remedies created new law.
+        - Mentions continuity or Hadrian's fixing.
+    - id: qt03-3
+      type: mcq
+      skill: interpretation
+      lesson: roman-law
+      prompt: What does the distinction between honestiores and humiliores show?
+      options:
+        - text: That by the second and third centuries legal privilege depended on social rank more than on citizenship.
+          correct: true
+          why: Penalties differed sharply by rank.
+        - text: That Roman law treated all citizens equally.
+          why: The distinction shows the opposite.
+        - text: That slaves could hold office.
+          why: The distinction concerns free people.
+        - text: That women were excluded from the courts.
+          why: It is unrelated to gender.
+
+- id: q-t04
+  module: t04
+  title: Religion and Ritual
+  checks:
+    - id: qt04-1
+      type: match
+      skill: recall
+      lesson: roman-religion
+      prompt: Match each religious specialist to their role.
+      pairs:
+        - {left: Augurs, right: 'Interpreted signs, especially from birds'}
+        - {left: Haruspices, right: 'Read entrails and interpreted prodigies'}
+        - {left: Vestals, right: 'Guarded the sacred fire of Vesta'}
+        - {left: Pontiffs, right: 'Supervised sacred law and the calendar'}
+      explain: Religion was administered by members of the political elite, except the Vestals.
+    - id: qt04-2
+      type: mcq
+      skill: interpretation
+      lesson: roman-religion
+      prompt: Why do historians caution against asking whether Romans "believed" in their gods?
+      options:
+        - text: The question imposes a Christian model in which faith is central; Roman religion centred on correct practice and obligation.
+          correct: true
+          why: Beard, North and Price make this point.
+        - text: Because Romans were all atheists.
+          why: There is no evidence for this.
+        - text: Because belief was illegal.
+          why: There was no such law.
+        - text: Because no Roman wrote about the gods.
+          why: Many did, including Cicero.
+    - id: qt04-3
+      type: short
+      skill: causation
+      lesson: roman-religion
+      prompt: Why did Rome accept the cult of the Great Mother but restrict the Bacchic associations?
+      model: >-
+        The Great Mother was introduced officially and kept under state control; the Bacchic groups were private, secret associations crossing social
+        boundaries, beyond magistrates' control. The issue was control, not foreignness.
+      rubric:
+        - Describes the official introduction of the Great Mother.
+        - Describes the nature of the Bacchic groups.
+        - Identifies control as the key issue.
+
+- id: q-t05
+  module: t05
+  title: Slavery and Social Mobility
+  checks:
+    - id: qt05-1
+      type: mcq
+      skill: recall
+      lesson: slavery-freedpeople
+      prompt: What was a peculium?
+      options:
+        - text: A fund that legally belonged to the master but which a slave or son managed, and might use to buy freedom.
+          correct: true
+          why: It gave slaves economic agency within the law.
+        - text: A tax on manumission.
+          why: The manumission tax was a separate 5 per cent levy.
+        - text: A type of slave revolt.
+          why: It is a legal concept.
+        - text: The certificate of freedom.
+          why: Freedom was conferred by procedures, not by the peculium itself.
+    - id: qt05-2
+      type: short
+      skill: comparison
+      lesson: slavery-freedpeople
+      prompt: Name two ways in which Roman slavery differed from Atlantic slavery.
+      model: >-
+        Roman slaves came from many peoples and were not identified by skin colour; and manumission was common, with freed slaves of citizens becoming
+        citizens. (Also acceptable: slaves held skilled and managerial roles; no racial ideology justified enslavement.)
+      rubric:
+        - Gives one valid difference.
+        - Gives a second valid difference.
+    - id: qt05-3
+      type: source
+      skill: source
+      lesson: slavery-freedpeople
+      sourceId: eurysaces-tomb
+      prompt: How does the tomb of Eurysaces present its owner differently from Petronius' Trimalchio?
+      model: >-
+        The tomb proudly presents Eurysaces' trade as a baker and contractor, with reliefs of bread-making, as a source of honour; Petronius' fictional
+        Trimalchio is a satirical caricature of a vulgar freedman written for an elite audience.
+      rubric:
+        - Describes the tomb's self-presentation.
+        - Identifies Trimalchio as satire.
+        - Contrasts the perspectives.
+
+- id: q-t06
+  module: t06
+  title: Women, Gender and the Family
+  checks:
+    - id: qt06-1
+      type: mcq
+      skill: interpretation
+      lesson: women-family
+      prompt: Why did patria potestas often last for a shorter time in practice than in law?
+      options:
+        - text: High mortality meant many Romans lost their fathers before or soon after reaching adulthood.
+          correct: true
+          why: Saller's simulations show how demography limited paternal power.
+        - text: The law limited it to ten years.
+          why: In law it lasted for the father's lifetime.
+        - text: Fathers usually emancipated their sons at birth.
+          why: Emancipation was possible but not usual at birth.
+        - text: The Senate abolished it under Augustus.
+          why: It was not abolished.
+    - id: qt06-2
+      type: source
+      skill: source
+      lesson: women-family
+      sourceId: laudatio-turiae
+      prompt: What qualities does the husband praise, and what makes this text unusually valuable?
+      model: >-
+        He praises loyalty, courage, chastity, modesty and practical action in law and politics during the civil wars. It is valuable because it records a
+        real marriage and a woman's actions in detail, from a private perspective, rather than the idealised or hostile portraits of literary sources.
+      rubric:
+        - Identifies praised qualities.
+        - Explains its value.
+    - id: qt06-3
+      type: mcq
+      skill: recall
+      lesson: women-family
+      prompt: In a marriage without manus, what happened to the wife's property?
+      options:
+        - text: It remained hers or her father's, apart from the dowry.
+          correct: true
+          why: This gave many women considerable economic independence.
+        - text: It passed to her husband.
+          why: That was the effect of manus marriage.
+        - text: It passed to the state.
+          why: There was no such rule.
+        - text: It was divided among her children at marriage.
+          why: There was no such rule.
+
+- id: q-t07
+  module: t07
+  title: Daily Life
+  checks:
+    - id: qt07-1
+      type: mcq
+      skill: recall
+      lesson: daily-life
+      prompt: Where did most inhabitants of the city of Rome live?
+      options:
+        - text: In multi-storey apartment blocks (insulae), often above shops.
+          correct: true
+          why: Wealthy houses (domus) were a minority.
+        - text: In atrium houses with gardens.
+          why: These belonged to the well-off.
+        - text: In villas outside the city.
+          why: Villas were country residences of the rich.
+        - text: In military camps.
+          why: Rome had barracks, but most people lived in apartments.
+    - id: qt07-2
+      type: short
+      skill: interpretation
+      lesson: daily-life
+      prompt: What is the "Pompeii premise", and why should historians be wary of it?
+      model: >-
+        The assumption that Pompeii is a snapshot of normal life frozen in time. It is misleading because the town had been damaged by earthquake and was
+        under repair, many inhabitants fled with valuables, and early excavations removed objects without recording them.
+      rubric:
+        - Defines the premise.
+        - Gives at least two reasons for caution.
+
+- id: q-t08
+  module: t08
+  title: Architecture and Engineering
+  checks:
+    - id: qt08-1
+      type: mcq
+      skill: recall
+      lesson: engineering
+      prompt: What allowed Roman concrete to set even under water?
+      options:
+        - text: The reaction between lime and volcanic ash (pozzolana).
+          correct: true
+          why: It made harbour works like Caesarea possible.
+        - text: Steel reinforcement.
+          why: Roman concrete was unreinforced.
+        - text: Adding salt.
+          why: Not the explanation.
+        - text: Firing it in kilns.
+          why: Concrete was cast, not fired.
+    - id: qt08-2
+      type: short
+      skill: interpretation
+      lesson: engineering
+      prompt: Why did most of an aqueduct run underground rather than on arches?
+      model: >-
+        Water flowed by gravity along a gentle, steady gradient that followed the contours of the land; arches were needed only to cross valleys. Underground
+        channels were cheaper, protected the water and were easier to maintain.
+      rubric:
+        - Mentions gravity and gradient.
+        - Mentions cost or protection.
+
+- id: q-t09
+  module: t09
+  title: Literature, Philosophy and Education
+  checks:
+    - id: qt09-1
+      type: mcq
+      skill: recall
+      lesson: literature-education
+      prompt: What was the culminating exercise of Roman rhetorical education?
+      options:
+        - text: Declamation on imaginary legal cases and historical dilemmas.
+          correct: true
+          why: It trained young men for the courts and politics.
+        - text: Writing epic poetry.
+          why: Poetry was studied, but declamation was the culmination.
+        - text: Mathematics examinations.
+          why: Mathematics was minor in the curriculum.
+        - text: Copying manuscripts.
+          why: Copying was done by slaves and scribes.
+    - id: qt09-2
+      type: short
+      skill: causation
+      lesson: literature-education
+      prompt: Give two reasons why much ancient literature was lost.
+      model: >-
+        Texts had to be recopied repeatedly; changes of format (roll to codex) and script, school canons and Christian preferences determined what was
+        copied; libraries were destroyed in wars and fires.
+      rubric:
+        - Gives one valid reason.
+        - Gives a second valid reason.
+
+- id: q-t10
+  module: t10
+  title: Provinces and Identities
+  checks:
+    - id: qt10-1
+      type: mcq
+      skill: interpretation
+      lesson: romanisation
+      prompt: Which scholar developed the idea of "discrepant identities" in the Roman provinces?
+      options:
+        - text: David Mattingly.
+          correct: true
+          why: He stressed that different groups experienced empire differently.
+        - text: Francis Haverfield.
+          why: Haverfield proposed the classic civilising model.
+        - text: Martin Millett.
+          why: Millett emphasised elite emulation.
+        - text: Jane Webster.
+          why: Webster proposed creolisation.
+    - id: qt10-2
+      type: mcq
+      skill: interpretation
+      lesson: race-ethnicity
+      prompt: Which statement best reflects scholarly consensus on Roman slavery and race?
+      options:
+        - text: Roman slavery was not racialised; slaves came from many peoples and could become citizens.
+          correct: true
+          why: Prejudices existed, but they did not define a racial slave caste.
+        - text: Roman slaves were all from sub-Saharan Africa.
+          why: Slaves came from every part of the known world.
+        - text: Romans had a modern biological theory of race.
+          why: Biological race is a modern concept.
+        - text: Romans had no prejudices about other peoples.
+          why: Stereotypes and contempt were common.
+    - id: qt10-3
+      type: short
+      skill: comparison
+      lesson: romanisation
+      prompt: Why did Latin spread in the western provinces but not in the East?
+      model: >-
+        The East already had a prestigious, urban Greek culture that Rome admired and used for administration; the West lacked a comparable written high
+        culture, so Latin became the language of power, education and opportunity there.
+      rubric:
+        - Mentions Greek culture in the East.
+        - Mentions Roman use of Greek.
+        - Contrasts with the West.
+
+- id: q-t11
+  module: t11
+  title: Environment, Disease and Demography
+  checks:
+    - id: qt11-1
+      type: match
+      skill: recall
+      lesson: environment-disease
+      prompt: Match each type of evidence with what it reveals.
+      pairs:
+        - {left: Tree rings, right: 'Year-by-year summer temperatures, including cooling after 536'}
+        - {left: Ancient DNA, right: 'The identity of pathogens such as Yersinia pestis'}
+        - {left: Ice cores, right: 'Volcanic eruptions and atmospheric pollution such as lead'}
+        - {left: Isotopes in bones, right: 'Diet and where a person grew up'}
+      explain: Scientific evidence answers different questions from texts, and each has its own uncertainties.
+    - id: qt11-2
+      type: mcq
+      skill: interpretation
+      lesson: environment-disease
+      prompt: Why do Augustus' census figures (over 4 million citizens) provoke debate?
+      options:
+        - text: They are far higher than late Republican figures, so historians disagree about whether they count women and children too ("low count") or reflect real growth ("high count").
+          correct: true
+          why: The answer changes estimates of Italy's population by millions.
+        - text: They are known to be forged.
+          why: They are recorded in the Res Gestae and accepted as genuine figures.
+        - text: They include all provincials.
+          why: They count Roman citizens.
+        - text: They are recorded only by Christian writers.
+          why: Augustus himself records them.
+
+- id: q-t12
+  module: t12
+  title: The Legacy of Rome
+  checks:
+    - id: qt12-1
+      type: mcq
+      skill: recall
+      lesson: legacy
+      prompt: Through which text did Roman law most influence medieval and modern Europe?
+      options:
+        - text: Justinian's Digest, studied at Bologna from the late eleventh century.
+          correct: true
+          why: It became the basis of the European ius commune.
+        - text: The Twelve Tables.
+          why: Only fragments survive.
+        - text: The Res Gestae.
+          why: It is not a legal text.
+        - text: The Price Edict.
+          why: It had no legal afterlife.
+    - id: qt12-2
+      type: short
+      skill: argument
+      lesson: legacy
+      prompt: Give an example of selective use of Rome by a later regime and explain what was selected.
+      model: >-
+        Example: Fascist Italy selected Augustus' empire, order and military glory, staged the bimillennium and rebuilt the Ara Pacis, ignoring the Republic's
+        liberties and the empire's diversity. The American founders selected the Republic's civic virtue and mixed constitution while ignoring slavery.
+      rubric:
+        - Names a regime or movement.
+        - Identifies what was selected.
+        - Identifies what was ignored.
+
+- id: q-t13
+  module: t13
+  title: How We Know
+  checks:
+    - id: qt13-1
+      type: match
+      skill: source
+      lesson: historiography
+      prompt: Match each source type with a characteristic limitation.
+      pairs:
+        - {left: Narrative histories, right: 'Written by elite men with moral and literary purposes'}
+        - {left: Inscriptions, right: 'Record what people chose to display, often formulaically'}
+        - {left: Papyri, right: 'Concentrated in Egypt, which may not be typical'}
+        - {left: Coins, right: 'Show what rulers wanted to project, not how people responded'}
+      explain: Historians combine sources precisely because each has limits.
+    - id: qt13-2
+      type: mcq
+      skill: interpretation
+      lesson: historiography
+      prompt: What does "absence of evidence is not evidence of absence" mean for ancient historians?
+      options:
+        - text: That a source's silence may reflect what was recorded or survived, so arguments from silence need care.
+          correct: true
+          why: Ask whether we would expect a source to mention the thing.
+        - text: That anything not attested must be assumed to have happened.
+          why: That would be equally fallacious.
+        - text: That historians should ignore archaeology.
+          why: Archaeology often fills gaps in texts.
+        - text: That ancient sources are always complete.
+          why: They are fragmentary.

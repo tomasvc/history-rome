@@ -1,0 +1,517 @@
+- id: bad-emperors
+  title: Were the "bad emperors" really bad?
+  question: How far are the reputations of emperors such as Caligula, Nero and Domitian products of a hostile senatorial tradition?
+  span: [14, 235]
+  why: >-
+    Our image of the early empire comes largely from senatorial historians who judged emperors by how they treated the Senate. Testing their
+    verdicts teaches how reputations are made.
+  positions:
+    - id: tradition
+      label: The tradition is broadly right
+      claim: Whatever the exaggerations, emperors like Caligula, Nero and Domitian ruled cruelly and arbitrarily, and their downfall shows they lost the support of key groups.
+      argument: >-
+        Executions of senators, confiscations, and failures of government are attested in multiple sources and confirmed by the emperors' violent
+        ends. Griffin's analysis of Nero shows real political and financial failures.
+      proponents:
+        - {name: Miriam Griffin, ref: griffin-1984, year: '1984'}
+      weaknesses: >-
+        Sources are almost all senatorial and written after the emperors' deaths, when abuse was safe and useful.
+    - id: revisionist
+      label: Reputations constructed after death
+      claim: The worst stories are senatorial invention, rumour or misunderstood performance; some "bad" emperors were popular and effective.
+      argument: >-
+        Champlin reads Nero as a showman with a coherent appeal to the people, remembered fondly by many; Domitian's administration of the
+        provinces was effective even by the admission of Suetonius. Condemnation of memory shaped what survived.
+      proponents:
+        - {name: Edward Champlin, ref: champlin-2003, year: '2003'}
+        - {name: Harriet Flower, ref: flower-2006, year: '2006'}
+      weaknesses: >-
+        Can swing into apologetics; the execution of senators and relatives is well attested.
+    - id: structural
+      label: A structural problem
+      claim: '"Bad emperors" are the result of a system that required emperors to pretend to be citizens while holding absolute power; emperors who broke the pretence were condemned.'
+      argument: >-
+        Good and bad emperors behaved similarly in many respects; the difference lay in how they handled the Senate's dignity. The stories about
+        monsters are a way of thinking about autocracy.
+      proponents:
+        - {name: Mary Beard, ref: beard-2023, year: '2023'}
+        - {name: Andrew Wallace-Hadrill, ref: wallace-hadrill-1982}
+      weaknesses: >-
+        Risks reducing real differences in conduct to differences in style.
+  evidence:
+    - id: sine-ira
+      text: Tacitus claims to write "without anger or partisanship".
+      source: tacitus-annals-1
+      supports: [tradition, revisionist]
+      comment: A convention; his account is highly crafted and selective.
+    - id: piso
+      text: The Senate's decree on Piso (AD 20) broadly confirms Tacitus' account of events after Germanicus' death.
+      supports: [tradition]
+      comment: Documents can confirm the narrative's facts while showing the regime's own spin.
+    - id: graffiti
+      text: Pompeian graffiti praise Nero and Poppaea, and false Neros appeared in the East after his death.
+      supports: [revisionist]
+      comment: Evidence for popularity outside the Senate.
+    - id: horse
+      text: Suetonius says Caligula was said to have planned to make his horse consul.
+      supports: [revisionist, structural]
+      comment: A rumour, perhaps a joke at the Senate's expense, reported as fact in later retellings.
+    - id: domitian
+      text: Suetonius admits that Domitian controlled officials so carefully that they were never more honest.
+      supports: [revisionist]
+      comment: Even a hostile biographer conceded effective administration.
+    - id: memory
+      text: Erasure of names and destruction of statues after deaths of condemned emperors.
+      supports: [revisionist, structural]
+      comment: Shows how reputations were managed after death.
+  history:
+    - {year: c. AD 110–230, who: 'Tacitus, Suetonius, Cassius Dio', what: Established the senatorial verdicts.}
+    - {year: '1776', who: Edward Gibbon, what: Accepted the tradition of good and bad emperors., ref: gibbon-1776}
+    - {year: '1984', who: Miriam Griffin, what: 'Nero: The End of a Dynasty.', ref: griffin-1984}
+    - {year: '2003', who: Edward Champlin, what: 'Nero: a revisionist reading.', ref: champlin-2003}
+    - {year: '2023', who: Mary Beard, what: 'Emperor of Rome: what emperors did and how stories were made.', ref: beard-2023}
+  state: >-
+    Historians now read the narrative sources with awareness of senatorial bias and use documents to test them. Few would rehabilitate the "bad"
+    emperors entirely; most see their reputations as exaggerated reflections of real conflicts, especially with the Senate.
+  lessons: [julio-claudians, year-69-flavians, marcus-aurelius, power-legitimacy]
+  reading: [griffin-1984, champlin-2003, flower-2006, beard-2023]
+
+- id: grand-strategy
+  title: Did Rome have a grand strategy?
+  question: Were Roman frontiers and military deployments the product of a coherent strategy, or of ad hoc decisions shaped by values and circumstances?
+  span: [-27, 400]
+  why: >-
+    The question touches on how ancient states made decisions, how far modern concepts apply to them, and what frontiers like Hadrian's Wall were for.
+  positions:
+    - id: luttwak
+      label: Yes, in three systems
+      claim: Rome pursued a coherent grand strategy that evolved from client states to preclusive linear defence to defence in depth.
+      argument: >-
+        Deployment patterns and frontier works show rational economy of force: the Julio-Claudians relied on client kings and mobile legions; the
+        Antonines built fortified frontiers to stop threats at the border; the late empire used mobile field armies behind frontier troops.
+      proponents:
+        - {name: Edward Luttwak, ref: luttwak-1976, year: '1976'}
+        - {name: Kimberly Kagan, ref: kagan-2006, year: '2006'}
+      weaknesses: >-
+        Assumes geographical knowledge, central planning and defensive priorities for which there is little evidence.
+    - id: isaac
+      label: No, the army served other ends
+      claim: Romans lacked the institutions and information for grand strategy; frontier armies policed provinces and supported expansion.
+      argument: >-
+        Isaac's study of the East showed troops deployed in cities and against internal unrest; Whittaker showed frontiers as zones of exchange
+        rather than defensive lines.
+      proponents:
+        - {name: Benjamin Isaac, ref: isaac-1990, year: '1990'}
+        - {name: C. R. Whittaker, ref: whittaker-1994, year: '1994'}
+      weaknesses: >-
+        Romans clearly made strategic choices, such as Augustus' advice not to expand, and maintained armies where threats were greatest.
+    - id: values
+      label: Values, not calculation
+      claim: Roman decisions on war and frontiers were driven by honour, image, revenge and the need to inspire fear.
+      argument: >-
+        Mattern argues that Roman elites thought in terms of reputation; wars were fought to avenge insults and preserve the image of Roman
+        invincibility, within a limited knowledge of geography.
+      proponents:
+        - {name: Susan Mattern, ref: mattern-1999, year: '1999'}
+      weaknesses: >-
+        Values and strategy are not exclusive: maintaining fear can be a strategy.
+  evidence:
+    - id: advice
+      text: Tacitus reports that Augustus advised keeping the empire within its existing limits.
+      supports: [luttwak, values]
+      comment: A strategic principle, or a reaction to the Varian disaster.
+    - id: wall
+      text: Hadrian's Wall had gates at every milecastle.
+      supports: [isaac]
+      comment: Suggests control of movement rather than a defensive barrier.
+    - id: ha
+      text: The Historia Augusta says Hadrian built the wall to separate Romans from barbarians.
+      supports: [luttwak]
+      comment: A late and unreliable source, but it shows how the wall was later understood.
+    - id: trajan
+      text: Cassius Dio attributes Trajan's Parthian war to a desire for glory.
+      supports: [values]
+      comment: Expansion for honour, abandoned immediately by his successor.
+    - id: east
+      text: Many eastern legions were stationed in or near cities.
+      supports: [isaac]
+      comment: Points to internal security and control.
+  history:
+    - {year: '1976', who: Edward Luttwak, what: 'The Grand Strategy of the Roman Empire.', ref: luttwak-1976}
+    - {year: '1990', who: Benjamin Isaac, what: 'The Limits of Empire.', ref: isaac-1990}
+    - {year: '1994', who: C. R. Whittaker, what: Frontiers as social and economic zones., ref: whittaker-1994}
+    - {year: '1999', who: Susan Mattern, what: 'Rome and the Enemy.', ref: mattern-1999}
+    - {year: '2006', who: Kimberly Kagan, what: Defended the concept of Roman grand strategy., ref: kagan-2006}
+  state: >-
+    Luttwak's three-system model is no longer accepted in its original form, but the question it raised remains productive. Most historians see
+    Roman decisions as shaped by limited information, aristocratic values and local circumstances, while recognising patterns of strategic
+    thinking at the highest level.
+  lessons: [army-frontiers, trajan-hadrian, soldiers-lives]
+  reading: [luttwak-1976, isaac-1990, whittaker-1994, mattern-1999]
+
+- id: roman-economy
+  title: What kind of economy was Rome?
+  question: Was the Roman economy a primitive, status-driven system or a market economy capable of growth?
+  span: [-200, 300]
+  why: >-
+    The answer affects how we understand slavery, cities, trade, the state and the consequences of the empire's collapse.
+  positions:
+    - id: primitivist
+      label: Embedded and limited
+      claim: Ancient economic life was embedded in social values; elites sought status, not profit; trade and markets were limited and there was no economic growth worth the name.
+      argument: >-
+        Finley drew on Weber and Polanyi: cities consumed rather than produced, land was the measure of wealth, and modern economic concepts
+        mislead. Cicero's contempt for trade reflects real attitudes.
+      proponents:
+        - {name: Moses Finley, ref: finley-1973, year: '1973'}
+      weaknesses: >-
+        Archaeological evidence for production and trade on a large scale is hard to reconcile with this model.
+    - id: institutional
+      label: Institutions and integration
+      claim: Roman rule reduced the costs of exchange through peace, law, money and infrastructure, allowing integration and some growth.
+      argument: >-
+        The Cambridge Economic History uses new institutional economics; Hopkins argued that taxes in money stimulated trade; quantitative proxies
+        suggest a peak in activity in the early empire.
+      proponents:
+        - {name: Keith Hopkins, ref: hopkins-1980, year: '1980'}
+        - {name: 'Walter Scheidel, Ian Morris and Richard Saller (eds)', ref: scheidel-morris-saller-2007, year: '2007'}
+        - {name: Alan Bowman and Andrew Wilson (eds), ref: bowman-wilson-2009, year: '2009'}
+      weaknesses: >-
+        Proxies are indirect; growth in aggregate output does not prove growth per person.
+    - id: market
+      label: A market economy
+      claim: Rome had integrated markets for goods, labour and capital comparable to early modern Europe.
+      argument: >-
+        Temin argues that grain prices across the Mediterranean moved together, wages responded to markets, and credit was widely available.
+      proponents:
+        - {name: Peter Temin, ref: temin-2013, year: '2013'}
+      weaknesses: >-
+        The price data are scattered, and critics argue that state intervention and social constraints were too large to speak of a market economy.
+  evidence:
+    - id: testaccio
+      text: Monte Testaccio contains the remains of tens of millions of olive-oil amphorae shipped to Rome.
+      source: monte-testaccio
+      supports: [institutional, market]
+      comment: Huge scale, but largely related to the state supply system.
+    - id: lead
+      text: Greenland ice shows a peak in lead pollution in the early empire.
+      source: greenland-lead
+      supports: [institutional]
+      comment: A proxy for mining and coinage.
+    - id: wrecks
+      text: The number of datable shipwrecks peaks between about 100 BC and AD 200.
+      supports: [institutional, market]
+      comment: Strong evidence for maritime trade, with sampling caveats.
+    - id: cicero
+      text: Cicero calls small-scale trade sordid but large-scale trade acceptable if its profits are invested in land.
+      supports: [primitivist]
+      comment: Elite ideology; elites also invested through agents and freedmen.
+    - id: heights
+      text: Skeletal evidence does not show improved stature in the Roman period.
+      supports: [primitivist]
+      comment: Suggests that any growth did not improve the health of most people.
+  history:
+    - {year: '1926', who: Michael Rostovtzeff, what: Described a bourgeois, capitalist economy in the Roman empire.}
+    - {year: '1973', who: Moses Finley, what: 'The Ancient Economy.', ref: finley-1973}
+    - {year: '1980', who: Keith Hopkins, what: 'Taxes and Trade in the Roman Empire.', ref: hopkins-1980}
+    - {year: '2007', who: 'Scheidel, Morris and Saller', what: 'The Cambridge Economic History of the Greco-Roman World.', ref: scheidel-morris-saller-2007}
+    - {year: '2013', who: Peter Temin, what: 'The Roman Market Economy.', ref: temin-2013}
+  state: >-
+    The old primitivist-modernist dichotomy has given way to quantitative and institutional approaches. Most accept substantial integration and
+    aggregate growth in the early empire, while debating per capita growth, the role of the state and how widely the benefits were shared.
+  lessons: [roman-economy, slavery-freedpeople]
+  reading: [finley-1973, hopkins-1980, scheidel-morris-saller-2007, temin-2013]
+
+- id: romanisation
+  title: Is "Romanisation" a useful concept?
+  question: How should historians describe cultural change in the provinces under Roman rule?
+  span: [-200, 400]
+  why: >-
+    The way we describe provincial cultures carries assumptions about empire, civilisation and identity, many of them inherited from modern
+    colonialism.
+  positions:
+    - id: civilising
+      label: Romanisation as civilisation
+      claim: Provincials adopted a superior Roman culture, beginning with elites, leading to a largely uniform civilisation.
+      argument: >-
+        Haverfield traced the spread of Latin, towns, villas and Roman material culture in Britain and saw it as a beneficial and nearly complete
+        process.
+      proponents:
+        - {name: Francis Haverfield, ref: haverfield-1905, year: '1905'}
+      weaknesses: >-
+        Treats culture as flowing one way, ignores non-elites and resistance, and reflects modern imperial ideology.
+    - id: elite
+      label: Elite emulation
+      claim: Local elites adopted Roman culture voluntarily to maintain their status, driving change without central direction.
+      argument: >-
+        Millett showed that Roman government relied on native elites, whose competition for status explains the adoption of towns and villas.
+      proponents:
+        - {name: Martin Millett, ref: millett-1990, year: '1990'}
+      weaknesses: >-
+        Still focuses on elites and on a Roman model.
+    - id: becoming
+      label: Becoming Roman
+      claim: Roman culture was itself new and changing; provincials became Roman by participating in it, while remaining local in many ways.
+      argument: >-
+        Woolf's study of Gaul showed a new imperial culture forming in the provinces, not a copy of Italy.
+      proponents:
+        - {name: Greg Woolf, ref: woolf-1998, year: '1998'}
+      weaknesses: >-
+        Can still treat the process as integrative and benign.
+    - id: discrepant
+      label: Creolisation and discrepant identities
+      claim: Different groups experienced empire differently; non-elites blended local and Roman practices, and much of what is called Romanisation reflects power and exploitation.
+      argument: >-
+        Webster's creolisation and Mattingly's discrepant identities emphasise agency, resistance and inequality.
+      proponents:
+        - {name: Jane Webster, ref: webster-2001, year: '2001'}
+        - {name: David Mattingly, ref: mattingly-2011, year: '2006, 2011'}
+      weaknesses: >-
+        Evidence for non-elite identities is limited and open to interpretation.
+  evidence:
+    - id: agricola
+      text: Tacitus says Agricola encouraged Britons to build and learn Latin, and that they called it civilisation though it was part of their enslavement.
+      source: tacitus-agricola
+      supports: [civilising, elite, discrepant]
+      comment: Romans saw cultural change as political; Tacitus' irony is itself a critique.
+    - id: epigraphy
+      text: Latin inscriptions multiply across the West in the first and second centuries.
+      supports: [becoming, elite]
+      comment: Shows new habits of commemoration, mostly among the better-off.
+    - id: sulis
+      text: At Bath the local goddess Sulis was identified with Minerva.
+      supports: [discrepant, becoming]
+      comment: Blending rather than replacement.
+    - id: brittunculi
+      text: A Vindolanda tablet calls Britons "Brittunculi".
+      source: vindolanda-brittunculi
+      supports: [discrepant]
+      comment: Roman soldiers' contempt for locals.
+    - id: east
+      text: In the Greek East, Greek remained the dominant language and culture.
+      supports: [becoming]
+      comment: Romanness there was political rather than linguistic.
+  history:
+    - {year: '1905', who: Francis Haverfield, what: 'The Romanization of Roman Britain.', ref: haverfield-1905}
+    - {year: '1990', who: Martin Millett, what: 'The Romanization of Britain: elite emulation.', ref: millett-1990}
+    - {year: '1998', who: Greg Woolf, what: 'Becoming Roman.', ref: woolf-1998}
+    - {year: '2001', who: Jane Webster, what: 'Creolizing the Roman provinces.', ref: webster-2001}
+    - {year: '2011', who: David Mattingly, what: 'Imperialism, Power and Identity.', ref: mattingly-2011}
+  state: >-
+    The term is contested: some avoid it, others use it as shorthand for real processes while rejecting Haverfield's assumptions. There is broad
+    agreement that change was uneven, negotiated and shaped by power, and that identities could be multiple.
+  lessons: [romanisation, governing-provinces]
+  reading: [woolf-1998, millett-1990, webster-2001, mattingly-2011]
+
+- id: third-century-crisis
+  title: Was there a "third-century crisis"?
+  question: Did the Roman empire suffer a general crisis between 235 and 284, or a set of regional and political problems?
+  span: [235, 284]
+  why: >-
+    The idea of crisis frames the transition from the Principate to the late empire, and tests how historians generalise from uneven evidence.
+  positions:
+    - id: general
+      label: A general crisis
+      claim: Military defeat, political instability, fiscal collapse and epidemic combined into a crisis of the whole system, perceived as such by contemporaries.
+      argument: >-
+        Alföldy collected contemporary statements of crisis; the coinage collapsed; emperors fell in rapid succession; and the empire split into three.
+      proponents:
+        - {name: Géza Alföldy, ref: alfoldy-1974, year: '1974'}
+        - {name: Kyle Harper, ref: harper-2017, year: '2017'}
+      weaknesses: >-
+        Many regions show no sign of crisis, and literary perceptions may be conventional laments.
+    - id: regional
+      label: Regional and uneven
+      claim: There was no empire-wide crisis; some regions suffered badly while others prospered.
+      argument: >-
+        Witschel's survey found continued building and prosperity in Africa and parts of the East, while the northern frontier provinces suffered.
+      proponents:
+        - {name: Christian Witschel, ref: witschel-1999, year: '1999'}
+      weaknesses: >-
+        The imperial state's difficulties were real and affected everyone through taxation and coinage.
+    - id: state
+      label: A crisis of the state
+      claim: The central problem was the imperial state's inability to fight on several fronts and maintain legitimate succession; society and economy were affected unevenly.
+      argument: >-
+        Ando and Potter emphasise political and military structures; the empire's recovery under Aurelian and Diocletian shows that its foundations
+        remained strong.
+      proponents:
+        - {name: Clifford Ando, ref: ando-2012, year: '2012'}
+        - {name: David Potter, ref: potter-2014, year: '2014'}
+      weaknesses: >-
+        Separating the state from society and economy can be artificial.
+  evidence:
+    - id: coin
+      text: The silver content of the antoninianus fell from about 50 per cent to a few per cent by the late 260s.
+      supports: [general, state]
+      comment: A clear sign of fiscal crisis.
+    - id: shapur
+      text: Shapur's inscription records the defeat of Roman armies and the capture of Valerian.
+      source: shapur-kz
+      supports: [general, state]
+      comment: Defeat on an unprecedented scale.
+    - id: africa
+      text: Inscriptions show continued public building in many North African cities through the mid-third century.
+      supports: [regional]
+      comment: Prosperity continued where wars did not reach.
+    - id: augsburg
+      text: The Augsburg altar records the liberation of thousands of Italian captives taken by raiders in 260.
+      supports: [general]
+      comment: Raids reached the heart of the empire.
+    - id: cyprian
+      text: Cyprian wrote that the world had grown old and its strength had failed.
+      supports: [general]
+      comment: A Christian rhetorical theme, but evidence for a sense of crisis.
+    - id: libelli
+      text: Decius' certificates of sacrifice show a state demanding universal piety.
+      source: libelli-250
+      supports: [general, state]
+      comment: A religious response to perceived crisis.
+  history:
+    - {year: '1926', who: Michael Rostovtzeff, what: Saw the crisis as a class war of soldiers and peasants against the urban bourgeoisie.}
+    - {year: '1974', who: Géza Alföldy, what: Argued contemporaries perceived a crisis., ref: alfoldy-1974}
+    - {year: '1999', who: Christian Witschel, what: 'Krise – Rezession – Stagnation? regional variation.', ref: witschel-1999}
+    - {year: '2012', who: Clifford Ando, what: 'Imperial Rome AD 193 to 284: The Critical Century.', ref: ando-2012}
+    - {year: '2017', who: Kyle Harper, what: Environmental and epidemic causes., ref: harper-2017}
+  state: >-
+    Most historians retain the language of crisis for the imperial state between about 250 and 275, while recognising great regional variation and
+    rejecting the idea of a general social and economic collapse across the empire.
+  lessons: [third-century-crisis, severans, diocletian]
+  reading: [alfoldy-1974, witschel-1999, ando-2012, potter-2014]
+
+- id: climate-disease
+  title: Did climate and disease shape Rome's fate?
+  question: How much did climate change and pandemics contribute to the crises of the Roman empire?
+  span: [-200, 750]
+  why: >-
+    New scientific evidence has transformed this question; it also raises general issues about environmental determinism and interdisciplinary method.
+  positions:
+    - id: maximal
+      label: Nature as a decisive force
+      claim: The end of the Roman Climate Optimum and three great pandemics were central causes of Roman crises and decline.
+      argument: >-
+        Harper argues that favourable climate supported growth; the Antonine and Cyprianic plagues and the Justinianic pandemic, combined with
+        climate deterioration, repeatedly shattered the empire's demographic and fiscal base.
+      proponents:
+        - {name: Kyle Harper, ref: harper-2017, year: '2017'}
+        - {name: Michael McCormick and colleagues, ref: mccormick-2012, year: '2012'}
+        - {name: Richard Duncan-Jones, ref: duncan-jones-1996, year: '1996'}
+      weaknesses: >-
+        Correlation is not causation; data are regional; mortality estimates rest on fragile evidence.
+    - id: minimal
+      label: Resilience and caution
+      claim: The evidence for catastrophic mortality and climate-driven collapse is weak; societies adapted, and political and social factors were primary.
+      argument: >-
+        Bruun questioned the Antonine plague's impact; Mordechai and Eisenberg argued that the Justinianic plague's effects have been exaggerated;
+        Haldon and colleagues criticised environmental determinism.
+      proponents:
+        - {name: Christer Bruun, ref: bruun-2007, year: '2007'}
+        - {name: Lee Mordechai and Merle Eisenberg, ref: mordechai-eisenberg-2019, year: '2019'}
+        - {name: John Haldon and colleagues, ref: haldon-2018, year: '2018'}
+      weaknesses: >-
+        Risks dismissing strong evidence, such as ancient DNA of plague and tree-ring evidence of cooling in the 530s.
+  evidence:
+    - id: dna
+      text: Ancient DNA has identified Yersinia pestis in sixth-century burials.
+      supports: [maximal]
+      comment: Confirms the pathogen, not the mortality.
+    - id: trees
+      text: Tree rings show severe cooling after volcanic eruptions in 536 and 539/540.
+      supports: [maximal]
+      comment: Precise dating of a major climatic shock.
+    - id: papyri
+      text: Some Egyptian villages show sharp falls in taxpayers around 166–170.
+      supports: [maximal]
+      comment: Local; could reflect flight as well as death.
+    - id: procopius
+      text: Procopius reports thousands of deaths a day in Constantinople in 542.
+      source: procopius-plague
+      supports: [maximal]
+      comment: Impressionistic and modelled on Thucydides.
+    - id: continuity
+      text: Legislation, building and coinage continued after the Justinianic plague's first wave.
+      supports: [minimal]
+      comment: Suggests institutions survived the shock.
+  history:
+    - {year: '1996', who: Richard Duncan-Jones, what: Revived the case for high Antonine plague mortality., ref: duncan-jones-1996}
+    - {year: '2007', who: Christer Bruun, what: Questioned the evidence., ref: bruun-2007}
+    - {year: '2012', who: McCormick and colleagues, what: Synthesised climate evidence for the Roman period., ref: mccormick-2012}
+    - {year: '2016', who: Büntgen and colleagues, what: Identified the Late Antique Little Ice Age., ref: buntgen-2016}
+    - {year: '2017', who: Kyle Harper, what: 'The Fate of Rome.', ref: harper-2017}
+    - {year: '2018–2019', who: 'Haldon et al.; Mordechai and Eisenberg', what: Critiques of maximalist readings., ref: mordechai-eisenberg-2019}
+  state: >-
+    Environment and disease are now a necessary part of Roman history, but their weight is contested. Most historians favour integrated
+    explanations in which environmental shocks interacted with political and social structures, and they call for careful use of proxies.
+  lessons: [environment-disease, marcus-aurelius, third-century-crisis, justinian]
+  reading: [harper-2017, haldon-2018, mordechai-eisenberg-2019, mccormick-2012]
+
+- id: race-antiquity
+  title: Did the Romans have racism?
+  question: Can modern concepts of race and racism be applied to Roman attitudes to human difference?
+  span: [-200, 600]
+  why: >-
+    The question matters for understanding ancient societies and for countering modern appropriations of antiquity to support racist ideologies.
+  positions:
+    - id: proto
+      label: Proto-racism
+      claim: Greek and Roman environmental and ethnographic theories attributed fixed, sometimes inherited, collective traits to peoples, anticipating modern racism.
+      argument: >-
+        Isaac traces the idea that climate shaped character and that such traits could be inherited, used to justify rule over "natural slaves" and
+        barbarians.
+      proponents:
+        - {name: Benjamin Isaac, ref: isaac-2004, year: '2004'}
+      weaknesses: >-
+        Ancient ideas were inconsistent and did not produce hereditary racial hierarchies of the modern kind.
+    - id: connection
+      label: Connection more than exclusion
+      claim: Ancient writers more often imagined kinship and connection with other peoples; stereotypes coexisted with integration.
+      argument: >-
+        Gruen highlights foundation myths of mixed origins, admiration for foreign wisdom, and the openness of Roman citizenship.
+      proponents:
+        - {name: Erich Gruen, ref: gruen-2011, year: '2011'}
+        - {name: Frank Snowden, ref: snowden-1970, year: '1970'}
+      weaknesses: >-
+        Can understate the violence and contempt directed at many groups.
+    - id: category
+      label: Race as an analytical tool
+      claim: Race is a modern construction, but studying how ancient societies constructed difference helps us understand both antiquity and modern racial thinking.
+      argument: >-
+        McCoskey and others argue for using race as a lens while attending to the differences between ancient and modern categories.
+      proponents:
+        - {name: Denise McCoskey, ref: mccoskey-2012, year: '2012'}
+      weaknesses: >-
+        Risks anachronism if ancient categories are mapped too closely onto modern ones.
+  evidence:
+    - id: vitruvius
+      text: Vitruvius argues that Italy's temperate climate made Romans fit to rule the world.
+      supports: [proto]
+      comment: Environmental determinism used to justify empire.
+    - id: claudius
+      text: Claudius argued that Rome had always grown by incorporating outsiders.
+      source: claudius-gauls
+      supports: [connection]
+      comment: A civic conception of Romanness, though opposed by some senators.
+    - id: ca
+      text: Citizenship was extended to almost all free inhabitants in 212.
+      source: constitutio-antoniniana
+      supports: [connection]
+      comment: Inclusion by status, not descent.
+    - id: slaves
+      text: Roman slaves came from many peoples, including Greeks and Italians.
+      supports: [connection, category]
+      comment: Slavery was not racialised as Atlantic slavery was.
+    - id: brittunculi
+      text: Soldiers at Vindolanda refer to Britons with contempt.
+      source: vindolanda-brittunculi
+      supports: [proto, category]
+      comment: Everyday prejudice towards provincials.
+  history:
+    - {year: '1970', who: Frank Snowden, what: 'Blacks in Antiquity: absence of colour prejudice.', ref: snowden-1970}
+    - {year: '2004', who: Benjamin Isaac, what: 'The Invention of Racism in Classical Antiquity.', ref: isaac-2004}
+    - {year: '2011', who: Erich Gruen, what: 'Rethinking the Other in Antiquity.', ref: gruen-2011}
+    - {year: '2012', who: Denise McCoskey, what: 'Race: Antiquity and Its Legacy.', ref: mccoskey-2012}
+  state: >-
+    Most scholars agree that ancient societies did not have modern biological concepts of race and that Roman slavery was not racialised, but they
+    disagree about how far ancient prejudice and environmental theory anticipated modern racism, and about the value of race as an analytical term.
+  lessons: [race-ethnicity]
+  reading: [isaac-2004, gruen-2011, mccoskey-2012, snowden-1970]

@@ -1,0 +1,498 @@
+- id: early-rome-sources
+  title: Can we know early Rome?
+  question: How much of the literary tradition about Rome before c. 300 BC is historically reliable?
+  span: [-753, -300]
+  why: >-
+    Every account of early Rome depends on narratives written centuries after the events. How historians judge those narratives determines
+    whether we can write a history of the kings and the early Republic at all, or only a history of the city's material remains.
+  positions:
+    - id: core
+      label: A reliable structural core
+      claim: The tradition preserves a broadly authentic framework of institutions, offices, treaties and major events, even if stories and speeches are invented.
+      argument: >-
+        Romans kept lists of magistrates, priestly records and treaties; antiquarians recorded old laws and customs; and the main lines of the
+        tradition (a regal period with Etruscan connections, a sixth-century city of some size, the end of kingship around 500, the Conflict of
+        the Orders) fit what archaeology shows. Historians should distinguish the "structural" facts the tradition could have preserved from the
+        anecdotal narrative it embroidered.
+      proponents:
+        - {name: Tim Cornell, ref: cornell-1995, year: '1995'}
+        - {name: Arnaldo Momigliano, ref: momigliano-1966}
+      weaknesses: >-
+        The criteria for separating "structure" from "story" can be subjective, and much of what is called structural (the Servian constitution,
+        for example) looks like later reconstruction.
+    - id: sceptical
+      label: Mostly later reconstruction
+      claim: Most of the narrative before the third century BC was constructed by later writers and cannot be used as evidence for events.
+      argument: >-
+        The first Roman historians wrote around 200 BC; Livy himself says that most records perished in the Gallic sack; the narratives are full of
+        doublets, anachronisms and Greek story-patterns; and family traditions inflated their ancestors' roles. Only archaeology and a few documents
+        give firm ground; the narrative is better read as evidence for how later Romans imagined their past.
+      proponents:
+        - {name: Gary Forsythe, ref: forsythe-2005, year: '2005'}
+        - {name: Ettore Pais (hypercritical school), year: '1898–'}
+      weaknesses: >-
+        Taken to an extreme, scepticism discards information that later documents confirm (such as the existence of kings, attested by the Lapis
+        Niger) and can be as arbitrary as credulity.
+    - id: archaeological
+      label: Archaeology confirms the legend
+      claim: Excavation can confirm specific elements of the foundation story, including a deliberate foundation in the eighth century.
+      argument: >-
+        Andrea Carandini interpreted walls and deposits at the foot of the Palatine, dated to the mid-eighth century, as evidence of a ritual
+        foundation corresponding to the Romulus tradition, and argued that the legend preserves memory of real institutions of an early state.
+      proponents:
+        - {name: Andrea Carandini, ref: carandini-2011, year: '2011'}
+      weaknesses: >-
+        Most archaeologists accept the finds but not the interpretation: dating is debated, and reading a legendary founder into structures risks
+        circular argument.
+  evidence:
+    - id: lapis
+      text: The Lapis Niger inscription in the Forum (6th century BC) mentions a rex.
+      supports: [core, archaeological]
+      comment: Confirms kingship and public inscriptions in archaic Rome, but not the names or deeds of the traditional kings.
+    - id: satricum
+      text: The Satricum inscription (c. 500 BC) names the "companions of Publius Valerius".
+      supports: [core]
+      comment: Shows aristocratic warbands with leaders bearing names known from the early Republic; the identification with Publicola is uncertain.
+    - id: treaty
+      text: Polybius quotes a treaty between Rome and Carthage dated to the first year of the Republic.
+      source: polybius-constitution
+      supports: [core]
+      comment: If authentic and correctly dated, it shows a Rome dominating the Latin coast around 509. Some scholars redate it.
+    - id: livy-fire
+      text: Livy (6.1) says that most written records were destroyed when the Gauls burned Rome in 390 BC.
+      source: livy-preface
+      supports: [sceptical]
+      comment: An admission from the tradition itself that its sources for the earliest period were thin; archaeologists, however, find little trace of a general destruction in 390.
+    - id: pictor
+      text: The first Roman history, by Fabius Pictor, was written in Greek around 200 BC.
+      supports: [sceptical]
+      comment: Three centuries separate Pictor from the expulsion of the kings; his sources and methods are largely unknown.
+    - id: palatine
+      text: Walls and deposits at the foot of the Palatine dated to the eighth century BC.
+      supports: [archaeological, core]
+      comment: Evidence of early communal construction; their link with a "foundation" by Romulus is interpretation.
+  history:
+    - {year: '1811–1832', who: Barthold Niebuhr, what: Applied source criticism to early Rome and suggested the stories derived from lost ballads.}
+    - {year: '1898–1920', who: Ettore Pais, what: 'Developed a "hypercritical" view that most of the early tradition was fabricated.'}
+    - {year: '1950s–60s', who: Arnaldo Momigliano, what: 'Argued for the value of antiquarian information preserved in the tradition.', ref: momigliano-1966}
+    - {year: '1995', who: Tim Cornell, what: 'Synthesised archaeology and tradition in "The Beginnings of Rome".', ref: cornell-1995}
+    - {year: '2005', who: Gary Forsythe, what: Offered a more sceptical critical history., ref: forsythe-2005}
+    - {year: '2011', who: Andrea Carandini, what: 'Argued for a historical foundation in "Rome: Day One".', ref: carandini-2011}
+  state: >-
+    Most historians accept that the tradition preserves some authentic information (institutions, some laws and treaties, the existence of
+    kings, magistrate lists in part) while the narratives, speeches and characters before about 300 BC are largely reconstructions. The debate is
+    about degree, and about method: how to weigh a late tradition against archaeological evidence that cannot itself tell stories.
+  lessons: [origins, early-republic, historiography]
+  reading: [cornell-1995, forsythe-2005, carandini-2011, beard-2015]
+
+- id: roman-democracy
+  title: Was the Roman Republic a democracy?
+  question: How much power did the Roman people really have in the politics of the middle and late Republic?
+  span: [-287, -49]
+  why: >-
+    The answer shapes how we explain Roman politics, the Gracchi and the fall of the Republic, and it engages with modern debates about
+    oligarchy and democracy that began with Polybius.
+  positions:
+    - id: oligarchy
+      label: An aristocratic oligarchy
+      claim: A small nobility controlled politics through wealth, patronage and family alliances; the assemblies ratified elite decisions.
+      argument: >-
+        The consulship was monopolised by a few families; voting in the centuriate assembly was weighted to the rich; clients voted as patrons
+        directed; and the Senate guided policy. Politics is best explained by the alliances and rivalries of noble families.
+      proponents:
+        - {name: Matthias Gelzer, year: '1912'}
+        - {name: Ronald Syme, ref: syme-1939, year: '1939'}
+        - {name: Lily Ross Taylor, ref: taylor-1949, year: '1949'}
+      weaknesses: >-
+        Patronage cannot explain contested elections or popular legislation against elite wishes; the evidence for stable family "factions" is weak.
+    - id: democratic
+      label: A real democratic element
+      claim: The people were sovereign in law and in practice; politicians had to persuade them in public speeches, and elections and laws were genuinely decided by votes.
+      argument: >-
+        Only the people could pass laws and elect magistrates; contests were real and expensive; politicians courted voters in contiones; and the
+        late Republic saw important laws carried against the Senate's will. Polybius was right to see a democratic element.
+      proponents:
+        - {name: Fergus Millar, ref: millar-1984, year: '1984, 1998'}
+      weaknesses: >-
+        Few citizens could attend; voting units were weighted; the people could vote only on proposals put by magistrates and could not debate.
+    - id: culture
+      label: A political culture of consensus and display
+      claim: Power was exercised through a shared culture of hierarchy, ritual and public performance in which the elite competed for the people's favour but the people rarely set the agenda.
+      argument: >-
+        The people mattered as an audience and arbiter of aristocratic competition. Their participation legitimised an order dominated by the elite;
+        they chose decisively mainly when the elite was divided, and those who attended assemblies were a small, unrepresentative fraction.
+      proponents:
+        - {name: Karl-Joachim Hölkeskamp, ref: holkeskamp-2010, year: '2010'}
+        - {name: Robert Morstein-Marx, ref: morstein-marx-2004, year: '2004'}
+        - {name: Henrik Mouritsen, ref: mouritsen-2001, year: '2001'}
+        - {name: John North, ref: north-1990, year: '1990'}
+      weaknesses: >-
+        Emphasis on consensus can understate genuine conflicts of interest, such as those over land, debt and grain.
+  evidence:
+    - id: polybius
+      text: Polybius describes the people's power over elections, laws, war and peace and capital trials.
+      source: polybius-constitution
+      supports: [democratic]
+      comment: A contemporary but theoretical account designed to fit Rome into a Greek scheme.
+    - id: centuries
+      text: The centuriate assembly gave a majority of voting units to the wealthiest classes, who voted first.
+      supports: [oligarchy, culture]
+      comment: Formal weighting by wealth limited the impact of the poor majority in the most important elections.
+    - id: ballot
+      text: Laws of 139–107 BC introduced the secret written ballot in elections, trials and legislation.
+      supports: [democratic, culture]
+      comment: Suggests that open voting had allowed pressure from patrons, and that reformers wanted to free voters from it.
+    - id: ambitus
+      text: Repeated laws against electoral bribery (ambitus) from the second century onwards.
+      supports: [democratic, oligarchy]
+      comment: Elections were competitive enough to buy, which shows both voters' importance and the role of money.
+    - id: monopoly
+      text: Most consuls came from families that had already held the office; "new men" like Cato and Cicero were rare.
+      supports: [oligarchy]
+      comment: Voters preferred known names; this could reflect deference, patronage or rational choice.
+    - id: attendance
+      text: The voting enclosure in the Campus Martius could hold only a small fraction of the hundreds of thousands of citizens.
+      supports: [culture]
+      comment: Mouritsen argues that those who voted were not a cross-section of the citizen body.
+  history:
+    - {year: c. 150 BC, who: Polybius, what: Analysed Rome as a mixed constitution with a democratic element., ref: polybius-waterfield-2010}
+    - {year: '1912', who: Matthias Gelzer, what: 'Explained politics through the nobility''s networks of obligation.'}
+    - {year: '1939', who: Ronald Syme, what: Read politics as the struggle of noble factions., ref: syme-1939}
+    - {year: '1984', who: Fergus Millar, what: Argued that the Republic had a genuine democratic element., ref: millar-1984}
+    - {year: '1990', who: John North, what: Argued that the people chose only when the elite was divided., ref: north-1990}
+    - {year: '2001–2010', who: 'Mouritsen, Morstein-Marx, Hölkeskamp', what: Developed the study of participation and political culture., ref: holkeskamp-2010}
+  state: >-
+    Few historians now accept either a simple oligarchy or a democracy on the Athenian model. Most see a system in which the people's votes were
+    real and could be decisive, but participation was limited and structured by hierarchy, wealth and elite initiative. The open question is how
+    much the people could shape the agenda rather than choose among options set by the elite.
+  lessons: [republican-constitution, gracchi]
+  reading: [lintott-1999, millar-1984, north-1990, mouritsen-2001, holkeskamp-2010]
+
+- id: roman-imperialism
+  title: Why did Rome conquer?
+  question: Was Roman expansion in the Middle Republic driven by defence, by Roman aggression, or by the competitive system of Mediterranean states?
+  span: [-264, -133]
+  why: >-
+    Explaining Rome's rise is the question Polybius set out to answer. Modern answers reflect different theories of war and empire, and shape how
+    we judge Rome.
+  positions:
+    - id: defensive
+      label: Defensive imperialism
+      claim: Rome acquired its empire largely in response to threats and appeals, without an intention to annex.
+      argument: >-
+        Rome fought wars when allies were attacked or its security seemed threatened; it repeatedly withdrew after victories in the East (196, 188,
+        167) and annexed only reluctantly.
+      proponents:
+        - {name: Theodor Mommsen, ref: mommsen-1854, year: '1854'}
+        - {name: Maurice Holleaux, year: '1921'}
+      weaknesses: >-
+        It takes Roman justifications at face value; Romans always claimed their wars were just and defensive.
+    - id: aggressive
+      label: Structural bellicosity
+      claim: Roman society was geared to war; aristocratic competition for glory and popular expectations of booty drove almost annual warfare.
+      argument: >-
+        Rome went to war nearly every year; magistrates needed commands to win triumphs and advance their careers; citizens gained land and plunder;
+        and the alliance system needed constant war to function. Expansion was the normal outcome of these structures.
+      proponents:
+        - {name: W. V. Harris, ref: harris-1979, year: '1979'}
+      weaknesses: >-
+        It can make Rome look uniquely aggressive in a world where others were equally militaristic, and it struggles to explain Roman restraint in
+        the East.
+    - id: systemic
+      label: An anarchic system
+      claim: Rome was one militarised state among many in an anarchic interstate system; its success lay in its capacity to mobilise and integrate allies.
+      argument: >-
+        Drawing on international relations theory, Eckstein argues that Hellenistic and other Mediterranean states were all aggressive; wars resulted
+        from insecurity and power transitions, such as the collapse of Ptolemaic power around 207–200.
+      proponents:
+        - {name: Arthur Eckstein, ref: eckstein-2006, year: '2006'}
+      weaknesses: >-
+        It explains the environment more than Rome's specific choices, and critics question how well modern realist theory fits ancient states.
+    - id: hellenistic
+      label: Drawn in by the Greeks
+      claim: In the East, Rome was largely uninterested in annexation and was repeatedly drawn into conflicts by Greek states using their own diplomatic practices.
+      argument: >-
+        Gruen showed how Greek appeals, arbitration requests and the language of friendship and freedom shaped Roman involvement, and argued that
+        the Senate showed little appetite for permanent control until the 140s.
+      proponents:
+        - {name: Erich Gruen, ref: gruen-1984, year: '1984'}
+      weaknesses: >-
+        Applies mainly to the East; Roman behaviour in Spain, Sardinia and Africa looks more aggressive.
+  evidence:
+    - id: mamertines
+      text: In 264 BC, according to Polybius, the people voted for war over Messana against the Senate's hesitation, attracted by the prospect of booty.
+      supports: [aggressive]
+      comment: Suggests popular as well as aristocratic interest in war; Polybius' account may simplify.
+    - id: vote200
+      text: In 200 BC the centuriate assembly initially voted against war with Philip V.
+      supports: [defensive, hellenistic]
+      comment: Shows that war was not automatic and that ordinary citizens could be war-weary.
+    - id: annual
+      text: Rome was at war in almost every year of the Middle Republic.
+      supports: [aggressive, systemic]
+      comment: A striking fact; whether it was unusual for the period is disputed.
+    - id: withdrawal
+      text: After defeating Philip (196) and Antiochus (188), Rome withdrew its armies and annexed no territory in the East.
+      supports: [defensive, hellenistic]
+      comment: Argues against a plan of conquest; supporters of Harris reply that control did not require annexation.
+    - id: manpower
+      text: Polybius' figures for 225 BC list several hundred thousand Roman and allied men liable for service.
+      source: polybius-manpower
+      supports: [systemic, aggressive]
+      comment: Rome's mobilisation capacity was unique; this is the core of Eckstein's explanation of its success.
+    - id: destructions
+      text: Carthage and Corinth were destroyed in 146 BC.
+      supports: [aggressive]
+      comment: Hard to explain as purely defensive, though Romans justified both.
+  history:
+    - {year: '1854–1856', who: Theodor Mommsen, what: 'Presented Roman expansion as largely defensive.', ref: mommsen-1854}
+    - {year: '1921', who: Maurice Holleaux, what: 'Argued Rome entered the East reluctantly and out of fear.'}
+    - {year: '1979', who: W. V. Harris, what: 'War and Imperialism in Republican Rome: aggressive structures.', ref: harris-1979}
+    - {year: '1984', who: Erich Gruen, what: 'The Hellenistic World and the Coming of Rome.', ref: gruen-1984}
+    - {year: '2006', who: Arthur Eckstein, what: 'Mediterranean Anarchy: a realist account.', ref: eckstein-2006}
+  state: >-
+    Harris's critique of "defensive imperialism" has been widely accepted in part: few historians now take Roman claims of self-defence at face
+    value. But many follow Eckstein and Gruen in placing Rome within a violent interstate world and emphasising the role of others. Current work
+    stresses multiple motives and the distinctive Roman capacity to mobilise allies.
+  lessons: [punic-wars, price-of-empire]
+  reading: [harris-1979, eckstein-2006, gruen-1984, rosenstein-2004]
+
+- id: fall-of-republic
+  title: Why did the Republic fall?
+  question: Was the Roman Republic destroyed by structural problems, by the choices of ambitious individuals, or by a particular political crisis?
+  span: [-133, -27]
+  why: >-
+    The fall of the Roman Republic has been a model for thinking about the collapse of free states since Machiavelli. Explanations range from deep
+    social causes to contingent decisions.
+  positions:
+    - id: oligarchy
+      label: A revolution within the oligarchy
+      claim: The Republic fell because the competitive nobility could no longer contain its most powerful members; power passed to a new faction under Augustus.
+      argument: >-
+        Syme saw the period as a struggle for power among dynasts and their allies, with constitutional forms as screens; Augustus' victory was a
+        revolution in the composition of the ruling class.
+      proponents:
+        - {name: Ronald Syme, ref: syme-1939, year: '1939'}
+      weaknesses: >-
+        Explains how power was won rather than why the system failed when it did; underplays popular and ideological factors.
+    - id: structural
+      label: Structural crisis
+      claim: Deep problems, including the land question, the integration of Italy, armies dependent on their generals and an empire too large for city-state institutions, made collapse very likely.
+      argument: >-
+        Meier described a "crisis without alternative" in which everyone could see problems but no group could imagine another system. Brunt traced
+        the grievances of the poor, soldiers and Italians.
+      proponents:
+        - {name: Christian Meier, year: '1966'}
+        - {name: P. A. Brunt, ref: brunt-1988, year: '1988'}
+      weaknesses: >-
+        Structural accounts can make the outcome seem inevitable and fail to explain timing.
+    - id: contingent
+      label: A functioning system broken by war
+      claim: Republican institutions worked well into the 50s BC; the Republic fell because of the civil war of 49, the result of specific miscalculations.
+      argument: >-
+        Gruen showed that elections, courts and legislation continued normally and that most senators were not hostile to reform. The crisis of
+        50–49 was avoidable.
+      proponents:
+        - {name: Erich Gruen, ref: gruen-1974, year: '1974'}
+      weaknesses: >-
+        Gives little weight to the violence and precedents of 133–82 BC.
+    - id: republics
+      label: A sequence of republics
+      claim: There was not one Republic but several, and the "republic of the nobles" ended long before Caesar, in 133 or 88 BC.
+      argument: >-
+        Flower argues that Sulla created a new and short-lived republic with different rules, and that asking why "the Republic" fell in 49 assumes a
+        continuity that did not exist.
+      proponents:
+        - {name: Harriet Flower, ref: flower-2010, year: '2010'}
+      weaknesses: >-
+        The periodisation is debated, and contemporaries spoke of one res publica.
+    - id: people
+      label: A crisis of legitimacy
+      claim: Caesar's cause was seen by many Romans as a defence of the people's rights against a faction, which explains his support and the collapse of the optimates' position.
+      argument: >-
+        Morstein-Marx stresses the role of the people's judgement and of the legitimacy of Caesar's claims in 49, rather than simple military force.
+      proponents:
+        - {name: Robert Morstein-Marx, ref: morstein-marx-2021, year: '2021'}
+      weaknesses: >-
+        Our evidence for popular opinion is limited and mostly filtered through elite writers.
+  evidence:
+    - id: violence
+      text: Political killings in 133, 121, 100 and 88 BC, and Sulla's march on Rome.
+      supports: [structural, republics]
+      comment: Each episode set a precedent; the question is whether they made 49 inevitable.
+    - id: elections
+      text: Elections, trials and legislation continued throughout the 60s and 50s BC.
+      supports: [contingent]
+      comment: Gruen's key evidence; critics note growing violence and disruption, as in 52 BC.
+    - id: vote50
+      text: In December 50 BC the Senate voted by a very large majority that both Caesar and Pompey should lay down their commands, but the proposal was not implemented.
+      supports: [contingent, people]
+      comment: Suggests most senators wanted compromise; a small group blocked it.
+    - id: bc122
+      text: Caesar justified invading Italy as a defence of his dignity, the tribunes and the liberty of the people.
+      source: caesar-bc-1-22
+      supports: [people]
+      comment: Self-justification, but in terms he expected to persuade.
+    - id: cicero49
+      text: Cicero's letters of 49 BC show moderates torn between two sides they distrusted.
+      source: cicero-attic-49
+      supports: [oligarchy, contingent]
+      comment: Reveals the personal dimension and the absence of a strong constitutional middle.
+    - id: armies
+      text: Veterans of Sulla, Pompey and Caesar expected land from their commanders.
+      supports: [structural]
+      comment: Linked to the debate on the Marian reforms.
+  history:
+    - {year: c. 40 BC, who: Sallust, what: Explained decline by ambition and greed after the fall of Carthage., ref: sallust-woodman-2007}
+    - {year: '1854–1856', who: Theodor Mommsen, what: 'Presented Caesar as the necessary saviour of a corrupt state.', ref: mommsen-1854}
+    - {year: '1939', who: Ronald Syme, what: 'The Roman Revolution.', ref: syme-1939}
+    - {year: '1966', who: Christian Meier, what: 'Res Publica Amissa: "crisis without alternative".'}
+    - {year: '1974', who: Erich Gruen, what: 'The Last Generation of the Roman Republic.', ref: gruen-1974}
+    - {year: '2010', who: Harriet Flower, what: 'Roman Republics.', ref: flower-2010}
+    - {year: '2021', who: Robert Morstein-Marx, what: 'Julius Caesar and the Roman People.', ref: morstein-marx-2021}
+  state: >-
+    Most historians combine structural pressures with contingent choices: the problems of land, armies and empire made the system fragile, but
+    particular decisions in 88, 60 and 50–49 BC turned fragility into collapse. There is growing interest in the role of the people and in the
+    idea that "the Republic" itself changed over time.
+  lessons: [gracchi, marius-sulla, caesar]
+  reading: [syme-1939, gruen-1974, brunt-1988, flower-2010, morstein-marx-2021]
+
+- id: marian-reforms
+  title: Did Marius create a professional army?
+  question: Did Marius' recruitment of the propertyless in 107 BC transform the Roman army into a professional, politically dangerous force?
+  span: [-150, -49]
+  why: >-
+    The idea that Marius created "client armies" loyal to their generals is one of the standard explanations for the fall of the Republic. If it
+    is wrong, that explanation must be rebuilt.
+  positions:
+    - id: traditional
+      label: A turning point
+      claim: Marius opened the legions to the propertyless, creating soldiers dependent on their commanders for pay and land, which made armies available for civil war.
+      argument: >-
+        Recruitment of the capite censi, standardised equipment and the cohort created long-service soldiers with no property to return to; they
+        followed generals who could reward them, as Sulla's troops did in 88.
+      proponents:
+        - {name: Emilio Gabba, ref: gabba-1976, year: '1949 (English 1976)'}
+      weaknesses: >-
+        Rests heavily on one passage of Sallust; many of the supposed reforms are attested earlier or later.
+    - id: gradual
+      label: A gradual process
+      claim: The army changed gradually over the second and first centuries; Marius' act of 107 was one step, not a revolution.
+      argument: >-
+        The property qualification had been lowered several times; poor men already served; cohorts were used earlier; conscription continued in the
+        first century; and veterans' demands for land long predated Marius. Political loyalty of armies was a product of civil war itself.
+      proponents:
+        - {name: John Rich, ref: rich-1983, year: '1983'}
+        - {name: P. A. Brunt, ref: brunt-1988}
+        - {name: François Cadiou, ref: cadiou-2018, year: '2018'}
+      weaknesses: >-
+        Even a gradual change could produce a decisive shift in the political behaviour of armies by the 80s.
+  evidence:
+    - id: sallust
+      text: Sallust reports that Marius enrolled volunteers, mostly capite censi, and that some attributed this to his ambition.
+      source: sallust-marius
+      supports: [traditional, gradual]
+      comment: Attests a single act; the interpretation of its long-term significance is Sallust's and ours.
+    - id: census
+      text: The minimum property qualification for legionary service was lowered in stages during the second century BC.
+      supports: [gradual]
+      comment: Suggests the army was already drawing on poorer citizens before 107.
+    - id: cohort
+      text: Polybius refers to cohorts in his account of the battle of Ilipa in 206 BC.
+      supports: [gradual]
+      comment: The cohort as a tactical unit predates Marius.
+    - id: march
+      text: In 88 BC Sulla's soldiers followed him to Rome while almost all his officers refused.
+      supports: [traditional]
+      comment: Soldiers' loyalty to a commander over the state; the motives (booty, legality, poverty) are debated.
+    - id: levy
+      text: Conscription (dilectus) continued to be used in the first century BC, including in the civil wars.
+      supports: [gradual]
+      comment: Cadiou argues the army was not a body of volunteers.
+  history:
+    - {year: '1949', who: Emilio Gabba, what: Argued that "proletarianisation" of the army led to client armies., ref: gabba-1976}
+    - {year: '1962', who: P. A. Brunt, what: 'Analysed the army and the land question in the Roman revolution.', ref: brunt-1988}
+    - {year: '1983', who: John Rich, what: Questioned the supposed manpower shortage of the later second century., ref: rich-1983}
+    - {year: '2018', who: François Cadiou, what: 'L''armée imaginaire: rejected the idea of a Marian professional army.', ref: cadiou-2018}
+  state: >-
+    The phrase "Marian reforms" is now widely treated with caution. Most specialists see a gradual evolution, with 107 BC as one moment, and explain
+    the political behaviour of armies by the conditions of civil war rather than by recruitment reform alone.
+  lessons: [marius-sulla, soldiers-lives]
+  reading: [cadiou-2018, brunt-1988, rich-1983, gabba-1976]
+
+- id: augustus-revolution
+  title: Augustus' revolution or restoration?
+  question: Was the Augustan principate a disguised military autocracy, a genuine restoration, or a new consensual order?
+  span: [-44, 14]
+  why: >-
+    How we understand Augustus shapes how we understand the whole imperial system and its relationship with the Republic.
+  positions:
+    - id: revolution
+      label: A revolution
+      claim: Augustus seized power by violence and maintained it through the army, a new faction and propaganda; the restored Republic was a façade.
+      argument: >-
+        Syme, writing as dictatorships rose in Europe, described the transfer of power to a new elite and the hollowing out of liberty under
+        Republican forms.
+      proponents:
+        - {name: Ronald Syme, ref: syme-1939, year: '1939'}
+        - {name: Tacitus (ancient), ref: tacitus-annals-woodman-2004}
+      weaknesses: >-
+        Can reduce culture and consent to manipulation and underplay the regime's broad acceptance.
+    - id: consensus
+      label: A consensual order
+      claim: Augustus offered a new order that many Romans welcomed after the civil wars, built on shared values and restored traditions.
+      argument: >-
+        Galinsky emphasises auctoritas, moral and religious renewal, and the participation of many groups in shaping Augustan culture; Zanker shows
+        images adopted and spread by many agents.
+      proponents:
+        - {name: Karl Galinsky, ref: galinsky-1996, year: '1996'}
+        - {name: Paul Zanker, ref: zanker-1988, year: '1987 (English 1988)'}
+      weaknesses: >-
+        Risks adopting the regime's own self-presentation.
+    - id: evolving
+      label: An evolving negotiation
+      claim: Augustus' position was worked out gradually through negotiation with the Senate and other groups; there was no single plan.
+      argument: >-
+        Wallace-Hadrill and others stress experimentation (the settlements of 27, 23 and 19 BC), the emperor as "civil" princeps, and a cultural
+        revolution in which authority was centralised around the emperor.
+      proponents:
+        - {name: Andrew Wallace-Hadrill, ref: wallace-hadrill-1982, year: '1982, 2008'}
+        - {name: Fergus Millar, ref: millar-1977}
+      weaknesses: >-
+        Explains process better than the fundamental question of whether it was autocracy.
+  evidence:
+    - id: rg34
+      text: Augustus claimed that after 27 BC he excelled all in auctoritas but had no more power than his colleagues.
+      source: res-gestae
+      supports: [consensus, evolving]
+      comment: The regime's own definition, written at the end of his life.
+    - id: tacitus
+      text: Tacitus says Augustus seduced the soldiers with gifts, the people with grain and all with peace, while absorbing the functions of the state.
+      source: tacitus-annals-1
+      supports: [revolution]
+      comment: A senatorial analysis written a century later.
+    - id: proscriptions
+      text: The triumvirs' proscriptions of 43 BC killed hundreds of senators and equestrians.
+      supports: [revolution]
+      comment: The violent origins of the regime.
+    - id: settlements
+      text: Augustus' powers were redefined in 27, 23 and 19 BC.
+      supports: [evolving]
+      comment: Suggests adjustment rather than a fixed design.
+    - id: images
+      text: Statues, coins and monuments presented Augustus through a new visual language.
+      source: prima-porta
+      supports: [consensus, revolution]
+      comment: Evidence of propaganda or of shared culture, depending on interpretation.
+  history:
+    - {year: c. AD 14, who: Augustus, what: 'Res Gestae: restoration of the res publica.', ref: cooley-2009}
+    - {year: c. AD 115, who: Tacitus, what: 'Annals 1: liberty lost under the appearance of restoration.', ref: tacitus-annals-woodman-2004}
+    - {year: '1939', who: Ronald Syme, what: 'The Roman Revolution.', ref: syme-1939}
+    - {year: '1982', who: Andrew Wallace-Hadrill, what: 'Civilis princeps: the emperor as citizen.', ref: wallace-hadrill-1982}
+    - {year: '1987–1988', who: Paul Zanker, what: 'The Power of Images.', ref: zanker-1988}
+    - {year: '1996', who: Karl Galinsky, what: 'Augustan Culture.', ref: galinsky-1996}
+  state: >-
+    Most historians now combine these views: the principate was an autocracy grounded in military power, but it was made durable by consensus,
+    cultural change and negotiated forms. The debate continues over emphasis and over how far Augustus planned his system.
+  lessons: [augustus-power, augustan-rome, power-legitimacy]
+  reading: [syme-1939, galinsky-1996, zanker-1988, wallace-hadrill-1982]

@@ -1,0 +1,720 @@
+# Ancient sources in modern translation, and sourcebooks.
+- id: polybius-waterfield-2010
+  type: primary
+  authors: [Polybius]
+  translators: ['Waterfield, Robin']
+  title: The Histories
+  place: Oxford
+  publisher: Oxford University Press
+  year: '2010'
+  level: introductory
+  topics: [conquest, republic, sources]
+  note: >-
+    Oxford World's Classics translation with introduction and notes by Brian McGing. Polybius, a Greek hostage in Rome
+    after 167 BC, is our best narrative source for the Punic Wars and the only ancient analysis of the Republican
+    constitution (Book 6).
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Oxford University Press catalogue (ISBN 9780199534708); reviewed in BMCR 2011.08.29.'
+- id: livy-luce-1998
+  type: primary
+  authors: [Livy]
+  translators: ['Luce, T. J.']
+  title: 'The Rise of Rome: Books One to Five'
+  place: Oxford
+  publisher: Oxford University Press
+  year: '1998'
+  level: introductory
+  topics: [origins, republic, sources]
+  note: Livy's account of the kings and the early Republic, written under Augustus. Read the preface for his own doubts about the evidence.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Classical Review notice of the 1998 Oxford World''s Classics edition; library catalogues.'
+- id: livy-yardley-2006
+  type: primary
+  authors: [Livy]
+  translators: ['Yardley, J. C.']
+  title: 'Hannibal''s War: Books Twenty-One to Thirty'
+  place: Oxford
+  publisher: Oxford University Press
+  year: '2006'
+  level: introductory
+  topics: [conquest, sources]
+  note: The Second Punic War in Livy's dramatic narrative, with introduction and notes by Dexter Hoyos. Compare with Polybius Book 3.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues (Emory, NYPL); reviewed in BMCR 2007.03.36.'
+- id: sallust-woodman-2007
+  type: primary
+  authors: [Sallust]
+  translators: ['Woodman, A. J.']
+  title: 'Catiline''s War, The Jugurthine War, Histories'
+  place: London
+  publisher: Penguin
+  year: '2007'
+  level: introductory
+  topics: [late-republic, sources]
+  note: Sallust's moralising monographs on the Republic's decay, by a Caesarian senator writing after 44 BC.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: WorldCat (OCLC 166314834); Penguin Classics listings (ISBN 9780140449488).'
+- id: plutarch-waterfield-1999
+  type: primary
+  authors: [Plutarch]
+  translators: ['Waterfield, Robin']
+  editors: ['Stadter, Philip A.']
+  title: 'Roman Lives: A Selection of Eight Roman Lives'
+  place: Oxford
+  publisher: Oxford University Press
+  year: '1999'
+  level: introductory
+  topics: [late-republic, sources]
+  note: Plutarch's biographies of leading Republican figures, including the Gracchi, Marius, Sulla, Pompey, Caesar and Antony. Moral portraits written c. AD 100 from earlier sources.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Oxford University Press catalogue; library catalogues.'
+- id: appian-carter-1996
+  type: primary
+  authors: [Appian]
+  translators: ['Carter, John']
+  title: The Civil Wars
+  place: London
+  publisher: Penguin
+  year: '1996'
+  level: intermediate
+  topics: [late-republic, sources]
+  note: The only continuous narrative of 133–35 BC, by a Greek from Alexandria writing in the second century AD. Essential and often underrated for the Gracchi and the proscriptions.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Penguin Random House catalogue (ISBN 9780140445091).'
+- id: caesar-hammond-1996
+  type: primary
+  authors: [Caesar]
+  translators: ['Hammond, Carolyn']
+  title: The Gallic War
+  place: Oxford
+  publisher: Oxford University Press
+  year: '1996'
+  level: introductory
+  topics: [late-republic, army, sources]
+  note: Caesar's own campaign reports, written in the third person to win support at Rome. A masterpiece of self-presentation.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues; Oxford World''s Classics listings (ISBN 9780199540266).'
+- id: cicero-letters-sb-1986
+  type: primary
+  authors: [Cicero]
+  translators: ['Shackleton Bailey, D. R.']
+  title: Selected Letters
+  place: Harmondsworth
+  publisher: Penguin
+  year: '1986'
+  level: introductory
+  topics: [late-republic, sources]
+  note: Letters never meant for publication, which let us watch a senator's judgements change week by week in the crises of 60–43 BC.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: NYPL and Texas A&M library catalogues; Penguin Classics (ISBN 9780140444582).'
+- id: cicero-zetzel-1999
+  type: primary
+  authors: [Cicero]
+  editors: ['Zetzel, James E. G.']
+  title: On the Commonwealth and On the Laws
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '1999'
+  level: intermediate
+  topics: [republic, sources]
+  note: Cicero's political philosophy, including his idealised account of the Roman constitution and its history.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Cambridge Core; reviewed in BMCR 2000.04.20.'
+- id: cooley-2009
+  type: primary
+  authors: ['Cooley, Alison E.']
+  title: 'Res Gestae Divi Augusti: Text, Translation, and Commentary'
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '2009'
+  level: intermediate
+  topics: [augustus, epigraphy, sources]
+  note: The standard English edition of Augustus' account of his achievements, with Latin and Greek texts and a full commentary.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Cambridge University Press catalogue; reviewed in BMCR 2011.02.03.'
+- id: suetonius-edwards-2000
+  type: primary
+  authors: [Suetonius]
+  translators: ['Edwards, Catharine']
+  title: Lives of the Caesars
+  place: Oxford
+  publisher: Oxford University Press
+  year: '2000'
+  level: introductory
+  topics: [principate, sources]
+  note: Biographies of Julius Caesar to Domitian by an imperial secretary, organised by topic rather than chronology. Excellent introduction and notes.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Classical Review notice of the 2000 Oxford edition; OUP catalogue.'
+- id: tacitus-annals-woodman-2004
+  type: primary
+  authors: [Tacitus]
+  translators: ['Woodman, A. J.']
+  title: The Annals
+  place: Indianapolis
+  publisher: Hackett
+  year: '2004'
+  level: intermediate
+  topics: [principate, sources]
+  note: A translation that tries to keep Tacitus' compression and irony. The Annals cover AD 14–68, with gaps.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Hackett edition listings (ISBN 9780872205581).'
+- id: tacitus-histories-2009
+  type: primary
+  authors: [Tacitus]
+  translators: ['Wellesley, Kenneth']
+  editors: ['Ash, Rhiannon']
+  title: The Histories
+  place: London
+  publisher: Penguin
+  year: '2009'
+  level: intermediate
+  topics: [principate, sources]
+  note: The civil wars of AD 69–70, the surviving part of Tacitus' Histories. Revised by Rhiannon Ash.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: British Library catalogue (2009); Penguin catalogue (ISBN 9780140449648).'
+- id: tacitus-agricola-birley-1999
+  type: primary
+  authors: [Tacitus]
+  translators: ['Birley, Anthony R.']
+  title: Agricola and Germany
+  place: Oxford
+  publisher: Oxford University Press
+  year: '1999'
+  level: introductory
+  topics: [provinces, identity, sources]
+  note: The biography of Tacitus' father-in-law, governor of Britain, and the ethnography of the Germans. Central to debates on Romanisation and on Roman ideas of “barbarians”.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Oxford University Press catalogue; library catalogues.'
+- id: pliny-letters-walsh-2006
+  type: primary
+  authors: [Pliny the Younger]
+  translators: ['Walsh, P. G.']
+  title: Complete Letters
+  place: Oxford
+  publisher: Oxford University Press
+  year: '2006'
+  level: introductory
+  topics: [provinces, principate, sources]
+  note: Including Book 10, Pliny's correspondence with Trajan as governor of Bithynia-Pontus, our best evidence for how provincial government worked day to day.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Oxford University Press catalogue; National Library of Israel catalogue.'
+- id: dio-cary-1914
+  type: primary
+  authors: [Cassius Dio]
+  translators: ['Cary, Earnest']
+  title: Roman History
+  volume: 9 vols., Loeb Classical Library
+  place: 'Cambridge, MA'
+  publisher: Harvard University Press
+  year: 1914–27
+  level: intermediate
+  topics: [late-republic, principate, sources]
+  note: A senator of the Severan age writing Rome's history from the foundation to AD 229 in Greek; indispensable for Augustus and the third century.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues (National Library of Ireland, DAI Zenon) for the Loeb edition.'
+- id: herodian-whittaker-1969
+  type: primary
+  authors: [Herodian]
+  translators: ['Whittaker, C. R.']
+  title: History of the Empire
+  volume: 2 vols., Loeb Classical Library
+  place: 'Cambridge, MA'
+  publisher: Harvard University Press
+  year: 1969–70
+  level: advanced
+  topics: [principate, sources]
+  note: A contemporary Greek history of AD 180–238, valuable for the Severans and the year 238.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues (Holy Cross, Penn) for the Loeb edition.'
+- id: ha-magie-1921
+  type: primary
+  authors: [Historia Augusta]
+  translators: ['Magie, David']
+  title: Scriptores Historiae Augustae
+  volume: 3 vols., Loeb Classical Library
+  place: 'Cambridge, MA'
+  publisher: Harvard University Press
+  year: 1921–32
+  level: advanced
+  topics: [principate, sources, historiography]
+  note: Biographies of emperors from Hadrian to the 280s, now generally thought to be the work of a single late fourth-century author posing as six writers. Use with extreme caution.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues and WorldCat for the Loeb edition.'
+- id: ammianus-hamilton-1986
+  type: primary
+  authors: [Ammianus Marcellinus]
+  translators: ['Hamilton, Walter']
+  title: The Later Roman Empire (A.D. 354–378)
+  place: Harmondsworth
+  publisher: Penguin
+  year: '1986'
+  level: introductory
+  topics: [late-antiquity, fall-of-west, sources]
+  note: Selections from the last great Latin historian, a Greek-speaking officer from Antioch, with an introduction by Andrew Wallace-Hadrill. Book 31 narrates Adrianople.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Bowker Books in Print (ISBN 9780140444063); library catalogues.'
+- id: lactantius-creed-1984
+  type: primary
+  authors: [Lactantius]
+  editors: ['Creed, J. L.']
+  title: De Mortibus Persecutorum
+  place: Oxford
+  publisher: Clarendon Press
+  year: '1984'
+  level: advanced
+  topics: [christianity, late-antiquity, sources]
+  note: A Christian pamphlet of c. 315 on the deaths of the persecuting emperors; our earliest account of Constantine's vision.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues (Holy Cross, Penn, Texas A&M); Oxford Early Christian Texts (ISBN 9780198268130).'
+- id: eusebius-vc-1999
+  type: primary
+  authors: [Eusebius]
+  translators: ['Cameron, Averil', 'Hall, Stuart G.']
+  title: Life of Constantine
+  place: Oxford
+  publisher: Clarendon Press
+  year: '1999'
+  level: intermediate
+  topics: [christianity, late-antiquity, sources]
+  note: The bishop of Caesarea's panegyrical biography, completed after Constantine's death in 337, with the famous account of the sign in the sky.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: WorldCat (OCLC 67703212); Journal of Ecclesiastical History review of the Clarendon edition.'
+- id: eusebius-he-1989
+  type: primary
+  authors: [Eusebius]
+  translators: ['Williamson, G. A.']
+  editors: ['Louth, Andrew']
+  title: The History of the Church from Christ to Constantine
+  place: London
+  publisher: Penguin
+  year: '1989'
+  level: intermediate
+  topics: [christianity, sources]
+  note: The first church history, preserving many documents on persecution and the Great Persecution of 303–311.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Journal of Ecclesiastical History notice of the 1989 Penguin edition; Penguin catalogue.'
+- id: zosimus-ridley-1982
+  type: primary
+  authors: [Zosimus]
+  translators: ['Ridley, Ronald T.']
+  title: New History
+  place: Canberra
+  publisher: Australian Association for Byzantine Studies
+  year: '1982'
+  level: advanced
+  topics: [late-antiquity, fall-of-west, sources]
+  note: A pagan Greek history written c. 500 that blames Constantine and Christianity for Rome's decline. A counterweight to Eusebius.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Classical Review notice (Byzantina Australiensia 2, 1982); DAI Zenon catalogue.'
+- id: jordanes-mierow-1915
+  type: primary
+  authors: [Jordanes]
+  translators: ['Mierow, Charles Christopher']
+  title: The Gothic History of Jordanes
+  place: Princeton
+  publisher: Princeton University Press
+  year: '1915'
+  level: advanced
+  topics: [fall-of-west, identity, sources]
+  note: A sixth-century Latin history of the Goths, written in Constantinople from a lost work of Cassiodorus. Central to arguments about Gothic origins.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Digitised 1915 Princeton edition (Internet Archive); library catalogues.'
+- id: marcellinus-croke-1995
+  type: primary
+  authors: [Marcellinus Comes]
+  translators: ['Croke, Brian']
+  title: 'The Chronicle of Marcellinus: A Translation and Commentary'
+  place: Sydney
+  publisher: Australian Association for Byzantine Studies
+  year: '1995'
+  level: advanced
+  topics: [fall-of-west, historiography, sources]
+  note: The Constantinopolitan chronicle that, around 518, first presented 476 as the end of the western empire.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: HathiTrust catalogue; Classical Review notice (Byzantina Australiensia 7, 1995).'
+- id: blockley-1983
+  type: primary
+  authors: ['Blockley, R. C.']
+  title: 'The Fragmentary Classicising Historians of the Later Roman Empire: Eunapius, Olympiodorus, Priscus and Malchus'
+  volume: 2 vols.
+  place: Liverpool
+  publisher: Francis Cairns
+  year: 1981–83
+  level: advanced
+  topics: [fall-of-west, sources]
+  note: Texts and translations including Priscus' eyewitness account of an embassy to Attila's court in 449.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Classical Review notice; Bibliothèque nationale de France and DAI Zenon catalogues.'
+- id: augustine-dyson-1998
+  type: primary
+  authors: [Augustine]
+  editors: ['Dyson, R. W.']
+  title: The City of God against the Pagans
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '1998'
+  level: intermediate
+  topics: [christianity, fall-of-west, sources]
+  note: Begun after the sack of Rome in 410 to answer pagan claims that abandoning the gods had caused the disaster.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Cambridge University Press catalogue; Journal of Ecclesiastical History review.'
+- id: procopius-kaldellis-2014
+  type: primary
+  authors: [Procopius]
+  translators: ['Dewing, H. B.']
+  editors: ['Kaldellis, Anthony']
+  title: The Wars of Justinian
+  place: Indianapolis
+  publisher: Hackett
+  year: '2014'
+  level: intermediate
+  topics: [byzantium, sources]
+  note: Dewing's Loeb translation revised and modernised by Kaldellis. Procopius was Belisarius' secretary and an eyewitness to much he describes.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues; Hackett edition (ISBN 9781624661709).'
+- id: procopius-secret-kaldellis-2010
+  type: primary
+  authors: [Procopius]
+  editors: ['Kaldellis, Anthony']
+  title: The Secret History with Related Texts
+  place: Indianapolis
+  publisher: Hackett
+  year: '2010'
+  level: intermediate
+  topics: [byzantium, sources, women]
+  note: Procopius' invective against Justinian and Theodora, unpublished in his lifetime. A lesson in how one author can write praise and abuse of the same rulers.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Reviewed in BMCR 2010.11.48; WorldCat (OCLC 429750187).'
+- id: justinian-institutes-1987
+  type: primary
+  authors: [Justinian]
+  translators: ['Birks, Peter', 'McLeod, Grant']
+  title: 'Justinian''s Institutes'
+  place: London
+  publisher: Duckworth
+  year: '1987'
+  level: intermediate
+  topics: [law, byzantium, sources]
+  note: The introductory law textbook of 533, with Latin text facing the translation.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Journal of Roman Studies and Classical Review notices of the Duckworth edition; Princeton catalogue.'
+- id: digest-watson-1985
+  type: primary
+  editors: ['Watson, Alan']
+  title: The Digest of Justinian
+  volume: 4 vols.
+  place: Philadelphia
+  publisher: University of Pennsylvania Press
+  year: '1985'
+  level: advanced
+  topics: [law, sources]
+  note: The Latin text of Mommsen and Krueger with a facing English translation of the fifty books of excerpted jurists.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Cambridge Law Journal review of the 1985 Penn edition; University of Pennsylvania Press catalogue.'
+- id: pharr-1952
+  type: primary
+  translators: ['Pharr, Clyde']
+  title: The Theodosian Code and Novels and the Sirmondian Constitutions
+  place: Princeton
+  publisher: Princeton University Press
+  year: '1952'
+  level: advanced
+  topics: [law, late-antiquity, christianity, sources]
+  note: The collection of imperial laws issued from 312 to 437, published in 438. Book 16 contains the laws on religion.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Reviews in Journal of Economic History and Church History (Princeton, 1952); DAI Zenon catalogue.'
+- id: gaius-gordon-robinson-1988
+  type: primary
+  authors: [Gaius]
+  translators: ['Gordon, W. M.', 'Robinson, O. F.']
+  title: The Institutes of Gaius
+  place: London
+  publisher: Duckworth
+  year: '1988'
+  level: advanced
+  topics: [law, sources]
+  note: A second-century law textbook, rediscovered in 1816 in a palimpsest at Verona; our best guide to classical Roman private law.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: University of Glasgow School of Law; Classical Review notice of the Duckworth edition.'
+- id: theophanes-mango-scott-1997
+  type: primary
+  authors: [Theophanes Confessor]
+  translators: ['Mango, Cyril', 'Scott, Roger']
+  title: 'The Chronicle of Theophanes Confessor: Byzantine and Near Eastern History AD 284–813'
+  place: Oxford
+  publisher: Clarendon Press
+  year: '1997'
+  level: advanced
+  topics: [byzantium, sources]
+  note: A ninth-century chronicle that is our main Greek narrative for the seventh and eighth centuries.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Journal of Roman Studies notice of the Clarendon edition; library catalogues.'
+- id: psellos-sewter-1966
+  type: primary
+  authors: [Michael Psellus]
+  translators: ['Sewter, E. R. A.']
+  title: Fourteen Byzantine Rulers
+  place: Harmondsworth
+  publisher: Penguin
+  year: '1966'
+  level: intermediate
+  topics: [byzantium, sources]
+  note: The Chronographia, a courtier-philosopher's vivid and self-serving account of emperors from Basil II to the 1070s.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: British Library catalogue; WorldCat (OCLC 427306).'
+- id: komnene-sewter-2009
+  type: primary
+  authors: [Anna Komnene]
+  translators: ['Sewter, E. R. A.']
+  editors: ['Frankopan, Peter']
+  title: The Alexiad
+  place: London
+  publisher: Penguin
+  year: '2009'
+  level: intermediate
+  topics: [byzantium, women, sources]
+  note: The history of Alexios I Komnenos by his daughter, written in the 1140s; our main Byzantine view of the First Crusade.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues; Penguin edition (ISBN 9780140455274).'
+- id: choniates-magoulias-1984
+  type: primary
+  authors: [Niketas Choniates]
+  translators: ['Magoulias, Harry J.']
+  title: 'O City of Byzantium: Annals of Niketas Choniates'
+  place: Detroit
+  publisher: Wayne State University Press
+  year: '1984'
+  level: advanced
+  topics: [byzantium, sources]
+  note: A senior official's history ending with his eyewitness lament for the sack of Constantinople in 1204.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues (Emory, Penn, Texas A&M); Princeton Byzantine translations database.'
+- id: villehardouin-smith-2008
+  type: primary
+  authors: [Joinville, Villehardouin]
+  translators: ['Smith, Caroline']
+  title: Chronicles of the Crusades
+  place: London
+  publisher: Penguin
+  year: '2008'
+  level: intermediate
+  topics: [byzantium, sources]
+  note: Includes Geoffrey of Villehardouin's account of the Fourth Crusade by one of its leaders, which explains the diversion to Constantinople as a chain of accidents.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Penguin catalogue (ISBN 9780140449983); library catalogues.'
+- id: kritoboulos-riggs-1954
+  type: primary
+  authors: [Kritovoulos]
+  translators: ['Riggs, Charles T.']
+  title: History of Mehmed the Conqueror
+  place: Princeton
+  publisher: Princeton University Press
+  year: '1954'
+  level: advanced
+  topics: [byzantium, sources]
+  note: A Greek history of Mehmed II written for the sultan by an Imbros notable; one of several contemporary perspectives on 1453.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Princeton University Press catalogue; Renaissance News review (1954).'
+- id: barbaro-jones-1969
+  type: primary
+  authors: ['Barbaro, Nicolò']
+  translators: ['Jones, J. R.']
+  title: 'Diary of the Siege of Constantinople, 1453'
+  place: New York
+  publisher: Exposition Press
+  year: '1969'
+  level: advanced
+  topics: [byzantium, sources]
+  note: A Venetian ship's doctor's day-by-day diary of the siege.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues (Ukrainian Catholic University; NOBLE network): New York, Exposition Press, 1969, trans. J. R. Jones.'
+- id: marcus-hard-2011
+  type: primary
+  authors: [Marcus Aurelius]
+  translators: ['Hard, Robin']
+  title: Meditations, with Selected Correspondence
+  place: Oxford
+  publisher: Oxford University Press
+  year: '2011'
+  level: introductory
+  topics: [principate, literature, sources]
+  note: The emperor's private Stoic notebook, with an introduction by Christopher Gill and letters exchanged with his tutor Fronto.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Oxford University Press catalogue (ISBN 9780199573202).'
+- id: vitruvius-rowland-1999
+  type: primary
+  authors: [Vitruvius]
+  translators: ['Rowland, Ingrid D.']
+  title: Ten Books on Architecture
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '1999'
+  level: intermediate
+  topics: [architecture, sources]
+  note: The only architectural treatise to survive from antiquity, dedicated to Augustus, with commentary and illustrations by Thomas Noble Howe.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Reviewed in BMCR 2000.03.29; DAI Zenon catalogue.'
+- id: frontinus-rodgers-2004
+  type: primary
+  authors: [Frontinus]
+  editors: ['Rodgers, R. H.']
+  title: De Aquaeductu Urbis Romae
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '2004'
+  level: advanced
+  topics: [architecture, sources]
+  note: The water commissioner's report on Rome's aqueducts (c. AD 97), edited with commentary.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Cambridge University Press front matter; Classical Review and JRA notices (CCTC 42, 2004).'
+- id: perpetua-heffernan-2012
+  type: primary
+  authors: ['Heffernan, Thomas J.']
+  title: The Passion of Perpetua and Felicity
+  place: New York
+  publisher: Oxford University Press
+  year: '2012'
+  level: intermediate
+  topics: [christianity, women, sources]
+  note: Text, translation and commentary of the prison diary of a young Christian woman martyred at Carthage in 203.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Oxford Academic; reviewed in BMCR 2013.01.58.'
+- id: crawford-statutes-1996
+  type: primary
+  editors: ['Crawford, M. H.']
+  title: Roman Statutes
+  volume: 2 vols., Bulletin of the Institute of Classical Studies Supplement 64
+  place: London
+  publisher: Institute of Classical Studies
+  year: '1996'
+  level: advanced
+  topics: [law, republic, epigraphy, sources]
+  note: The standard edition of Roman laws surviving on bronze and in quotation, including a reconstruction of the Twelve Tables.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues (DAI Zenon, Berkeley Law).'
+- id: bowman-thomas-1994
+  type: primary
+  authors: ['Bowman, Alan K.', 'Thomas, J. David']
+  title: The Vindolanda Writing-Tablets (Tabulae Vindolandenses II)
+  place: London
+  publisher: British Museum Press
+  year: '1994'
+  level: advanced
+  topics: [army, provinces, sources]
+  note: The edition of the ink tablets from the fort at Vindolanda near Hadrian's Wall, including the birthday invitation of Claudia Severa.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Antiquaries Journal review of the British Museum Press edition; Roman Inscriptions of Britain online.'
+- id: lewis-reinhold-1990
+  type: sourcebook
+  editors: ['Lewis, Naphtali', 'Reinhold, Meyer']
+  title: 'Roman Civilization: Selected Readings'
+  edition: 3rd ed.
+  volume: 2 vols.
+  place: New York
+  publisher: Columbia University Press
+  year: '1990'
+  level: introductory
+  topics: [sources, republic, principate]
+  note: The classic two-volume sourcebook, strong on laws, inscriptions and papyri.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: WorldCat (OCLC 21228208); Columbia University Press listings.'
+- id: shelton-1998
+  type: sourcebook
+  authors: ['Shelton, Jo-Ann']
+  title: 'As the Romans Did: A Sourcebook in Roman Social History'
+  edition: 2nd ed.
+  place: New York
+  publisher: Oxford University Press
+  year: '1998'
+  level: introductory
+  topics: [daily-life, family, slavery, sources]
+  note: Short documents on family, housing, work, slavery, entertainment and religion, well chosen for social history.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Reviewed in BMCR 1998.11.04; library catalogues.'
+- id: lefkowitz-fant-2016
+  type: sourcebook
+  editors: ['Lefkowitz, Mary R.', 'Fant, Maureen B.']
+  title: 'Women''s Life in Greece and Rome: A Source Book in Translation'
+  edition: 4th ed.
+  place: Baltimore
+  publisher: Johns Hopkins University Press
+  year: '2016'
+  level: introductory
+  topics: [women, family, sources]
+  note: Literary, legal, medical and epigraphic texts about and by women.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Johns Hopkins University Press catalogue; reviewed in BMCR 2017.05.23.'
+- id: campbell-army-1994
+  type: sourcebook
+  authors: ['Campbell, Brian']
+  title: 'The Roman Army, 31 BC–AD 337: A Sourcebook'
+  place: London
+  publisher: Routledge
+  year: '1994'
+  level: intermediate
+  topics: [army, sources]
+  note: Documents on recruitment, pay, discipline, veterans, the army in politics and frontier life.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Classical Review notice of the 1994 Routledge edition; DAI Zenon catalogue.'
+- id: maas-2010
+  type: sourcebook
+  authors: ['Maas, Michael']
+  title: 'Readings in Late Antiquity: A Sourcebook'
+  edition: 2nd ed.
+  place: London
+  publisher: Routledge
+  year: '2010'
+  level: introductory
+  topics: [late-antiquity, christianity, sources]
+  note: Wide-ranging translated texts from the third to the seventh centuries.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Classical Review notice of the 2nd edition (Routledge, 2010).'
+- id: kennedy-roy-goldman-2013
+  type: sourcebook
+  editors: ['Kennedy, Rebecca F.', 'Roy, C. Sydnor', 'Goldman, Max L.']
+  title: 'Race and Ethnicity in the Classical World: An Anthology of Primary Sources in Translation'
+  place: Indianapolis
+  publisher: Hackett
+  year: '2013'
+  level: introductory
+  topics: [identity, sources]
+  note: Greek and Latin texts on environment, peoples and difference, organised by region.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Reviewed in BMCR 2014.12.29; Haverford College Scholarship (Hackett).'
+- id: wiedemann-1981
+  type: sourcebook
+  authors: ['Wiedemann, Thomas']
+  title: Greek and Roman Slavery
+  place: London
+  publisher: Croom Helm
+  year: '1981'
+  level: introductory
+  topics: [slavery, sources]
+  note: Translated sources on the acquisition, treatment, manumission and resistance of slaves.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Austrian Academy of Sciences and other library catalogues.'
+- id: macmullen-lane-1992
+  type: sourcebook
+  editors: ['MacMullen, Ramsay', 'Lane, Eugene N.']
+  title: 'Paganism and Christianity, 100–425 C.E.: A Sourcebook'
+  place: Minneapolis
+  publisher: Fortress Press
+  year: '1992'
+  level: intermediate
+  topics: [christianity, religion, sources]
+  note: Texts showing pagan and Christian religious life side by side.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Fortress Press catalogue; Church History review.'
+- id: cooley-lactor-2003
+  type: sourcebook
+  editors: ['Cooley, M. G. L.']
+  title: The Age of Augustus
+  volume: LACTOR 17
+  place: London
+  publisher: London Association of Classical Teachers
+  year: '2003'
+  level: intermediate
+  topics: [augustus, sources]
+  note: Literary, epigraphic and numismatic sources for Augustus, with careful references.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Greece & Rome notice of LACTOR 17 (2003); Warwick repository.'

@@ -1,0 +1,181 @@
+- id: julio-claudian
+  title: The Julio-Claudians
+  span: [-100, 68]
+  summary: >-
+    Augustus had no son. Every Julio-Claudian emperor reached the throne through adoption, marriage or descent through a
+    woman, and almost every designated heir died before he could succeed. Follow the dashed red lines: adoption, not
+    birth, carried the name Caesar.
+  nodes:
+    - {id: caesar, x: 1, y: 0}
+    - {id: scribonia, label: Scribonia, x: 0, y: 1}
+    - {id: augustus, x: 1, y: 1, ruler: true}
+    - {id: livia, x: 2, y: 1}
+    - {id: tib-nero, label: Ti. Claudius Nero, x: 3, y: 1}
+    - {id: octavia, x: 5, y: 1}
+    - {id: mark-antony, x: 6, y: 1}
+    - {id: agrippa, x: 0, y: 2}
+    - {id: julia-elder, x: 1, y: 2}
+    - {id: tiberius, x: 2, y: 2, ruler: true}
+    - {id: drusus-elder, label: Drusus the Elder, x: 3, y: 2}
+    - {id: antonia-minor, label: Antonia the Younger, x: 4, y: 2}
+    - {id: gaius-lucius, label: Gaius and Lucius Caesar, x: 0, y: 3}
+    - {id: agrippina-elder, x: 1, y: 3}
+    - {id: germanicus, x: 2, y: 3}
+    - {id: claudius, x: 4, y: 3, ruler: true}
+    - {id: caligula, x: 1, y: 4, ruler: true}
+    - {id: agrippina-younger, x: 2, y: 4}
+    - {id: ahenobarbus, label: Cn. Domitius Ahenobarbus, x: 3, y: 4}
+    - {id: messalina, x: 5, y: 4}
+    - {id: nero, x: 2, y: 5, ruler: true}
+    - {id: claudia-octavia, label: Claudia Octavia, x: 4, y: 5}
+    - {id: britannicus, label: Britannicus, x: 5, y: 5}
+  edges:
+    - {from: caesar, to: augustus, kind: adoption}
+    - {from: scribonia, to: augustus, kind: marriage}
+    - {from: augustus, to: livia, kind: marriage}
+    - {from: livia, to: tib-nero, kind: marriage}
+    - {from: octavia, to: mark-antony, kind: marriage}
+    - {from: augustus, to: julia-elder, kind: birth}
+    - {from: livia, to: tiberius, kind: birth}
+    - {from: livia, to: drusus-elder, kind: birth}
+    - {from: octavia, to: antonia-minor, kind: birth}
+    - {from: agrippa, to: julia-elder, kind: marriage}
+    - {from: julia-elder, to: tiberius, kind: marriage}
+    - {from: drusus-elder, to: antonia-minor, kind: marriage}
+    - {from: augustus, to: tiberius, kind: adoption}
+    - {from: agrippa, to: gaius-lucius, kind: birth}
+    - {from: augustus, to: gaius-lucius, kind: adoption}
+    - {from: julia-elder, to: agrippina-elder, kind: birth}
+    - {from: drusus-elder, to: germanicus, kind: birth}
+    - {from: tiberius, to: germanicus, kind: adoption}
+    - {from: antonia-minor, to: claudius, kind: birth}
+    - {from: agrippina-elder, to: germanicus, kind: marriage}
+    - {from: germanicus, to: caligula, kind: birth}
+    - {from: germanicus, to: agrippina-younger, kind: birth}
+    - {from: agrippina-younger, to: ahenobarbus, kind: marriage}
+    - {from: claudius, to: messalina, kind: marriage}
+    - {from: claudius, to: agrippina-younger, kind: marriage}
+    - {from: agrippina-younger, to: nero, kind: birth}
+    - {from: claudius, to: nero, kind: adoption}
+    - {from: messalina, to: claudia-octavia, kind: birth}
+    - {from: messalina, to: britannicus, kind: birth}
+    - {from: nero, to: claudia-octavia, kind: marriage}
+  notes:
+    - Augustus was adopted in Caesar's will (44 BC); he adopted his grandsons Gaius and Lucius in 17 BC, and after their deaths (AD 2 and 4) adopted Tiberius, who was required to adopt Germanicus.
+    - Caligula and Nero both descended from Augustus through his daughter Julia, a blood claim that mattered to soldiers and the urban crowd.
+    - Claudius adopted Nero in AD 50, setting him ahead of his own younger son Britannicus, who died suddenly in 55.
+    - Many marriages are omitted (Tiberius' first wife Vipsania, Caligula's wives, Nero's later wives); the tree shows only the lines needed to follow the succession.
+- id: severan
+  title: The Severans
+  span: [145, 235]
+  summary: >-
+    The Severan dynasty survived Caracalla's murder in 217 because of the women of the Syrian priestly family of Emesa:
+    Julia Domna's sister Julia Maesa put her grandsons on the throne in turn.
+  nodes:
+    - {id: bassianus, label: Julius Bassianus (priest at Emesa), x: 2, y: 0}
+    - {id: septimius-severus, x: 0, y: 1, ruler: true}
+    - {id: julia-domna, x: 1, y: 1}
+    - {id: maesa, label: Julia Maesa, x: 3, y: 1}
+    - {id: caracalla, x: 0, y: 2, ruler: true}
+    - {id: geta, x: 1, y: 2, ruler: true}
+    - {id: soaemias, label: Julia Soaemias, x: 2, y: 2}
+    - {id: julia-mamaea, x: 3, y: 2}
+    - {id: elagabalus, x: 2, y: 3, ruler: true}
+    - {id: severus-alexander, x: 3, y: 3, ruler: true}
+  edges:
+    - {from: bassianus, to: julia-domna, kind: birth}
+    - {from: bassianus, to: maesa, kind: birth}
+    - {from: septimius-severus, to: julia-domna, kind: marriage}
+    - {from: julia-domna, to: caracalla, kind: birth}
+    - {from: julia-domna, to: geta, kind: birth}
+    - {from: maesa, to: soaemias, kind: birth}
+    - {from: maesa, to: julia-mamaea, kind: birth}
+    - {from: soaemias, to: elagabalus, kind: birth}
+    - {from: julia-mamaea, to: severus-alexander, kind: birth}
+  notes:
+    - Maesa's supporters claimed that Elagabalus and later Severus Alexander were Caracalla's illegitimate sons, to tie them to the dynasty the soldiers revered. The claims were propaganda.
+    - Macrinus (217–218), the praetorian prefect who arranged Caracalla's murder, briefly interrupted the dynasty and is not shown.
+- id: constantinian
+  title: The Constantinian dynasty
+  span: [250, 363]
+  summary: >-
+    The Tetrarchy was meant to replace heredity with merit. It failed partly because the sons of tetrarchs, Constantine and
+    Maxentius, would not accept exclusion, and soldiers preferred dynasties.
+  nodes:
+    - {id: maximian, x: 4, y: 0, ruler: true}
+    - {id: helena, x: 0, y: 1}
+    - {id: constantius-i, x: 1, y: 1, ruler: true}
+    - {id: theodora-wife, label: Theodora (Maximian's stepdaughter), x: 2, y: 1}
+    - {id: maxentius, x: 4, y: 1, ruler: true}
+    - {id: minervina, label: Minervina, x: 0, y: 2}
+    - {id: constantine, x: 1, y: 2, ruler: true}
+    - {id: fausta, label: Fausta, x: 2, y: 2}
+    - {id: julius-constantius, label: Julius Constantius, x: 3, y: 2}
+    - {id: crispus, label: Crispus, x: 0, y: 3}
+    - {id: constantine-ii, label: Constantine II, x: 1, y: 3, ruler: true}
+    - {id: constantius-ii, x: 2, y: 3, ruler: true}
+    - {id: constans, label: Constans, x: 3, y: 3, ruler: true}
+    - {id: gallus, label: Gallus (Caesar), x: 4, y: 3}
+    - {id: julian, x: 5, y: 3, ruler: true}
+  edges:
+    - {from: helena, to: constantius-i, kind: marriage}
+    - {from: constantius-i, to: theodora-wife, kind: marriage}
+    - {from: maximian, to: theodora-wife, kind: adoption}
+    - {from: maximian, to: maxentius, kind: birth}
+    - {from: maximian, to: fausta, kind: birth}
+    - {from: constantius-i, to: constantine, kind: birth}
+    - {from: theodora-wife, to: julius-constantius, kind: birth}
+    - {from: minervina, to: constantine, kind: marriage}
+    - {from: constantine, to: fausta, kind: marriage}
+    - {from: minervina, to: crispus, kind: birth}
+    - {from: fausta, to: constantine-ii, kind: birth}
+    - {from: fausta, to: constantius-ii, kind: birth}
+    - {from: fausta, to: constans, kind: birth}
+    - {from: julius-constantius, to: gallus, kind: birth}
+    - {from: julius-constantius, to: julian, kind: birth}
+  notes:
+    - Whether Helena was legally married to Constantius I, or his concubine, was already disputed in antiquity; Constantine's enemies called him illegitimate.
+    - Constantine had Crispus and Fausta killed in 326, for reasons the sources do not reliably explain.
+    - After Constantine's death in 337 soldiers massacred most male descendants of Theodora, including Julius Constantius; only the boys Gallus and Julian survived.
+- id: theodosian
+  title: The Theodosian house
+  span: [320, 455]
+  summary: >-
+    The last dynasty to rule both halves of the empire. Its links to the house of Valentinian, and Galla Placidia's
+    marriages, show how imperial women carried legitimacy across a divided empire and even into a Gothic royal family.
+  nodes:
+    - {id: valentinian-i, label: Valentinian I, x: 3, y: 0, ruler: true}
+    - {id: flaccilla, label: Aelia Flaccilla, x: 1, y: 1}
+    - {id: theodosius-i, x: 2, y: 1, ruler: true}
+    - {id: galla, label: Galla, x: 3, y: 1}
+    - {id: eudoxia, label: Aelia Eudoxia, x: 0, y: 2}
+    - {id: arcadius, x: 1, y: 2, ruler: true}
+    - {id: honorius, x: 2, y: 2, ruler: true}
+    - {id: athaulf, label: Athaulf (Gothic king), x: 3, y: 2}
+    - {id: galla-placidia, x: 4, y: 2}
+    - {id: constantius-iii, label: Constantius III, x: 5, y: 2, ruler: true}
+    - {id: pulcheria, label: Pulcheria, x: 0, y: 3}
+    - {id: theodosius-ii, x: 1, y: 3, ruler: true}
+    - {id: eudocia, label: Aelia Eudocia, x: 2, y: 3}
+    - {id: valentinian-iii, label: Valentinian III, x: 5, y: 3, ruler: true}
+    - {id: licinia-eudoxia, label: Licinia Eudoxia, x: 4, y: 4}
+  edges:
+    - {from: valentinian-i, to: galla, kind: birth}
+    - {from: flaccilla, to: theodosius-i, kind: marriage}
+    - {from: theodosius-i, to: galla, kind: marriage}
+    - {from: flaccilla, to: arcadius, kind: birth}
+    - {from: flaccilla, to: honorius, kind: birth}
+    - {from: galla, to: galla-placidia, kind: birth}
+    - {from: eudoxia, to: arcadius, kind: marriage}
+    - {from: athaulf, to: galla-placidia, kind: marriage}
+    - {from: galla-placidia, to: constantius-iii, kind: marriage}
+    - {from: arcadius, to: pulcheria, kind: birth}
+    - {from: arcadius, to: theodosius-ii, kind: birth}
+    - {from: theodosius-ii, to: eudocia, kind: marriage}
+    - {from: galla-placidia, to: valentinian-iii, kind: birth}
+    - {from: eudocia, to: licinia-eudoxia, kind: birth}
+    - {from: valentinian-iii, to: licinia-eudoxia, kind: marriage}
+  notes:
+    - Galla Placidia's son by Athaulf, Theodosius, died in infancy in 415; a Gothic-Roman imperial line was briefly possible.
+    - Pulcheria later married the general Marcian, who became emperor in 450, maintaining dynastic continuity in the East.
+    - Valentinian III's murder in 455 ended the dynasty in the West; his widow Licinia Eudoxia and daughters were carried off to Africa by Gaiseric after the Vandal sack of Rome.

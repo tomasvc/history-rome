@@ -1,0 +1,371 @@
+- id: sallust-marius
+  title: Marius enrols the capite censi
+  kind: history
+  author: Sallust (C. Sallustius Crispus)
+  date: {from: -41, to: -40, circa: true, label: 'written c. 41–40 BC, describing 107 BC'}
+  origin: Rome
+  language: Latin
+  citation: 'Sallust, The War against Jugurtha 86.2–3'
+  themes: [military, political, social]
+  original:
+    - Ipse interea milites scribere, non more maiorum neque ex classibus, sed uti quoiusque lubido erat, capite censos plerosque.
+    - Id factum alii inopia bonorum, alii per ambitionem consulis memorabant, quod ab eo genere celebratus auctusque erat, et homini potentiam quaerenti egentissumus quisque opportunissumus, quoi neque sua cura, quippe quae nulla sunt, et omnia cum pretio honesta videntur.
+  translation:
+    - Meanwhile he himself enrolled soldiers, not in the manner of our ancestors nor from the property classes, but taking whoever was willing, most of them men registered by head (capite censi).
+    - Some said this was done for lack of better men, others because of the consul's ambition, since it was that class of men who had celebrated and raised him up; and to a man seeking power the neediest are the most useful, for they have no care for their property, having none, and anything that pays seems honourable to them.
+  translator: 'Course translation from the Latin. The text follows the standard Teubner/OCT readings, with Sallust''s archaic spellings (lubido, quoi, egentissumus).'
+  context: >-
+    Marius, elected consul for 107 BC after attacking the nobility, has been given the command against Jugurtha by a vote of the people.
+    The Senate has authorised him to raise supplements for the army in Africa. Sallust interrupts his narrative to describe how Marius
+    filled the ranks.
+  creator: >-
+    Sallust, a "new man" and former supporter of Caesar who had governed Africa Nova and been accused of extortion, wrote this monograph in
+    retirement after Caesar's death. His histories are moralising accounts of Rome's decline through ambition and greed.
+  audience: >-
+    Educated Romans of the triumviral period, who had lived through civil wars fought by armies loyal to their commanders.
+  tells: >-
+    That in 107 BC Marius took volunteers without the property qualification for legionary service; that contemporaries (or Sallust's sources)
+    disputed his motives; and how a later Roman connected poor soldiers with political ambition.
+  limits: >-
+    Sallust wrote more than sixty years later, with hindsight shaped by the civil wars. The passage does not say that this was a permanent
+    reform or that it created client armies; those interpretations are modern. The property qualification had already been lowered several
+    times before 107.
+  usage: >-
+    The key text in the debate over the "Marian reforms". Traditional accounts treat it as the moment the army became professional and
+    politically dangerous; revisionists stress that it records a single act of recruitment within a longer process.
+  related: [gracchus-speech, polybius-manpower]
+  exercise:
+    - q: What two explanations of Marius' decision does Sallust report, and which does he seem to favour?
+      model: >-
+        Shortage of suitable recruits, or Marius' ambition. He develops the second at greater length with a general maxim about men seeking
+        power, suggesting he finds it more persuasive or more instructive for his moral theme.
+    - q: What would a historian need to show to argue that this decision created "client armies"?
+      model: >-
+        That Marius' recruitment became the normal pattern; that such soldiers depended on their general for land and rewards in a way earlier
+        soldiers had not; and that this dependence explains later events such as Sulla's march in 88. Each step requires further evidence.
+  editions: [sallust-woodman-2007]
+
+- id: caesar-bc-1-22
+  title: Caesar's reasons for war
+  kind: history
+  author: Julius Caesar
+  date: {from: -49, to: -47, circa: true, label: 'written c. 49–47 BC, describing February 49 BC'}
+  origin: Italy (written on campaign)
+  language: Latin
+  citation: 'Caesar, Civil War 1.22.5'
+  themes: [political, military]
+  original:
+    - Se non maleficii causa ex provincia egressum, sed uti se a contumeliis inimicorum defenderet, ut tribunos plebis in ea re ex civitate expulsos in suam dignitatem restitueret, ut se et populum Romanum factione paucorum oppressum in libertatem vindicaret.
+  translation:
+    - He had not left his province to do harm, but to defend himself against the insults of his enemies, to restore to their rightful standing the tribunes of the plebs who had been driven from the city in that affair, and to set himself and the Roman people, oppressed by a faction of the few, at liberty.
+  translator: 'Course translation from the Latin (indirect speech rendered as reported statement).'
+  context: >-
+    At Corfinium in February 49 BC, Caesar's army has besieged a Pompeian force under L. Domitius Ahenobarbus. The consular Lentulus Spinther
+    comes out to plead for his life; Caesar interrupts him with this statement of his aims, and then pardons the senators in the town.
+  creator: >-
+    Caesar wrote the Civil War in the third person, in plain prose modelled on official reports, during or soon after the war. It was a
+    political document as well as a history.
+  audience: >-
+    The Roman public and political class, many of whom were still undecided or had sided with Pompey, and posterity.
+  tells: >-
+    The values in which Caesar framed his cause: dignitas (his personal standing), the sacrosanctity of the tribunes (whose veto had been
+    overridden), and libertas against the domination of a narrow faction. These were recognisable Republican, and especially popularis, ideals.
+  limits: >-
+    Self-justification by the aggressor in a civil war. It omits Caesar's own interest in avoiding prosecution and the illegality of leading an
+    army into Italy. The words are Caesar's literary version of what he said.
+  usage: >-
+    Used by historians such as Morstein-Marx to argue that Caesar's cause was intelligible and even legitimate to many Romans, and by others as an
+    example of how political language could disguise personal ambition.
+  related: [cicero-attic-49, eid-mar]
+  exercise:
+    - q: Why does Caesar mention the tribunes?
+      model: >-
+        The tribunes' sacrosanctity and veto were fundamental protections of the people. By presenting himself as their defender, Caesar
+        connected his personal grievance to a popular cause and placed his opponents in the wrong.
+    - q: How would Cicero, writing letters in the same weeks, have judged this statement?
+      model: >-
+        Cicero's letters show him deeply suspicious of Caesar's intentions, fearing tyranny, though also critical of Pompey's side. He would
+        have seen it as a pretext, while recognising that Caesar's clemency was winning support.
+  editions: [caesar-hammond-1996]
+
+- id: marcus-meditations
+  title: '"Do not be turned into a Caesar"'
+  kind: letter
+  author: Marcus Aurelius
+  date: {from: 170, to: 180, circa: true, label: 'c. AD 170–180'}
+  origin: Danube frontier (probably)
+  language: Greek
+  citation: 'Marcus Aurelius, Meditations 6.30 (opening)'
+  themes: [political, cultural, religious]
+  original:
+    - Ὅρα μὴ ἀποκαισαρωθῇς, μὴ βαφῇς· γίνεται γάρ. τήρησον οὖν σεαυτὸν ἁπλοῦν, ἀγαθόν, ἀκέραιον, σεμνόν, ἄκομψον, τοῦ δικαίου φίλον, θεοσεβῆ, εὐμενῆ, φιλόστοργον, ἐρρωμένον πρὸς τὰ πρέποντα ἔργα.
+    - ἀγώνισαι, ἵνα τοιοῦτος συμμείνῃς, οἷόν σε ἠθέλησε ποιῆσαι φιλοσοφία. αἰδοῦ θεούς, σῷζε ἀνθρώπους. βραχὺς ὁ βίος· εἷς καρπὸς τῆς ἐπιγείου ζωῆς, διάθεσις ὁσία καὶ πράξεις κοινωνικαί.
+  translation:
+    - Take care that you are not turned into a Caesar, that you are not dyed in that colour; for it happens. Keep yourself simple, good, pure, serious, unaffected, a friend of justice, reverent towards the gods, kind, affectionate, strong for the work that is fitting.
+    - Strive to remain the man that philosophy wished to make you. Revere the gods, protect human beings. Life is short; the one harvest of earthly existence is a holy disposition and actions for the common good.
+  translator: 'Course translation from the Greek. "Dyed" alludes to the imperial purple.'
+  context: >-
+    The Meditations are notes Marcus wrote to himself, in Greek, probably during the Marcomannic Wars. Book 1 is headed "among the Quadi" and
+    Book 2 "at Carnuntum". The text was not intended for publication; how it survived is unknown until it reappears in Byzantium.
+  creator: >-
+    The emperor himself, a lifelong student of Stoic philosophy, writing exercises of self-examination in the tradition of Epictetus.
+  audience: Himself. There is no evidence that he intended others to read these notes.
+  tells: >-
+    How a ruling emperor understood the moral danger of absolute power and tried to master it through philosophical discipline; the Stoic ideals
+    of duty, simplicity and service to the common good.
+  limits: >-
+    Aspirations, not a record of conduct. The Meditations say almost nothing about policy, war, plague or persecution, all of which marked his
+    reign. They show the ideals of an exceptional, highly educated man, not the attitudes of most Romans.
+  usage: >-
+    Read as philosophy and as a unique document of a ruler's inner life; historians set it against the evidence of his reign, for example the
+    persecution at Lyon in 177 and his choice of Commodus as heir.
+  related: [res-gestae]
+  exercise:
+    - q: What does "turned into a Caesar" suggest about how Marcus saw the imperial office?
+      model: >-
+        That the office had its own corrupting character, distinct from the person; being emperor could change a man into something worse
+        (proud, artificial, unjust) unless he resisted it.
+    - q: How could you test whether these ideals shaped Marcus' rule?
+      model: >-
+        By comparing them with his recorded actions: his legal rulings (many survive in the Digest), his treatment of the Senate, his conduct of
+        the wars, the persecution of Christians, and the succession of Commodus.
+  editions: [marcus-hard-2011]
+
+- id: shapur-kz
+  title: Shapur I's victories over Rome
+  kind: inscription
+  author: Shapur I, King of Kings of Iran
+  date: {from: 262, circa: true, label: 'c. AD 262, after the capture of Valerian (260)'}
+  origin: Naqsh-e Rostam, near Persepolis (Iran)
+  language: Middle Persian, Parthian and Greek
+  citation: 'Inscription of Shapur I on the Ka''ba-ye Zardosht (ŠKZ), sections on the Roman wars'
+  themes: [military, political]
+  translation:
+    - 'When we first came to the throne, the Caesar Gordian raised an army from the whole Roman empire, from the Goths and the Germans, and marched against Assyria, against us. At Misiche on the borders of Assyria a great battle took place. Caesar Gordian was killed and we destroyed the Roman army. The Romans proclaimed Philip Caesar. Philip came to us to ask for terms, gave us 500,000 denarii as ransom for their lives, and became tributary to us.'
+    - 'Caesar lied again and did wrong to Armenia. We attacked the Roman empire and destroyed a Roman army of 60,000 at Barbalissos. We burned and laid waste Syria and its dependencies, and took many cities and fortresses.'
+    - 'In the third campaign, when we attacked Carrhae and Edessa, the Caesar Valerian came against us with 70,000 men. Beyond Carrhae and Edessa a great battle took place between us and Valerian, and we made Valerian Caesar prisoner with our own hands, together with the praetorian prefect, senators and officers who were the leaders of that army, and we took them all to Persis.'
+  translator: >-
+    Course paraphrase, condensed, based on the Greek version of the trilingual inscription as published in modern editions; it is not a literal
+    translation and omits the long lists of captured cities and peoples. The figures are those the inscription gives.
+  context: >-
+    Shapur I (c. 240–270), son of the founder of the Sasanian dynasty, had this account of his reign carved on a stone tower at the royal
+    burial site of Naqsh-e Rostam, near rock reliefs showing Roman emperors submitting to him. It lists his three campaigns against Rome,
+    the cities he captured and the deportations of Roman captives into Iran, then his religious foundations.
+  creator: >-
+    The king and his court; the inscription is a royal "res gestae", comparable in genre to Augustus' account of himself.
+  audience: >-
+    The Iranian nobility and priesthood, visitors to the dynastic monument, and the gods; the three languages addressed different groups
+    within the empire and beyond.
+  tells: >-
+    The Persian view of the wars of 243–260: the death of Gordian III in battle (which Roman sources attribute to his own officers), Philip's
+    payment, the destruction of a large Roman army, and the capture of Valerian with his staff. It shows how much Roman sources concealed.
+  limits: >-
+    Victory propaganda: numbers are rounded and probably inflated; defeats are not mentioned; the chronology is schematic. Roman and Persian
+    accounts must be compared, not either one accepted.
+  usage: >-
+    Central for the history of the third-century crisis and Roman–Persian relations, and an important reminder that Rome's history can be
+    written from the outside.
+  related: [libelli-250]
+  exercise:
+    - q: How does the inscription's account of Gordian III differ from the Roman tradition?
+      model: >-
+        Shapur says Gordian was killed in a great battle that destroyed the Roman army. Roman sources say he died after intrigue in his own camp,
+        often blaming Philip. Each version suits its author: a Persian victory, or a Roman death by treachery rather than defeat.
+    - q: Why might Shapur specify that he captured Valerian "with our own hands"?
+      model: >-
+        To claim personal martial glory and divine favour, as on the rock reliefs that show him holding the emperor; the personal capture of an
+        enemy ruler was an extraordinary sign of royal fortune.
+  editions: []
+
+- id: theophanes-greek-fire
+  title: Kallinikos and the "sea fire"
+  kind: history
+  author: Theophanes the Confessor
+  date: {from: 810, to: 815, circa: true, label: 'written c. 810–815, describing the 670s'}
+  origin: Constantinople region
+  language: Greek
+  citation: 'Theophanes, Chronographia, annus mundi 6165 (AD 672/3)'
+  themes: [military]
+  translation:
+    - At that time Kallinikos, an architect from Heliopolis in Syria, took refuge with the Romans. He devised a sea fire, which set alight the ships of the Arabs and burned them with their crews. In this way the Romans came back victorious and discovered the sea fire.
+  translator: 'Course translation, close paraphrase of the Greek. Compare the full annotated translation by Mango and Scott (1997).'
+  context: >-
+    Theophanes describes repeated Arab naval expeditions against Constantinople in the 670s under the caliph Mu''awiya, which he presents as a
+    seven-year siege repulsed with the help of a new incendiary weapon.
+  creator: >-
+    Theophanes, a monk and aristocrat, compiled a year-by-year chronicle from AD 284 to 813, continuing the work of his friend George Synkellos
+    and drawing on earlier sources, some of them eastern (Syriac) chronicles in Greek versions.
+  audience: Monastic and educated readers in Constantinople, interested in the providential history of the Christian empire.
+  tells: >-
+    The tradition that "Greek fire", a liquid incendiary projected from siphons, was introduced by a Christian refugee from Syria during the
+    Arab attacks of the 670s.
+  limits: >-
+    Written well over a century later; Theophanes' strict annual framework often misdates events. Marek Jankowiak has argued that the "seven-year
+    siege" did not happen as described. The composition of Greek fire was a state secret and remains unknown.
+  usage: >-
+    The only account of Greek fire's origin, and a test case for how historians handle the chronology of the poorly documented seventh century.
+  related: []
+  exercise:
+    - q: Why might a chronicler emphasise that the inventor was a refugee from Syria?
+      model: >-
+        It shows God's providence working through Christians fleeing Muslim rule, and it reflects the real movement of skilled people from the
+        conquered provinces into the empire.
+  editions: [theophanes-mango-scott-1997]
+
+- id: josephus-drill
+  title: '"Bloodless battles and bloody drills"'
+  kind: history
+  author: Flavius Josephus
+  date: {from: 75, to: 79, circa: true, label: 'written c. AD 75–79'}
+  origin: Rome
+  language: Greek
+  citation: 'Josephus, Jewish War 3.71–76, 3.108'
+  themes: [military]
+  translation:
+    - If one considers the organisation of their army, one will see that they hold their great empire as a reward for valour, not as a gift of fortune. They do not wait for war to begin before handling weapons, nor sit idle in peacetime and stir only in a crisis; as though born with weapons in their hands, they never take a break from training or wait for emergencies.
+    - Their exercises lack nothing of the intensity of real war; every soldier trains every day with full energy, as if in battle. That is why they bear the shock of combat so easily. One would not be wrong to call their drills bloodless battles and their battles bloody drills.
+    - I have described these things not so much to praise the Romans as to console those they have conquered and to deter those who are thinking of revolt.
+  translator: 'Course translation, condensed paraphrase of the Greek; the final paragraph is 3.108.'
+  context: >-
+    Josephus interrupts his narrative of Vespasian's campaign in Galilee in AD 67 to describe the Roman army's training, camps, marching order
+    and discipline.
+  creator: >-
+    Josephus, a Jewish priest and aristocrat who commanded rebel forces in Galilee, surrendered to Vespasian, and lived in Rome as a client of the
+    Flavian emperors, who supported his writing.
+  audience: >-
+    Greek-speaking readers in Rome and the eastern provinces, including Jews and the Flavian court. He says he first wrote an account in Aramaic for
+    readers further east.
+  tells: >-
+    How an informed outsider, who had fought the legions, understood their effectiveness: constant training, discipline and organisation.
+  limits: >-
+    An idealised portrait shaped by his purposes: to explain Jewish defeat without shame, to flatter his patrons, and, as he admits, to deter revolt.
+    It omits indiscipline, mutiny and defeat.
+  usage: >-
+    Widely quoted in modern accounts of the Roman army; historians use it with care alongside archaeological and documentary evidence of training
+    and camp life.
+  related: [vindolanda-brittunculi, ammianus-adrianople]
+  exercise:
+    - q: What does the final sentence reveal about Josephus' purpose?
+      model: >-
+        That his description is political: it consoles the defeated by showing they lost to an overwhelming force, and warns potential rebels
+        that resistance is futile, which suited Rome and his patrons.
+  editions: []
+
+- id: tacitus-pedanius
+  title: The execution of Pedanius Secundus' slaves
+  kind: history
+  author: Tacitus
+  date: {from: 115, to: 120, circa: true, label: 'written c. AD 115–120, describing AD 61'}
+  origin: Rome
+  language: Latin
+  citation: 'Tacitus, Annals 14.42–45 (quotations from 14.44)'
+  themes: [social, legal]
+  original:
+    - Suspecta maioribus nostris fuerunt ingenia servorum, etiam cum in agris aut domibus isdem nascerentur caritatemque dominorum statim acciperent. Postquam vero nationes in familiis habemus, quibus diversi ritus, externa sacra aut nulla sunt, conluviem istam non nisi metu coercueris.
+    - Habet aliquid ex iniquo omne magnum exemplum, quod contra singulos utilitate publica rependitur.
+  translation:
+    - Our ancestors distrusted the character of slaves even when they were born on the same estates or in the same houses and acquired affection for their masters from birth. But now that we have whole nations in our households, with different rites and foreign cults or none, you will not control that rabble except by fear.
+    - Every great example contains some injustice, which is outweighed by public benefit against the individuals who suffer.
+  translator: 'Course translation from the Latin.'
+  context: >-
+    In AD 61 the city prefect L. Pedanius Secundus was murdered by one of his slaves. An old rule, reinforced by a decree of the Senate (the
+    senatus consultum Silanianum, AD 10), required the execution of all the slaves living under the same roof. Some 400 were to die. The plebs
+    protested; in the Senate, the jurist C. Cassius Longinus spoke for enforcing the law, and his view prevailed. Nero lined the route to the
+    execution with soldiers to prevent the crowd from intervening.
+  creator: >-
+    Tacitus, writing about fifty years later, composed the speech he gives to Cassius, as ancient historians did; it presents arguments that a
+    senator of that period would plausibly have made.
+  audience: Senatorial and educated readers of the early second century, themselves owners of many slaves.
+  tells: >-
+    The logic of collective terror in Roman slavery; the fear of slaves in elite households; the contrast between the Senate's position and
+    popular sympathy for the condemned; and how such policies were justified by appeal to tradition and public utility.
+  limits: >-
+    The speech is Tacitus' composition, and his own position is ambiguous. We do not hear the slaves themselves. The episode concerns an
+    extremely large urban household, not typical slaveholding.
+  usage: >-
+    A key text for the violence underpinning slavery and for debates about Roman attitudes to it, often read alongside Seneca's Letter 47
+    urging humane treatment of slaves.
+  related: [eurysaces-tomb]
+  exercise:
+    - q: What does Cassius' remark about "nations in our households" imply about the composition of slave households?
+      model: >-
+        That slaves in great Roman households came from many peoples, with different religions and customs, reflecting enslavement through
+        war and trade, and that masters saw this diversity as a threat.
+    - q: Why did the plebs protest, and what does this suggest?
+      model: >-
+        Many of the urban plebs were freedmen or had ties to slaves, and found the mass execution of innocents unjust; it shows that elite
+        policy towards slaves was not universally accepted.
+  editions: [tacitus-annals-woodman-2004]
+
+- id: frontinus-aqueducts
+  title: Aqueducts against the pyramids
+  kind: history
+  author: Sextus Julius Frontinus
+  date: {from: 97, to: 98, circa: true, label: 'c. AD 97–98'}
+  origin: Rome
+  language: Latin
+  citation: 'Frontinus, On the Aqueducts of the City of Rome 1.16'
+  themes: [cultural, economic]
+  original:
+    - Tot aquarum tam multis necessariis molibus pyramidas videlicet otiosas compares aut cetera inertia sed fama celebrata opera Graecorum.
+  translation:
+    - With so many indispensable structures carrying so many waters, compare, if you will, the idle pyramids or the useless, though famous, works of the Greeks!
+  translator: 'Course translation from the Latin.'
+  context: >-
+    Frontinus, a senator who had governed Britain, was appointed curator of the water supply of Rome by Nerva in 97. He wrote a treatise to learn
+    and record the system he was responsible for: the history of each aqueduct, its capacity, distribution and the fraud and neglect he found.
+  creator: >-
+    An experienced administrator and soldier who also wrote on military stratagems and land surveying.
+  audience: >-
+    Himself and his successors, and the educated public; the work also praises the new regime of Nerva for its care for the city.
+  tells: >-
+    Roman pride in public utility; a self-image that contrasted Roman practicality with the vanity of other peoples' monuments.
+  limits: >-
+    Rhetorical: aqueducts also served display and luxury (fountains, baths, private villas), and Frontinus himself records widespread illegal
+    tapping. The contrast flatters Rome.
+  usage: >-
+    Frontinus is the main source for the administration of Rome's water supply; this sentence is often quoted to illustrate Roman values.
+  related: [procopius-buildings]
+  exercise:
+    - q: Is Frontinus' contrast between useful Roman works and useless foreign monuments fair?
+      model: >-
+        Partly: aqueducts delivered water essential to urban life. But Rome also built many monuments for display, and aqueducts themselves
+        expressed imperial power and generosity; the pyramids had religious and political functions for Egyptians.
+  editions: [frontinus-rodgers-2004]
+
+- id: procopius-plague
+  title: The plague reaches Constantinople
+  kind: history
+  author: Procopius of Caesarea
+  date: {from: 545, to: 551, circa: true, label: 'written c. 545–551, describing 541–542'}
+  origin: Constantinople
+  language: Greek
+  citation: 'Procopius, Wars 2.22.1, 2.22.6, 2.23.1–2'
+  themes: [social]
+  translation:
+    - During these times there was a pestilence, by which the whole human race came near to being annihilated.
+    - It started from the Egyptians who dwell in Pelusium. Then it divided and moved in one direction towards Alexandria and the rest of Egypt, and in the other direction it came to Palestine on the borders of Egypt; and from there it spread over the whole world.
+    - In Byzantium the disease ran its course in four months, and its greatest virulence lasted about three. At first the deaths were a little above normal; then the mortality rose higher, and afterwards the number of dead reached five thousand each day, and again ten thousand and even more.
+  translator: 'Adapted from the translation by H. B. Dewing (Loeb Classical Library, 1914; public domain in the US).'
+  context: >-
+    Procopius interrupts his account of the Persian war to describe the pandemic that reached Constantinople in spring 542, including the
+    symptoms (fever and swellings in the groin and armpits), the collapse of normal burial and the measures taken by Justinian.
+  creator: >-
+    Procopius, secretary to Belisarius and an eyewitness in the capital, writing a classicising history modelled on Thucydides, who had
+    described the plague of Athens in 430 BC.
+  audience: Educated Greek readers who knew the classical historians.
+  tells: >-
+    The route of the pandemic from Egypt, the speed of its spread, its symptoms, and the impression of overwhelming mortality in the capital.
+  limits: >-
+    Procopius imitates Thucydides' plague narrative; his daily death figures are impressionistic and cannot be used to calculate total mortality.
+    He knew little of conditions outside the cities he visited.
+  usage: >-
+    The essential narrative source for the Justinianic plague, now confirmed as Yersinia pestis by ancient DNA, and central to debates about the
+    pandemic's demographic and economic impact.
+  related: [procopius-nika, procopius-buildings]
+  exercise:
+    - q: Why should a historian be cautious with Procopius' figures of 5,000–10,000 deaths a day?
+      model: >-
+        No one could count accurately; round numbers express scale and horror; literary imitation of Thucydides shaped the narrative; and the peak
+        lasted only weeks, so the figures cannot be multiplied to estimate total deaths.
+  editions: [procopius-kaldellis-2014]

@@ -1,0 +1,209 @@
+- id: adrianople-378
+  title: Before Adrianople
+  role: a senior officer on the emperor Valens' council of war
+  date: August AD 378
+  span: [378, 378]
+  summary: Advise the emperor whether to fight the Goths now or wait for the western army.
+  briefing: >-
+    It is early August 378. For two years Goths admitted across the Danube in 376 have ravaged Thrace after being mistreated by Roman officials.
+    The emperor [[fig:valens|Valens]] has brought his field army from the East and is camped near Adrianople. His nephew Gratian, emperor in the West,
+    is marching to join him with a victorious army, and has sent a message urging Valens to wait.
+
+
+    Scouts report that the Gothic force under Fritigern is about 10,000 strong. The council is divided. The general Sebastianus urges an immediate
+    attack. Victor, the master of cavalry, urges waiting for Gratian. Courtiers whisper that Valens should not share the glory.
+  stakes:
+    - {id: army, label: The eastern field army, start: 80, note: The strength and survival of the army.}
+    - {id: emperor, label: The emperor's safety, start: 80, note: Whether Valens survives the campaign.}
+    - {id: thrace, label: The provinces, start: 30, note: The suffering of Thrace and the Balkans.}
+  start: council
+  nodes:
+    - id: council
+      date: Early August 378
+      title: The council of war
+      text: >-
+        Valens asks for your advice.
+      choices:
+        - label: Attack now, before the Goths can gather their forces
+          detail: The scouts' estimate is low, and a victory would belong to Valens alone.
+          next: envoy
+          historical: true
+          effects: {army: -5}
+          outcome: >-
+            Valens decides to fight. Ammianus, writing a decade later, blames the flattery of courtiers and Valens' jealousy of Gratian.
+        - label: Wait for Gratian and the western army
+          next: end-wait
+          effects: {thrace: -10, army: 10, emperor: 10}
+          outcome: >-
+            You side with Victor. Valens hesitates, then agrees to wait.
+    - id: envoy
+      date: 9 August 378
+      title: An envoy from Fritigern
+      text: >-
+        The army marches out at dawn and covers some miles in the summer heat, without food or water. A Christian priest arrives from Fritigern
+        offering peace in exchange for land in Thrace, with a private message suggesting that Fritigern wants a show of force to persuade his own men.
+        Gothic horsemen under other leaders are still away foraging; the Goths have lit fires to delay the Romans.
+      choices:
+        - label: Reject the offer and deploy for battle
+          next: battle
+          historical: true
+          effects: {army: -10}
+          outcome: >-
+            The envoy is dismissed. The army deploys in front of the Gothic wagon circle, the infantry hot and thirsty.
+        - label: Negotiate an exchange of hostages to buy time
+          next: battle
+          effects: {army: 5}
+          outcome: >-
+            Fritigern asks for a high-ranking hostage; the officer Richomeres volunteers. While he is on his way, the negotiations are overtaken by events.
+    - id: battle
+      date: 9 August 378
+      title: The battle begins
+      text: >-
+        Before any agreement is reached, some Roman units on the flank, archers and a guards unit, attack without orders and are driven back. At this
+        moment the Gothic cavalry returns from foraging and charges.
+      choices:
+        - label: Commit the infantry to support the engaged units
+          next: end-disaster
+          historical: true
+          effects: {army: -70, emperor: -80, thrace: -20}
+          outcome: >-
+            The left wing pushes up to the wagons but is left unsupported and is overwhelmed. The infantry is compressed so tightly that men cannot raise
+            their arms; the reserves cannot be found.
+        - label: Order a withdrawal to the fortified camp
+          next: end-withdraw
+          effects: {army: -25, emperor: -10}
+          outcome: >-
+            A fighting retreat in the face of cavalry is one of the hardest manoeuvres in war; some units break, but the cohesion of others holds.
+    - id: end-disaster
+      title: Disaster
+      end: true
+      text: >-
+        The Roman army is destroyed. Ammianus says two thirds of the army died, including Valens, whose body was never found; he compared the slaughter to
+        Cannae. The Goths, unable to take Adrianople or Constantinople, roam the Balkans until a treaty in 382.
+    - id: end-wait
+      title: Waiting for Gratian
+      end: true
+      text: >-
+        A plausible alternative: with two emperors and their armies combined, the Romans would have had a clear advantage, but the Goths might have
+        avoided battle, and Thrace would have suffered more raiding. Some historians think a negotiated settlement was the likeliest outcome, as in 382.
+    - id: end-withdraw
+      title: A battle lost, an army saved
+      end: true
+      text: >-
+        A plausible alternative: a costly defeat rather than a catastrophe, with Valens alive to join Gratian. Whether the army could have disengaged
+        once the Gothic cavalry struck is doubtful.
+  history: >-
+    Valens chose to attack without waiting for Gratian, rejected Fritigern's offer, and marched his army into battle hungry and thirsty. Negotiations
+    over hostages were interrupted by an unauthorised attack, the Gothic cavalry returned, and the Roman army was encircled and destroyed. Valens was
+    killed. Theodosius, appointed emperor in 379, eventually made a treaty in 382 settling the Goths in the Balkans.
+  debrief:
+    - Intelligence about enemy numbers was poor; the Goths' cavalry was absent when the scouts counted.
+    - Political motives (Valens' rivalry with Gratian) shaped a military decision.
+    - Ammianus' vivid account is our main source; he blamed individuals, but historians also ask about the strategic position created by the mishandled crossing of 376.
+  sources: [ammianus-adrianople]
+  lessons: [goths-adrianople, soldiers-lives]
+
+- id: nika-532
+  title: Nika!
+  role: a member of the emperor Justinian's inner council
+  date: January AD 532
+  span: [532, 532]
+  summary: The city is burning and the crowd has a new emperor. Advise Justinian.
+  briefing: >-
+    It is January 532 in Constantinople. The supporters of the chariot-racing factions, the Blues and the Greens, normally rivals, have united
+    against the government after the city prefect refused to pardon two of their members who survived a botched hanging. Shouting "Nika!" ("Win!"),
+    crowds have burned the prefect's headquarters, the entrance to the palace and the great church of Hagia Sophia. They demand the dismissal of the
+    hated ministers John the Cappadocian and [[fig:tribonian|Tribonian]], and of the city prefect.
+
+
+    You sit in the palace with [[fig:justinian|Justinian]], the empress [[fig:theodora|Theodora]], the generals [[fig:belisarius|Belisarius]] and
+    Mundus, and the eunuch Narses.
+  stakes:
+    - {id: throne, label: Justinian's throne, start: 50, note: Whether the emperor keeps his crown and his life.}
+    - {id: city, label: The city and its people, start: 60, note: Lives and buildings lost.}
+    - {id: reputation, label: Imperial reputation, start: 50, note: How the emperor is seen by his subjects and by later historians.}
+  start: demands
+  nodes:
+    - id: demands
+      date: 14 January
+      title: The crowd's demands
+      text: >-
+        The crowd in the Hippodrome is shouting for the dismissal of the ministers.
+      choices:
+        - label: Dismiss John, Tribonian and the city prefect
+          next: hypatius
+          historical: true
+          effects: {throne: 5, city: 5}
+          outcome: >-
+            The ministers are replaced, but the rioting continues. Some senators, opposed to Justinian, now see an opportunity.
+        - label: Refuse, and send troops to restore order immediately
+          next: hypatius
+          effects: {city: -15, throne: -10}
+          outcome: >-
+            The troops available in the palace are few and of doubtful loyalty. Street fighting spreads the fires.
+    - id: hypatius
+      date: 18 January
+      title: A new emperor
+      text: >-
+        The crowd proclaims Hypatius, a nephew of the former emperor Anastasius, and crowns him in the Hippodrome. Ships are ready in the palace harbour.
+        Justinian asks whether he should leave the city.
+      choices:
+        - label: Stay and fight
+          detail: Theodora argues that flight would mean the end of their rule and a life not worth living.
+          next: strategy
+          historical: true
+          effects: {throne: 10, reputation: 10}
+          outcome: >-
+            Procopius gives Theodora a speech ending with an old saying: that royalty is a good burial shroud. Justinian decides to stay.
+        - label: Leave the city by sea, to return with loyal armies
+          next: end-flight
+          effects: {throne: -40, reputation: -20}
+          outcome: >-
+            The imperial family slips out of the palace harbour.
+    - id: strategy
+      date: 18 January
+      title: How to end it
+      text: >-
+        The crowd, many thousands strong, is packed into the Hippodrome acclaiming Hypatius. Belisarius and Mundus have veteran soldiers, including
+        Mundus' Herul troops. Narses controls the palace treasury and knows the Blues' leaders.
+      choices:
+        - label: Have Narses divide the factions with gold, then send the troops into the Hippodrome
+          next: end-massacre
+          historical: true
+          effects: {throne: 40, city: -50, reputation: -15}
+          outcome: >-
+            Narses' agents remind the Blues that Justinian has favoured them and distribute money. Some Blues leave. Belisarius and Mundus enter the
+            Hippodrome from two sides and attack the crowd.
+        - label: Offer an amnesty in return for surrendering Hypatius
+          next: end-amnesty
+          effects: {city: 15, throne: 5, reputation: 10}
+          outcome: >-
+            Heralds proclaim an amnesty. The crowd is divided; the senators behind Hypatius fear for their lives either way.
+    - id: end-massacre
+      title: Massacre in the Hippodrome
+      end: true
+      text: >-
+        Procopius says more than 30,000 people were killed. Hypatius and his brother were executed the next day and their bodies thrown into the sea.
+        Within weeks Justinian began rebuilding Hagia Sophia on an unprecedented scale. John the Cappadocian and Tribonian soon returned to office.
+    - id: end-flight
+      title: The emperor in flight
+      end: true
+      text: >-
+        A plausible alternative: an emperor who abandoned his capital lost the acclamation of the people and probably the loyalty of the palace troops.
+        Hypatius might have ruled with senatorial support; Justinian's law code, wars and Hagia Sophia might never have happened.
+    - id: end-amnesty
+      title: A negotiated end
+      end: true
+      text: >-
+        A plausible alternative: an amnesty might have ended the riot with less bloodshed, but would have left Justinian looking weak before both the
+        factions and the senators who had backed Hypatius.
+  history: >-
+    Justinian dismissed the ministers but the riot continued. When the crowd proclaimed Hypatius, Justinian considered flight; Procopius attributes the
+    decision to stay to Theodora. Narses used money to divide the Blues from the Greens, and the troops of Belisarius and Mundus massacred the crowd in
+    the Hippodrome. Hypatius was executed. Justinian's position was secured, and he began the new Hagia Sophia within weeks.
+  debrief:
+    - The circus factions were a real political force in Constantinople, and the people's acclamation mattered to emperors' legitimacy.
+    - Our main source, Procopius, shaped the story, including Theodora's speech, according to classical models and his own attitudes.
+    - Imperial survival depended on loyal troops, money and the division of opponents.
+  sources: [procopius-nika, procopius-buildings]
+  lessons: [justinian, power-legitimacy]

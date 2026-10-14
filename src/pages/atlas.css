@@ -1,0 +1,340 @@
+.atlas-stepper {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+  font-family: var(--f-ui);
+}
+.atlas-steps {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex: 1;
+  overflow-x: auto;
+  border-bottom: 1px solid var(--rule-strong);
+  scrollbar-width: thin;
+}
+.atlas-steps li {
+  flex: 1 0 auto;
+}
+.atlas-step {
+  width: 100%;
+  background: transparent;
+  border: 0;
+  border-bottom: 3px solid transparent;
+  padding: 0.45rem 0.55rem;
+  font-size: var(--fs-sm);
+  color: var(--text-2);
+  white-space: nowrap;
+  font-variant-numeric: lining-nums;
+}
+.atlas-step.past {
+  border-bottom-color: var(--rule-strong);
+}
+.atlas-step.active {
+  border-bottom-color: var(--accent);
+  color: var(--text);
+  font-weight: 700;
+}
+.atlas-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 340px;
+  gap: 2rem;
+  align-items: start;
+}
+@media (max-width: 1000px) {
+  .atlas-layout {
+    grid-template-columns: 1fr;
+  }
+}
+.atlas-map {
+  position: relative;
+  border: 1px solid var(--rule-strong);
+  background: var(--map-sea);
+  touch-action: none;
+}
+.atlas-map svg {
+  display: block;
+  width: 100%;
+  height: auto;
+  cursor: grab;
+}
+.atlas-map svg:active {
+  cursor: grabbing;
+}
+.atlas-zoom {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.atlas-zoom .btn {
+  background: var(--surface);
+  justify-content: center;
+}
+.sea {
+  fill: var(--map-sea);
+}
+.graticule {
+  fill: none;
+  stroke: var(--map-coast);
+  stroke-width: 0.4;
+  opacity: 0.35;
+  vector-effect: non-scaling-stroke;
+}
+.land {
+  fill: var(--map-land);
+  stroke: var(--map-coast);
+  stroke-width: 0.7;
+  vector-effect: non-scaling-stroke;
+}
+.terr {
+  stroke: none;
+}
+.terr-rome {
+  fill: var(--map-rome);
+}
+.terr-east {
+  fill: var(--map-east);
+}
+.terr-client {
+  fill: url(#hatch);
+}
+.hatch-line {
+  stroke: var(--c-ochre);
+  stroke-width: 2.2;
+  opacity: 0.7;
+}
+.terr-successor {
+  fill: var(--map-client);
+}
+.terr-t1 {
+  fill: rgba(105, 52, 81, 0.35);
+}
+.terr-t2 {
+  fill: rgba(44, 90, 136, 0.3);
+}
+.terr-t3 {
+  fill: rgba(154, 46, 33, 0.32);
+}
+.terr-t4 {
+  fill: rgba(147, 105, 27, 0.32);
+}
+.terr-edge {
+  fill: none;
+  stroke: var(--map-rome-edge);
+  stroke-width: 1.1;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.75;
+}
+.terr-zone {
+  fill: none;
+  stroke: var(--map-rome-edge);
+  stroke-width: 16;
+  opacity: 0.35;
+}
+.prov {
+  fill: none;
+  stroke: var(--text-2);
+  stroke-width: 0.6;
+  stroke-dasharray: 3 2;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.6;
+}
+.road {
+  fill: none;
+  stroke: var(--c-umber);
+  stroke-width: 0.7;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.75;
+}
+.wall {
+  fill: none;
+  stroke: var(--text);
+  stroke-width: 2.4;
+  vector-effect: non-scaling-stroke;
+}
+.line-river {
+  fill: none;
+  stroke: #6d93a8;
+  vector-effect: non-scaling-stroke;
+}
+.line-route {
+  fill: none;
+  stroke: var(--c-caeruleum);
+  stroke-dasharray: 6 4;
+  vector-effect: non-scaling-stroke;
+  opacity: 0.85;
+}
+.line-frontier {
+  fill: none;
+  stroke: var(--text);
+  stroke-dasharray: 2 3;
+  vector-effect: non-scaling-stroke;
+}
+.pl {
+  cursor: pointer;
+}
+.pl-mark {
+  fill: var(--text);
+  stroke: var(--map-land);
+  stroke-width: 1.2;
+}
+.pl-mark-battle {
+  stroke: var(--accent);
+  stroke-width: 2.4;
+}
+.pl-halo {
+  fill: none;
+  stroke: var(--accent);
+  stroke-width: 2;
+}
+.pl-label {
+  font-family: var(--f-ui);
+  font-size: 12px;
+  fill: var(--text);
+  paint-order: stroke;
+  stroke: var(--map-land);
+  stroke-width: 3px;
+  stroke-linejoin: round;
+}
+.pl-label.r1 {
+  font-size: 13.5px;
+  font-weight: 600;
+}
+.pl-battle .pl-label {
+  fill: var(--accent);
+  font-style: italic;
+}
+.pl:hover .pl-label,
+.pl:focus-visible .pl-label,
+.pl.sel .pl-label {
+  fill: var(--accent);
+}
+.pl:focus-visible {
+  outline: none;
+}
+.pl:focus-visible .pl-mark {
+  stroke: var(--focus);
+  stroke-width: 3;
+}
+.atlas-layers {
+  margin: 0.8rem 0;
+}
+.atlas-legend {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.4rem 1.4rem;
+  font-size: var(--fs-sm);
+  color: var(--text-2);
+  margin: 0;
+}
+.atlas-legend > div {
+  display: flex;
+  gap: 0.4rem;
+  align-items: center;
+}
+.atlas-legend dd {
+  margin: 0;
+}
+.lg-swatch {
+  display: inline-block;
+  width: 18px;
+  height: 12px;
+  border: 1px solid var(--rule-strong);
+}
+.lg-swatch.terr-rome {
+  background: var(--map-rome);
+}
+.lg-swatch.terr-east {
+  background: var(--map-east);
+}
+.lg-swatch.terr-client {
+  background: repeating-linear-gradient(45deg, var(--c-ochre) 0 2px, transparent 2px 6px);
+}
+.lg-swatch.terr-successor {
+  background: var(--map-client);
+}
+.lg-swatch.terr-t1 {
+  background: rgba(105, 52, 81, 0.35);
+}
+.lg-swatch.terr-t2 {
+  background: rgba(44, 90, 136, 0.3);
+}
+.lg-swatch.terr-t3 {
+  background: rgba(154, 46, 33, 0.32);
+}
+.lg-swatch.terr-t4 {
+  background: rgba(147, 105, 27, 0.32);
+}
+.lg-line {
+  display: inline-block;
+  width: 22px;
+  height: 0;
+  border-top: 1.5px solid;
+}
+.lg-prov {
+  border-top: 1px dashed var(--text-2);
+}
+.lg-road {
+  border-color: var(--c-umber);
+}
+.lg-wall {
+  border-top-width: 3px;
+  border-color: var(--text);
+}
+.lg-route {
+  border-top: 2px dashed var(--c-caeruleum);
+}
+.lg-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: var(--text);
+}
+.lg-battle {
+  color: var(--accent);
+  font-weight: 700;
+}
+.atlas-panel {
+  border-top: 3px double var(--rule-strong);
+  padding-top: 0.8rem;
+}
+.atlas-panel h2 {
+  font-size: 1.7rem;
+  margin: 0.3rem 0 0.6rem;
+}
+.atlas-panel h3 {
+  font-family: var(--f-ui);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--text-3);
+  margin: 1.4rem 0 0.4rem;
+}
+.atlas-panel .rich .para {
+  max-width: none;
+}
+.atlas-panel .rich {
+  font-size: 1rem;
+}
+.atlas-source {
+  margin-top: 1rem;
+}
+.atlas-locnote {
+  color: var(--cert-speculative);
+}
+.atlas-placelist {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  columns: 2;
+  font-size: var(--fs-sm);
+}
+.atlas-placelist li {
+  break-inside: avoid;
+  padding: 0.1rem 0;
+}

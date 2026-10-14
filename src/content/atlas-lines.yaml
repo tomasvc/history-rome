@@ -1,0 +1,62 @@
+# Hand-drawn schematic lines ([lon, lat]). Rivers are approximate courses; trade routes are schematic.
+- id: rhine
+  name: Rhine
+  kind: river
+  note: The Rhine formed the frontier with Germany from the reign of Augustus until the fifth century.
+  coords: [[8.5, 47.6], [7.6, 47.56], [7.75, 48.58], [8.27, 50.0], [7.6, 50.36], [7.1, 50.73], [6.96, 50.94], [6.45, 51.66], [5.86, 51.84], [5.0, 52.0], [4.4, 52.2]]
+- id: danube
+  name: Danube
+  kind: river
+  note: The Danube frontier ran from Raetia to the Black Sea; Dacia lay beyond it from 106 to c. 271.
+  coords: [[8.5, 47.95], [10.0, 48.4], [12.1, 49.02], [13.46, 48.57], [14.29, 48.3], [16.37, 48.2], [16.86, 48.11], [17.1, 48.14], [18.13, 47.76], [18.74, 47.79], [19.05, 47.5], [18.95, 46.6], [18.68, 45.99], [19.0, 45.35], [19.85, 45.25], [20.46, 44.82], [21.21, 44.74], [22.0, 44.6], [22.65, 44.63], [22.88, 43.99], [24.47, 43.7], [25.35, 43.61], [25.97, 43.85], [27.26, 44.12], [27.95, 44.68], [27.96, 45.27], [28.03, 45.43], [28.46, 45.27], [28.8, 45.18], [29.65, 45.15]]
+- id: euphrates
+  name: Euphrates
+  kind: river
+  note: The Euphrates was the conventional boundary between Roman and Parthian spheres in the early empire.
+  coords: [[38.48, 37.53], [37.87, 37.06], [38.01, 36.83], [39.01, 35.95], [40.43, 35.16], [40.73, 34.75], [41.95, 34.47], [42.83, 33.64], [43.78, 33.35], [44.42, 32.54], [45.6, 31.3], [47.4, 30.9], [48.0, 30.4]]
+- id: tigris
+  name: Tigris
+  kind: river
+  note: Ctesiphon, the Parthian and Sasanian capital, lay on the Tigris.
+  coords: [[40.2, 38.0], [41.2, 37.3], [42.6, 37.1], [43.15, 36.36], [43.6, 35.4], [44.0, 34.4], [44.4, 33.3], [44.58, 33.09], [45.5, 32.5], [46.8, 31.6], [47.4, 30.9]]
+- id: nile
+  name: Nile
+  kind: river
+  note: Egypt's grain came down the Nile to Alexandria for shipment to Rome and later Constantinople.
+  coords: [[32.9, 24.09], [32.64, 25.69], [32.2, 26.2], [31.18, 27.18], [30.75, 28.1], [31.23, 30.04], [31.0, 30.6], [30.5, 31.2]]
+- id: route-alexandria-rome
+  name: Alexandrian grain route
+  kind: route
+  span: [-30, 400]
+  note: Large grain ships sailed from Alexandria to Puteoli and later Ostia/Portus, a voyage of several weeks against the prevailing winds.
+  coords: [[29.9, 31.2], [26.0, 34.4], [21.0, 36.2], [17.5, 37.5], [15.6, 38.2], [14.1, 40.8], [12.3, 41.75]]
+- id: route-africa-rome
+  name: African grain and oil route
+  kind: route
+  span: [-146, 439]
+  note: Africa Proconsularis supplied much of Rome's grain and, later, olive oil; the route from Carthage was short and fast.
+  coords: [[10.32, 36.85], [11.5, 38.0], [12.1, 39.7], [12.3, 41.75]]
+- id: route-baetica-rome
+  name: Baetican oil route
+  kind: route
+  span: [-30, 260]
+  note: Olive oil from the Guadalquivir valley, in amphorae later dumped at Monte Testaccio in Rome.
+  coords: [[-6.29, 36.53], [-5.3, 36.0], [-2.0, 36.6], [1.5, 38.3], [5.5, 39.5], [8.8, 40.5], [11.0, 41.3], [12.3, 41.75]]
+- id: route-red-sea
+  name: Red Sea and Indian Ocean trade
+  kind: route
+  span: [-25, 550]
+  note: Goods moved up the Nile to Coptos, across the desert to Berenike or Myos Hormos, and by monsoon voyages to India, returning with pepper, cotton and gems.
+  coords: [[29.9, 31.2], [31.23, 30.04], [32.7, 26.0], [35.47, 23.91], [37.5, 19.5], [40.5, 15.5], [43.4, 12.6]]
+- id: route-alexandria-constantinople
+  name: Constantinople grain route
+  kind: route
+  span: [330, 618]
+  note: From 332 Egyptian grain fed Constantinople until the Persian conquest of Egypt in 618 ended the free distributions.
+  coords: [[29.9, 31.2], [28.0, 34.0], [27.2, 36.6], [26.3, 38.6], [26.3, 40.1], [28.98, 41.0]]
+- id: route-black-sea
+  name: Black Sea grain route
+  kind: route
+  span: [600, 1453]
+  note: After the loss of Egypt, Constantinople drew grain from Thrace and the Black Sea coasts.
+  coords: [[33.5, 44.6], [31.5, 43.2], [29.5, 41.6], [28.98, 41.0]]

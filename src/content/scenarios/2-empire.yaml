@@ -1,0 +1,225 @@
+- id: legate-69
+  title: Choosing an emperor
+  role: the commander of a legion on the Danube in the civil war of AD 69
+  date: July – October AD 69
+  span: [69, 69]
+  summary: Decide which emperor your legion will support, and what kind of war it will fight.
+  briefing: >-
+    It is July AD 69. Your legion, stationed in Moesia on the lower Danube, marched for [[fig:otho|Otho]] in the spring but arrived too late for the
+    battle near Bedriacum, where [[fig:vitellius|Vitellius]]' Rhine legions won. Otho killed himself. Your men resent the arrogant Rhine soldiers and
+    the new emperor, who has replaced the Praetorian Guard with his own legionaries.
+
+
+    Now news arrives from the East: the legions of Judaea and Egypt have proclaimed [[fig:vespasian|Vespasian]], the general fighting the Jewish War.
+    The governor of Syria, Mucianus, is to bring an army west. Vespasian himself will hold Egypt and its grain. Your officers are watching you.
+  stakes:
+    - {id: troops, label: Troops' loyalty to you, start: 60, note: Soldiers who distrust their commander kill him.}
+    - {id: favour, label: Standing with the winner, start: 40, note: Your future depends on being on the right side.}
+    - {id: civilians, label: Italian civilians, start: 70, note: The lives and property of people in the path of the armies.}
+  start: allegiance
+  nodes:
+    - id: allegiance
+      date: July–August AD 69
+      title: Whose side?
+      text: >-
+        You could renew your oath to Vitellius, the emperor recognised by the Senate; declare for Vespasian with the other Danubian legions; or wait to see
+        which way the war goes.
+      choices:
+        - label: Declare for Vespasian with the other Danubian legions
+          next: timing
+          historical: true
+          effects: {troops: 20, favour: 20}
+          outcome: >-
+            Your men cheer and tear down Vitellius' images. The legions of Moesia and Pannonia go over to Vespasian. A forceful legionary legate, Antonius
+            Primus, emerges as their leader.
+        - label: Stay loyal to Vitellius, the emperor in Rome
+          next: end-mutiny
+          effects: {troops: -40, favour: -20}
+          outcome: >-
+            Your officers argue; the soldiers, who hate the Vitellian legions, grow mutinous.
+        - label: Wait and avoid committing
+          next: timing
+          effects: {troops: -15, favour: -10}
+          outcome: >-
+            Your hesitation is noticed. When the other Danubian legions declare for Vespasian, your men follow them without waiting for you, and you are
+            lucky to keep your command.
+    - id: timing
+      date: September AD 69
+      title: Wait for Mucianus, or strike?
+      text: >-
+        Vespasian's strategy is to hold Egypt and starve Italy while Mucianus marches slowly with the eastern army. Antonius Primus argues that the Danube
+        legions should invade Italy at once, before Vitellius can gather reinforcements from Germany and while his army is demoralised.
+      choices:
+        - label: Invade Italy now with Antonius Primus
+          next: cremona
+          historical: true
+          effects: {favour: 10, civilians: -20, troops: 10}
+          outcome: >-
+            The Danube army crosses the Alps into the Po valley. Some Vitellian commanders begin secret negotiations to change sides.
+        - label: Wait for Mucianus as Vespasian ordered
+          next: end-waiting
+          effects: {civilians: 15, favour: 5, troops: -15}
+          outcome: >-
+            Your army holds the passes and waits, as Vespasian and Mucianus intended.
+    - id: cremona
+      date: 24–25 October AD 69
+      title: After the battle
+      text: >-
+        In a night battle near Bedriacum your army defeats the Vitellians. Their survivors take refuge in Cremona, a prosperous colony that supported
+        Vitellius. Your soldiers, exhausted, angry and owed pay, want to sack it. Plunder is the soldiers' reward in war against a foreign enemy; Cremona
+        is an Italian city of Roman citizens.
+      choices:
+        - label: Let the soldiers have the city
+          next: end-cremona
+          historical: true
+          effects: {troops: 10, civilians: -50, favour: -5}
+          outcome: >-
+            The city surrenders; the soldiers sack it anyway. For four days Cremona is looted and burned, and its people killed or enslaved. Tacitus calls it
+            one of the most shameful episodes of the war.
+        - label: Try to restrain the soldiers and protect the city
+          next: end-restraint
+          effects: {troops: -25, civilians: 30}
+          outcome: >-
+            Some officers back you; many soldiers refuse. You risk being lynched, as other unpopular commanders were in this war.
+    - id: end-cremona
+      title: Victory at a price
+      end: true
+      text: >-
+        Your army marches on Rome. In December, fighting in the city burns the temple of Jupiter on the Capitol and Vitellius is killed. The Senate confers
+        imperial powers on Vespasian. Antonius Primus is soon sidelined by Mucianus, and Cremona becomes a byword for the horror of civil war.
+    - id: end-restraint
+      title: An attempt at restraint
+      end: true
+      text: >-
+        A plausible alternative: perhaps you save part of the city, perhaps you lose control of your men. In AD 69 soldiers repeatedly defied or killed
+        commanders who blocked their demands; restraint required authority that few commanders still had.
+    - id: end-waiting
+      title: A slower war
+      end: true
+      text: >-
+        A plausible alternative: Vespasian's original strategy might have won with less bloodshed, as Vitellius' position weakened; or it might have
+        given him time to bring more troops from Germany. Historians still debate whether Antonius Primus' rush was decisive or reckless.
+    - id: end-mutiny
+      title: Mutiny
+      end: true
+      text: >-
+        A plausible alternative: soldiers who had fought for Otho had little reason to fight for Vitellius. A commander who tried to hold them to their oath
+        risked being killed and replaced, as happened to several officers in AD 69.
+  history: >-
+    In 69 the Danubian legions declared for Vespasian, and under Antonius Primus invaded Italy before Mucianus arrived. They won the second battle of
+    Bedriacum in October and sacked Cremona for four days. In December Vitellius was killed in Rome after fighting that burned the Capitol. The Senate
+    voted Vespasian his powers. Tacitus' Histories, written thirty years later by a senator, analyse the year as a lesson in what happens when armies
+    make emperors.
+  debrief:
+    - Soldiers' loyalties were shaped by their own experiences and resentments as much as by their commanders.
+    - 'The "secret of empire" revealed in 69 was that an emperor could be made elsewhere than at Rome: by armies on the frontiers.'
+    - Civil war fell hardest on Italian civilians, as at Cremona.
+  sources: [tacitus-histories-1-4, lex-de-imperio]
+  lessons: [year-69-flavians, army-frontiers]
+
+- id: pliny-bithynia
+  title: The governor's desk
+  role: Pliny the Younger, imperial legate of Bithynia and Pontus
+  date: c. AD 110–111
+  span: [109, 112]
+  summary: Solve the problems of a troubled province while keeping the emperor's confidence.
+  briefing: >-
+    You are Gaius Plinius Caecilius Secundus, a senator, lawyer and former consul, sent by [[fig:trajan|Trajan]] as his special legate to the province
+    of Bithynia and Pontus on the Black Sea. Its cities have been badly run: public buildings are unfinished, accounts are confused, and local factions
+    quarrel. You have a small staff and a few soldiers. You may write to the emperor whenever you are unsure, and he will reply, but an emperor
+    expects his governor to use judgement.
+  stakes:
+    - {id: order, label: Public order, start: 55, note: Peace in the cities and the avoidance of factional trouble.}
+    - {id: finances, label: City finances, start: 35, note: Whether the cities' money is spent well.}
+    - {id: confidence, label: Trajan's confidence, start: 60, note: How the emperor judges your handling of the province.}
+    - {id: justice, label: Justice, start: 55, note: Fair treatment of the province's inhabitants.}
+  start: fire
+  nodes:
+    - id: fire
+      date: Nicomedia
+      title: A city on fire
+      text: >-
+        While you are touring the province, a great fire in Nicomedia destroys private houses and two public buildings. The townspeople stood and watched:
+        there were no pumps, no buckets and no organisation.
+      choices:
+        - label: Ask the emperor's permission to form a guild of 150 firemen, under close supervision
+          next: aqueduct
+          historical: true
+          effects: {confidence: 5}
+          outcome: >-
+            Trajan refuses. Any association, whatever its purpose, will soon become a political club in these factional cities. He suggests providing
+            equipment and calling on property owners to help when a fire breaks out.
+        - label: Set up the guild yourself without asking
+          next: aqueduct
+          effects: {order: 5, confidence: -20}
+          outcome: >-
+            The city welcomes it, but when Trajan hears of it he is displeased: associations were forbidden in the province precisely because of factional
+            unrest.
+        - label: Simply buy pumps and equipment for the city
+          next: aqueduct
+          effects: {order: 5, finances: -5, confidence: 5}
+          outcome: >-
+            A practical step that Trajan himself would recommend. It does nothing for the organisation of firefighting, but it raises no political concerns.
+    - id: aqueduct
+      date: Nicomedia and Nicaea
+      title: Money poured away
+      text: >-
+        You find that Nicomedia has spent millions of sesterces on two aqueducts that were abandoned or demolished, and that Nicaea's huge new theatre is
+        cracking and sinking. Local magistrates want more money to finish the projects.
+      choices:
+        - label: Investigate who is responsible, and seek expert engineers before spending more
+          next: christians
+          historical: true
+          effects: {finances: 20, confidence: 10, order: -5}
+          outcome: >-
+            You write to Trajan asking for an architect or engineer. He replies that there are competent architects in every province, and that you
+            should find out whose fault the waste was. Investigation makes enemies among local notables.
+        - label: Approve the funds so that the cities can finish their buildings
+          next: christians
+          effects: {finances: -20, order: 5}
+          outcome: >-
+            The local elites are pleased. The cities' debts grow, which is exactly the problem you were sent to solve.
+    - id: christians
+      date: Pontus
+      title: Accused of being Christians
+      text: >-
+        People are brought before you accused of being Christians. Some are Roman citizens. Then an anonymous pamphlet arrives naming many more. You have
+        never attended a trial of Christians and do not know whether the name itself is punishable, whether age matters, or whether those who renounce it
+        should be pardoned. Temples in the area had been deserted, and sales of sacrificial meat had collapsed.
+      choices:
+        - label: Execute those who persist after three warnings, send citizens to Rome, and release those who sacrifice, then write to Trajan
+          next: end-reply
+          historical: true
+          effects: {order: 10, confidence: 15, justice: -15}
+          outcome: >-
+            Those who refused were executed for their obstinacy, whatever their belief. Those who sacrificed to the gods and the emperor's statue and cursed
+            Christ were released. You interrogated two slave women called deaconesses under torture and found only "a depraved and excessive
+            superstition". You write to Trajan for guidance.
+        - label: Refuse to act on the anonymous pamphlet, and try only those formally accused
+          next: end-reply
+          effects: {justice: 15, confidence: 10}
+          outcome: >-
+            You hear only cases brought by named accusers, who can be held responsible for false charges. Trajan, it turns out, agrees.
+        - label: Order a search for all Christians in the province
+          next: end-reply
+          effects: {order: -15, justice: -25, confidence: -10}
+          outcome: >-
+            Informers settle private scores; the prisons fill. Trajan's reply makes clear that this is not what he wants.
+    - id: end-reply
+      title: The emperor replies
+      end: true
+      text: >-
+        Trajan's reply sets the rule for a century: Christians are not to be sought out; if accused and convicted, they are to be punished, but anyone who
+        denies being a Christian and proves it by worshipping the gods is to be pardoned; anonymous accusations are not to be admitted, for they are "a
+        very bad precedent and not in keeping with our age".
+  history: >-
+    Pliny's tenth book of letters preserves his correspondence with Trajan from his governorship, including the fire at Nicomedia (10.33–34), the
+    wasted building projects (10.37–40) and the trials of Christians (10.96–97). He referred many questions to the emperor; Trajan's replies, probably
+    drafted by his secretariat, are brisk and practical. The exchange on the Christians is the earliest pagan description of Christian worship and the
+    basis of Roman policy until the third century.
+  debrief:
+    - Roman government worked by petition and response. Governors were expected to use initiative within the emperor's principles.
+    - The empire feared associations because they could become political factions; even firemen were suspect.
+    - Persecution of Christians was local and reactive, not a policy of searching them out.
+  sources: [pliny-fire-brigade, pliny-christians]
+  lessons: [trajan-hadrian, governing-provinces, christianisation]

@@ -1,0 +1,235 @@
+.sources-filters {
+  margin-bottom: 1.5rem;
+}
+.source-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(26rem, 1fr));
+  gap: 0 2.5rem;
+  border-top: 1px solid var(--rule);
+}
+@media (max-width: 560px) {
+  .source-list {
+    grid-template-columns: 1fr;
+  }
+}
+.source-list li {
+  display: grid;
+  grid-template-columns: 2.5rem 1fr;
+  gap: 0.75rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.source-list .source-glyph {
+  color: var(--accent);
+  margin-top: 0.2rem;
+}
+.source-list-tells {
+  font-size: 0.95rem;
+  color: var(--text-2);
+  margin: 0.3rem 0 0;
+}
+.source-title-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  margin-bottom: 0.5rem;
+}
+.source-title-row .source-glyph {
+  color: var(--accent);
+}
+.source-datenote {
+  color: var(--cert-speculative);
+}
+.source-text {
+  margin: 1rem 0 3rem;
+}
+.source-text-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  border-bottom: 1px solid var(--rule);
+  padding-bottom: 0.6rem;
+  margin-bottom: 1.25rem;
+}
+.source-text-head h2 {
+  font-size: var(--fs-h3);
+}
+.source-columns {
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  padding: 1.5rem clamp(1rem, 3vw, 2.5rem);
+}
+.source-row {
+  display: grid;
+  grid-template-columns: minmax(0, 42rem);
+  gap: 2.5rem;
+  margin-bottom: 1rem;
+}
+.mode-parallel .source-row {
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+}
+@media (max-width: 760px) {
+  .mode-parallel .source-row {
+    grid-template-columns: 1fr;
+    gap: 0.5rem;
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 1rem;
+  }
+}
+.source-orig {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  color: var(--text-2);
+}
+.source-orig.latin {
+  font-style: italic;
+}
+.source-orig.greek {
+  font-family: var(--f-greek);
+  font-size: 1.12rem;
+}
+.source-trans .para {
+  max-width: none;
+}
+.source-trans p {
+  font-size: 1.08rem;
+}
+.source-translator {
+  margin-top: 0.6rem;
+}
+.source-commentary {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 0.5rem 3rem;
+  margin-bottom: 3rem;
+}
+@media (max-width: 860px) {
+  .source-commentary {
+    grid-template-columns: 1fr;
+  }
+}
+.source-commentary > div {
+  border-top: 1px solid var(--rule-strong);
+  padding-top: 0.8rem;
+}
+.source-commentary h3 {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+}
+.source-commentary .para {
+  max-width: none;
+}
+.source-commentary .limits {
+  border-top-color: var(--cert-contested);
+}
+.source-exercise {
+  max-width: 48rem;
+  margin: 0 0 3rem;
+  padding: 1.5rem 1.75rem;
+  background: var(--surface);
+  border: 1px solid var(--rule-strong);
+}
+.source-exercise h2 {
+  font-size: var(--fs-h3);
+}
+.source-exercise ol {
+  padding-left: 1.3rem;
+}
+.source-exercise li {
+  margin-bottom: 1.5rem;
+}
+.ex-q {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+.source-exercise textarea {
+  margin-bottom: 0.5rem;
+}
+.ex-model {
+  border-left: 3px solid var(--good);
+  padding-left: 1rem;
+  font-size: 0.98rem;
+}
+.ex-model .para {
+  max-width: none;
+}
+.coin {
+  margin: 0 0 2.5rem;
+  max-width: 52rem;
+}
+.coin-pair {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2rem;
+}
+@media (max-width: 560px) {
+  .coin-pair {
+    grid-template-columns: 1fr;
+  }
+}
+.coin-side {
+  text-align: center;
+}
+.coin-face {
+  width: min(260px, 100%);
+  color: var(--c-black);
+}
+.coin-metal {
+  fill: #b8b4a6;
+  stroke: #8f8a7b;
+  stroke-width: 1.5;
+}
+:root[data-theme='dark'] .coin-metal {
+  fill: #8f8a7b;
+}
+.coin-rim {
+  fill: none;
+  stroke: #5d5a50;
+  stroke-width: 1.4;
+}
+.coin-legend {
+  font-family: var(--f-display);
+  font-size: 8.4px;
+  letter-spacing: 0.9px;
+  fill: #2a2722;
+}
+.coin-device {
+  color: #2a2722;
+}
+.coin-side-label {
+  font-weight: 600;
+  margin: 0.4rem 0 0;
+  font-size: var(--fs-sm);
+}
+.coin-device-text {
+  font-size: 0.95rem;
+  color: var(--text-2);
+  margin: 0.2rem auto 0;
+  max-width: 22rem;
+}
+.coin figcaption {
+  color: var(--text-3);
+  margin-top: 0.8rem;
+}
+.coin-gloss {
+  margin-top: 1rem;
+}
+.coin-gloss caption {
+  text-align: left;
+  font-weight: 600;
+  color: var(--text-2);
+  padding-bottom: 0.4rem;
+}
+.coin-abbr {
+  font-family: var(--f-display);
+  letter-spacing: 0.06em;
+  white-space: nowrap;
+}
+.source-foot {
+  margin-top: 1rem;
+}

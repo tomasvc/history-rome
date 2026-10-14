@@ -1,0 +1,626 @@
+- id: augustus
+  name: Augustus
+  full: Gaius Octavius, later Gaius Julius Caesar Octavianus, then Imperator Caesar Augustus
+  born: {from: -63, label: '23 September 63 BC'}
+  died: {from: 14, label: '19 August AD 14'}
+  category: ruler
+  roles: [triumvir, first emperor]
+  dynasty: Julio-Claudian
+  image: prima-porta
+  summary: Caesar's great-nephew and adopted heir, who won the civil wars and spent forty years building a monarchy that presented itself as the restored Republic.
+  bio: >-
+    Adopted in Caesar's will at eighteen, Octavian raised a private army, allied with and then against the Senate, and formed
+    the Second Triumvirate with Antony and Lepidus in 43 BC, with proscriptions that killed Cicero. Victory at Philippi (42),
+    the defeat of Sextus Pompeius (36), the removal of Lepidus and finally Actium (31) and the capture of Egypt (30) left
+    him sole master. In January 27 he "transferred the state to the Senate and People" and received the name Augustus; he
+    kept command of the provinces with most of the legions. In 23 BC he gave up the consulship for tribunician power and
+    superior proconsular imperium. Over four decades he professionalised the army, settled veterans, reorganised Rome,
+    legislated on marriage and morals, built on a vast scale and placed his image everywhere. His succession plans failed
+    repeatedly through deaths, until he adopted Tiberius in AD 4.
+  evidence: >-
+    His own Res Gestae, inscribed at his mausoleum and copied in Galatia; coins, inscriptions and monuments in great numbers;
+    Suetonius' Life, Dio Books 45–56 and Tacitus' bleak summary in Annals 1. Velleius Paterculus wrote under Tiberius as an
+    admirer. The difficulty is less the lack of evidence than its official character.
+  relations:
+    - {to: caesar, type: adoptive-parent}
+    - {to: octavia, type: sibling}
+    - {to: livia, type: spouse}
+    - {to: julia-elder, type: parent}
+    - {to: agrippa, type: ally, note: 'His closest general and from 21 BC his son-in-law.'}
+    - {to: mark-antony, type: rival}
+    - {to: tiberius, type: adoptive-parent, note: 'Recorded on Tiberius'' entry: adopted AD 4.'}
+    - {to: cleopatra, type: rival}
+  sources: [res-gestae, tacitus-annals-1, aegypto-capta, prima-porta]
+- id: livia
+  name: Livia
+  full: Livia Drusilla, later Julia Augusta
+  born: {from: -58}
+  died: {from: 29}
+  category: woman
+  roles: [wife of Augustus, Augusta]
+  dynasty: Julio-Claudian
+  summary: Wife of Augustus for over fifty years and mother of Tiberius, who exercised great informal influence and became Julia Augusta by Augustus' will.
+  bio: >-
+    Livia divorced Tiberius Claudius Nero, while pregnant with her second son Drusus, to marry Octavian in 38 BC. She
+    managed great estates, patronised clients and cities, and was honoured with statues and, unusually, the right to manage
+    her own affairs. Augustus adopted her into the Julian family in his will. Tacitus and Dio insinuate that she poisoned
+    rivals to secure Tiberius' succession; there is no good evidence for this.
+  evidence: Hostile insinuation in Tacitus; honorific inscriptions and portraits; her villa at Prima Porta with its garden fresco.
+  relations:
+    - {to: augustus, type: spouse}
+    - {to: tiberius, type: parent, note: 'Recorded on Tiberius'' entry.'}
+- id: octavia
+  name: Octavia
+  full: Octavia Minor
+  born: {from: -69, circa: true}
+  died: {from: -11}
+  category: woman
+  roles: [sister of Augustus]
+  dynasty: Julio-Claudian
+  summary: Augustus' sister, married to Antony in 40 BC as a peace pledge, mother of Marcellus and of the two Antonias, and an exemplar of the virtuous matron in Augustan ideology.
+  bio: >-
+    Octavia's marriage to Antony sealed the Pact of Brundisium. Antony's abandonment of her for Cleopatra became a theme of
+    Octavian's propaganda. She raised Antony's children, including those by Fulvia and Cleopatra, and through her daughters
+    Antonia the Elder and Younger she was ancestor of Claudius, Caligula and Nero.
+  evidence: Plutarch's Life of Antony; Dio; honorific inscriptions and the Porticus Octaviae.
+  relations:
+    - {to: augustus, type: sibling}
+    - {to: mark-antony, type: spouse}
+- id: agrippa
+  name: Agrippa
+  full: Marcus Vipsanius Agrippa
+  born: {from: -63, circa: true}
+  died: {from: -12}
+  category: general
+  roles: [general, consul three times, builder]
+  dynasty: Julio-Claudian
+  summary: Augustus' indispensable general, victor at Naulochus and Actium, builder of the first Pantheon and Rome's water system, and from 21 BC his son-in-law and designated partner.
+  bio: >-
+    A man of obscure family and Octavian's friend from youth, Agrippa commanded the fleets that beat Sextus Pompeius and
+    Antony. As aedile in 33 BC he renovated Rome's aqueducts and sewers. Married to Julia in 21, he received tribunician
+    power and imperium, and their sons Gaius and Lucius were adopted by Augustus as heirs. His death in 12 BC was a severe
+    blow to the succession plan.
+  evidence: Dio; inscriptions (the Pantheon still bears his name); Pliny the Elder on his map of the world.
+  relations:
+    - {to: augustus, type: ally}
+    - {to: julia-elder, type: spouse}
+    - {to: agrippina-elder, type: parent, note: 'Recorded on Agrippina''s entry.'}
+- id: julia-elder
+  name: Julia (daughter of Augustus)
+  born: {from: -39}
+  died: {from: 14}
+  category: woman
+  roles: [daughter of Augustus]
+  dynasty: Julio-Claudian
+  summary: Augustus' only child, married successively to Marcellus, Agrippa and Tiberius to serve his dynastic plans, then exiled in 2 BC for adultery.
+  bio: >-
+    Julia's marriages carried the succession: her sons by Agrippa, Gaius and Lucius, were adopted as Augustus' heirs. Her
+    exile in 2 BC for adultery with several aristocrats, including Antony's son Iullus Antonius, may have had a political
+    dimension. She died in exile shortly after Augustus.
+  evidence: Seneca, Velleius, Suetonius, Macrobius' collection of her witticisms; the political reading of her fall is modern inference.
+  relations:
+    - {to: augustus, type: parent}
+    - {to: agrippa, type: spouse}
+    - {to: tiberius, type: spouse}
+    - {to: agrippina-elder, type: parent, note: 'Recorded on Agrippina''s entry.'}
+- id: tiberius
+  name: Tiberius
+  full: Tiberius Claudius Nero, later Tiberius Julius Caesar Augustus
+  born: {from: -42}
+  died: {from: 37}
+  category: ruler
+  roles: [general, emperor AD 14–37]
+  dynasty: Julio-Claudian
+  summary: Livia's son, Rome's best general of his generation, adopted by Augustus in AD 4, whose reign ended in seclusion on Capri amid treason trials.
+  bio: >-
+    Tiberius campaigned in Germany and Illyricum, was forced to divorce Vipsania to marry Julia, and retired to Rhodes in
+    6 BC. Recalled and adopted after the deaths of Gaius and Lucius, he succeeded in 14 with visible reluctance, claiming to
+    share government with the Senate. Germanicus' death in 19 and the influence of the praetorian prefect Sejanus darkened
+    the reign; Tiberius withdrew to Capri in 26, and after Sejanus' fall in 31 treason trials multiplied. Administration of
+    the provinces was careful and the treasury full at his death.
+  evidence: Tacitus Annals 1–6, a masterpiece of hostile insinuation; Suetonius; Dio; Velleius Paterculus, who served under him and praises him. The contrast is a classic exercise in source criticism.
+  relations:
+    - {to: livia, type: parent}
+    - {to: augustus, type: adoptive-parent}
+    - {to: julia-elder, type: spouse}
+    - {to: germanicus, type: adoptive-parent, note: 'Recorded on Germanicus'' entry: Tiberius adopted him in AD 4.'}
+    - {to: sejanus, type: ally}
+    - {to: caligula, type: successor}
+- id: germanicus
+  name: Germanicus
+  full: Germanicus Julius Caesar
+  born: {from: -15}
+  died: {from: 19}
+  category: general
+  roles: [general, heir of Tiberius]
+  dynasty: Julio-Claudian
+  summary: Tiberius' nephew and adopted son, popular commander on the Rhine, whose death at Antioch in AD 19 was blamed on the governor Piso and, by insinuation, on Tiberius.
+  bio: >-
+    Son of Drusus the Elder and Antonia the Younger, Germanicus led campaigns into Germany (14–16), recovering legionary
+    eagles lost under Varus. Sent to the East, he quarrelled with Cn. Calpurnius Piso and died suddenly. His widow
+    Agrippina brought his ashes to Rome; Piso was tried and killed himself.
+  evidence: >-
+    Tacitus idealises him. The Senatus Consultum de Cn. Pisone Patre, a decree of AD 20 found in Spain in the 1980s, gives
+    the Senate's official account of Piso's trial and allows a rare check on Tacitus.
+  relations:
+    - {to: tiberius, type: adoptive-parent}
+    - {to: agrippina-elder, type: spouse}
+    - {to: claudius, type: sibling}
+    - {to: caligula, type: parent, note: 'Recorded on Caligula''s entry.'}
+- id: agrippina-elder
+  name: Agrippina the Elder
+  born: {from: -14}
+  died: {from: 33}
+  category: woman
+  roles: [granddaughter of Augustus]
+  dynasty: Julio-Claudian
+  summary: Daughter of Agrippa and Julia, wife of Germanicus and mother of Caligula and Agrippina the Younger, exiled by Tiberius after a bitter feud.
+  bio: >-
+    Agrippina accompanied Germanicus on campaign and saw herself as the true heir of Augustus' blood. After his death she
+    opposed Tiberius and Sejanus; she and two of her sons were arrested, and she died on the island of Pandateria.
+  evidence: Tacitus Annals; Suetonius.
+  relations:
+    - {to: agrippa, type: parent}
+    - {to: julia-elder, type: parent}
+    - {to: germanicus, type: spouse}
+- id: sejanus
+  name: Sejanus
+  full: Lucius Aelius Sejanus
+  born: {from: -20, circa: true}
+  died: {from: 31}
+  category: politician
+  roles: [praetorian prefect]
+  summary: Tiberius' praetorian prefect, who concentrated the Guard in one camp and controlled access to the emperor until his sudden fall and execution in AD 31.
+  bio: >-
+    An equestrian, Sejanus became Tiberius' indispensable minister, eliminated members of the imperial family and aimed,
+    perhaps, at the succession. Tiberius, warned by Antonia, had him denounced in a letter to the Senate; he was executed and
+    his supporters hunted down.
+  evidence: Tacitus (the relevant books are partly lost), Dio Book 58, Juvenal's satire on his fall.
+  relations:
+    - {to: tiberius, type: ally}
+- id: caligula
+  name: Caligula
+  full: Gaius Julius Caesar Germanicus
+  born: {from: 12}
+  died: {from: 41}
+  category: ruler
+  roles: [emperor AD 37–41]
+  dynasty: Julio-Claudian
+  summary: Son of Germanicus, acclaimed with enthusiasm in 37, murdered by praetorian officers in 41; the ancient image of a mad tyrant is now read more critically.
+  bio: >-
+    "Little Boots" grew up in his father's camps. His reign began with popular measures and ended in conflict with the
+    Senate, conspiracies and executions. He demanded exceptional honours and humiliated senators. Officers of the Guard
+    killed him in January 41, and the Guard then chose his uncle Claudius.
+  evidence: >-
+    Tacitus' account is lost; Suetonius, Dio, Seneca and Philo (who led a Jewish embassy to him) are hostile. Stories of his
+    madness are often stock tyrant motifs or jokes taken literally; Winterling and others reinterpret his behaviour as
+    deliberate humiliation of the aristocracy.
+  relations:
+    - {to: germanicus, type: parent}
+    - {to: agrippina-elder, type: parent}
+    - {to: claudius, type: successor}
+- id: claudius
+  name: Claudius
+  full: Tiberius Claudius Nero Germanicus, later Tiberius Claudius Caesar Augustus Germanicus
+  born: {from: -10}
+  died: {from: 54}
+  category: ruler
+  roles: [emperor AD 41–54]
+  dynasty: Julio-Claudian
+  summary: The overlooked uncle made emperor by the Guard in 41, who conquered Britain, used freedmen as ministers and admitted Gauls to the Senate.
+  bio: >-
+    Kept from public life because of physical disabilities, Claudius became a scholar of Etruscan and Carthaginian history.
+    Proclaimed by the praetorians, he courted them and the army, invaded Britain (43), extended citizenship and built the
+    harbour at Ostia. His freedmen secretaries Narcissus and Pallas became powerful. His wife Messalina was executed in 48;
+    he then married his niece Agrippina, adopted her son Nero over his own son Britannicus, and died in 54, reputedly
+    poisoned.
+  evidence: Tacitus Annals 11–12; Suetonius; Seneca's satire Apocolocyntosis; and the bronze tablet from Lyon preserving his speech on admitting Gallic senators, which can be compared with Tacitus' version.
+  relations:
+    - {to: germanicus, type: sibling}
+    - {to: messalina, type: spouse}
+    - {to: agrippina-younger, type: spouse}
+    - {to: nero, type: adoptive-parent, note: 'Recorded on Nero''s entry.'}
+  sources: [claudius-gauls]
+- id: messalina
+  name: Messalina
+  full: Valeria Messalina
+  born: {from: 17, circa: true}
+  died: {from: 48}
+  category: woman
+  roles: [wife of Claudius]
+  dynasty: Julio-Claudian
+  summary: Claudius' third wife and mother of Britannicus, executed in 48 after a bigamous "marriage" to the consul-designate Silius.
+  bio: >-
+    The sources make Messalina a byword for lust and cruelty. Her ceremony with Gaius Silius in 48 may have been part of a
+    plot against Claudius; his freedman Narcissus had her killed.
+  evidence: Tacitus Annals 11, Juvenal and Pliny the Elder; the sexual details are stereotyped invective against a woman near power.
+  relations:
+    - {to: claudius, type: spouse}
+- id: agrippina-younger
+  name: Agrippina the Younger
+  full: Julia Agrippina
+  born: {from: 15}
+  died: {from: 59}
+  category: woman
+  roles: [Augusta, mother of Nero]
+  dynasty: Julio-Claudian
+  summary: Daughter of Germanicus, wife of Claudius and mother of Nero, who wielded open power in the 50s until Nero had her killed in 59.
+  bio: >-
+    Agrippina married her uncle Claudius in 49, secured the adoption of her son Nero, and received the title Augusta. Coins
+    of the early 50s show her with Claudius and then facing Nero. As Nero asserted himself her influence waned, and in 59 he
+    had her murdered after a staged shipwreck failed.
+  evidence: Tacitus Annals 12–14; coins; she wrote memoirs, now lost, which Tacitus used.
+  relations:
+    - {to: germanicus, type: parent}
+    - {to: agrippina-elder, type: parent}
+    - {to: claudius, type: spouse}
+    - {to: nero, type: parent, note: 'Recorded on Nero''s entry.'}
+- id: nero
+  name: Nero
+  full: Lucius Domitius Ahenobarbus, later Nero Claudius Caesar Augustus Germanicus
+  born: {from: 37}
+  died: {from: 68}
+  category: ruler
+  roles: [emperor AD 54–68]
+  dynasty: Julio-Claudian
+  summary: The last Julio-Claudian, remembered as matricide, artist-emperor and persecutor of Christians after the Great Fire of 64; his fall in 68 opened a year of civil war.
+  bio: >-
+    Guided at first by Seneca and the prefect Burrus, Nero's early reign was praised. After killing his mother (59) and
+    divorcing and executing his wife Octavia (62), he pursued performance as singer and charioteer. The fire of 64 destroyed
+    much of Rome; Nero blamed the Christians and built his Golden House on the burnt land. The Pisonian conspiracy (65)
+    brought executions, including Seneca's suicide. Revolt in Gaul (Vindex) and Spain (Galba) in 68 led the Senate to
+    declare him a public enemy, and he killed himself.
+  evidence: >-
+    Tacitus Annals 13–16, Suetonius and Dio are hostile senatorial sources. Champlin argues that Nero had a coherent
+    popular programme; the appearance of several "false Neros" claiming the throne after his death shows his popularity in
+    the East.
+  relations:
+    - {to: agrippina-younger, type: parent}
+    - {to: claudius, type: adoptive-parent}
+    - {to: seneca, type: teacher}
+    - {to: galba, type: successor}
+- id: seneca
+  name: Seneca
+  full: Lucius Annaeus Seneca
+  born: {from: -4, circa: true}
+  died: {from: 65}
+  category: writer
+  roles: [philosopher, Nero's adviser]
+  summary: Stoic philosopher, playwright and Nero's tutor and minister, forced to suicide after the Pisonian conspiracy.
+  bio: >-
+    From Corduba in Spain, Seneca was exiled by Claudius and recalled by Agrippina to teach Nero. With Burrus he guided the
+    early reign and grew immensely rich, a contradiction critics noted. His Letters to Lucilius and moral essays are central
+    texts of Roman Stoicism.
+  evidence: His own works; Tacitus' account of his death (Annals 15.60–64).
+  relations:
+    - {to: nero, type: teacher, note: 'Seneca taught Nero (recorded on Nero''s entry as Nero''s teacher).'}
+- id: boudica
+  name: Boudica
+  died: {from: 61, circa: true, note: 'The revolt is dated AD 60 or 61.'}
+  category: foreign
+  roles: [queen of the Iceni, rebel leader]
+  summary: Queen of the Iceni in Britain who led a revolt in AD 60/61 that destroyed Camulodunum, Londinium and Verulamium before defeat by the governor Suetonius Paulinus.
+  bio: >-
+    After the death of her husband Prasutagus, a client king, Roman officials seized his kingdom, flogged Boudica and raped
+    her daughters, according to Tacitus. The revolt drew in the Trinovantes, angered by the veteran colony at Camulodunum.
+    Tens of thousands died before the rebels were defeated somewhere in the Midlands.
+  evidence: Tacitus (Agricola and Annals 14) and Dio; burnt destruction layers in Colchester, London and St Albans confirm the scale.
+- id: galba
+  name: Galba
+  full: Servius Sulpicius Galba
+  born: {from: -3}
+  died: {from: 69, label: '15 January 69'}
+  category: ruler
+  roles: [emperor 68–69]
+  summary: Aged aristocratic governor of Spain proclaimed emperor in 68, murdered in Rome by the Praetorians in January 69 after refusing them a donative.
+  bio: >-
+    Galba's strictness and his refusal to pay the Guard the promised bonus ("I choose soldiers, I do not buy them") cost him
+    their loyalty. His adoption of Piso Licinianus offended Otho, who had expected to be heir, and Otho's conspirators killed
+    both men in the Forum.
+  evidence: Tacitus Histories 1; Plutarch's Lives of Galba and Otho; Suetonius.
+  relations:
+    - {to: otho, type: killed}
+- id: otho
+  name: Otho
+  full: Marcus Salvius Otho
+  born: {from: 32}
+  died: {from: 69, label: 'April 69'}
+  category: ruler
+  roles: [emperor 69]
+  summary: Former friend of Nero who seized power by murdering Galba and killed himself after his army was defeated by Vitellius' at the first battle of Bedriacum.
+  bio: >-
+    Otho reigned for three months. Defeated near Cremona, he chose suicide to spare further civil war, a death even hostile
+    writers admired.
+  evidence: Tacitus Histories 1–2; Plutarch; Suetonius.
+  relations:
+    - {to: galba, type: rival}
+    - {to: vitellius, type: rival}
+- id: vitellius
+  name: Vitellius
+  full: Aulus Vitellius
+  born: {from: 15}
+  died: {from: 69, label: 'December 69'}
+  category: ruler
+  roles: [emperor 69]
+  summary: Commander of the Rhine armies, who were the first to march on Rome in 69; defeated by Vespasian's Danubian legions and killed in Rome.
+  bio: >-
+    Proclaimed by the legions of Lower Germany in January 69, Vitellius won Italy at Bedriacum. The Danubian and eastern
+    armies then backed Vespasian; Antonius Primus defeated the Vitellians at the second battle of Bedriacum, sacked Cremona,
+    and took Rome after street fighting in which the Capitoline temple burned. Vitellius was dragged through the city and
+    killed.
+  evidence: Tacitus Histories 2–3, Suetonius; Flavian propaganda made him gluttonous and incompetent.
+  relations:
+    - {to: otho, type: rival}
+    - {to: vespasian, type: rival}
+- id: vespasian
+  name: Vespasian
+  full: Titus Flavius Vespasianus
+  born: {from: 9}
+  died: {from: 79}
+  category: ruler
+  roles: [general, emperor 69–79]
+  dynasty: Flavian
+  summary: An Italian equestrian's son, commander in the Jewish War, who won the civil war of 69, restored the finances and founded the Flavian dynasty.
+  bio: >-
+    Vespasian served in the invasion of Britain and was given the Judaean command in 67. Acclaimed in Alexandria in July 69,
+    he held Egypt's grain while his allies won Italy. As emperor he rebuilt the Capitol, began the Colosseum on the site of
+    Nero's lake, raised taxes, and named his sons Titus and Domitian as successors. His powers were set out in a law, part of
+    which survives on bronze. His deathbed joke, "I think I am becoming a god", shows his reputation for dry humour.
+  evidence: Tacitus Histories; Suetonius; Josephus, who had prophesied his rule; the lex de imperio Vespasiani.
+  relations:
+    - {to: titus, type: parent}
+    - {to: domitian, type: parent}
+    - {to: vitellius, type: rival}
+    - {to: josephus, type: patron}
+  sources: [lex-de-imperio, tacitus-histories-1-4]
+- id: titus
+  name: Titus
+  full: Titus Flavius Vespasianus
+  born: {from: 39}
+  died: {from: 81}
+  category: ruler
+  roles: [general, emperor 79–81]
+  dynasty: Flavian
+  summary: Vespasian's elder son, who captured Jerusalem in 70 and destroyed the Temple; his brief reign saw the eruption of Vesuvius and the opening of the Colosseum.
+  bio: >-
+    Titus completed the Jewish War with the siege of Jerusalem (70), commemorated by the Arch of Titus. As emperor he
+    responded to the eruption of Vesuvius (79) and a fire in Rome, and inaugurated the Flavian Amphitheatre with 100 days of
+    games. He died in 81, remembered as "the delight of the human race".
+  evidence: Suetonius; Josephus' Jewish War; Dio; the Arch of Titus.
+  relations:
+    - {to: vespasian, type: parent}
+    - {to: domitian, type: sibling}
+  sources: [arch-of-titus]
+- id: domitian
+  name: Domitian
+  full: Titus Flavius Domitianus
+  born: {from: 51}
+  died: {from: 96}
+  category: ruler
+  roles: [emperor 81–96]
+  dynasty: Flavian
+  summary: Younger son of Vespasian whose authoritarian reign alienated the Senate; assassinated in 96 and condemned to memory sanctions.
+  bio: >-
+    Domitian governed actively: he raised army pay, campaigned against the Chatti and Dacians, revalued the coinage and
+    supervised governors closely. He styled himself "lord and god" (dominus et deus) according to hostile writers, and after
+    the revolt of Saturninus (89) treason trials and executions increased. Courtiers including his wife arranged his murder
+    in 96; the Senate ordered his name erased.
+  evidence: >-
+    Tacitus' Agricola, Pliny's Panegyricus, Suetonius and Juvenal wrote after his death under emperors who defined
+    themselves against him. Inscriptions and coins show an energetic administration.
+  relations:
+    - {to: vespasian, type: parent}
+    - {to: titus, type: sibling}
+    - {to: agricola, type: rival}
+- id: josephus
+  name: Josephus
+  full: Titus Flavius Josephus (Yosef ben Matityahu)
+  born: {from: 37}
+  died: {from: 100, circa: true}
+  category: writer
+  roles: [historian, Jewish commander]
+  summary: Jewish priest and commander in Galilee who surrendered to Vespasian, prophesied his rule, and wrote the Jewish War and Jewish Antiquities in Rome.
+  bio: >-
+    Captured at Jotapata in 67, Josephus became a client of the Flavians and witnessed the siege of Jerusalem from the Roman
+    camp. His histories defended both his own conduct and the Jewish people to Greek-speaking readers, blaming the war on a
+    minority of rebels.
+  evidence: His own works, including an autobiography (Life); a uniquely detailed but self-justifying narrative.
+  relations:
+    - {to: vespasian, type: patron}
+- id: agricola
+  name: Agricola
+  full: Gnaeus Julius Agricola
+  born: {from: 40}
+  died: {from: 93}
+  category: general
+  roles: [governor of Britain 77/78–83/84]
+  summary: Governor of Britain who campaigned into Scotland and won at Mons Graupius; known chiefly through his son-in-law Tacitus' biography.
+  bio: >-
+    From Forum Iulii in Gaul, Agricola served in Britain three times. As governor he encouraged towns, baths and Latin
+    education among British elites, and pushed north to Mons Graupius (83 or 84). Recalled by Domitian, he lived quietly
+    until his death in 93.
+  evidence: Tacitus' Agricola, a eulogy with political purpose; a fragmentary inscription from Verulamium (St Albans) bearing his name; archaeology of the Scottish campaigns.
+  relations:
+    - {to: tacitus, type: other-family, note: 'Tacitus married Agricola''s daughter.'}
+    - {to: domitian, type: rival}
+  sources: [tacitus-agricola]
+- id: tacitus
+  name: Tacitus
+  full: Publius (or Gaius) Cornelius Tacitus
+  born: {from: 56, circa: true}
+  died: {from: 120, circa: true}
+  category: writer
+  roles: [historian, senator, consul 97]
+  summary: The greatest Roman historian, a senator who served under Domitian and wrote the Histories and Annals, bitter and brilliant analyses of the Principate.
+  bio: >-
+    Tacitus' career prospered under the Flavians, including Domitian, a complicity he reflects on in the Agricola. He was
+    consul in 97 and governor of Asia c. 112. His Annals (AD 14–68) and Histories (69–96) survive in part. His subject is the
+    loss of liberty and the corruption of a senatorial class adapting to monarchy; his method combines careful use of senate
+    records with insinuation, irony and selection.
+  evidence: His works; Pliny's letters to him; an inscription from Mylasa referring to his proconsulship.
+  relations:
+    - {to: agricola, type: other-family}
+    - {to: pliny-younger, type: ally}
+  sources: [tacitus-annals-1, tacitus-histories-1-4, tacitus-agricola, claudius-gauls]
+- id: suetonius
+  name: Suetonius
+  full: Gaius Suetonius Tranquillus
+  born: {from: 70, circa: true}
+  died: {from: 130, circa: true}
+  category: writer
+  roles: [biographer, imperial secretary]
+  summary: Equestrian scholar and secretary to Hadrian who wrote the Lives of the Caesars, organising each emperor's life by topic.
+  bio: >-
+    A protégé of Pliny, Suetonius ran the imperial libraries and correspondence under Trajan and Hadrian before dismissal in
+    122. His Caesars quote documents and letters he had seen in the archives, alongside gossip; he structures lives by
+    categories of virtues and vices rather than narrative.
+  evidence: His own works; Pliny's letters; an inscription from Hippo Regius recording his career.
+  relations:
+    - {to: pliny-younger, type: patron}
+- id: pliny-younger
+  name: Pliny the Younger
+  full: Gaius Plinius Caecilius Secundus
+  born: {from: 61}
+  died: {from: 113, circa: true}
+  category: politician
+  roles: [senator, consul 100, governor of Bithynia-Pontus]
+  summary: Senator, lawyer and letter-writer whose ten books of letters, including his correspondence as governor with Trajan, illuminate elite life and provincial government.
+  bio: >-
+    Nephew and adopted son of the encyclopedist Pliny the Elder (who died in the eruption of Vesuvius, described in two
+    letters to Tacitus), Pliny had a conventional senatorial career and delivered the Panegyricus in praise of Trajan as
+    consul in 100. Around 110 Trajan sent him as special governor to Bithynia-Pontus to sort out city finances; Book 10
+    preserves his queries and Trajan's replies, including on the Christians.
+  evidence: His Letters and Panegyricus; inscriptions from Comum recording his benefactions.
+  relations:
+    - {to: trajan, type: patron}
+    - {to: tacitus, type: ally}
+    - {to: suetonius, type: patron, note: 'Recorded on Suetonius'' entry: Pliny was his patron.'}
+  sources: [pliny-christians, pliny-fire-brigade]
+- id: trajan
+  name: Trajan
+  full: Marcus Ulpius Traianus
+  born: {from: 53}
+  died: {from: 117}
+  category: ruler
+  roles: [emperor 98–117]
+  dynasty: Nerva-Antonine
+  summary: The first emperor from a province (Spain), adopted by Nerva, who conquered Dacia and briefly Mesopotamia and was remembered as "the best ruler" (optimus princeps).
+  bio: >-
+    Adopted by the elderly Nerva in 97 under pressure from the Guard, Trajan reached Rome only in 99. He won two Dacian wars
+    (101–102, 105–106), annexing Dacia and its gold mines, and annexed Arabia (106). His Forum and Column celebrated the
+    Dacian victories, and the alimenta schemes supported children in Italian towns. In 114–117 he conquered Armenia and
+    Mesopotamia to the Persian Gulf, but revolts, including the Jewish diaspora revolt, broke out, and he died in Cilicia on
+    the way home.
+  evidence: Dio's account survives in Byzantine summaries; Pliny's Panegyricus and letters; Trajan's Column; inscriptions and coins.
+  relations:
+    - {to: hadrian, type: successor, note: 'Hadrian claimed a deathbed adoption that contemporaries doubted.'}
+    - {to: pliny-younger, type: patron}
+- id: hadrian
+  name: Hadrian
+  full: Publius Aelius Hadrianus
+  born: {from: 76}
+  died: {from: 138}
+  category: ruler
+  roles: [emperor 117–138]
+  dynasty: Nerva-Antonine
+  summary: Trajan's cousin and successor who abandoned Mesopotamia, built frontier walls, toured the provinces and crushed the Bar Kokhba revolt.
+  bio: >-
+    Hadrian's accession on a disputed adoption was followed by the execution of four consulars. He gave up Trajan's eastern
+    conquests and spent years travelling the provinces, inspecting armies, founding cities and building, from the Wall in
+    Britain to the Pantheon and his villa at Tibur. A philhellene, he founded the Panhellenion. His plan to refound
+    Jerusalem as Aelia Capitolina helped provoke the Bar Kokhba revolt (132–135/6), suppressed with great loss of life. He
+    adopted Antoninus on condition that he adopt Marcus Aurelius and Lucius Verus.
+  evidence: The Historia Augusta life (more reliable than most in that collection), Dio's summarised Book 69, inscriptions, coins recording his travels, and the monuments themselves.
+  relations:
+    - {to: trajan, type: adoptive-parent}
+    - {to: antoninus-pius, type: successor}
+- id: antoninus-pius
+  name: Antoninus Pius
+  full: Titus Aurelius Fulvus Boionius Arrius Antoninus
+  born: {from: 86}
+  died: {from: 161}
+  category: ruler
+  roles: [emperor 138–161]
+  dynasty: Nerva-Antonine
+  summary: Emperor whose long, peaceful reign was spent almost entirely in Italy; he advanced the frontier in Britain with the Antonine Wall.
+  bio: >-
+    Antoninus earned his name Pius by insisting on Hadrian's deification. He governed from Rome through correspondence,
+    accumulated a large surplus, and pushed the British frontier north to the Forth–Clyde line. The calm of his reign
+    impressed later writers; the problems of the next decades may have been building.
+  evidence: The brief Historia Augusta life, inscriptions, legal texts and coins; Marcus Aurelius' tribute in Meditations 1.16.
+  relations:
+    - {to: hadrian, type: adoptive-parent}
+    - {to: marcus-aurelius, type: successor}
+- id: marcus-aurelius
+  name: Marcus Aurelius
+  full: Marcus Aurelius Antoninus
+  born: {from: 121}
+  died: {from: 180}
+  category: ruler
+  roles: [emperor 161–180, philosopher]
+  dynasty: Nerva-Antonine
+  summary: Philosopher-emperor whose reign was dominated by the Parthian war, the Antonine Plague and the Marcomannic wars on the Danube; he named his son Commodus as successor.
+  bio: >-
+    Marcus ruled jointly with Lucius Verus until 169, the first time two emperors shared power. Verus' Parthian war
+    (161–166) coincided with the outbreak of a pandemic carried west by the army. From 167 Germanic and Sarmatian peoples
+    crossed the Danube and even reached Italy; Marcus spent most of the rest of his life on campaign, writing the Stoic
+    notebook we call the Meditations. In 175 the eastern governor Avidius Cassius revolted on a false report of his death.
+    Marcus made Commodus co-emperor in 177 and died on campaign in 180.
+  evidence: His Meditations and correspondence with Fronto; Dio's summarised account; the Historia Augusta; the Column of Marcus Aurelius; his equestrian statue on the Capitol.
+  relations:
+    - {to: antoninus-pius, type: adoptive-parent}
+    - {to: lucius-verus, type: colleague}
+    - {to: commodus, type: parent}
+    - {to: galen, type: patron}
+  sources: []
+- id: lucius-verus
+  name: Lucius Verus
+  born: {from: 130}
+  died: {from: 169}
+  category: ruler
+  roles: [co-emperor 161–169]
+  dynasty: Nerva-Antonine
+  summary: Marcus Aurelius' adoptive brother and co-emperor, nominal commander in the Parthian war of 161–166.
+  bio: Verus' generals, notably Avidius Cassius, sacked Seleucia and Ctesiphon. The returning army was associated with the spread of the plague. Verus died in 169.
+  evidence: Historia Augusta; Fronto's letters; coins.
+  relations:
+    - {to: marcus-aurelius, type: colleague}
+- id: commodus
+  name: Commodus
+  full: Lucius Aurelius Commodus
+  born: {from: 161}
+  died: {from: 192, label: '31 December 192'}
+  category: ruler
+  roles: [emperor 180–192]
+  dynasty: Nerva-Antonine
+  summary: Marcus' son, the first emperor "born in the purple" since Titus, who made peace on the Danube, fought as a gladiator, identified himself with Hercules and was strangled in 192.
+  bio: >-
+    Commodus ended his father's wars by treaty and left government to favourites. After a conspiracy involving his sister in
+    182 he grew suspicious. He fought in the arena and renamed Rome after himself. His murder by courtiers opened a new
+    period of civil war.
+  evidence: Dio, a senator who watched Commodus in the arena; Herodian; Historia Augusta.
+  relations:
+    - {to: marcus-aurelius, type: parent}
+- id: galen
+  name: Galen
+  full: Galen of Pergamum
+  born: {from: 129}
+  died: {from: 216, circa: true}
+  category: writer
+  roles: [physician]
+  summary: The most influential physician of antiquity, doctor to Marcus Aurelius, whose descriptions are our main medical evidence for the Antonine Plague.
+  bio: Galen trained in Pergamum and Alexandria, treated gladiators, and practised at Rome. His enormous output shaped medicine for over a thousand years. His descriptions of the "great plague" suggest a smallpox-like disease, though he never gives a full clinical account.
+  evidence: His surviving works, many partly autobiographical.
+  relations:
+    - {to: marcus-aurelius, type: patron}
+- id: cassius-dio
+  name: Cassius Dio
+  full: Lucius Cassius Dio
+  born: {from: 164, circa: true}
+  died: {from: 235, circa: true}
+  category: writer
+  roles: [historian, senator, consul 229]
+  summary: Greek-speaking senator from Nicaea whose 80-book Roman History, partly surviving, is crucial for the late Republic, Augustus and his own Severan age.
+  bio: Dio served under Commodus, the Severans and Severus Alexander, holding a second consulship with the emperor in 229. He narrated contemporary events as an eyewitness and Augustus' settlement through the speeches of Agrippa and Maecenas (Book 52), a debate on monarchy.
+  evidence: His History, complete for 69 BC–AD 46 and otherwise in Byzantine excerpts and summaries.
+  sources: [dio-severus]

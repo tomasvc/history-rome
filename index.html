@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="A university-level course in Roman history, from the early Republic to the fall of Constantinople: lessons, primary sources, maps, timelines, debates and revision." />
+    <title>Tabularium · A course in Roman history</title>
+    <script>
+      try {
+        var s = JSON.parse(localStorage.getItem('tabularium.v1') || '{}');
+        var t = s.settings && s.settings.theme;
+        if (t === 'light' || t === 'dark') document.documentElement.dataset.theme = t;
+        if (s.settings && s.settings.textSize) document.documentElement.dataset.textsize = s.settings.textSize;
+      } catch (e) {}
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

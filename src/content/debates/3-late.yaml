@@ -1,0 +1,381 @@
+- id: constantine-conversion
+  title: Why did Constantine convert?
+  question: Was Constantine's conversion to Christianity a sincere religious experience, a political calculation, or a gradual process?
+  span: [306, 337]
+  why: >-
+    Constantine's support transformed the position of Christianity; understanding his motives shapes how we understand the Christianisation of the
+    empire.
+  positions:
+    - id: sincere
+      label: An early, sincere conversion
+      claim: Constantine became a committed Christian in 312 or soon after, and his policies followed from that commitment.
+      argument: >-
+        Barnes argues that Constantine's actions, from the return of church property to church building and intervention in disputes, show genuine
+        Christian conviction from the start.
+      proponents:
+        - {name: T. D. Barnes, ref: barnes-2011, year: '1981, 2011'}
+        - {name: Eusebius (ancient), ref: eusebius-vc-1999}
+      weaknesses: >-
+        Constantine's public imagery remained ambiguous for years, and his conduct (executions of family members) troubled even contemporaries.
+    - id: political
+      label: Political calculation
+      claim: Constantine adopted Christianity to unite the empire or to gain support from an organised and growing community.
+      argument: >-
+        Burckhardt portrayed Constantine as a calculating politician; the Christian community, though a minority, was organised across the empire.
+      proponents:
+        - {name: Jacob Burckhardt, ref: burckhardt-1853, year: '1853'}
+      weaknesses: >-
+        Christians were a minority, especially in the army and the western elite; backing them in 312 was a risk, not an obvious advantage.
+    - id: gradual
+      label: A gradual, syncretic process
+      claim: Constantine moved from devotion to the Sun god towards Christianity over years, and his religion combined elements that modern categories separate.
+      argument: >-
+        His coins showed Sol until the 320s; his panegyric of 310 describes a vision of Apollo; and the Arch of 315 speaks only of "the divinity".
+        Conversion in the ancient world could be a process rather than a moment.
+      proponents:
+        - {name: Noel Lenski (ed.), ref: lenski-2012}
+      weaknesses: >-
+        Ambiguous public imagery may reflect caution towards pagan subjects rather than private uncertainty.
+  evidence:
+    - id: lactantius
+      text: Lactantius, within a few years, says Constantine was told in a dream to mark Christ's sign on the shields.
+      source: lactantius-vision
+      supports: [sincere, gradual]
+      comment: The earliest account, and the simplest.
+    - id: eusebius
+      text: Eusebius, after 337, reports a vision of a cross in the sky witnessed by the army, as told by Constantine himself.
+      source: eusebius-vision
+      supports: [sincere]
+      comment: The story grew over time.
+    - id: arch
+      text: The Arch of Constantine credits his victory to "the instigation of the divinity".
+      supports: [gradual, political]
+      comment: The Senate's careful language.
+    - id: sol
+      text: Sol Invictus appears on Constantine's coins until about 320–325.
+      supports: [gradual]
+      comment: Public imagery changed slowly.
+    - id: milan
+      text: The Milan agreement grants freedom of worship to all.
+      source: milan-letter
+      supports: [political, gradual]
+      comment: Toleration, not establishment.
+  history:
+    - {year: c. 315 and after 337, who: Lactantius and Eusebius, what: Christian accounts of the conversion.}
+    - {year: c. 500, who: Zosimus, what: 'Pagan account: conversion as escape from guilt.', ref: zosimus-ridley-1982}
+    - {year: '1853', who: Jacob Burckhardt, what: Constantine as a political opportunist., ref: burckhardt-1853}
+    - {year: '1981', who: T. D. Barnes, what: 'Constantine and Eusebius: early sincere commitment.', ref: barnes-1981}
+    - {year: '2011', who: T. D. Barnes, what: 'Constantine: Dynasty, Religion and Power.', ref: barnes-2011}
+  state: >-
+    Most historians accept that Constantine identified with the Christian God from 312 and that his support was real, while recognising that his
+    public presentation remained cautious and his understanding of Christianity was shaped by Roman ideas of divine favour and victory.
+  lessons: [constantine, christianisation]
+  reading: [barnes-2011, lenski-2012, lane-fox-1986]
+
+- id: christian-growth
+  title: How did Christianity grow?
+  question: How fast did Christianity spread, and why?
+  span: [30, 450]
+  why: >-
+    Explaining the rise of Christianity is one of the great questions of world history; the answer depends on uncertain numbers and on models of
+    conversion.
+  positions:
+    - id: steady
+      label: Steady exponential growth
+      claim: Christianity grew at a steady rate, around 40 per cent a decade, through social networks, reaching a majority in the fourth century.
+      argument: >-
+        Stark applied sociological models of conversion through personal networks, and argued that Christian care during epidemics and higher
+        fertility contributed to growth.
+      proponents:
+        - {name: Rodney Stark, ref: stark-1996, year: '1996'}
+        - {name: Keith Hopkins, ref: hopkins-1998, year: '1998'}
+      weaknesses: >-
+        Based on very few data points; a constant rate is an assumption, not a finding.
+    - id: imperial
+      label: Accelerated by power
+      claim: Christianity remained a modest minority until imperial support; miracles, patronage and coercion drove mass conversion in the fourth century and after.
+      argument: >-
+        MacMullen emphasised the role of wonders and power in conversion, and the persistence of paganism, arguing that Christianisation was slow and
+        incomplete.
+      proponents:
+        - {name: Ramsay MacMullen, ref: macmullen-1984, year: '1984'}
+      weaknesses: >-
+        Underplays the pre-Constantinian growth that made Constantine's choice possible.
+    - id: community
+      label: Community and conviction
+      claim: Christianity's growth rested on its distinctive communities, moral demands and message, which attracted people across social groups.
+      argument: >-
+        Lane Fox and Brown emphasise the appeal of Christian community, its care for the poor, and the transformation of values in late antiquity.
+      proponents:
+        - {name: Robin Lane Fox, ref: lane-fox-1986, year: '1986'}
+        - {name: Peter Brown, ref: brown-2003}
+      weaknesses: >-
+        Explains appeal rather than numbers.
+  evidence:
+    - id: pliny
+      text: Pliny reports that Christians in Bithynia included many of every age, rank and sex, in cities and countryside.
+      source: pliny-christians
+      supports: [steady, community]
+      comment: Suggests a significant presence by about 110, though Pliny's phrasing is rhetorical.
+    - id: roman-church
+      text: Around 251 the Roman church supported over 1,500 widows and poor and had 154 clergy.
+      supports: [steady, community]
+      comment: Used to estimate the size of the community at Rome; estimates vary.
+    - id: libelli
+      text: The Decian sacrifice certificates show the state's attempt to enforce traditional piety.
+      source: libelli-250
+      supports: [imperial]
+      comment: The Church survived persecution, suggesting deep roots.
+    - id: laws
+      text: Imperial laws of the 380s–390s define orthodoxy and ban sacrifice.
+      source: cunctos-populos
+      supports: [imperial]
+      comment: State power accelerated the end of public pagan cult.
+    - id: dura
+      text: A house-church at Dura-Europos (c. 240s) stood near a synagogue and Mithraeum.
+      supports: [community]
+      comment: A small Christian community in a frontier town.
+  history:
+    - {year: c. 325, who: Eusebius, what: 'Ecclesiastical History: providential growth of the Church.', ref: eusebius-he-1989}
+    - {year: '1776–1789', who: Edward Gibbon, what: Five causes of Christian growth in chapter 15., ref: gibbon-1776}
+    - {year: '1984', who: Ramsay MacMullen, what: 'Christianizing the Roman Empire.', ref: macmullen-1984}
+    - {year: '1986', who: Robin Lane Fox, what: 'Pagans and Christians.', ref: lane-fox-1986}
+    - {year: '1996', who: Rodney Stark, what: 'The Rise of Christianity.', ref: stark-1996}
+  state: >-
+    There is no reliable count, and all figures are models. Most historians accept that Christians were a substantial minority by 300, that imperial
+    support from 312 accelerated growth, and that conversion was uneven by region and social group.
+  lessons: [christianisation, constantine, roman-religion]
+  reading: [stark-1996, macmullen-1984, lane-fox-1986, hopkins-1998]
+
+- id: fall-of-west
+  title: Fall or transformation?
+  question: Did the western Roman empire fall, through external pressure and violent conquest, or was it transformed into a new world through continuity and accommodation?
+  span: [376, 600]
+  why: >-
+    The question of Rome's fall has been asked since antiquity. The answer shapes how we understand the origins of medieval Europe and how
+    societies collapse.
+  positions:
+    - id: decline
+      label: Decline and fall
+      claim: Internal weakness, including Christianity and the loss of civic virtue, combined with barbarian invasions, brought the empire down.
+      argument: >-
+        Gibbon's classic narrative of the "triumph of barbarism and religion" saw a long decline from the Antonines.
+      proponents:
+        - {name: Edward Gibbon, ref: gibbon-1776, year: '1776–1789'}
+      weaknesses: >-
+        The eastern empire, equally Christian, survived; "decline" is a moral, not analytical, category.
+    - id: transformation
+      label: Transformation
+      claim: The Roman world was transformed rather than destroyed; religion, culture, law and many institutions continued in new forms.
+      argument: >-
+        Brown created the field of late antiquity; Goffart argued that barbarian settlement was accommodated through tax-sharing; Pirenne had earlier
+        argued that Mediterranean unity lasted until the Arab conquests.
+      proponents:
+        - {name: Peter Brown, ref: brown-1971, year: '1971'}
+        - {name: Walter Goffart, ref: goffart-1980, year: '1980'}
+        - {name: Henri Pirenne, ref: pirenne-1937, year: '1937'}
+      weaknesses: >-
+        Can obscure violence, material decline and the experience of ordinary people.
+    - id: violent
+      label: Violent fall
+      claim: The West was conquered by external invaders, with catastrophic consequences for living standards and economic complexity.
+      argument: >-
+        Heather emphasises Hunnic pressure and the loss of revenue-producing provinces; Ward-Perkins documents material collapse in pottery,
+        building, coinage and even cattle size.
+      proponents:
+        - {name: Peter Heather, ref: heather-2005, year: '2005'}
+        - {name: Bryan Ward-Perkins, ref: ward-perkins-2005, year: '2005'}
+      weaknesses: >-
+        Regional variation is large; elements of continuity were real in Italy, Gaul and Spain.
+    - id: internal
+      label: Internal politics drew barbarians in
+      claim: Roman civil wars and political failures, rather than invasions, broke the western state; barbarian groups were drawn in as participants in Roman politics.
+      argument: >-
+        Halsall argues that the crisis began within the empire, as competing factions used barbarian forces and the centre lost the loyalty of
+        provincial elites.
+      proponents:
+        - {name: Guy Halsall, ref: halsall-2007, year: '2007'}
+      weaknesses: >-
+        Downplays the evidence for large-scale movements and external pressure.
+  evidence:
+    - id: africa
+      text: The Vandal conquest of Carthage (439) removed the West's richest province.
+      supports: [violent, internal]
+      comment: A fiscal blow from which the western government never recovered.
+    - id: pottery
+      text: Mass-produced pottery, coinage and tile disappear from much of the post-Roman West.
+      supports: [violent]
+      comment: Ward-Perkins' key evidence for material decline.
+    - id: theoderic
+      text: Theoderic ruled Italy through Roman administration and law; the Senate continued.
+      supports: [transformation]
+      comment: Continuity at the top in Italy until the Gothic War.
+    - id: marcellinus
+      text: Marcellinus' chronicle, written in Constantinople decades later, marks 476 as the end of the western empire.
+      source: marcellinus-476
+      supports: [transformation, decline]
+      comment: The significance of 476 was constructed later.
+    - id: east
+      text: The eastern empire survived the same century intact.
+      supports: [violent, internal]
+      comment: Any explanation must account for the difference.
+    - id: jerome
+      text: Jerome lamented the sack of 410 as the fall of the world.
+      source: jerome-410
+      supports: [decline, violent]
+      comment: Contemporary shock; the physical damage was limited.
+  history:
+    - {year: '1776–1789', who: Edward Gibbon, what: 'The History of the Decline and Fall of the Roman Empire.', ref: gibbon-1776}
+    - {year: '1937', who: Henri Pirenne, what: 'Mohammed and Charlemagne: continuity until the Arab conquests.', ref: pirenne-1937}
+    - {year: '1971', who: Peter Brown, what: 'The World of Late Antiquity.', ref: brown-1971}
+    - {year: '1980', who: Walter Goffart, what: 'Barbarians and Romans: accommodation.', ref: goffart-1980}
+    - {year: '2005', who: Peter Heather; Bryan Ward-Perkins, what: Restated violent fall and material collapse., ref: ward-perkins-2005}
+    - {year: '2007', who: Guy Halsall, what: 'Barbarian Migrations and the Roman West.', ref: halsall-2007}
+  state: >-
+    The debate has moved towards regional and thematic analysis: politically the western empire ended; economically many regions suffered severe
+    decline; culturally and religiously there was much continuity. Explanations increasingly combine external pressure with internal political
+    failure and fiscal collapse.
+  lessons: [goths-adrianople, fall-of-the-west, legacy, historiography]
+  reading: [heather-2005, ward-perkins-2005, halsall-2007, brown-1971, wickham-2009]
+
+- id: barbarian-identity
+  title: Who were the barbarians?
+  question: Were the Goths, Vandals and others coherent peoples who migrated into the empire, or groups formed through their relationship with Rome?
+  span: [200, 600]
+  why: >-
+    The answer shapes our understanding of the end of the western empire and challenges modern national myths that claim descent from these peoples.
+  positions:
+    - id: migration
+      label: Large-scale migration
+      claim: Large groups including women and children migrated into the empire under pressure from the Huns, and this was a major cause of the West's collapse.
+      argument: >-
+        Heather argues that sources describe whole populations moving, and that these groups had real, if evolving, identities.
+      proponents:
+        - {name: Peter Heather, ref: heather-2005}
+      weaknesses: >-
+        Roman sources use stereotyped language of barbarian hordes; numbers are unknown.
+    - id: ethnogenesis
+      label: Ethnogenesis
+      claim: Barbarian peoples formed and re-formed around leaders and traditions; identity could be adopted by people of varied origins.
+      argument: >-
+        The Vienna school (Wenskus, Wolfram, Pohl) studied how a "core of tradition" carried by elites gave identity to diverse followers.
+      proponents:
+        - {name: Herwig Wolfram, ref: wolfram-1988, year: '1979 (English 1988)'}
+      weaknesses: >-
+        Critics argue that the "core of tradition" is itself hypothetical.
+    - id: roman-made
+      label: Made by Rome
+      claim: Groups like the Goths were largely created by their interaction with Rome, as armies and political communities within the Roman world.
+      argument: >-
+        Kulikowski and Halsall emphasise that "barbarian" forces such as Alaric's were Roman military groups whose leaders sought Roman offices.
+      proponents:
+        - {name: Michael Kulikowski, ref: kulikowski-2007, year: '2007'}
+        - {name: Guy Halsall, ref: halsall-2007, year: '2007'}
+        - {name: Walter Goffart, ref: goffart-1980}
+      weaknesses: >-
+        Can underestimate the scale and distinctiveness of groups crossing the frontiers.
+  evidence:
+    - id: jordanes
+      text: Jordanes (551) traces Gothic origins to Scandinavia.
+      supports: [migration]
+      comment: Written two centuries after 376 in Constantinople; its origin legend is widely doubted.
+    - id: ammianus
+      text: Ammianus describes the Goths crossing the Danube with families in 376.
+      source: ammianus-adrianople
+      supports: [migration]
+      comment: Contemporary and detailed, but numbers are vague.
+    - id: alaric
+      text: Alaric sought Roman military office and supplies, and his forces grew with Roman deserters and slaves.
+      supports: [roman-made, ethnogenesis]
+      comment: Group membership was fluid.
+    - id: archaeology
+      text: The Sântana de Mureș–Černjachov culture north of the Black Sea is associated with the Goths.
+      supports: [migration, ethnogenesis]
+      comment: Linking archaeological cultures to named peoples is controversial.
+    - id: dna
+      text: Genetic studies of some sixth-century cemeteries associated with the Lombards show individuals of diverse ancestry, including a group with northern and central European ancestry.
+      supports: [migration, ethnogenesis]
+      comment: New evidence that some migration occurred, within mixed communities.
+  history:
+    - {year: '551', who: Jordanes, what: 'Getica: a Gothic origin story.', ref: jordanes-mierow-1915}
+    - {year: '1961', who: Reinhard Wenskus, what: Founded the ethnogenesis approach.}
+    - {year: '1979–1988', who: Herwig Wolfram, what: 'History of the Goths.', ref: wolfram-1988}
+    - {year: '2005', who: Peter Heather, what: Defended large-scale migration., ref: heather-2005}
+    - {year: '2007', who: 'Kulikowski; Halsall', what: Goths and others formed in relation to Rome., ref: kulikowski-2007}
+  state: >-
+    Most scholars agree that barbarian identities were fluid and politically constructed, while disagreeing about the scale of migration. Ancient DNA
+    is adding new evidence but must be interpreted alongside texts and archaeology.
+  lessons: [goths-adrianople, fall-of-the-west]
+  reading: [heather-2005, halsall-2007, kulikowski-2007, wolfram-1988]
+
+- id: byzantine-identity
+  title: Roman or Byzantine?
+  question: Should the eastern Roman empire after the sixth or seventh century be understood as Roman, as a distinct Byzantine civilisation, or as both?
+  span: [330, 1453]
+  why: >-
+    Naming shapes interpretation: it determines whether the medieval empire is seen as the continuation of Rome or as a separate, often marginalised,
+    civilisation.
+  positions:
+    - id: distinct
+      label: A distinct Byzantine civilisation
+      claim: By the seventh century the empire was a Greek-speaking, Orthodox, medieval state that is best understood as a new civilisation.
+      argument: >-
+        Language, religion, social structure and geography had changed fundamentally; Ostrogorsky's history describes a Byzantine state formed in the
+        seventh century.
+      proponents:
+        - {name: George Ostrogorsky, ref: ostrogorsky-1956, year: '1940 (English 1956)'}
+      weaknesses: >-
+        Imposes a break that contemporaries did not recognise.
+    - id: roman
+      label: A Roman state and people
+      claim: The empire's people were Romans, in their own eyes and those of their neighbours; its institutions, law and political culture were Roman.
+      argument: >-
+        Kaldellis argues that the medieval empire was a Roman polity with popular sovereignty and that "Roman" was an ethnic identity; the term
+        "Byzantine" was imposed later with prejudice.
+      proponents:
+        - {name: Anthony Kaldellis, ref: kaldellis-2019, year: '2015, 2019, 2023'}
+      weaknesses: >-
+        Our evidence for how non-elites saw themselves is limited; the claim that "Roman" was an ethnicity is debated.
+    - id: conventional
+      label: Keep the term, drop the prejudice
+      claim: '"Byzantine" is a useful conventional label for a period and culture, provided its negative connotations are recognised.'
+      argument: >-
+        Cameron and others argue that the field needs a name and that "Byzantium" can be studied on its own terms.
+      proponents:
+        - {name: Averil Cameron, ref: cameron-2014, year: '2014'}
+        - {name: Judith Herrin, ref: herrin-2007}
+      weaknesses: >-
+        Continued use can perpetuate the separation of Byzantium from Roman history.
+  evidence:
+    - id: rhomaioi
+      text: The empire's inhabitants called themselves Rhomaioi, Romans.
+      supports: [roman]
+      comment: Self-designation throughout the empire's history.
+    - id: rum
+      text: Arabs, Persians and Turks called the empire Rum, Rome.
+      supports: [roman]
+      comment: External recognition of Roman identity.
+    - id: greek
+      text: Greek replaced Latin in government and the army in the seventh century.
+      supports: [distinct, conventional]
+      comment: A real cultural change.
+    - id: wolf
+      text: Hieronymus Wolf's "Byzantine" corpus of 1557 popularised the name.
+      supports: [roman, conventional]
+      comment: The term is early modern.
+    - id: choniates
+      text: Choniates' lament for 1204 contrasts Romans with Latins.
+      source: choniates-1204
+      supports: [roman]
+      comment: Roman identity defined against western Christians.
+  history:
+    - {year: '1557', who: Hieronymus Wolf, what: Popularised "Byzantine" for the empire's history.}
+    - {year: '1776–1789', who: Edward Gibbon, what: Dismissive treatment of Byzantine history., ref: gibbon-1776}
+    - {year: '1940', who: George Ostrogorsky, what: 'History of the Byzantine State.', ref: ostrogorsky-1956}
+    - {year: '2014', who: Averil Cameron, what: 'Byzantine Matters.', ref: cameron-2014}
+    - {year: '2015–2023', who: Anthony Kaldellis, what: The Byzantine Republic; Romanland; The New Roman Empire., ref: kaldellis-2023}
+  state: >-
+    Scholars increasingly emphasise the Roman identity of the medieval empire and use terms such as "eastern Roman" alongside "Byzantine". Debate
+    continues over periodisation and over the nature of Roman identity in the Middle Ages.
+  lessons: [justinian, heraclius-islam, middle-byzantium, fall-of-constantinople, roman-or-byzantine]
+  reading: [kaldellis-2019, cameron-2014, herrin-2007]

@@ -1,0 +1,358 @@
+/* Revise */
+.cards-stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 2.5rem;
+  margin: 1.5rem 0;
+}
+.cards-explain {
+  max-width: 46rem;
+  margin-top: 1.25rem;
+}
+.card-session {
+  max-width: 42rem;
+  display: grid;
+  gap: 1rem;
+  justify-items: start;
+}
+.flashcard {
+  width: 100%;
+  min-height: 15rem;
+  border: 1px solid var(--rule-strong);
+  background: var(--surface);
+  box-shadow: var(--shadow);
+  padding: 2rem;
+  display: grid;
+  align-content: center;
+  position: relative;
+}
+.flashcard::before {
+  content: '';
+  position: absolute;
+  inset: 6px;
+  border: 1px solid var(--rule);
+  pointer-events: none;
+}
+.fc-front {
+  font-family: var(--f-display);
+  font-size: 1.6rem;
+  line-height: 1.25;
+  text-align: center;
+}
+.fc-front .para,
+.fc-back .para {
+  max-width: none;
+}
+.fc-back {
+  margin-top: 1.25rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font-size: 1.05rem;
+}
+.grade-row {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 0.5rem;
+  width: 100%;
+}
+.grade-row .btn {
+  flex-direction: column;
+  gap: 0.15rem;
+  justify-content: center;
+}
+.grade-next {
+  font-weight: 400;
+  font-size: var(--fs-xs);
+  color: var(--text-3);
+}
+.grade-row kbd,
+.card-session kbd {
+  font-family: var(--f-ui);
+  font-size: 0.7rem;
+  border: 1px solid var(--rule-strong);
+  padding: 0 0.3rem;
+  font-weight: 400;
+}
+.grade-0 {
+  border-color: var(--bad);
+}
+.grade-3 {
+  border-color: var(--good);
+}
+.end-session {
+  margin-top: 0.5rem;
+}
+.card-done h2 {
+  margin-bottom: 0.5rem;
+}
+.quiz-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--rule);
+}
+.quiz-list li {
+  display: grid;
+  grid-template-columns: 3rem 1fr auto;
+  gap: 1rem;
+  align-items: center;
+  padding: 0.9rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.quiz-num {
+  font-family: var(--f-display);
+  font-size: 1.6rem;
+  color: var(--accent);
+}
+.quiz-runner {
+  max-width: 44rem;
+}
+.quiz-progress {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-size: var(--fs-sm);
+  color: var(--text-2);
+}
+.quiz-dots {
+  display: flex;
+  gap: 4px;
+}
+.qd {
+  width: 10px;
+  height: 10px;
+  border: 1px solid var(--rule-strong);
+}
+.qd.cur {
+  border-color: var(--text);
+  border-width: 2px;
+}
+.qd.ok {
+  background: var(--good);
+  border-color: var(--good);
+}
+.qd.no {
+  background: var(--bad);
+  border-color: var(--bad);
+}
+.quiz-result {
+  max-width: 44rem;
+}
+.skill-table th {
+  width: 11rem;
+}
+.skill-bar {
+  display: block;
+  height: 8px;
+  background: var(--inset);
+  min-width: 120px;
+}
+.skill-bar span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+}
+.essay-link {
+  display: block;
+  text-decoration: none;
+}
+.essay-title {
+  font-size: var(--fs-h2);
+  line-height: 1.2;
+  margin-bottom: 1.25rem;
+}
+.essay-field {
+  margin-bottom: 1rem;
+  color: var(--text);
+}
+.essay-field strong {
+  color: var(--text);
+}
+.checklist {
+  padding-left: 1.1rem;
+}
+.checklist li + li {
+  margin-top: 0.35rem;
+}
+.revisit-link {
+  margin-right: 1rem;
+}
+/* Study */
+.part-progress {
+  display: grid;
+  gap: 0.5rem;
+  margin: 1rem 0 1.5rem;
+  max-width: 44rem;
+}
+.pp {
+  display: grid;
+  grid-template-columns: 17rem 1fr 3rem;
+  gap: 0.75rem;
+  align-items: center;
+}
+.pp-label {
+  font-size: var(--fs-sm);
+}
+.pp-bar {
+  height: 8px;
+  background: var(--inset);
+}
+.pp-bar span {
+  display: block;
+  height: 100%;
+  background: var(--accent);
+}
+@media (max-width: 640px) {
+  .pp {
+    grid-template-columns: 1fr 3rem;
+  }
+  .pp-label {
+    grid-column: 1 / -1;
+  }
+}
+.study-columns {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 3rem;
+}
+@media (max-width: 900px) {
+  .study-columns {
+    grid-template-columns: 1fr;
+  }
+}
+.note-excerpt {
+  margin: 0.3rem 0 0;
+  font-size: 0.95rem;
+  color: var(--text-2);
+  white-space: pre-line;
+}
+.backup {
+  margin-top: 2rem;
+}
+.confirm-reset {
+  display: inline-flex;
+  gap: 0.4rem;
+  align-items: center;
+  color: var(--bad);
+}
+/* Library */
+.library-verify {
+  margin-top: 1rem;
+  max-width: 60rem;
+  color: var(--text-2);
+}
+.library-filters {
+  margin-bottom: 1.5rem;
+}
+.library-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-top: 1px solid var(--rule);
+}
+.library-list li {
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+.library-list li.target,
+.gl-entry.target {
+  background: var(--accent-wash);
+  box-shadow: inset 3px 0 0 var(--accent);
+}
+.lib-cite {
+  padding-left: 1.5rem;
+  text-indent: -1.5rem;
+  margin: 0 0 0.35rem;
+  max-width: 56rem;
+}
+.lib-note {
+  font-size: 0.96rem;
+  color: var(--text-2);
+  max-width: 56rem;
+  margin: 0 0 0.35rem;
+}
+.lib-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  font-size: var(--fs-xs);
+  color: var(--text-3);
+  align-items: center;
+}
+.lib-vnote {
+  color: var(--text-3);
+  margin: 0.3rem 0 0;
+}
+.lib-cited {
+  margin: 0.35rem 0 0;
+  color: var(--text-2);
+}
+/* Glossary */
+.az {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.2rem;
+  margin: 1.25rem 0 1.5rem;
+  font-family: var(--f-display);
+  font-size: 1.15rem;
+}
+.az a {
+  padding: 0.1rem 0.45rem;
+  text-decoration: none;
+  border: 1px solid var(--rule);
+}
+.az a:hover {
+  border-color: var(--accent);
+}
+.gl-letter-h {
+  font-size: 2.4rem;
+  color: var(--accent);
+  border-bottom: 1px solid var(--rule-strong);
+  margin: 2rem 0 0.5rem;
+}
+.gl-list {
+  margin: 0;
+}
+.gl-entry {
+  display: grid;
+  grid-template-columns: 17rem 1fr;
+  gap: 1.5rem;
+  padding: 0.9rem 0.5rem;
+  border-bottom: 1px solid var(--rule);
+}
+@media (max-width: 760px) {
+  .gl-entry {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+  }
+}
+.gl-entry dt {
+  display: grid;
+  gap: 0.15rem;
+  align-content: start;
+}
+.gl-term {
+  font-family: var(--f-display);
+  font-size: 1.3rem;
+}
+.gl-literal {
+  font-style: italic;
+  color: var(--text-2);
+  font-size: 0.95rem;
+}
+.gl-entry dd {
+  margin: 0;
+}
+.gl-entry .para {
+  max-width: 50rem;
+}
+.gl-entry .para p {
+  margin-bottom: 0.4rem;
+}
+.gl-related,
+.gl-used {
+  margin: 0.2rem 0 0;
+  color: var(--text-2);
+}

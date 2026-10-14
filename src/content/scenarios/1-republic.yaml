@@ -1,0 +1,287 @@
+- id: tribune-133
+  title: The tribune's dilemma
+  role: Tiberius Sempronius Gracchus, newly elected tribune of the plebs
+  date: 134–133 BC
+  span: [-134, -133]
+  summary: Carry a land law that many Romans want and many powerful senators oppose, without breaking the Republic in the process.
+  briefing: >-
+    It is December 134 BC. You are about thirty, the grandson of Scipio Africanus and son of a twice-consul, and you have just entered office as
+    one of ten [[term:tribune-plebs|tribunes of the plebs]]. You believe that Italy's small farmers, the men who fill the legions, are being
+    pushed off the land, while rich men occupy far more [[term:ager-publicus|public land]] than an old law allows. You plan to enforce a limit
+    of 500 iugera, with allowances for sons, and distribute the surplus in small, inalienable plots.
+
+
+    Respected senators, including your father-in-law Appius Claudius and the jurist P. Mucius Scaevola, have helped draft the bill. But many
+    occupiers, Roman and Italian, have farmed this land for generations, built on it and buried their dead in it. Your colleague M. Octavius is
+    one of them.
+  stakes:
+    - {id: reform, label: Reform achieved, start: 30, note: How much of the land programme becomes law and is carried out.}
+    - {id: people, label: Popular support, start: 60, note: The enthusiasm of voters in Rome and from the countryside.}
+    - {id: senate, label: Senate's tolerance, start: 45, note: How far leading senators are willing to accept you as a legitimate politician.}
+    - {id: safety, label: Your safety, start: 70, note: The risk that the conflict becomes personal and violent.}
+  start: bill
+  nodes:
+    - id: bill
+      date: December 134 BC
+      title: How to introduce the bill
+      text: >-
+        Custom expects a magistrate to discuss major proposals with the Senate first. The law does not require it: a tribune may take a bill straight
+        to the plebeian assembly, whose votes (plebiscita) bind everyone. Your advisers are divided.
+      choices:
+        - label: Take the bill directly to the plebeian assembly
+          detail: Legal, fast, and it shows the people that the matter is theirs to decide.
+          next: veto
+          historical: true
+          effects: {people: 15, senate: -15}
+          outcome: >-
+            Crowds pour into Rome from the countryside to hear you speak. Senators who might have supported a negotiated reform resent being bypassed,
+            and the occupiers organise. A colleague, Octavius, is persuaded to use his veto.
+        - label: Present the bill to the Senate first
+          detail: Respect custom and seek a broad coalition, at the risk of delay.
+          next: senate-path
+          effects: {senate: 15, people: -5, reform: -10}
+          outcome: >-
+            Some leading senators welcome the courtesy, but debate drags on. Amendments multiply: more compensation for occupiers, exemptions for
+            Italians, a smaller commission. Your supporters ask whether you have been bought.
+    - id: senate-path
+      date: Early 133 BC
+      title: The Senate's terms
+      text: >-
+        The Senate signals that it will accept a much weakened bill: the limit enforced only on land occupied recently, generous compensation, and
+        a commission chosen by the Senate rather than elected. It would distribute a fraction of the land you hoped for.
+      choices:
+        - label: Accept the compromise
+          next: end-compromise
+          effects: {senate: 15, reform: 5, people: -15, safety: 10}
+          outcome: >-
+            A modest law passes with senatorial backing. You avoid confrontation, but the distribution is slow and small, and some voters feel betrayed.
+        - label: Reject it and go to the people after all
+          next: veto
+          effects: {people: 10, senate: -20}
+          outcome: >-
+            You have now both delayed and defied the Senate. Your opponents prepare to block you with a tribune's veto.
+    - id: veto
+      date: Spring 133 BC
+      title: Octavius vetoes
+      text: >-
+        On voting day, as the clerk begins to read the bill, Octavius forbids it. A tribune's veto (intercessio) is a sacred right; no tribune has ever
+        been overridden. Your supporters are furious. You try persuasion, even offering to compensate Octavius for his own land from your property, but
+        he refuses.
+      choices:
+        - label: Ask the assembly to remove Octavius from office
+          detail: Argue that a tribune who acts against the people ceases to be a tribune.
+          next: funding
+          historical: true
+          effects: {reform: 30, people: 10, senate: -25, safety: -15}
+          outcome: >-
+            Tribe after tribe votes to depose Octavius, who is dragged from the rostra. The law passes and a commission of three (you, your brother Gaius
+            and Appius Claudius) is elected. But you have set a precedent: a magistrate removed because the people disagreed with him. Opponents begin to
+            speak of tyranny.
+        - label: Refer the dispute to the Senate and wait
+          detail: A legal route that honours the veto.
+          next: end-blocked
+          effects: {senate: 10, people: -15, reform: -20}
+          outcome: >-
+            The Senate debates and offers nothing. (Historically Tiberius did appeal to the Senate at this stage, was rebuffed, and then moved to depose
+            Octavius.) Waiting lets the year slip away.
+        - label: Withdraw the bill for this year
+          next: end-blocked
+          effects: {reform: -25, people: -20, safety: 10}
+          outcome: >-
+            You keep the constitution intact and your reputation as a man of tradition, but the landless are no better off.
+    - id: funding
+      date: Summer 133 BC
+      title: A commission without money
+      text: >-
+        The Senate, which controls the treasury, grants the commission a tiny daily allowance and refuses it a tent. The commissioners must survey
+        land across Italy and equip new farmers with tools and seed. News arrives that King Attalus III of Pergamum has died and left his kingdom to the
+        Roman people.
+      choices:
+        - label: Propose that the people decide how to use Attalus' bequest
+          detail: Use the money to fund the settlers.
+          next: reelection
+          historical: true
+          effects: {reform: 15, senate: -25, safety: -10}
+          outcome: >-
+            The proposal intrudes on the Senate's control of finance and foreign affairs. A rumour spreads that a Pergamene envoy has brought you a diadem
+            and a purple robe, the regalia of a king.
+        - label: Raise money from wealthy supporters and proceed slowly
+          next: reelection
+          effects: {reform: -5, senate: 5}
+          outcome: >-
+            The work goes on, slowly, with private help. Your enemies wait for your term to end.
+    - id: reelection
+      date: Summer 133 BC
+      title: When your year ends
+      text: >-
+        Your tribunate ends in December. As a private citizen you could be prosecuted for deposing Octavius, and your law could be undermined. Standing
+        again for the tribunate at once is not clearly illegal, but it is without recent precedent.
+      choices:
+        - label: Stand for re-election
+          next: end-death
+          historical: true
+          effects: {safety: -50, senate: -20}
+          outcome: >-
+            On election day the Senate meets in the temple of Fides. When the consul Scaevola refuses to use force against a citizen without trial, the
+            pontifex maximus Scipio Nasica leads senators and their attendants to the Capitol.
+        - label: Step down and work on the commission as a private citizen
+          next: end-prosecuted
+          effects: {safety: -10, reform: 5, senate: 5}
+          outcome: >-
+            You leave office. Your enemies begin preparing a prosecution, but the commission continues its work under its own legal authority.
+    - id: end-death
+      title: Death on the Capitol
+      end: true
+      text: >-
+        Armed with clubs and the legs of benches, senators and their followers attack your supporters. You and some three hundred others are killed;
+        the bodies are thrown into the Tiber. Your law survives you: the commission continues to distribute land. But political disagreement in Rome
+        has, for the first time in centuries, been settled by killing.
+    - id: end-prosecuted
+      title: A private citizen in danger
+      end: true
+      text: >-
+        A plausible alternative: you face prosecution and perhaps exile, as other controversial politicians did, but your law and the commission survive.
+        Whether this path could have prevented the cycle of violence is impossible to know; your enemies regarded the deposition of Octavius as an
+        unforgivable breach.
+    - id: end-compromise
+      title: A smaller reform
+      end: true
+      text: >-
+        A plausible alternative: a modest law with senatorial support redistributes some land without bloodshed. The structural pressures of land,
+        recruitment and the Italian allies remain, and are likely to return in a sharper form.
+    - id: end-blocked
+      title: The veto holds
+      end: true
+      text: >-
+        A plausible alternative: the veto holds and the bill dies. You preserve the conventions of the Republic, but the grievances behind the bill remain
+        unresolved.
+  history: >-
+    Tiberius Gracchus took his bill directly to the plebeian assembly. When Octavius vetoed it, he appealed to the Senate without success and then had
+    the assembly depose Octavius, an unprecedented step. The law passed and a commission of three was elected. When the Senate starved the commission
+    of funds, Tiberius proposed using the bequest of Attalus III. He stood for re-election to a second tribunate and was killed with some three hundred
+    supporters by senators led by Scipio Nasica. The land commission continued to work for years; boundary stones naming the commissioners survive.
+  debrief:
+    - 'The bill itself had respectable supporters; the conflict escalated over *procedure*: bypassing the Senate, overriding a veto, intruding on finance and seeking re-election.'
+    - Each side could claim to defend the constitution. Tiberius invoked the sovereignty of the people; his killers invoked the danger of tyranny.
+    - The deeper problems (land, recruitment and the status of the Italian allies) were not solved by Tiberius' death, as his brother's career would show.
+  sources: [gracchus-speech]
+  lessons: [gracchi, price-of-empire]
+
+- id: rubicon-49
+  title: At the Rubicon
+  role: Gaius Julius Caesar, proconsul of Gaul
+  date: December 50 – February 49 BC
+  span: [-50, -49]
+  summary: Protect your position and your life without starting a civil war, if that is still possible.
+  briefing: >-
+    It is December 50 BC. You have conquered Gaul in eight years of war and command a battle-hardened army. Your command is due to end, and you want to
+    stand for a second consulship in 48 without coming to Rome in person, so that you pass straight from one office to another. Your enemies, led by
+    [[fig:cato-younger|Cato]] and the consuls for 49, want you to give up your army first; once you are a private citizen they intend to prosecute
+    you for the illegalities of your first consulship. [[fig:pompey|Pompey]], once your ally and son-in-law, now sides with them.
+
+
+    On 1 December the Senate voted by an enormous majority (370 to 22, according to Appian) that both you and Pompey should lay down your commands,
+    but the consul refused to act on the vote.
+  stakes:
+    - {id: army, label: Army's loyalty, start: 80, note: Your soldiers' willingness to follow you.}
+    - {id: legitimacy, label: Public legitimacy, start: 50, note: How far Romans in Italy see your cause as just.}
+    - {id: dignitas, label: Your standing and safety, start: 50, note: Your dignitas, and your freedom from prosecution.}
+    - {id: peace, label: Chance of peace, start: 40, note: The likelihood that the crisis ends without civil war.}
+  start: offer
+  nodes:
+    - id: offer
+      date: Late December 50 – early January 49 BC
+      title: A final offer?
+      text: >-
+        Through your tribune Curio and others you can send proposals to the Senate. Cicero, newly returned from his province, is trying to mediate.
+      choices:
+        - label: Offer to give up most of your command if you can keep one province and a legion until the election
+          next: decree
+          historical: true
+          effects: {legitimacy: 15, peace: 10}
+          outcome: >-
+            Your offer, reported by later writers, is close to acceptable for many senators. Pompey wavers, but your hardline opponents block it. On 7 January
+            the Senate passes its ultimate decree. Your tribunes, including Mark Antony, are warned of danger and flee to you.
+        - label: Lay down your command and return to Rome as a private citizen
+          next: end-surrender
+          effects: {peace: 30, dignitas: -50, army: -30}
+          outcome: >-
+            You disband your legions and travel to Rome to stand for election in person.
+        - label: Strike first, before your enemies are ready
+          next: crossing
+          effects: {legitimacy: -25, peace: -40, army: 5}
+          outcome: >-
+            Your sudden march looks like naked aggression. Wavering senators rally to Pompey, and you lose the argument that you are the injured party.
+    - id: decree
+      date: 10 January 49 BC
+      title: The tribunes arrive
+      text: >-
+        You are at Ravenna with a single legion. The rest of your army is beyond the Alps. Your tribunes arrive in disguise, saying that their sacred
+        right of veto has been overridden and their lives threatened. The boundary of your province is the little river Rubicon.
+      choices:
+        - label: Cross the Rubicon now, with the legion you have
+          detail: Strike while Pompey's forces in Italy are unprepared.
+          next: crossing
+          historical: true
+          effects: {peace: -40, army: 10, legitimacy: 5, dignitas: 15}
+          outcome: >-
+            You lead the Thirteenth Legion across the river. Later writers give you the words "the die is cast". Towns in northern Italy open their gates.
+        - label: Wait for your legions from Gaul and negotiate meanwhile
+          next: end-delay
+          effects: {peace: 10, army: -5}
+          outcome: >-
+            Weeks pass while your legions march. Pompey uses the time to raise troops in Italy, and the Senate declares you a public enemy.
+    - id: crossing
+      date: February 49 BC
+      title: Corfinium
+      text: >-
+        Pompey and the consuls abandon Rome and head for Brundisium. At Corfinium you trap L. Domitius Ahenobarbus, who was to succeed you in Gaul, with
+        thirty cohorts and many senators. Sulla, in your youth, killed his enemies wholesale.
+      choices:
+        - label: Pardon the senators and let them go, even to rejoin Pompey
+          next: end-clemency
+          historical: true
+          effects: {legitimacy: 25, dignitas: 10}
+          outcome: >-
+            You release Domitius and his officers unharmed, and incorporate their soldiers into your army. Your clemency becomes the policy of your campaign.
+            Cicero writes privately of how it is winning opinion in the towns of Italy.
+        - label: Execute the leaders as enemies of the state
+          next: end-terror
+          effects: {legitimacy: -35, army: 5}
+          outcome: >-
+            The executions terrify Italy, as Sulla's proscriptions had. Neutral senators flee to Pompey.
+    - id: end-clemency
+      title: Civil war, with clemency
+      end: true
+      text: >-
+        Pompey escapes to Greece. Over the next four years you defeat his forces at Pharsalus, Thapsus and Munda, pardoning many opponents. The clemency
+        that wins you support also leaves alive the men who will kill you on the Ides of March 44 BC.
+    - id: end-terror
+      title: Civil war, with terror
+      end: true
+      text: >-
+        A plausible alternative: you still have the stronger army, but your reputation for cruelty unites the elite against you, and the war becomes
+        bloodier. It would be hard to present yourself, as you did in reality, as the defender of the people's liberty.
+    - id: end-surrender
+      title: A private citizen
+      end: true
+      text: >-
+        A plausible alternative: without the immunity of office, you face prosecution by Cato and others. Conviction would mean exile and the end of your
+        career; your veterans might not wait quietly. Whether your enemies would have pressed the case to the end is unknowable.
+    - id: end-delay
+      title: The initiative lost
+      end: true
+      text: >-
+        A plausible alternative: delay strengthens Pompey's position in Italy and weakens your claim to be acting in self-defence. The war would still
+        come, on worse terms for you.
+  history: >-
+    In the first days of January 49 Caesar made a compromise offer, which his opponents rejected. On 7 January the Senate passed the ultimate decree and
+    the tribunes who supported him fled. On about 10 January Caesar crossed the Rubicon with a single legion. Pompey and most of the magistrates abandoned
+    Rome and then Italy. At Corfinium Caesar pardoned the captured senators and enrolled their troops, beginning a policy of clemency. He won the civil
+    war but was assassinated in 44 BC by men who included former opponents he had pardoned.
+  debrief:
+    - The issue was narrow (the timing of Caesar's command and candidacy) but existential for him, because losing it meant prosecution and probably exile.
+    - Most senators wanted compromise; a determined minority on both sides preferred war to concession.
+    - Caesar justified his invasion in terms of his dignitas, the tribunes and the people's liberty, values that many Romans recognised.
+  sources: [caesar-bc-1-22, cicero-attic-49]
+  lessons: [caesar]

@@ -1,0 +1,322 @@
+# Reference works and digital resources.
+- id: ocd-2012
+  type: reference
+  editors: ['Hornblower, Simon', 'Spawforth, Antony', 'Eidinow, Esther']
+  title: The Oxford Classical Dictionary
+  edition: 4th ed.
+  place: Oxford
+  publisher: Oxford University Press
+  year: '2012'
+  level: introductory
+  topics: [reference]
+  note: The first place to look up any person, place, institution or term. Now continuously updated online as the Oxford Classical Dictionary digital edition.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: BnF catalogue; Classical Journal review (4th edition, OUP, 2012).'
+- id: cah-7-2
+  type: reference
+  editors: ['Walbank, F. W.', 'Astin, A. E.', 'Frederiksen, M. W.', 'Ogilvie, R. M.']
+  title: 'The Cambridge Ancient History, Volume 7, Part 2: The Rise of Rome to 220 B.C.'
+  edition: 2nd ed.
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '1989'
+  level: advanced
+  topics: [reference, origins, republic]
+  note: Authoritative chapters on early Rome, the Conflict of the Orders and the conquest of Italy.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Cambridge Core; Classical Review notice of CAH² VII.2 (1989).'
+- id: cah-8
+  type: reference
+  editors: ['Astin, A. E.', 'Walbank, F. W.', 'Frederiksen, M. W.', 'Ogilvie, R. M.']
+  title: 'The Cambridge Ancient History, Volume 8: Rome and the Mediterranean to 133 B.C.'
+  edition: 2nd ed.
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '1989'
+  level: advanced
+  topics: [reference, conquest]
+  note: Narrative and thematic chapters on the Punic and Macedonian wars and Roman society in the second century BC.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Cambridge University Press copyright page; Classical Review notice of CAH² VIII (1989).'
+- id: cah-9
+  type: reference
+  editors: ['Crook, J. A.', 'Lintott, Andrew', 'Rawson, Elizabeth']
+  title: 'The Cambridge Ancient History, Volume 9: The Last Age of the Roman Republic, 146–43 B.C.'
+  edition: 2nd ed.
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '1994'
+  level: advanced
+  topics: [reference, late-republic]
+  note: Standard reference for the late Republic.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: BnF and National Library of Israel catalogues (CAH² IX, 1994).'
+- id: cah-10
+  type: reference
+  editors: ['Bowman, Alan K.', 'Champlin, Edward', 'Lintott, Andrew']
+  title: 'The Cambridge Ancient History, Volume 10: The Augustan Empire, 43 B.C.–A.D. 69'
+  edition: 2nd ed.
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '1996'
+  level: advanced
+  topics: [reference, augustus, principate]
+  note: Political, institutional and provincial chapters on the first century of the Principate.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: BnF and National Library of Finland catalogues (CAH² X, 1996).'
+- id: cah-11
+  type: reference
+  editors: ['Bowman, Alan K.', 'Garnsey, Peter', 'Rathbone, Dominic']
+  title: 'The Cambridge Ancient History, Volume 11: The High Empire, A.D. 70–192'
+  edition: 2nd ed.
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '2000'
+  level: advanced
+  topics: [reference, principate]
+  note: Includes region-by-region surveys of the provinces.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: British Museum library and Heidelberg catalogues (CAH² XI, 2000).'
+- id: cah-12
+  type: reference
+  editors: ['Bowman, Alan K.', 'Garnsey, Peter', 'Cameron, Averil']
+  title: 'The Cambridge Ancient History, Volume 12: The Crisis of Empire, A.D. 193–337'
+  edition: 2nd ed.
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '2005'
+  level: advanced
+  topics: [reference, late-antiquity]
+  note: Standard reference for the Severans, the third century, the Tetrarchy and Constantine.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: NYPL catalogue (ISBN 9780521301992) (CAH² XII, 2005).'
+- id: cah-13
+  type: reference
+  editors: ['Cameron, Averil', 'Garnsey, Peter']
+  title: 'The Cambridge Ancient History, Volume 13: The Late Empire, A.D. 337–425'
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '1998'
+  level: advanced
+  topics: [reference, late-antiquity, fall-of-west]
+  note: Covers the late fourth and early fifth centuries in East and West.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Library catalogues (CAH² XIII, 1998).'
+- id: cah-14
+  type: reference
+  editors: ['Cameron, Averil', 'Ward-Perkins, Bryan', 'Whitby, Michael']
+  title: 'The Cambridge Ancient History, Volume 14: Late Antiquity: Empire and Successors, A.D. 425–600'
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '2000'
+  level: advanced
+  topics: [reference, fall-of-west, byzantium]
+  note: The end of the western empire, the successor kingdoms and the age of Justinian.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Journal of Roman Studies notice (CAH² XIV, 2000).'
+- id: chbe-2008
+  type: reference
+  editors: ['Shepard, Jonathan']
+  title: 'The Cambridge History of the Byzantine Empire, c. 500–1492'
+  place: Cambridge
+  publisher: Cambridge University Press
+  year: '2008'
+  level: advanced
+  topics: [reference, byzantium]
+  note: Chronological and thematic chapters by leading specialists.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Cambridge University Press front matter (ISBN 9780521832311); Wikipedia article on the work.'
+- id: odb-1991
+  type: reference
+  editors: ['Kazhdan, Alexander P.']
+  title: The Oxford Dictionary of Byzantium
+  volume: 3 vols.
+  place: New York
+  publisher: Oxford University Press
+  year: '1991'
+  level: intermediate
+  topics: [reference, byzantium]
+  note: The essential reference for Byzantine terms, people and institutions.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Wikipedia article on the work; library catalogues (Oxford University Press, 1991, 3 vols).'
+- id: ohbs-2008
+  type: reference
+  editors: ['Jeffreys, Elizabeth', 'Haldon, John', 'Cormack, Robin']
+  title: The Oxford Handbook of Byzantine Studies
+  place: Oxford
+  publisher: Oxford University Press
+  year: '2008'
+  level: intermediate
+  topics: [reference, byzantium, historiography]
+  note: Survey chapters on sources, methods and themes in Byzantine studies.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: Oxford Academic listing; NYPL catalogue (OUP, 2008).'
+- id: barrington-2000
+  type: reference
+  editors: ['Talbert, Richard J. A.']
+  title: Barrington Atlas of the Greek and Roman World
+  place: Princeton
+  publisher: Princeton University Press
+  year: '2000'
+  level: intermediate
+  topics: [reference, maps]
+  note: The standard scholarly atlas of the ancient world, the basis of the AWMC data used in this course's maps.
+  verified: catalogue
+  verifiedNote: 'Details checked in October 2026 against: WorldCat (OCLC 43970336); Emory library catalogue (Princeton, 2000).'
+- id: pleiades
+  type: digital
+  title: 'Pleiades: A Gazetteer of Past Places'
+  publisher: Ancient World Mapping Center, University of North Carolina at Chapel Hill
+  year: n.d.
+  url: https://pleiades.stoa.org
+  level: intermediate
+  topics: [reference, maps]
+  note: An open, community-built gazetteer of ancient places with coordinates, names and references.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: pleiades.stoa.org, published by the Ancient World Mapping Center.'
+- id: awmc
+  type: digital
+  title: Ancient World Mapping Center
+  publisher: University of North Carolina at Chapel Hill
+  year: n.d.
+  url: https://awmc.unc.edu
+  level: intermediate
+  topics: [reference, maps]
+  note: Maps and open geodata for the ancient Mediterranean; the source of the territorial extents, provinces, roads and walls in this course's atlas.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: awmc.unc.edu.'
+- id: orbis
+  type: digital
+  title: 'ORBIS: The Stanford Geospatial Network Model of the Roman World'
+  authors: ['Scheidel, Walter', 'Meeks, Elijah']
+  publisher: Stanford University
+  year: n.d.
+  url: https://orbis.stanford.edu
+  level: intermediate
+  topics: [reference, maps, economy]
+  note: Calculates the time and cost of travel between Roman places by road, river and sea; a powerful way to think about distance and integration.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: orbis.stanford.edu (Walter Scheidel and Elijah Meeks, Stanford University Libraries).'
+- id: perseus
+  type: digital
+  title: Perseus Digital Library
+  publisher: Tufts University
+  year: n.d.
+  url: https://www.perseus.tufts.edu
+  level: introductory
+  topics: [reference, sources]
+  note: Greek and Latin texts with translations and morphological tools.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: www.perseus.tufts.edu (Department of Classical Studies, Tufts University).'
+- id: lacuscurtius
+  type: digital
+  authors: ['Thayer, Bill']
+  title: LacusCurtius
+  publisher: University of Chicago
+  year: n.d.
+  url: https://penelope.uchicago.edu/Thayer/E/Roman/home.html
+  level: introductory
+  topics: [reference, sources]
+  note: Public-domain translations of many Roman authors (Loeb editions out of copyright), with Latin texts and topographical material.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: penelope.uchicago.edu, maintained by Bill Thayer.'
+- id: rib-online
+  type: digital
+  title: Roman Inscriptions of Britain
+  publisher: Centre for the Study of Ancient Documents, University of Oxford, and the LatinNOW project, University of Nottingham
+  year: n.d.
+  url: https://romaninscriptionsofbritain.org
+  level: intermediate
+  topics: [reference, epigraphy, provinces]
+  note: Every Roman inscription from Britain with text, translation, images and commentary.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: romaninscriptionsofbritain.org.'
+- id: vindolanda-online
+  type: digital
+  title: Vindolanda Tablets Online
+  publisher: Centre for the Study of Ancient Documents, University of Oxford
+  year: n.d.
+  url: http://vindolanda.csad.ox.ac.uk
+  level: intermediate
+  topics: [reference, army, sources]
+  note: Images, texts and translations of the Vindolanda writing tablets.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: vindolanda.csad.ox.ac.uk.'
+- id: ocre
+  type: digital
+  title: Online Coins of the Roman Empire
+  publisher: American Numismatic Society and Institute for the Study of the Ancient World
+  year: n.d.
+  url: https://numismatics.org/ocre/
+  level: intermediate
+  topics: [reference, coins]
+  note: A digital version of the Roman Imperial Coinage typology with examples from museum collections.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: numismatics.org/ocre (American Numismatic Society with ISAW, New York University).'
+- id: crro
+  type: digital
+  title: Coinage of the Roman Republic Online
+  publisher: American Numismatic Society
+  year: n.d.
+  url: https://numismatics.org/crro/
+  level: intermediate
+  topics: [reference, coins, republic]
+  note: Republican coin types based on Crawford's Roman Republican Coinage.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: numismatics.org/crro (American Numismatic Society).'
+- id: edcs
+  type: digital
+  title: Epigraphik-Datenbank Clauss/Slaby
+  publisher: Manfred Clauss and others; hosted by the University of Zurich
+  year: n.d.
+  url: https://edcs.hist.uzh.ch/en/
+  level: advanced
+  topics: [reference, epigraphy]
+  note: A searchable database of most published Latin inscriptions.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: edcs.hist.uzh.ch (the database''s current home at the University of Zurich).'
+- id: papyri-info
+  type: digital
+  title: Papyri.info
+  publisher: Duke Collaboratory for Classics Computing and partners
+  year: n.d.
+  url: https://papyri.info
+  level: advanced
+  topics: [reference, papyrology]
+  note: Texts, translations and metadata for documentary papyri.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: papyri.info (Duke University Libraries).'
+- id: dir
+  type: digital
+  title: 'De Imperatoribus Romanis: An Online Encyclopedia of Roman Rulers and Their Families'
+  year: n.d.
+  url: https://roman-emperors.sites.luc.edu/
+  level: introductory
+  topics: [reference, principate]
+  note: Peer-reviewed entries on emperors and their families.
+  publisher: Loyola University Chicago
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: roman-emperors.sites.luc.edu (current home at Loyola University Chicago).'
+- id: fordham-sourcebook
+  type: digital
+  editors: ['Halsall, Paul']
+  title: Internet Ancient History Sourcebook
+  publisher: Fordham University
+  year: n.d.
+  url: https://sourcebooks.web.fordham.edu/ancient/asbook.asp
+  level: introductory
+  topics: [reference, sources]
+  note: A large collection of translated texts, many from older public-domain translations; check them against modern editions.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: sourcebooks.web.fordham.edu.'
+- id: bm-collection
+  type: digital
+  title: British Museum Collection Online
+  publisher: British Museum
+  year: n.d.
+  url: https://www.britishmuseum.org/collection
+  level: introductory
+  topics: [reference, archaeology, coins]
+  note: Catalogue records and images for the Museum's Roman objects and coins.
+  verified: catalogue
+  verifiedNote: 'Link checked in October 2026: britishmuseum.org/collection.'

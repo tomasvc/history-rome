@@ -1,0 +1,233 @@
+.tl-toolbar {
+  margin-bottom: 1rem;
+  gap: 0.75rem 1.5rem;
+}
+.tl-zoombar {
+  margin-bottom: 0.5rem;
+  justify-content: space-between;
+}
+.tl-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2rem;
+}
+.tl-layout.has-detail {
+  grid-template-columns: minmax(0, 1fr) 340px;
+}
+@media (max-width: 1000px) {
+  .tl-layout.has-detail {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+.tl-chart {
+  position: relative;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  overflow: hidden;
+  touch-action: none;
+}
+.tl-svg {
+  display: block;
+  cursor: grab;
+  font-family: var(--f-ui);
+}
+.tl-svg:active {
+  cursor: grabbing;
+}
+.tl-lanes span {
+  position: absolute;
+  left: 6px;
+  font-family: var(--f-ui);
+  font-size: 0.6875rem;
+  font-weight: 600;
+  letter-spacing: 0.03em;
+  pointer-events: none;
+  z-index: 1;
+  padding-top: 2px;
+}
+.tl-period-label {
+  font-size: 10.5px;
+  fill: var(--text-2);
+}
+.tl-grid {
+  stroke: var(--rule);
+  stroke-width: 1;
+}
+.tl-tick {
+  font-size: 11px;
+  fill: var(--text-3);
+  font-variant-numeric: lining-nums;
+}
+.tl-lane-rule {
+  stroke: var(--rule);
+  stroke-dasharray: 2 3;
+}
+.tl-mark {
+  cursor: pointer;
+}
+.tl-diamond {
+  fill: var(--c);
+  stroke: var(--surface);
+  stroke-width: 1.2;
+}
+.tl-bar {
+  fill: var(--c);
+  opacity: 0.35;
+}
+.tl-uncertain {
+  fill: none;
+  stroke: var(--c);
+  stroke-dasharray: 2 2;
+  opacity: 0.8;
+}
+.tl-label {
+  font-size: 11.5px;
+  fill: var(--text-2);
+}
+.tl-label.w3 {
+  fill: var(--text);
+  font-weight: 600;
+}
+.tl-mark:hover .tl-label {
+  fill: var(--accent);
+}
+.tl-mark.sel .tl-diamond {
+  stroke: var(--text);
+  stroke-width: 2;
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: scale(1.5);
+}
+.tl-mark.sel .tl-label {
+  fill: var(--text);
+  font-weight: 700;
+}
+.tl-mark.rel .tl-label {
+  fill: var(--text);
+}
+.tl-mark.dim {
+  opacity: 0.35;
+}
+.tl-arc {
+  fill: none;
+  stroke-width: 1.6;
+}
+.tl-arc-in {
+  stroke: var(--accent);
+}
+.tl-arc-out {
+  stroke: var(--good);
+  stroke-dasharray: 5 3;
+}
+.tl-hover {
+  position: absolute;
+  top: 6px;
+  display: grid;
+  gap: 0.1rem;
+  background: var(--bg);
+  border: 1px solid var(--rule-strong);
+  padding: 0.35rem 0.55rem;
+  font-size: var(--fs-sm);
+  pointer-events: none;
+  max-width: 260px;
+  z-index: 2;
+}
+.tl-overview {
+  margin-top: 0.6rem;
+  display: grid;
+  gap: 0.3rem;
+}
+.tl-overview-track {
+  position: relative;
+  height: 14px;
+  background: var(--inset);
+  cursor: pointer;
+}
+.tl-overview-track > span {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 0.3;
+}
+.tl-overview-track .tl-overview-window {
+  opacity: 1;
+  border: 2px solid var(--text);
+  background: transparent;
+  top: -3px;
+  bottom: -3px;
+  min-width: 4px;
+}
+.tl-legend {
+  margin-top: 0.6rem;
+}
+.tl-detail {
+  border-top: 3px double var(--rule-strong);
+  padding-top: 0.8rem;
+  position: sticky;
+  top: 84px;
+  max-height: calc(100vh - 100px);
+  overflow-y: auto;
+}
+.tl-detail-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tl-detail h2 {
+  font-size: 1.7rem;
+  margin: 0.3rem 0 0.6rem;
+}
+.tl-detail h3 {
+  font-family: var(--f-ui);
+  font-size: var(--fs-sm);
+  font-weight: 600;
+  color: var(--text-3);
+  margin: 1.2rem 0 0.3rem;
+}
+.tl-detail .rich .para {
+  max-width: none;
+}
+.tl-detail-themes {
+  margin-bottom: 0.8rem;
+  gap: 0.4rem;
+}
+.tl-date-note {
+  color: var(--cert-speculative);
+}
+.tl-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-family: var(--f-ui);
+  font-size: var(--fs-ui);
+}
+.tl-links li {
+  padding: 0.2rem 0 0.2rem 1rem;
+  position: relative;
+}
+.tl-links.in li::before {
+  content: '←';
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+.tl-links.out li::before {
+  content: '→';
+  position: absolute;
+  left: 0;
+  color: var(--good);
+}
+.tl-table-date {
+  white-space: nowrap;
+  font-variant-numeric: lining-nums;
+  color: var(--text-2);
+}
+.tl-table tr.sel td {
+  background: var(--accent-wash);
+}
+.theme-dot {
+  display: inline-block;
+  width: 9px;
+  height: 9px;
+  margin-right: 3px;
+}

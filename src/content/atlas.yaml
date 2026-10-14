@@ -1,0 +1,204 @@
+- id: '-200'
+  year: -200
+  label: c. 200 BC — after the war with Hannibal
+  layer: hb_m200
+  source: HB
+  confidence: interpretation
+  summary: >-
+    Rome controls peninsular Italy through a web of colonies, citizen communities and allies, plus its first overseas
+    provinces: Sicily, Sardinia-Corsica and the coastal strips of Spain taken from Carthage. Carthage survives as a
+    disarmed client in Africa. In the Greek East Rome is about to intervene against Philip V of Macedon.
+  caveat: >-
+    "Roman territory" here mixes very different relationships: citizen land, allied states bound by treaty, and newly
+    conquered provinces where Roman control often reached little beyond garrisons. The Spanish holdings were contested for
+    decades. World-scale data: treat the edges as approximate.
+- id: '-100'
+  year: -100
+  label: c. 100 BC — the Republic in crisis
+  layer: hb_m100
+  source: HB
+  confidence: interpretation
+  summary: >-
+    Provinces now include Macedonia and Achaea (146), Africa (146), Asia (133), Transalpine Gaul (c. 121) and Cilicia. Italy
+    remains an alliance, not a unified citizen state, on the eve of the Social War (91 BC). Marius has just defeated the
+    Cimbri and Teutones.
+  caveat: >-
+    The dataset draws one boundary around provinces, allies and client kingdoms alike. Inland Spain and the hinterland of
+    Asia were only partly controlled. Approximate world-scale borders.
+- id: '-60'
+  year: -60
+  label: 60 BC — Pompey's settlement of the East
+  layer: ext_m60
+  source: AWMC
+  confidence: interpretation
+  summary: >-
+    Pompey has annexed Syria and reorganised the East; Bithynia-Pontus and Crete are provinces. Gaul north of the
+    Narbonensis is not yet conquered: Caesar's campaigns begin in 58 BC. All Italians south of the Po are now Roman citizens.
+  caveat: >-
+    Drawn from the Ancient World Mapping Center's data, based on the Barrington Atlas. Even a careful scholarly map must
+    choose where a province "ends" in mountains, deserts and client territories; dependent kingdoms such as Judaea are not
+    shown as provinces.
+- id: '14'
+  year: 14
+  label: AD 14 — the empire at the death of Augustus
+  layer: hb_1
+  source: HB
+  confidence: interpretation
+  summary: >-
+    Augustus has added Egypt, Galatia, north-west Spain, the Alpine regions and the lands up to the Danube (Raetia, Noricum,
+    Pannonia, Moesia). After the Varus disaster of AD 9 the Rhine is the limit in Germany. Client kingdoms (hatched) such as
+    Thrace, the Bosporus and Judaea under Herod's successors are ruled through dependent kings.
+  caveat: >-
+    Client kingdoms show that Roman power did not stop at provincial borders: kings owed their thrones to Rome and could be
+    removed. The world-scale borders are approximate.
+- id: '117'
+  year: 117
+  label: AD 117 — Trajan's maximum extent
+  layer: ext_117
+  source: AWMC
+  confidence: interpretation
+  summary: >-
+    The empire's greatest territorial extent: Dacia and Arabia (106) and, briefly, Armenia and Mesopotamia (114–117). Within
+    months of Trajan's death Hadrian abandoned the Mesopotamian conquests.
+  caveat: >-
+    The eastern provinces of 114–117 were never fully organised and were held for at most three years; showing them as
+    solid territory overstates Roman control. Data from the Ancient World Mapping Center.
+- id: '200'
+  year: 200
+  label: AD 200 — the Severan empire and its provinces
+  layer: ext_200
+  provinces: prov_200
+  source: AWMC
+  confidence: interpretation
+  summary: >-
+    Severus has created the province of Mesopotamia and divided Britain and Syria into two provinces each, so that no
+    governor commands too many legions. Dashed lines show provincial boundaries; select the frontier works layer to see
+    Hadrian's Wall, the German limes and the Fossatum Africae.
+  caveat: >-
+    Provincial boundaries are often reconstructed from milestones, boundary stones and the find-spots of inscriptions; many
+    were never surveyed lines. In deserts and mountains "the frontier" was a zone of forts, roads and patrols.
+- id: '300'
+  year: 300
+  label: c. AD 300 — the Tetrarchy
+  layer: hb_300
+  provinces: prov_late
+  source: HB
+  confidence: speculative
+  summary: >-
+    Diocletian's reforms roughly doubled the number of provinces (dashed lines, from AWMC data) and grouped them in dioceses.
+    The colours show the four tetrarchs' zones of responsibility. Dacia north of the Danube was abandoned under Aurelian
+    (c. 271–275).
+  caveat: >-
+    The four-way division is a modern schematic. The tetrarchs did not rule four separate states; laws were issued in the
+    names of all four, and their zones overlapped and changed. Read the colours as "where each emperor usually campaigned".
+- id: '400'
+  year: 400
+  label: c. AD 400 — two courts, one empire
+  layer: hb_400
+  provinces: prov_late
+  source: HB
+  confidence: interpretation
+  summary: >-
+    After 395 Arcadius ruled from Constantinople and Honorius in the West. The line between them ran through the Balkans
+    (Illyricum was contested). Goths are settled in the Balkans; the Rhine crossing of 406 is still to come.
+  caveat: >-
+    Contemporaries spoke of one empire with two emperors, not two empires. The colours mark administrative responsibility.
+- id: '500'
+  year: 500
+  label: c. AD 500 — the empire in the East alone
+  layer: hb_500
+  roles: [east]
+  source: HB
+  confidence: interpretation
+  summary: >-
+    There has been no emperor in the West since 476/480. Italy is ruled by Theoderic the Ostrogoth, Africa by the Vandals,
+    Gaul by Franks, Burgundians and Visigoths, Spain by Visigoths and Sueves. The eastern empire, from the Danube to Egypt,
+    is intact and prosperous.
+  caveat: >-
+    The western kingdoms are not shown, but many of their rulers held Roman titles and acknowledged the emperor in
+    Constantinople in some form; Roman law, cities and landowners persisted under them. The boundary data is approximate.
+- id: '600'
+  year: 600
+  label: c. AD 600 — after Justinian
+  layer: hb_600
+  roles: [east]
+  source: HB
+  confidence: interpretation
+  summary: >-
+    Justinian's wars restored Africa, Italy and a strip of southern Spain. By 600 the Lombards hold much of Italy, Slavs and
+    Avars press the Balkans, and the great Persian war is about to begin (602).
+  caveat: >-
+    Imperial control in Italy and the Balkans was patchy: fortified cities and coasts rather than blocks of territory.
+- id: '700'
+  year: 700
+  label: c. AD 700 — after the Arab conquests
+  layer: hb_700
+  roles: [east]
+  source: HB
+  confidence: interpretation
+  summary: >-
+    Syria, Palestine, Egypt and (by 698) Carthage have fallen to the Caliphate. The empire is reduced to Anatolia, parts of
+    the Balkans and Greece, Sicily, and outposts in Italy: smaller, poorer, Greek-speaking, and still Roman.
+  caveat: >-
+    The frontier in Anatolia was a war zone raided almost annually, not a fixed line.
+- id: '900'
+  year: 900
+  label: c. AD 900 — the middle Byzantine empire
+  layer: hb_900
+  source: HB
+  confidence: interpretation
+  summary: >-
+    The empire of the themes has stabilised in Anatolia and is beginning to push east. Bulgaria is a powerful rival in the
+    Balkans.
+  caveat: World-scale approximate borders.
+- id: '1000'
+  year: 1000
+  label: c. AD 1000 — the age of Basil II
+  layer: hb_1000
+  source: HB
+  confidence: interpretation
+  summary: >-
+    The empire has regained Antioch and Crete and is completing the conquest of Bulgaria (by 1018), its largest extent since
+    the seventh century.
+  caveat: The Bulgarian conquest was still in progress in 1000; the map is a snapshot of a moving situation.
+- id: '1100'
+  year: 1100
+  label: c. AD 1100 — after Manzikert
+  layer: hb_1100
+  source: HB
+  confidence: interpretation
+  summary: >-
+    Most of central Anatolia is now held by the Seljuk Turks. Alexios I is recovering the western coastlands with the help of
+    the First Crusade.
+  caveat: Turkish and Byzantine control in Anatolia interpenetrated; many cities changed hands repeatedly.
+- id: '1200'
+  year: 1200
+  label: c. AD 1200 — on the eve of the Fourth Crusade
+  layer: hb_1200
+  source: HB
+  confidence: interpretation
+  summary: >-
+    The Komnenian empire has fragmented after 1180; Serbia and a new Bulgarian state are independent. In 1204 the Fourth
+    Crusade will take Constantinople.
+  caveat: World-scale approximate borders.
+- id: '1300'
+  year: 1300
+  label: c. AD 1300 — the restored empire
+  layer: hb_1300
+  source: HB
+  confidence: interpretation
+  summary: >-
+    Constantinople was recovered in 1261. The Palaiologan empire holds parts of Thrace, Macedonia and the Peloponnese, and is
+    losing its last Anatolian lands to Turkish emirates, among them the Ottomans. Trebizond survives as a separate Greek
+    empire.
+  caveat: World-scale approximate borders.
+- id: '1400'
+  year: 1400
+  label: c. AD 1400 — a city-state empire
+  layer: hb_1400
+  source: HB
+  confidence: interpretation
+  summary: >-
+    The Ottomans surround Constantinople, which they have blockaded since 1394. The empire is little more than the capital,
+    a few towns and the Morea. It will survive until 1453.
+  caveat: World-scale approximate borders.

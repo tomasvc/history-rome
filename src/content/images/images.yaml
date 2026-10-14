@@ -1,0 +1,81 @@
+# Photographs are loaded at run time from Wikimedia Commons by file name.
+# Credits and licences were checked in October 2026 against copies of each Commons file description page. Where the
+# author could not be confirmed (the Constantine mosaic), the credit points to the Commons page instead of guessing.
+# Public-domain status is stated only for photographs of two-dimensional works that are themselves public domain.
+# Commons pages can change; check the live page before reusing an image elsewhere.
+- id: prima-porta
+  file: Statue-Augustus.jpg
+  title: Augustus of Prima Porta
+  object: Marble statue of Augustus addressing troops, found in 1863 at the villa of Livia at Prima Porta
+  date: Early 1st century AD, perhaps after a bronze original of c. 20 BC
+  holding: Vatican Museums, Rome
+  credit: Till Niermann
+  license: CC BY-SA 3.0 / GFDL
+  caveat: >-
+    Traces of paint show that the statue was originally coloured. Its present white surface is not what ancient viewers saw, and modern painted
+    reconstructions are hypotheses.
+  kind: artifact
+- id: tetrarchs-venice
+  file: The-tetrarchs.jpg
+  title: The Tetrarchs
+  object: Porphyry group of four emperors embracing, set into the façade of St Mark's Basilica
+  date: c. AD 300
+  holding: St Mark's Basilica, Venice; taken from Constantinople after 1204
+  credit: Nino Barbieri
+  license: CC BY-SA 3.0 / CC BY 2.5 / GFDL
+  caveat: >-
+    The group was removed from Constantinople by the crusaders; a missing foot was later found in Istanbul. Which emperors are shown is not certain.
+  kind: artifact
+- id: justinian-mosaic
+  file: Meister von San Vitale in Ravenna 004.jpg
+  title: Justinian and his court
+  object: Wall mosaic in the apse of the church of San Vitale, showing the emperor with clergy, officials and guards
+  date: c. AD 547
+  holding: Basilica of San Vitale, Ravenna
+  credit: The Yorck Project reproduction
+  license: public domain (reproduction of a public-domain work)
+  caveat: >-
+    An official image: Justinian never visited Ravenna. The mosaic presents an ideal of imperial piety and order, not a record of an event.
+  kind: portrait
+- id: theodora-mosaic
+  file: Meister von San Vitale in Ravenna 003.jpg
+  title: Theodora and her attendants
+  object: Wall mosaic in the apse of the church of San Vitale, showing the empress bringing a chalice
+  date: c. AD 547
+  holding: Basilica of San Vitale, Ravenna
+  credit: The Yorck Project reproduction
+  license: public domain (reproduction of a public-domain work)
+  caveat: >-
+    Compare this image of a haloed, jewelled empress with Procopius' hostile portrait in the Secret History; both are constructions.
+  kind: portrait
+- id: eid-mar-coin
+  file: Brutus & L. Plaetorius Cestianus, denarius, 42 BC, RRC 508-3.jpg
+  title: The EID MAR denarius of Brutus
+  object: Silver denarius issued for Brutus by L. Plaetorius Cestianus (Crawford, RRC 508/3)
+  date: 42 BC
+  credit: Classical Numismatic Group
+  license: GFDL / CC BY-SA
+  caveat: >-
+    Genuine examples of this coin are rare and forgeries are common; the identity of the specimen shown is documented on its file page.
+  kind: coin
+- id: pont-du-gard
+  file: Pont du Gard BLS.jpg
+  title: The Pont du Gard
+  object: Three-tiered aqueduct bridge carrying the water supply of Nemausus (Nîmes) across the river Gardon
+  date: Mid-1st century AD
+  holding: Vers-Pont-du-Gard, France
+  credit: Benh Lieu Song
+  license: CC BY-SA 3.0
+  caveat: The bridge carried the channel nearly 50 metres above the river; most of the aqueduct ran at or below ground level.
+  kind: site
+- id: constantine-mosaic
+  file: Constantine I Hagia Sophia.jpg
+  title: Constantine presents his city to the Virgin
+  object: Mosaic over the south-west entrance of Hagia Sophia, Istanbul
+  date: Late 10th century AD
+  holding: Hagia Sophia, Istanbul
+  credit: photographer credited on the Commons file page
+  license: licence as stated there
+  caveat: >-
+    Made more than six centuries after Constantine's death: a medieval Roman image of the founder, not a portrait from life.
+  kind: artifact

@@ -1,0 +1,295 @@
+- id: q-m01
+  module: m01
+  title: Origins and the Early Republic
+  checks:
+    - id: q01-1
+      type: mcq
+      skill: source
+      lesson: origins
+      prompt: Which statement best describes the evidential basis of Livy's account of the kings of Rome?
+      options:
+        - text: It was written over 500 years after the events, drawing on earlier Roman historians who themselves wrote centuries later and on family and antiquarian traditions.
+          correct: true
+          why: The first Roman historians wrote c. 200 BC; Livy wrote under Augustus and admits the early stories were closer to poetry than to reliable record.
+        - text: It is based on contemporary royal archives that survived the Gallic sack.
+          why: Livy himself says most records were destroyed in 390 BC, and no royal archive is known.
+        - text: It translates Etruscan chronicles of the sixth century BC.
+          why: Etruscan traditions existed (Claudius drew on some), but Livy did not use them as his basis.
+        - text: It reproduces inscriptions set up by each king.
+          why: The only royal-period inscription of note, the Lapis Niger, does not name a king.
+    - id: q01-2
+      type: order
+      skill: chronology
+      lesson: early-republic
+      prompt: Put these milestones of the Conflict of the Orders and Roman expansion in order.
+      items:
+        - First secession of the plebs; tribunes created
+        - Publication of the Twelve Tables
+        - Capture of Veii
+        - Licinio-Sextian laws open the consulship to plebeians
+        - Settlement of Latium after the Latin War
+        - Lex Hortensia makes plebiscites binding on all
+      explain: 494; 451–450; 396; 367; 338; 287 BC.
+    - id: q01-3
+      type: match
+      skill: recall
+      lesson: early-republic
+      prompt: Match each status in Rome's Italian system with its description.
+      pairs:
+        - {left: Roman citizens, right: 'Full rights, including voting in Rome, with liability to serve in the legions'}
+        - {left: Citizens without the vote, right: 'Communities with the obligations of citizenship but no vote in Roman assemblies'}
+        - {left: Latin colonies, right: 'Settlements with rights of trade and marriage with Romans, and a duty to supply troops'}
+        - {left: Allies (socii), right: 'Independent communities bound by treaty to provide soldiers for Rome''s wars'}
+      explain: >-
+        Rome's graded system after 338 BC gave different communities different stakes in the Roman state while obliging all of them to supply men,
+        which is why expansion generated manpower.
+    - id: q01-4
+      type: mcq
+      skill: interpretation
+      lesson: republican-constitution
+      prompt: What did John North argue about the people's role in Republican politics?
+      options:
+        - text: The people's choices became decisive mainly when the elite was divided, so the system was oligarchic in normal times but contained a latent democratic element.
+          correct: true
+          why: North's 1990 article responded to Millar by stressing the conditions under which popular votes mattered.
+        - text: That the Republic was a fully democratic system on the Athenian model.
+          why: North explicitly qualified Millar's democratic interpretation.
+        - text: That the people never voted.
+          why: Roman assemblies voted regularly on elections and laws.
+        - text: That clientela determined every vote.
+          why: North rejected the idea that patronage alone explained elections.
+    - id: q01-5
+      type: short
+      skill: argument
+      lesson: republican-constitution
+      prompt: In two or three sentences, explain why the Republic's offices were collegial and annual, and identify one weakness this created.
+      model: >-
+        Collegiality (two consuls, ten tribunes) and annual tenure prevented any individual from gaining lasting power and so guarded against a return
+        to kingship. One weakness was discontinuity in command: the solution, prorogation, let individuals hold long commands far from Rome, which later
+        enabled generals like Pompey and Caesar to build personal power.
+      rubric:
+        - Explains the anti-monarchical purpose.
+        - Identifies a weakness (discontinuity, veto deadlock, or prorogation).
+        - Links the weakness to later developments.
+
+- id: q-m02
+  module: m02
+  title: Mediterranean Empire
+  checks:
+    - id: q02-1
+      type: mcq
+      skill: causation
+      lesson: punic-wars
+      prompt: According to Polybius, which act was a true cause of the Second Punic War, even though he thought Carthage formally in the wrong over Saguntum?
+      options:
+        - text: Rome's seizure of Sardinia in 238 BC while Carthage was fighting its mercenaries, with an extra indemnity.
+          correct: true
+          why: Polybius called the Sardinian seizure unjust and named it, with Hamilcar's anger and Carthaginian success in Spain, among the deeper causes.
+        - text: Rome's alliance with Pyrrhus.
+          why: Rome fought Pyrrhus and allied with Carthage against him.
+        - text: Carthage's destruction of Corinth.
+          why: Rome destroyed Corinth, in 146 BC.
+        - text: The founding of Rome's first colony in Spain.
+          why: Rome had no colonies in Spain before the war.
+    - id: q02-2
+      type: mcq
+      skill: interpretation
+      lesson: price-of-empire
+      prompt: Which statement about Roman "freedom of the Greeks" (196 BC) do most historians accept?
+      options:
+        - text: Romans and Greeks understood "freedom" differently; Romans expected deference and gratitude, which caused later conflicts.
+          correct: true
+          why: Gruen and others show how Roman and Greek diplomatic conventions diverged.
+        - text: It was a cynical cover for immediate annexation of Greece.
+          why: Roman armies withdrew in 194; annexation came decades later.
+        - text: It applied to all Greek cities including those in Italy.
+          why: It referred to cities formerly under Philip V.
+        - text: It was proclaimed by Scipio Aemilianus after Pydna.
+          why: It was proclaimed by Flamininus at the Isthmian Games of 196.
+    - id: q02-3
+      type: source
+      skill: source
+      lesson: punic-wars
+      sourceId: polybius-manpower
+      prompt: Why does Polybius include a list of Roman and allied manpower in 225 BC before narrating Hannibal's invasion?
+      model: >-
+        To explain to his Greek readers why Rome could survive the catastrophic defeats that followed: Hannibal faced a state able to call on hundreds of
+        thousands of Roman and allied men. The list prepares the argument that Rome's strength lay in its system and alliance rather than in any single army.
+      rubric:
+        - Connects the list to Rome's resilience after defeat.
+        - Mentions the alliance and manpower.
+        - Notes Polybius' explanatory purpose.
+    - id: q02-4
+      type: match
+      skill: recall
+      lesson: price-of-empire
+      prompt: Match each term with its meaning in second-century provincial government.
+      pairs:
+        - {left: Publicani, right: 'Companies of contractors who bid for state contracts, including tax collection'}
+        - {left: Repetundae, right: 'Money illegally taken by officials, recoverable in a permanent court from 149 BC'}
+        - {left: Prorogation, right: 'Extension of a magistrate''s imperium beyond his year of office'}
+        - {left: Stipendium, right: 'A fixed tribute imposed on some provinces such as Spain'}
+      explain: Government by a few short-term magistrates relied on contractors and prorogation, which created both efficiency and opportunities for abuse.
+    - id: q02-5
+      type: short
+      skill: interpretation
+      lesson: price-of-empire
+      prompt: Give one piece of evidence for, and one against, the traditional picture of Italian small farmers being displaced in the second century BC.
+      model: >-
+        For: the Gracchan narratives of Appian and Plutarch, Cato's slave-run estate, the massive enslavements and slave revolts. Against: archaeological
+        field surveys showing small rural sites continuing in many regions, and Rosenstein's argument that families could absorb military service.
+      rubric:
+        - Gives a valid piece of supporting evidence.
+        - Gives a valid piece of contrary evidence.
+        - Notes regional variation or the nature of the evidence.
+
+- id: q-m03
+  module: m03
+  title: The Fall of the Republic
+  checks:
+    - id: q03-1
+      type: order
+      skill: chronology
+      lesson: caesar
+      prompt: Put these events of the late Republic in order.
+      items:
+        - Death of Tiberius Gracchus
+        - First use of the Senate's ultimate decree against Gaius Gracchus
+        - Marius enrols volunteers without property
+        - Sulla's first march on Rome
+        - Lex Gabinia gives Pompey the pirate command
+        - Crassus killed at Carrhae
+        - Caesar crosses the Rubicon
+      explain: 133; 121; 107; 88; 67; 53; 49 BC.
+    - id: q03-2
+      type: mcq
+      skill: causation
+      lesson: marius-sulla
+      prompt: How did Rome end the Social War (91–88 BC)?
+      options:
+        - text: Mainly by granting the citizenship that the allies had demanded, through laws of 90 and 89 BC, while also defeating them in the field.
+          correct: true
+          why: The lex Julia and lex Plautia Papiria extended citizenship; the war was won by concession as much as by arms.
+        - text: By destroying the Italian communities and confiscating their land.
+          why: Some communities suffered, but enfranchisement was the decisive measure.
+        - text: By granting independence to the Italian federation.
+          why: Rome never recognised Italia as independent.
+        - text: By a treaty mediated by Mithridates.
+          why: Mithridates was Rome's enemy and had no such role.
+    - id: q03-3
+      type: mcq
+      skill: interpretation
+      lesson: caesar
+      prompt: Erich Gruen's The Last Generation of the Roman Republic (1974) argued that
+      options:
+        - text: Republican institutions were still functioning in the 60s and 50s BC, and the Republic fell because of the civil war rather than long-term decay.
+          correct: true
+          why: Gruen pointed to the continuing work of elections, courts and legislation.
+        - text: The Republic had already collapsed in 133 BC.
+          why: This is closer to Flower's argument about the end of the "republic of the nobles".
+        - text: Caesar was the necessary saviour of a corrupt state.
+          why: This is Mommsen's nineteenth-century view.
+        - text: A crisis without alternative made collapse inevitable.
+          why: This is Christian Meier's interpretation.
+    - id: q03-4
+      type: source
+      skill: source
+      lesson: caesar
+      sourceId: caesar-bc-1-22
+      prompt: Identify the three justifications Caesar offers for leaving his province in 49 BC, and say which one would most appeal to the urban plebs.
+      model: >-
+        He claims to defend himself against his enemies' insults (his dignitas), to restore the tribunes driven from Rome, and to free himself and the Roman
+        people from the domination of a small faction. The defence of the tribunes and of the people's liberty would most appeal to the plebs, for whom the
+        tribunate was the guardian of their rights.
+      rubric:
+        - Identifies all three justifications.
+        - Chooses one for the plebs and explains why.
+    - id: q03-5
+      type: essay
+      skill: argument
+      lesson: caesar
+      prompt: '"The Republic fell because its own institutions gave too much power to individuals." Discuss.'
+      model: >-
+        Consider prorogation and extraordinary commands voted by the people (Pompey's in 67 and 66), the tribunate as a vehicle for dynasts, and the ultimate
+        decree; weigh these against social and military pressures (land, veterans, Italians), the violence that began in 133, and the contingencies of 49. A
+        strong answer judges how far the Republic's mechanisms, rather than external pressures, produced the breakdown.
+      rubric:
+        - Identifies specific institutional mechanisms.
+        - Considers alternative explanations.
+        - Uses evidence from several decades.
+        - Reaches a reasoned judgement.
+
+- id: q-m04
+  module: m04
+  title: Augustus and the Principate
+  checks:
+    - id: q04-1
+      type: mcq
+      skill: recall
+      lesson: augustus-power
+      prompt: Which power did Augustus use to number the years of his rule?
+      options:
+        - text: The tribunician power (tribunicia potestas), held from 23 BC.
+          correct: true
+          why: Inscriptions date years by the emperor's tribunician power, a practice his successors continued.
+        - text: The consulship.
+          why: He gave up annual consulships in 23 BC.
+        - text: The office of pontifex maximus.
+          why: He only became pontifex maximus in 12 BC.
+        - text: The title Augustus.
+          why: The name was an honour, not a power renewed annually.
+    - id: q04-2
+      type: match
+      skill: interpretation
+      lesson: augustan-rome
+      prompt: Match each monument or text with what it communicated.
+      pairs:
+        - {left: Prima Porta statue, right: 'Diplomatic success against Parthia presented as victory, in an idealised classical body'}
+        - {left: Ara Pacis, right: 'Peace, fertility and the imperial family in a procession of piety'}
+        - {left: Forum of Augustus, right: 'Roman history culminating in Augustus, with statues of Aeneas, Romulus and the great men'}
+        - {left: Res Gestae, right: 'Augustus'' own account of his achievements and legal restraint'}
+      explain: >-
+        Augustan communication worked through many media aimed at different audiences, all presenting the new order as the fulfilment of Roman tradition.
+    - id: q04-3
+      type: mcq
+      skill: interpretation
+      lesson: augustus-power
+      prompt: Which statement best summarises Syme's interpretation in The Roman Revolution (1939)?
+      options:
+        - text: Augustus' rise was a revolution in which a new faction seized power by violence and propaganda, replacing the old nobility with new men from Italy.
+          correct: true
+          why: Syme analysed the networks of the elite and refused to accept the regime's self-presentation.
+        - text: Augustus genuinely restored the Republic.
+          why: That was Augustus' claim, which Syme rejected.
+        - text: Augustan culture was a consensual, broadly welcomed renewal.
+          why: That is closer to Galinsky's view.
+        - text: Augustus had no interest in power and was forced to rule.
+          why: No modern historian argues this.
+    - id: q04-4
+      type: order
+      skill: chronology
+      lesson: augustus-power
+      prompt: Put these events of Augustus' reign in order.
+      items:
+        - Settlement of January 27 BC and the name Augustus
+        - Tribunician power and greater imperium
+        - Secular Games
+        - Augustus becomes pontifex maximus
+        - Title pater patriae
+        - Adoption of Tiberius
+        - Destruction of Varus' legions in Germany
+      explain: 27 BC; 23 BC; 17 BC; 12 BC; 2 BC; AD 4; AD 9.
+    - id: q04-5
+      type: short
+      skill: causation
+      lesson: augustus-power
+      prompt: Why did the Principate survive Augustus' death when Caesar's dictatorship had not survived Caesar?
+      model: >-
+        Augustus disguised his power in Republican forms that the elite could accept, built a professional army loyal to his family, accumulated vast
+        patronage, and over forty years transferred essential powers (tribunician power and imperium) to his successor before his death. Caesar had flaunted
+        unprecedented honours, alienated senators and left no prepared successor with legal powers.
+      rubric:
+        - Mentions legitimacy and Republican forms.
+        - Mentions the army or patronage.
+        - Mentions the advance transfer of powers to Tiberius.
+        - Contrasts with Caesar.

@@ -1,0 +1,174 @@
+/* Tabularium design tokens
+   Palette: Carrara marble and Pompeian fresco pigments — cinnabar, oxblood, verdigris (bronze patina),
+   yellow ochre, Egyptian blue (caeruleum) and imperial porphyry. */
+
+:root {
+  --f-display: 'Marcellus', 'Optima', 'Candara', Georgia, serif;
+  --f-text: 'Source Serif 4 Variable', 'Source Serif 4', 'Iowan Old Style', Georgia, serif;
+  --f-ui: 'Source Sans 3 Variable', 'Source Sans 3', -apple-system, 'Segoe UI', system-ui, sans-serif;
+  --f-greek: 'Gentium Book Plus', 'Source Serif 4 Variable', serif;
+
+  /* pigments */
+  --c-cinnabar: #9a2e21;
+  --c-oxblood: #6b1d15;
+  --c-verdigris: #356a5c;
+  --c-ochre: #93691b;
+  --c-umber: #74502f;
+  --c-caeruleum: #2c5a88;
+  --c-porphyry: #693451;
+  --c-slate: #4b5763;
+  --c-black: #1d1a18;
+  --c-panel-ink: #f1e9da;
+  --c-panel-ink-2: #cfc3ad;
+  --c-ink-soft: #5a524a;
+
+  /* surfaces */
+  --bg: #e9e9e4;
+  --bg-veil: rgba(233, 233, 228, 0.92);
+  --surface: #f6f6f2;
+  --inset: #dfded7;
+  --rule: #cfcdc4;
+  --rule-strong: #a9a59a;
+  --text: #24201c;
+  --text-2: #554d45;
+  --text-3: #6f675e;
+  --accent: var(--c-cinnabar);
+  --accent-strong: var(--c-oxblood);
+  --accent-wash: rgba(154, 46, 33, 0.08);
+  --focus: #2c5a88;
+  --good: #356a5c;
+  --bad: #9a2e21;
+  --shadow: 0 1px 0 rgba(36, 32, 28, 0.06), 0 8px 24px -12px rgba(36, 32, 28, 0.25);
+
+  /* evidence status */
+  --cert-established: #356a5c;
+  --cert-interpretation: #2c5a88;
+  --cert-contested: #9a2e21;
+  --cert-speculative: #93691b;
+
+  /* themes (timeline, events) */
+  --th-political: #9a2e21;
+  --th-military: #74502f;
+  --th-social: #356a5c;
+  --th-cultural: #2c5a88;
+  --th-economic: #93691b;
+  --th-religious: #693451;
+  --th-legal: #4b5763;
+
+  /* map */
+  --map-sea: #d6dcdc;
+  --map-land: #efeee8;
+  --map-coast: #a7a294;
+  --map-rome: rgba(154, 46, 33, 0.34);
+  --map-rome-edge: #8a2a1e;
+  --map-east: rgba(105, 52, 81, 0.34);
+  --map-east-edge: #693451;
+  --map-client: rgba(147, 105, 27, 0.28);
+
+  /* type scale (px at 16px root): 12 13 15 18 21 24 30 36 48 64 */
+  --fs-xs: 0.75rem;
+  --fs-sm: 0.8125rem;
+  --fs-ui: 0.9375rem;
+  --fs-body: 1.125rem;
+  --fs-lead: 1.3125rem;
+  --fs-h4: 1.125rem;
+  --fs-h3: 1.5rem;
+  --fs-h2: 1.875rem;
+  --fs-h1: clamp(2.25rem, 1.6rem + 2.4vw, 3rem);
+  --fs-display: clamp(2.6rem, 1.5rem + 4.6vw, 4.25rem);
+  --lh-text: 1.62;
+  --measure: 66ch;
+
+  --gutter: clamp(16px, 3vw, 40px);
+  --maxw: 1320px;
+  --radius: 2px;
+  --ease: cubic-bezier(0.2, 0.7, 0.2, 1);
+  color-scheme: light;
+}
+
+:root[data-textsize='large'] {
+  --fs-body: 1.25rem;
+  --fs-ui: 1rem;
+  --fs-sm: 0.875rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme='light']) {
+    color-scheme: dark;
+    --c-ink-soft: #b9afa2;
+    --bg: #161412;
+    --bg-veil: rgba(22, 20, 18, 0.92);
+    --surface: #1e1b18;
+    --inset: #272320;
+    --rule: #36312c;
+    --rule-strong: #575047;
+    --text: #ece6da;
+    --text-2: #c1b7aa;
+    --text-3: #9c9286;
+    --accent: #e0806b;
+    --accent-strong: #eea18f;
+    --accent-wash: rgba(224, 128, 107, 0.1);
+    --focus: #8db6e3;
+    --good: #79b9a5;
+    --bad: #e0806b;
+    --shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 10px 30px -12px rgba(0, 0, 0, 0.7);
+    --cert-established: #79b9a5;
+    --cert-interpretation: #8db6e3;
+    --cert-contested: #e0806b;
+    --cert-speculative: #d5a957;
+    --th-political: #e0806b;
+    --th-military: #c99a6d;
+    --th-social: #79b9a5;
+    --th-cultural: #8db6e3;
+    --th-economic: #d5a957;
+    --th-religious: #c48cab;
+    --th-legal: #a3b0bd;
+    --map-sea: #1d2427;
+    --map-land: #2a2622;
+    --map-coast: #4e483f;
+    --map-rome: rgba(224, 128, 107, 0.3);
+    --map-rome-edge: #e0806b;
+    --map-east: rgba(196, 140, 171, 0.3);
+    --map-east-edge: #c48cab;
+    --map-client: rgba(213, 169, 87, 0.25);
+  }
+}
+:root[data-theme='dark'] {
+  color-scheme: dark;
+  --c-ink-soft: #b9afa2;
+  --bg: #161412;
+  --bg-veil: rgba(22, 20, 18, 0.92);
+  --surface: #1e1b18;
+  --inset: #272320;
+  --rule: #36312c;
+  --rule-strong: #575047;
+  --text: #ece6da;
+  --text-2: #c1b7aa;
+  --text-3: #9c9286;
+  --accent: #e0806b;
+  --accent-strong: #eea18f;
+  --accent-wash: rgba(224, 128, 107, 0.1);
+  --focus: #8db6e3;
+  --good: #79b9a5;
+  --bad: #e0806b;
+  --shadow: 0 1px 0 rgba(0, 0, 0, 0.3), 0 10px 30px -12px rgba(0, 0, 0, 0.7);
+  --cert-established: #79b9a5;
+  --cert-interpretation: #8db6e3;
+  --cert-contested: #e0806b;
+  --cert-speculative: #d5a957;
+  --th-political: #e0806b;
+  --th-military: #c99a6d;
+  --th-social: #79b9a5;
+  --th-cultural: #8db6e3;
+  --th-economic: #d5a957;
+  --th-religious: #c48cab;
+  --th-legal: #a3b0bd;
+  --map-sea: #1d2427;
+  --map-land: #2a2622;
+  --map-coast: #4e483f;
+  --map-rome: rgba(224, 128, 107, 0.3);
+  --map-rome-edge: #e0806b;
+  --map-east: rgba(196, 140, 171, 0.3);
+  --map-east-edge: #c48cab;
+  --map-client: rgba(213, 169, 87, 0.25);
+}

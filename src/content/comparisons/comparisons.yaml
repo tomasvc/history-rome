@@ -1,0 +1,345 @@
+- id: augustus-diocletian
+  title: Augustus and Diocletian
+  question: Two founders of new imperial orders, three centuries apart. What did each change, and why did their solutions look so different?
+  columns:
+    - {id: augustus, label: Augustus, span: '27 BC – AD 14', figure: augustus}
+    - {id: diocletian, label: Diocletian, span: 'AD 284–305', figure: diocletian}
+  rows:
+    - dimension: Route to power
+      cells:
+        augustus: Heir of Caesar at nineteen; private army; triumvir; victory in civil war at Actium (31 BC).
+        diocletian: Commander of the household cavalry proclaimed by the army in 284 after the death of Numerian; defeated Carinus in 285.
+    - dimension: Self-presentation
+      cells:
+        augustus: '"First citizen" (princeps) who claimed to have restored the res publica; deliberately accessible; avoided the trappings of kingship.'
+        diocletian: Remote, sacred ruler under the protection of Jupiter; purple, jewels, prostration (adoratio) before the emperor.
+      note: The contrast between "Principate" and "Dominate" is real in self-presentation but can be overstated in practice.
+    - dimension: Sharing power
+      cells:
+        augustus: Power concentrated in one man, with Agrippa and later Tiberius as partners holding delegated powers.
+        diocletian: Power deliberately shared among four rulers (the Tetrarchy), each responsible for a region.
+    - dimension: Capital and court
+      cells:
+        augustus: Rome, rebuilt as a city of marble; the emperor lived on the Palatine among senators.
+        diocletian: Residences near the frontiers (Nicomedia, Sirmium, Milan, Trier); Rome visited rarely.
+    - dimension: Army
+      cells:
+        augustus: Civil-war armies turned into a standing professional force of 28 (then 25) legions with auxiliaries, paid from a military treasury.
+        diocletian: Army enlarged; more legions of smaller size; frontier commands separated from civil governorships.
+    - dimension: Provinces and government
+      cells:
+        augustus: Provinces divided between the emperor's legates and senatorial proconsuls; government through cities and a small staff.
+        diocletian: About a hundred smaller provinces grouped into twelve dioceses; many more salaried officials.
+    - dimension: Taxation and money
+      cells:
+        augustus: Census of provinces; new inheritance and sales taxes to fund veterans; stable gold and silver coinage.
+        diocletian: New system assessing land and people in fiscal units; taxes largely in kind; coinage reform and the failed Price Edict (301).
+    - dimension: Religion
+      cells:
+        augustus: Restoration of temples and priesthoods; moral legislation; worship of his genius and of Roma and Augustus in the provinces.
+        diocletian: Divine patronage of Jupiter and Hercules; persecution of Manichaeans and, from 303, of Christians.
+    - dimension: Succession
+      cells:
+        augustus: Dynastic designation by adoption and conferral of powers; worked, after many deaths, with Tiberius in AD 14.
+        diocletian: Planned succession by merit with voluntary abdication in 305; collapsed within a year when soldiers proclaimed sons.
+    - dimension: What lasted
+      cells:
+        augustus: The Principate's essential structure for two centuries; the vocabulary and image of the emperor for much longer.
+        diocletian: Administrative, fiscal and military reforms, revised by Constantine, shaped the late Roman and Byzantine state.
+  synthesis: >-
+    Both men ended long periods of civil war and rebuilt the state around the emperor and the army. Augustus disguised monarchy as restored
+    tradition because he needed the cooperation of a proud aristocracy in Rome; Diocletian, a soldier from the Danube ruling an empire whose
+    aristocracy no longer commanded armies, could present monarchy openly and multiply officials and emperors to meet threats on several fronts.
+    Each solution reflected the problems of its time: legitimacy among the elite for Augustus, presence and fiscal capacity for Diocletian. Both
+    failed in the same place: neither found a stable way to transfer power.
+  exam:
+    prompt: '"Diocletian was a second Augustus." How far do you agree?'
+    model: >-
+      Agree on function: both ended civil war, reorganised the army, provinces and finances, and created a durable new order around the emperor.
+      Disagree on method and ideology: Augustus' rule was personal, Rome-centred and disguised as restoration; Diocletian's was collegial,
+      frontier-centred, openly autocratic and bureaucratic. The strongest answers explain the differences by changed circumstances (the
+      aristocracy's role, the multiplication of threats, fiscal needs) and note the shared failure over succession.
+  lessons: [augustus-power, diocletian, power-legitimacy]
+
+- id: republic-principate-dominate
+  title: Republic, Principate and late empire
+  question: How did the Roman system of government change between the middle Republic, the early empire and the late empire?
+  columns:
+    - {id: republic, label: Middle Republic, span: c. 287–133 BC}
+    - {id: principate, label: Principate, span: 27 BC – AD 235}
+    - {id: late, label: Late empire, span: AD 284–476 (West)}
+  rows:
+    - dimension: Supreme authority
+      cells:
+        republic: Annual magistrates guided by the Senate, with the people sovereign in law.
+        principate: An emperor whose powers were conferred by Senate and people, presented as first citizen.
+        late: An emperor presented as chosen by the gods or God, ruling through a large administration.
+    - dimension: The Senate
+      cells:
+        republic: The real centre of policy, finance and foreign affairs, though its decrees were advisory.
+        principate: Prestigious body of former magistrates; governed some provinces; tried its own members; confirmed emperors.
+        late: Wealthy, honoured, but largely a civic body in Rome and Constantinople; senators held civil posts but not military commands.
+    - dimension: The people
+      cells:
+        republic: Elected magistrates, passed laws, declared war, heard capital trials.
+        principate: Elections moved to the Senate under Tiberius; legislative assemblies faded; the urban plebs expressed views by acclamation.
+        late: No formal role, but acclamations in the circus and riots could still influence emperors.
+    - dimension: Army
+      cells:
+        republic: Citizen militia levied for campaigns, plus allied contingents.
+        principate: Standing professional army loyal to the emperor; legions and auxiliaries on the frontiers.
+        late: Larger army divided into field and frontier troops; many recruits and allied units from beyond the frontiers.
+    - dimension: Making law
+      cells:
+        republic: Statutes of the assemblies; the praetor's edict; jurists' opinions.
+        principate: Senate's decrees and, increasingly, the emperor's edicts and rescripts; jurists at their height.
+        late: Imperial constitutions; codification (Theodosian Code, 438).
+    - dimension: Provinces
+      cells:
+        republic: Governors with prorogued imperium, small staffs, publicani collecting taxes.
+        principate: Imperial legates and proconsuls; procurators; self-governing cities.
+        late: Many smaller provinces under civil governors, grouped in dioceses and prefectures; separate military commanders.
+    - dimension: Image of the ruler
+      cells:
+        republic: No single ruler; aristocrats competed for glory, displayed in triumphs, tombs and ancestral masks.
+        principate: The idealised, accessible princeps of Augustan art.
+        late: The remote, sacred, interchangeable emperor of tetrarchic and Constantinian art.
+    - dimension: Succession
+      cells:
+        republic: Annual elections; no succession problem at the top, but fierce competition.
+        principate: Designation through adoption and family; often violent transitions.
+        late: Dynastic expectation combined with army acclamation; frequent usurpations.
+  synthesis: >-
+    The Roman state changed from an aristocratic republic to a monarchy disguised as a restored republic, and then to an open autocracy with a
+    bureaucracy. But continuities were strong: the Senate survived throughout; Roman law developed continuously; and the people of the capital
+    retained a political voice, if not formal power. The labels "Principate" and "Dominate" are modern simplifications of gradual change.
+  exam:
+    prompt: Did the Roman Republic end in 27 BC?
+    model: >-
+      Formally, Augustus claimed to have restored it, and its institutions continued; in substance, power lay with one man and the army. A strong
+      answer distinguishes form, practice and ideology, and notes that "res publica" in Latin could mean simply "the state", which complicates the
+      question.
+  lessons: [republican-constitution, augustus-power, diocletian, power-legitimacy]
+
+- id: west-east
+  title: Why did the West fall and the East survive?
+  question: What made the eastern Roman empire more resilient than the western in the fifth century?
+  columns:
+    - {id: west, label: Western empire, span: AD 395–476}
+    - {id: east, label: Eastern empire, span: AD 395–565}
+  rows:
+    - dimension: Capital
+      cells:
+        west: Milan, then Ravenna from 402, safe in its marshes but far from the frontiers; Rome remained the symbolic capital.
+        east: Constantinople, protected by the Theodosian walls (413) and the sea, almost impregnable.
+    - dimension: Frontiers
+      cells:
+        west: Long Rhine and upper Danube frontiers, plus Britain, all exposed to groups pushed by the Huns.
+        east: The lower Danube was exposed, but the rich provinces of Asia Minor, Syria and Egypt lay behind the Bosporus and the Taurus.
+    - dimension: Wealth and tax base
+      cells:
+        west: Lost Britain, much of Spain and Gaul, and then Africa (439), its richest province.
+        east: Egypt, Syria and Asia Minor untouched by invasion in the fifth century; revenues sufficient to pay armies and subsidies.
+    - dimension: Main enemies
+      cells:
+        west: Goths, Vandals, Sueves, Alans, Burgundians, Franks, Huns, often settled inside the provinces.
+        east: Goths and Huns on the Danube; Persia, but largely at peace with Rome between 387 and 502.
+    - dimension: Leadership
+      cells:
+        west: Child emperors; dominant generals (Stilicho, Aetius, Ricimer); murders of commanders.
+        east: Also weak emperors at times, but a strong civil administration and capital elite kept generals under control.
+    - dimension: Strategy
+      cells:
+        west: Relied increasingly on federate groups paid with land or revenue.
+        east: Paid enemies to go elsewhere, often westwards; helped the West intermittently, as in 468.
+    - dimension: Outcome
+      cells:
+        west: Last western emperor in Italy deposed in 476; kingdoms in all former provinces by 500.
+        east: Survived and under Justinian reconquered Africa, Italy and part of Spain.
+  synthesis: >-
+    The East survived because of geography (a defensible capital and protected rich provinces), fiscal strength, a period of peace with Persia, and
+    political structures that kept generals in check; it also benefited from deflecting enemies westwards. The West suffered a vicious circle in
+    which lost territory meant lost revenue and greater dependence on barbarian forces. Any explanation of the West's fall must explain why the
+    same empire, with the same religion and institutions, survived in the East.
+  exam:
+    prompt: Was the survival of the eastern empire the result of luck or of strength?
+    model: >-
+      Strength: Constantinople's walls and position, rich and untouched provinces, effective administration. Luck: peace with Persia in the fifth
+      century, the Huns' and Goths' decisions to go west, the death of Attila. A strong answer argues that structural advantages gave the East
+      the margin to survive contingent shocks, and notes the role of eastern policy in pushing enemies west.
+  lessons: [fall-of-the-west, goths-adrianople, roman-or-byzantine, justinian]
+
+- id: roman-armies
+  title: Four Roman armies
+  question: How did the Roman army change from the middle Republic to the middle Byzantine empire?
+  columns:
+    - {id: republic, label: Middle Republic, span: c. 200 BC}
+    - {id: principate, label: Principate, span: c. AD 100}
+    - {id: late, label: Late empire, span: c. AD 400}
+    - {id: byzantine, label: Middle Byzantine, span: c. AD 950}
+  rows:
+    - dimension: Recruitment
+      cells:
+        republic: Levy of citizens with property; allies supply equal or larger contingents.
+        principate: Mostly volunteers; citizens in the legions, provincials in the auxilia.
+        late: Conscription from landowners, soldiers' sons, volunteers and many men from beyond the frontiers.
+        byzantine: Theme soldiers supported by land and family obligations; professional regiments and foreign mercenaries.
+    - dimension: Service
+      cells:
+        republic: Campaign by campaign, up to sixteen campaigns.
+        principate: Twenty to twenty-five years; regular pay; discharge bonus.
+        late: Long service with pay partly in kind and gold donatives.
+        byzantine: Theme soldiers called up for campaigns; professionals served full-time.
+    - dimension: Organisation
+      cells:
+        republic: Legions of maniples; consuls commanding.
+        principate: Legions of cohorts under senatorial legates; auxiliary cohorts and alae.
+        late: Field armies (comitatenses) and frontier troops (limitanei) under professional commanders.
+        byzantine: Regional theme armies under strategoi; tagmata in the capital.
+    - dimension: Main role
+      cells:
+        republic: Wars of conquest in Italy and overseas.
+        principate: Frontier defence, policing, occasional conquest.
+        late: Defence on multiple fronts; civil wars.
+        byzantine: Defence of Anatolia and the Balkans; tenth-century reconquest.
+    - dimension: Political role
+      cells:
+        republic: Citizens in arms, until armies followed generals in the civil wars of the first century BC.
+        principate: The Guard and frontier armies could make emperors (69, 193).
+        late: Armies made and unmade emperors; generals dominated the western court.
+        byzantine: Generals from landed families rebelled or seized the throne.
+    - dimension: Key evidence
+      cells:
+        republic: Polybius Book 6; Livy.
+        principate: Inscriptions, diplomas, Vindolanda tablets, Josephus.
+        late: Ammianus; the Notitia Dignitatum; Vegetius.
+        byzantine: Military manuals such as the Strategikon and the Taktika; histories.
+  synthesis: >-
+    The Roman army constantly adapted to the resources and enemies of the state. Continuities include training and discipline, logistics and
+    engineering, and the close link between military service and political power. The biggest changes were the shift from citizen militia to
+    professionals, from expansion to defence, and from a single frontier system to layered and regional forces.
+  exam:
+    prompt: Was the late Roman army weaker than the army of the Principate?
+    model: >-
+      Vegetius and later historians said so, but the late army won many battles and defended a longer set of threatened frontiers. Its problems
+      were financial and political (civil wars, dependence on federates) as much as military. A strong answer distinguishes fighting quality from
+      the state's capacity to pay and control the army.
+  lessons: [soldiers-lives, army-frontiers, marius-sulla]
+
+- id: three-provinces
+  title: Three provinces
+  question: How different was Roman rule in Britain, Egypt and Africa Proconsularis?
+  columns:
+    - {id: britain, label: Britain, span: AD 43–c. 410}
+    - {id: egypt, label: Egypt, span: 30 BC – AD 641}
+    - {id: africa, label: Africa Proconsularis, span: 146 BC – AD 439}
+  rows:
+    - dimension: How it became Roman
+      cells:
+        britain: Invasion under Claudius in AD 43, followed by decades of war and revolt (Boudica, 60/61).
+        egypt: Annexed after the defeat of Antony and Cleopatra in 30 BC.
+        africa: Created from Carthage's territory after its destruction in 146 BC; much enlarged later.
+    - dimension: Governor
+      cells:
+        britain: A senatorial legate of the emperor, a former consul, commanding a large army.
+        egypt: An equestrian prefect appointed by the emperor; senators needed permission to visit.
+        africa: A proconsul, one of the most prestigious senatorial posts.
+    - dimension: Garrison
+      cells:
+        britain: Three legions and many auxiliaries; a heavily militarised north with Hadrian's Wall.
+        egypt: Two legions (one after the second century) and auxiliaries.
+        africa: The neighbouring Numidian legion (III Augusta) at Lambaesis.
+    - dimension: Cities
+      cells:
+        britain: Few and small; new towns built under Roman rule (Londinium, Camulodunum, Verulamium).
+        egypt: Alexandria, one of the great cities of the world; nome capitals with Greek institutions granted councils only in 200/201.
+        africa: Densely urbanised, with Carthage refounded as a colony and hundreds of small towns.
+    - dimension: Languages
+      cells:
+        britain: British Celtic and Latin.
+        egypt: Greek and Egyptian (later Coptic).
+        africa: Latin, Punic and Libyan (Berber).
+    - dimension: Economy
+      cells:
+        britain: Agriculture, metals, supply of the army.
+        egypt: Grain for Rome and later Constantinople; highly organised taxation recorded on papyrus.
+        africa: Grain and olive oil, exported in huge quantities; very wealthy elites.
+    - dimension: Evidence
+      cells:
+        britain: Archaeology, the Vindolanda tablets, inscriptions, Tacitus' Agricola.
+        egypt: Tens of thousands of papyri recording daily administration and private life.
+        africa: Inscriptions in great numbers, mosaics, Christian writers such as Tertullian and Augustine.
+    - dimension: End of Roman rule
+      cells:
+        britain: Around 409–410, when Roman officials were expelled or left.
+        egypt: Persian occupation (619–629) and Arab conquest (640–642).
+        africa: Vandal conquest of Carthage, 439; reconquered by Justinian, 533.
+  synthesis: >-
+    "Roman rule" meant different things in different places. Britain was a frontier province with a large army and limited urbanism; Egypt was a
+    uniquely bureaucratic grain province with its own traditions; Africa was a prosperous, urbanised province whose elites entered the Roman
+    aristocracy and produced an emperor. Comparing provinces warns against generalising from the best-documented (Egypt) or most familiar
+    (Britain).
+  exam:
+    prompt: Is it possible to generalise about the experience of Roman rule in the provinces?
+    model: >-
+      Some generalisations hold: rule through local elites and cities, taxation, the army's presence, the spread of citizenship. But provinces
+      differed in their pre-Roman societies, garrisons, wealth, languages and evidence. A strong answer uses specific contrasts and considers how
+      the type of evidence shapes what we can generalise.
+  lessons: [governing-provinces, romanisation, army-frontiers]
+
+- id: roman-historians
+  title: Four Roman historians
+  question: How did the great historians of Rome differ in their purposes, methods and biases?
+  columns:
+    - {id: polybius, label: Polybius, span: c. 200–118 BC, figure: polybius}
+    - {id: livy, label: Livy, span: 59 BC – AD 17, figure: livy}
+    - {id: tacitus, label: Tacitus, span: c. AD 56–120, figure: tacitus}
+    - {id: ammianus, label: Ammianus, span: c. AD 330–395, figure: ammianus}
+  rows:
+    - dimension: Who he was
+      cells:
+        polybius: Greek statesman of the Achaean League, hostage in Rome, friend of Scipio Aemilianus.
+        livy: From Patavium (Padua); held no public office; lived in Augustan Rome.
+        tacitus: Senator and consul (97), governor of Asia; lived through Domitian's reign.
+        ammianus: Greek from Antioch, former army officer, wrote in Latin in Rome.
+    - dimension: Subject
+      cells:
+        polybius: Rome's rise to world power, 220–146 BC (in Greek).
+        livy: Rome from its foundation to 9 BC, in 142 books.
+        tacitus: The emperors from Tiberius to Domitian (Annals and Histories).
+        ammianus: The empire from 96 to 378; surviving books cover 353–378.
+    - dimension: Purpose
+      cells:
+        polybius: Practical lessons for statesmen; explanation of Rome's success.
+        livy: Moral examples to imitate and avoid; Rome's greatness and decline.
+        tacitus: To record virtue and vice and expose the workings of autocracy.
+        ammianus: To continue Tacitus and record events he witnessed, with truthfulness.
+    - dimension: Method
+      cells:
+        polybius: Insisted on autopsy, interviews and documents; criticised other historians.
+        livy: Worked from earlier historians, often without checking; admitted uncertainty about early Rome.
+        tacitus: Senatorial records and earlier histories; insinuation, irony, compressed style.
+        ammianus: Eyewitness for much of his narrative; digressions on geography, law and peoples.
+    - dimension: Biases
+      cells:
+        polybius: Admiration for Rome and the Scipios; Greek theoretical frameworks.
+        livy: Patriotic and moralising; vivid but sometimes anachronistic.
+        tacitus: Hostile to autocracy and to emperors who humiliated the Senate.
+        ammianus: Admirer of Julian; hostile to Valens; reticent about Christianity.
+    - dimension: Survival
+      cells:
+        polybius: Books 1–5 complete; the rest in fragments.
+        livy: Books 1–10 and 21–45; summaries of the rest.
+        tacitus: Parts of Annals (1–6, 11–16) and Histories (1–5.26).
+        ammianus: Books 14–31 of 31.
+  synthesis: >-
+    Each historian wrote from a particular social position and with a moral or political purpose. Their value as evidence depends on their access to
+    information, their methods and their biases, which differ greatly. Reading them comparatively, and against documentary evidence, is the core
+    skill of Roman history.
+  exam:
+    prompt: Which Roman historian is the most reliable, and what does "reliable" mean?
+    model: >-
+      Reliability depends on the question: Polybius for the Second Punic War's military events, Tacitus for senatorial politics, Ammianus for the
+      380s. A strong answer defines reliability (access, method, bias, purpose), compares at least two historians, and notes that even the most
+      careful historians must be tested against documents and archaeology.
+  lessons: [historiography, punic-wars, julio-claudians, goths-adrianople]

@@ -1,0 +1,447 @@
+- id: q-m05
+  module: m05
+  title: Dynasty and Legitimacy
+  checks:
+    - id: q05-1
+      type: match
+      skill: recall
+      lesson: julio-claudians
+      prompt: Match each person to their role at the Julio-Claudian court.
+      pairs:
+        - {left: Sejanus, right: 'Praetorian prefect who dominated Rome while Tiberius was on Capri'}
+        - {left: Narcissus, right: 'Freedman secretary for correspondence under Claudius'}
+        - {left: Agrippina the Younger, right: 'Claudius'' wife and mother of Nero'}
+        - {left: Seneca, right: 'Philosopher and adviser in the early years of Nero'}
+      explain: Power at court lay with those who had access to the emperor, whatever their formal position, which is why the sources resent freedmen, prefects and women.
+    - id: q05-2
+      type: mcq
+      skill: interpretation
+      lesson: year-69-flavians
+      prompt: What did Tacitus mean by the "secret of empire" revealed in AD 69?
+      options:
+        - text: That an emperor could be made elsewhere than at Rome, by armies in the provinces.
+          correct: true
+          why: Histories 1.4; the frontier armies proclaimed Vitellius and Vespasian.
+        - text: That emperors were secretly elected by the Senate.
+          why: The Senate ratified whoever controlled Rome.
+        - text: That the empire was bankrupt.
+          why: Finances were strained, but that is not Tacitus' point.
+        - text: That Nero was still alive.
+          why: False Neros appeared, but Tacitus' phrase concerns the armies.
+    - id: q05-3
+      type: source
+      skill: source
+      lesson: year-69-flavians
+      sourceId: lex-de-imperio
+      prompt: Why does the law conferring powers on Vespasian cite only Augustus, Tiberius and Claudius as precedents?
+      model: >-
+        The law justifies each power by the precedent of earlier "good" emperors whose acts remained valid; Gaius and Nero, whose memory was condemned or
+        disgraced, are omitted. This shows the Senate constructing a respectable tradition of legitimate principate while legitimising a new dynasty.
+      rubric:
+        - Notes that Gaius and Nero are omitted.
+        - Explains the role of precedent in legitimacy.
+        - Connects to the needs of a new dynasty.
+    - id: q05-4
+      type: mcq
+      skill: source
+      lesson: julio-claudians
+      prompt: Why do historians value the bronze Lyon Tablet alongside Tacitus' Annals 11.24?
+      options:
+        - text: It preserves Claudius' actual speech on admitting Gauls to the Senate, showing how Tacitus condensed and rewrote it.
+          correct: true
+          why: The comparison reveals the conventions of speeches in ancient historiography.
+        - text: It proves that Tacitus invented the speech.
+          why: Tacitus kept the substance while rewriting the words.
+        - text: It records the Senate's vote against Claudius.
+          why: The Senate approved the admission of the Aedui first.
+        - text: It is a letter from Claudius to the people of Lyon about taxes.
+          why: It is a copy of his speech to the Senate.
+    - id: q05-5
+      type: short
+      skill: argument
+      lesson: year-69-flavians
+      prompt: How did Vespasian build legitimacy without Julio-Claudian ancestry?
+      model: >-
+        Through military victory (the Jewish War, celebrated in a triumph, coins and the Arch of Titus), the conferral of powers by law, two adult sons who
+        promised stable succession, restoration of the Capitol and public building such as the Colosseum on Nero's land, careful finances and a modest,
+        humorous public persona.
+      rubric:
+        - Mentions victory and its display.
+        - Mentions legal conferral of powers.
+        - Mentions dynasty (sons) or building.
+
+- id: q-m06
+  module: m06
+  title: The Antonine Age
+  checks:
+    - id: q06-1
+      type: mcq
+      skill: causation
+      lesson: trajan-hadrian
+      prompt: Why did Hadrian give up Trajan's conquests beyond the Euphrates?
+      options:
+        - text: The new provinces were in revolt, the Jewish diaspora revolts had drained resources, and Hadrian needed to secure his own contested accession.
+          correct: true
+          why: Holding Mesopotamia would have required a long, costly war at a moment of political weakness.
+        - text: The Senate ordered him to.
+          why: The Senate did not direct frontier policy.
+        - text: Parthia had become a Roman ally.
+          why: Parthia remained hostile.
+        - text: The provinces had been conquered by Persia.
+          why: The Sasanian Persians did not rise until the 220s.
+    - id: q06-2
+      type: match
+      skill: recall
+      lesson: marcus-aurelius
+      prompt: Match each crisis of Marcus Aurelius' reign with a detail.
+      pairs:
+        - {left: Parthian War, right: 'Avidius Cassius sacks Seleucia and Ctesiphon (165)'}
+        - {left: Antonine plague, right: 'Described by the physician Galen'}
+        - {left: Marcomannic Wars, right: 'Invaders besiege Aquileia in northern Italy'}
+        - {left: Revolt of Avidius Cassius, right: 'Provoked by a false report of the emperor''s death (175)'}
+      explain: Marcus' reign shows several pressures arriving at once, which shapes debates about the origins of the third-century crisis.
+    - id: q06-3
+      type: source
+      skill: source
+      lesson: trajan-hadrian
+      sourceId: pliny-christians
+      prompt: What does Trajan's ruling on anonymous accusations reveal about his idea of good government?
+      model: >-
+        Trajan says anonymous accusations should not be admitted because they set a very bad precedent and are not in keeping with "our age". He presents
+        his reign as just and orderly in contrast to the informers of Domitian's reign; good government means due process and restraint even towards a
+        suspect group.
+      rubric:
+        - States the ruling.
+        - Connects to the contrast with Domitian or the ideology of the age.
+        - Explains what it says about due process.
+    - id: q06-4
+      type: mcq
+      skill: interpretation
+      lesson: marcus-aurelius
+      prompt: Which kind of evidence is most often cited for a severe demographic impact of the Antonine plague?
+      options:
+        - text: Egyptian papyri showing sharp falls in taxpayers in some villages, together with breaks in military diplomas, mining and building.
+          correct: true
+          why: Duncan-Jones and others combined these indirect indicators; critics question how far they can be generalised.
+        - text: Imperial census records listing deaths.
+          why: No such records survive.
+        - text: A complete count by Galen.
+          why: Galen described symptoms, not totals.
+        - text: Ancient DNA from plague victims.
+          why: No pathogen has yet been identified for the Antonine plague.
+
+- id: q-m07
+  module: m07
+  title: How the Empire Worked
+  checks:
+    - id: q07-1
+      type: mcq
+      skill: recall
+      lesson: army-frontiers
+      prompt: What did an auxiliary soldier normally receive on honourable discharge after about twenty-five years?
+      options:
+        - text: Roman citizenship for himself and his children, recorded on a bronze diploma.
+          correct: true
+          why: Hundreds of diplomas survive and show how the army spread citizenship.
+        - text: Senatorial rank.
+          why: Senators were a tiny elite; veterans did not enter the Senate.
+        - text: Land in Italy.
+          why: Veterans often settled near their forts in the provinces.
+        - text: Nothing; auxiliaries were unpaid.
+          why: Auxiliaries were paid professionals.
+    - id: q07-2
+      type: short
+      skill: causation
+      lesson: governing-provinces
+      prompt: Why did local elites cooperate with Roman rule?
+      model: >-
+        Rome protected their property and position, offered honours, Roman citizenship and careers up to the Senate, and governed through their councils,
+        giving them local power. In return they collected taxes, kept order and spent on their cities. Revolt risked losing everything; cooperation brought
+        status within the empire.
+      rubric:
+        - Mentions protection of property and status.
+        - Mentions citizenship or careers.
+        - Mentions their role in taxation or order.
+    - id: q07-3
+      type: match
+      skill: interpretation
+      lesson: roman-economy
+      prompt: Match each scholar to their view of the Roman economy.
+      pairs:
+        - {left: Moses Finley, right: 'An economy embedded in status values, without integrated markets or growth'}
+        - {left: Keith Hopkins, right: 'Taxes paid in money stimulated trade and integration'}
+        - {left: Peter Temin, right: 'Integrated markets for grain, labour and credit'}
+        - {left: Bowman and Wilson, right: 'Quantification of the economy through archaeological proxies'}
+      explain: The debate moved from qualitative models to quantitative evidence, without settling how far ordinary people benefited.
+    - id: q07-4
+      type: mcq
+      skill: interpretation
+      lesson: army-frontiers
+      prompt: Which feature of Hadrian's Wall suggests it was meant to control movement rather than to stop invasion?
+      options:
+        - text: A gateway at every milecastle, about every Roman mile.
+          correct: true
+          why: So many gates make sense for regulating traffic and patrolling, not for sealing a frontier.
+        - text: Its great height of over twenty metres.
+          why: The wall was perhaps four to five metres high.
+        - text: That it ran along the Danube.
+          why: It crossed northern Britain from the Tyne to the Solway.
+        - text: That it had no forts.
+          why: Forts were added on the wall line.
+    - id: q07-5
+      type: source
+      skill: source
+      lesson: roman-economy
+      sourceId: greenland-lead
+      prompt: Why is atmospheric lead in Greenland ice considered evidence for the Roman economy, and what is its main limitation?
+      model: >-
+        Lead was released in large quantities when silver was smelted, so lead levels track mining and coinage, a proxy for economic activity. The limitation
+        is that it measures one sector (metal production) across the whole northern hemisphere, and cannot show who benefited or how other sectors changed.
+      rubric:
+        - Explains the link to silver smelting.
+        - Identifies what is being proxied.
+        - Identifies a limitation.
+
+- id: q-m08
+  module: m08
+  title: The Third Century
+  checks:
+    - id: q08-1
+      type: order
+      skill: chronology
+      lesson: third-century-crisis
+      prompt: Put these events of the third century in order.
+      items:
+        - Constitutio Antoniniana
+        - Ardashir founds the Sasanian empire
+        - Maximinus proclaimed by the Rhine army
+        - Decius' universal sacrifice edict
+        - Valerian captured by Shapur I
+        - Aurelian defeats Zenobia
+        - Diocletian proclaimed
+      explain: 212; 224–226; 235; 249–250; 260; 272; 284.
+    - id: q08-2
+      type: mcq
+      skill: causation
+      lesson: severans
+      prompt: Which consequence of Severan army policy contributed most to the later monetary crisis?
+      options:
+        - text: Large pay rises and donatives financed partly by debasing the silver coinage.
+          correct: true
+          why: The denarius fell to around 50 per cent silver under Severus, and debasement accelerated later.
+        - text: Disbanding of the Praetorian Guard without replacement.
+          why: Severus replaced the Guard with men from his legions.
+        - text: The abolition of auxiliary units.
+          why: Auxiliaries continued.
+        - text: A ban on soldiers marrying.
+          why: Severus lifted the ban.
+    - id: q08-3
+      type: source
+      skill: source
+      lesson: third-century-crisis
+      sourceId: shapur-kz
+      prompt: How would you use Shapur's inscription and Roman sources together to reconstruct Valerian's capture?
+      model: >-
+        Compare their claims: Shapur gives numbers, places (between Carrhae and Edessa) and the capture of senior officials; Roman sources report the capture
+        but differ on circumstances and add hostile Christian stories (Lactantius). Accept points on which independent sources agree, treat round numbers and
+        moralising details cautiously, and use the reliefs as evidence of how the event was celebrated.
+      rubric:
+        - Compares the two perspectives.
+        - Identifies points of agreement.
+        - Treats propaganda and numbers critically.
+    - id: q08-4
+      type: mcq
+      skill: interpretation
+      lesson: third-century-crisis
+      prompt: Christian Witschel's study of the third century emphasised
+      options:
+        - text: Great regional variation, with some provinces such as Africa continuing to prosper while others suffered.
+          correct: true
+          why: His regional analysis undermined the idea of a uniform empire-wide crisis.
+        - text: That contemporaries saw their age as one of crisis.
+          why: That is Alföldy's argument.
+        - text: That climate change caused the crisis.
+          why: That is closer to Harper's environmental interpretation.
+        - text: That the crisis began under Augustus.
+          why: No one argues this.
+
+- id: q-m09
+  module: m09
+  title: A New Empire
+  checks:
+    - id: q09-1
+      type: match
+      skill: recall
+      lesson: diocletian
+      prompt: Match each reform with its ruler and date.
+      pairs:
+        - {left: Tetrarchy, right: 'Diocletian, 293'}
+        - {left: Price Edict, right: 'Diocletian, 301'}
+        - {left: Gold solidus, right: 'Constantine, c. 309–312'}
+        - {left: Foundation of Constantinople, right: 'Constantine, 324–330'}
+      explain: Diocletian's reorganisation was revised and completed by Constantine; together they created the late Roman state.
+    - id: q09-2
+      type: mcq
+      skill: interpretation
+      lesson: constantine
+      prompt: What does the coinage suggest about Constantine's public religion in the decade after 312?
+      options:
+        - text: Pagan imagery, especially the Sun god, continued on his coins until the early 320s, suggesting caution or gradual change in public presentation.
+          correct: true
+          why: Christian symbols appear only occasionally until the 320s.
+        - text: His coins became overtly Christian immediately after 312.
+          why: The chi-rho appears only rarely at first.
+        - text: He stopped minting coins.
+          why: He minted abundantly, including the new solidus.
+        - text: His coins showed Mithras.
+          why: Mithras is not a feature of his coinage.
+    - id: q09-3
+      type: source
+      skill: source
+      lesson: diocletian
+      sourceId: price-edict
+      prompt: What does the Price Edict reveal about the priorities of the tetrarchic state?
+      model: >-
+        The preamble emphasises the protection of soldiers from profiteers wherever the army is stationed or marching, showing the priority given to
+        supplying the army. It also reveals a moral understanding of inflation and a belief that imperial command could fix prices across the empire.
+      rubric:
+        - Notes the emphasis on soldiers.
+        - Notes the moral diagnosis of prices.
+        - Notes the ambition of central control.
+    - id: q09-4
+      type: short
+      skill: comparison
+      lesson: constantine
+      prompt: Compare Lactantius' and Eusebius' accounts of Constantine's vision in one or two sentences.
+      model: >-
+        Lactantius, writing within a few years, describes a dream before the battle telling Constantine to mark Christ's sign on shields; Eusebius, writing
+        after 337 from Constantine's own later telling, describes a cross of light in the sky seen by the army, then a dream and the labarum. The later account
+        is grander and more miraculous.
+      rubric:
+        - Describes both accounts.
+        - Notes dates and sources.
+        - Notes the development of the story.
+
+- id: q-m10
+  module: m10
+  title: Christian Empire
+  checks:
+    - id: q10-1
+      type: order
+      skill: chronology
+      lesson: christianisation
+      prompt: Put these events in order.
+      items:
+        - Pliny's letter to Trajan about Christians
+        - Martyrdom of Perpetua at Carthage
+        - Decius' sacrifice edict
+        - Great Persecution begins
+        - Council of Nicaea
+        - Cunctos populos defines the Nicene faith as the empire's religion
+        - Council of Chalcedon
+      explain: c. 110; 203; 249–250; 303; 325; 380; 451.
+    - id: q10-2
+      type: mcq
+      skill: interpretation
+      lesson: christianisation
+      prompt: Which argument is associated with Alan Cameron's The Last Pagans of Rome (2011)?
+      options:
+        - text: The supposed "pagan revival" among late fourth-century Roman aristocrats is largely a modern construction; most converted quietly.
+          correct: true
+          why: Cameron also argued that the Frigidus was not a religious war.
+        - text: Christianity grew by 40 per cent a decade.
+          why: That is Stark's model.
+        - text: Constantine was a political opportunist.
+          why: That is Burckhardt's view.
+        - text: Paganism disappeared completely by 313.
+          why: Traditional cults persisted for generations.
+    - id: q10-3
+      type: mcq
+      skill: causation
+      lesson: christianisation
+      prompt: Why were the first empire-wide persecutions launched in the mid-third century rather than earlier?
+      options:
+        - text: In a time of military disaster and plague, emperors sought to restore the gods' favour through universal acts of piety, and Christians were now numerous enough to matter.
+          correct: true
+          why: Decius' edict demanded sacrifice from all inhabitants; Christians were its chief victims.
+        - text: Christianity had only just been founded.
+          why: Christianity had existed for over two centuries.
+        - text: The Senate demanded it.
+          why: Emperors initiated these measures.
+        - text: Christians had begun to rebel militarily.
+          why: There is no evidence of Christian rebellion.
+    - id: q10-4
+      type: short
+      skill: argument
+      lesson: christianisation
+      prompt: Was the Christianisation of the empire mainly the result of imperial policy?
+      model: >-
+        Imperial support after 312 and laws of the 380s–390s accelerated conversion and ended public pagan cult; but Christianity had already grown into a
+        substantial, organised minority before Constantine through community networks and mission. A balanced answer gives weight to both.
+      rubric:
+        - Discusses pre-Constantinian growth.
+        - Discusses imperial support and coercion.
+        - Reaches a judgement.
+
+- id: q-m11
+  module: m11
+  title: The End of the West
+  checks:
+    - id: q11-1
+      type: order
+      skill: chronology
+      lesson: fall-of-the-west
+      prompt: Put these events in order.
+      items:
+        - Goths admitted across the Danube
+        - Battle of Adrianople
+        - Rhine crossing by Vandals, Alans and Sueves
+        - Alaric sacks Rome
+        - Vandals take Carthage
+        - Catalaunian Plains
+        - Deposition of Romulus Augustulus
+      explain: 376; 378; 406; 410; 439; 451; 476.
+    - id: q11-2
+      type: mcq
+      skill: causation
+      lesson: fall-of-the-west
+      prompt: Which loss most damaged the western government's finances?
+      options:
+        - text: The Vandal conquest of Africa, completed with the capture of Carthage in 439.
+          correct: true
+          why: Africa was the West's richest province and the source of Rome's grain.
+        - text: The loss of Britain around 410.
+          why: Britain was costly to defend and contributed relatively little revenue.
+        - text: The sack of Rome in 410.
+          why: Symbolically shocking but of limited fiscal effect.
+        - text: The loss of Dacia in the 270s.
+          why: That was an earlier abandonment with little effect on the fifth century.
+    - id: q11-3
+      type: mcq
+      skill: interpretation
+      lesson: goths-adrianople
+      prompt: Which historian argues most strongly that external pressure from the Huns was the prime mover in the western collapse?
+      options:
+        - text: Peter Heather.
+          correct: true
+          why: Heather's Fall of the Roman Empire (2005) puts Hunnic pressure and migration at the centre.
+        - text: Guy Halsall.
+          why: Halsall emphasises internal Roman political failure.
+        - text: Walter Goffart.
+          why: Goffart emphasises accommodation and tax-sharing.
+        - text: Peter Brown.
+          why: Brown emphasises cultural transformation rather than military causes.
+    - id: q11-4
+      type: source
+      skill: source
+      lesson: fall-of-the-west
+      sourceId: priscus-attila
+      prompt: What does Priscus' account of his embassy to Attila suggest about the Hunnic empire's relationship with Rome?
+      model: >-
+        It shows a court that included Roman captives and former Roman subjects, diplomacy conducted through interpreters and gifts, and the importance of
+        Roman gold and Roman skills; the boundary between "Roman" and "barbarian" worlds was porous. Priscus' classical style and Roman perspective shape his
+        portrait.
+      rubric:
+        - Mentions interaction or Romans at Attila's court.
+        - Mentions diplomacy, gifts or payments.
+        - Notes Priscus' perspective.

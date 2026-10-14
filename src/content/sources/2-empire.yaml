@@ -1,0 +1,565 @@
+- id: claudius-gauls
+  title: Claudius on admitting Gauls to the Senate
+  kind: speech
+  author: Tacitus (reporting Claudius)
+  date: {from: 48, label: 'speech AD 48; Tacitus wrote c. 115–120'}
+  origin: Rome; bronze tablet of the original speech found at Lyon in 1528
+  language: Latin
+  citation: 'Tacitus, Annals 11.24; compare the Lyon Tablet, CIL XIII 1668 = ILS 212'
+  themes: [political, social]
+  original:
+    - Maiores mei, quorum antiquissimus Clausus origine Sabina simul in civitatem Romanam et in familias patriciorum adscitus est, hortantur uti paribus consiliis in re publica capessenda, transferendo huc quod usquam egregium fuerit.
+    - Omnia, patres conscripti, quae nunc vetustissima creduntur, nova fuere. Plebeii magistratus post patricios, Latini post plebeios, ceterarum Italiae gentium post Latinos. Inveterascet hoc quoque, et quod hodie exemplis tuemur, inter exempla erit.
+  translation:
+    - My ancestors, the most ancient of whom, Clausus, a Sabine by origin, was admitted at the same time to Roman citizenship and to the patrician families, urge me to follow the same policy in governing the state, by bringing here whatever has been outstanding anywhere.
+    - Everything, senators, that is now believed to be most ancient was once new. Plebeian magistrates came after patrician, Latin after plebeian, those of the other peoples of Italy after the Latins. This too will grow old, and what we defend today by precedents will itself be among the precedents.
+  translator: Course translation of Tacitus' version.
+  context: >-
+    As censor in AD 48 Claudius proposed that leading men of Gallia Comata (Gaul conquered by Caesar), who were already Roman
+    citizens, be eligible for the Senate. Some senators objected that Italy could supply its own senators. The Senate agreed.
+    A bronze copy of the actual speech was set up at Lugdunum, where it was rediscovered in 1528.
+  creator: >-
+    Two creators: Claudius, whose rambling, antiquarian speech survives in part on the tablet, and Tacitus, who rewrote it as a
+    concise, powerful argument.
+  audience: The Senate in 48; later, Tacitus' readers. The tablet was displayed for the Gallic elite at the federal sanctuary of the Three Gauls.
+  tells: >-
+    An imperial argument for Rome as a society that grew by incorporating outsiders, from the Sabine Claudii to Latins, Italians
+    and now Gauls. It shows tensions between Italian senators and provincial elites, and the emperor's power to shape the Senate.
+  limits: >-
+    Tacitus' version is his own composition; the tablet shows that Claudius made similar points less elegantly and with
+    digressions (including on Etruscan history). Neither text tells us how many Gauls actually entered the Senate.
+  usage: >-
+    This is one of the very few cases where a speech in an ancient historian can be compared with the original. Historians use
+    the pair to study how Tacitus worked, and to discuss Roman ideas of citizenship and inclusion.
+  related: [tacitus-annals-1, tacitus-agricola]
+  exercise:
+    - q: What historical argument does Claudius make for admitting Gauls?
+      model: >-
+        That Rome has always grown by admitting outsiders, beginning with his own Sabine ancestors and continuing with plebeians,
+        Latins and Italians; each innovation became a tradition. Inclusion is therefore itself the Roman tradition.
+    - q: Why is the existence of the Lyon Tablet so valuable for judging Tacitus?
+      model: >-
+        It lets us compare a speech in a historian with a version of what was actually said. Tacitus kept the substance but
+        reshaped it into compressed rhetoric, showing both his reliability on content and his freedom with form.
+  editions: [tacitus-annals-woodman-2004, lewis-reinhold-1990]
+- id: tacitus-histories-1-4
+  title: Tacitus on the "secret of empire"
+  kind: history
+  author: Tacitus
+  date: {from: 105, to: 110, circa: true, label: 'written c. AD 105–110'}
+  origin: Rome
+  language: Latin
+  citation: 'Tacitus, Histories 1.4'
+  themes: [political, military]
+  original:
+    - Finis Neronis ut laetus primo gaudentium impetu fuerat, ita varios motus animorum non modo in urbe apud patres aut populum aut urbanum militem, sed omnis legiones ducesque conciverat, evulgato imperii arcano posse principem alibi quam Romae fieri.
+  translation:
+    - The end of Nero, though welcomed at first in an outburst of joy, had stirred up varied feelings not only in the city among the senators, the people and the city garrison, but among all the legions and their commanders, for the secret of empire had been revealed, that an emperor could be made elsewhere than at Rome.
+  translator: Course translation from the Latin.
+  context: >-
+    The opening of Tacitus' Histories, which narrated the civil wars of 69 and the Flavian dynasty. He surveys the state of the
+    empire and its armies on 1 January 69.
+  creator: Tacitus, writing under Trajan, himself an emperor made by provincial armies' support and adoption.
+  audience: Senatorial readers who had lived through Domitian and the accession of Nerva and Trajan.
+  tells: >-
+    A structural insight: the emperor's power depended on the armies, and once provincial legions realised they could make
+    emperors, the system was exposed. It names the constituencies of the Principate: Senate, people, the urban garrison, legions.
+  limits: >-
+    It is an epigram in hindsight. Emperors had always depended on soldiers (Claudius was made by the Guard in 41); Tacitus
+    sharpens the point for rhetorical effect.
+  usage: >-
+    Endlessly quoted in analyses of imperial legitimacy and of the army's role in politics, from 69 to the third century.
+  related: [lex-de-imperio, tacitus-annals-1]
+  exercise:
+    - q: What exactly was the "secret" revealed in 68–69?
+      model: >-
+        That the position of emperor did not depend on the Senate or the people of Rome, nor on descent from Augustus, but on
+        armies, and that armies outside Italy could choose and impose their own candidate.
+  editions: [tacitus-histories-2009]
+- id: lex-de-imperio
+  title: The law on the power of Vespasian
+  kind: law
+  date: {from: 69, to: 70, label: 'December AD 69 or early 70'}
+  origin: Rome (bronze tablet, Capitoline Museums)
+  language: Latin
+  citation: 'CIL VI 930 = ILS 244'
+  themes: [political, legal]
+  original:
+    - "...foedusve cum quibus volet facere liceat, ita uti licuit divo Aug(usto), Ti. Iulio Caesari Aug(usto), Tiberioque Claudio Caesari Aug(usto) Germanico;"
+    - "utique quaecunque ex usu rei publicae maiestate divinarum humanarum publicarum privatarumque rerum esse censebit, ei agere facere ius potestasque sit, ita uti divo Aug(usto), Tiberioque Iulio Caesari Aug(usto), Tiberioque Claudio Caesari Aug(usto) Germanico fuit;"
+  translation:
+    - "...that he may make treaties with whomever he wishes, as was permitted to the deified Augustus, to Tiberius Julius Caesar Augustus, and to Tiberius Claudius Caesar Augustus Germanicus;"
+    - "and that whatever he judges to be in the interest of the state and of the majesty of things divine and human, public and private, he shall have the right and power to do and carry out, as the deified Augustus, Tiberius Julius Caesar Augustus and Tiberius Claudius Caesar Augustus Germanicus had;"
+  translator: Course translation from the Latin. The beginning of the law is lost; the surviving tablet starts mid-sentence.
+  context: >-
+    After Vitellius' death the Senate voted Vespasian the powers of an emperor, and a law of the people confirmed them. The
+    surviving final part of the law, on a bronze tablet, was rediscovered by Cola di Rienzo in the fourteenth century, who used it
+    to argue for the authority of the Roman people.
+  creator: The Senate and an assembly of the people, at Vespasian's behest.
+  audience: The Roman political class; it was displayed publicly on the Capitol.
+  tells: >-
+    How imperial power was defined in law by precedent: each power is justified by reference to earlier "good" emperors (Gaius
+    and Nero are omitted). The discretionary clause gives the emperor almost unlimited authority, while the form remains a law of
+    the Roman people.
+  limits: >-
+    We do not know whether earlier emperors received such a law in the same form, or whether this was a Flavian innovation.
+    The opening clauses are lost.
+  usage: >-
+    Debated as evidence for the constitutional basis of the Principate (was there a standard "law on the imperium"?) and for
+    Flavian legitimation after civil war.
+  related: [tacitus-histories-1-4, res-gestae]
+  exercise:
+    - q: Why does the law repeatedly name Augustus, Tiberius and Claudius?
+      model: >-
+        Precedent was the language of Roman legitimacy. Naming accepted predecessors (and omitting Gaius and Nero) presents
+        Vespasian's sweeping powers as traditional and continuous with the Julio-Claudian Principate, though he was unrelated to
+        them and had won power by civil war.
+    - q: Is the "discretionary clause" compatible with the idea that the Principate was a restored Republic?
+      model: >-
+        Formally it is a law passed by the Roman people, consistent with Republican procedure; in substance it authorises the
+        emperor to do whatever he thinks in the public interest, which is monarchy. The law shows both the Republican form and
+        the autocratic reality.
+  editions: [lewis-reinhold-1990, crawford-statutes-1996]
+- id: arch-of-titus
+  title: The Arch of Titus and the spoils of Jerusalem
+  kind: archaeology
+  date: {from: 81, to: 90, circa: true, label: 'after Titus'' death in 81'}
+  origin: Via Sacra, Rome
+  language: Image and Latin inscription
+  citation: 'CIL VI 945 (dedicatory inscription)'
+  themes: [religious, political, military]
+  original:
+    - ''
+    - SENATVS POPVLVSQVE ROMANVS DIVO TITO DIVI VESPASIANI F(ILIO) VESPASIANO AVGVSTO
+  translation:
+    - 'Inscription: "The Senate and People of Rome to the deified Titus Vespasianus Augustus, son of the deified Vespasian."'
+    - 'Reliefs: on one side of the passage, soldiers carry the spoils of the Jerusalem Temple, including the seven-branched menorah, the table of the shewbread and trumpets, through a triumphal arch; on the other, Titus rides in the triumphal chariot crowned by Victory. In the vault, Titus is carried to heaven by an eagle.'
+  translator: Course translation and description.
+  context: >-
+    Titus captured Jerusalem in AD 70 and celebrated a triumph with Vespasian in 71, described by Josephus. The arch was erected
+    after Titus' death by Domitian, which is why Titus is "deified".
+  creator: The Senate (formally) under Domitian.
+  audience: Romans walking up the Via Sacra to the Forum, the route of triumphal processions.
+  tells: >-
+    How Flavian legitimacy was built on victory in the Jewish War; how triumph and deification combined; and how the spoils of a
+    conquered people's temple were displayed. The reliefs are a key early image of the menorah.
+  limits: >-
+    It shows the victors' view only. Josephus, a client of the Flavians, is our main written source. The reliefs are idealised
+    and were heavily restored in the nineteenth century.
+  usage: >-
+    Combined with Josephus' Jewish War and coins inscribed IVDAEA CAPTA to study Flavian propaganda, Roman attitudes to Judaism,
+    and the long afterlife of the arch in Jewish memory.
+  related: [lex-de-imperio, aegypto-capta]
+  exercise:
+    - q: Why was victory over Judaea so important to the Flavians in particular?
+      model: >-
+        Vespasian had no dynastic claim and came to power through civil war. A foreign victory, celebrated with a triumph,
+        monuments and coins, gave the new dynasty military glory against an external enemy, which deflected attention from the
+        civil war.
+  editions: [beard-2007]
+- id: pliny-christians
+  title: Pliny and Trajan on the Christians
+  kind: letter
+  author: Pliny the Younger and Trajan
+  date: {from: 110, to: 112, circa: true}
+  origin: Bithynia-Pontus (northern Turkey)
+  language: Latin
+  citation: 'Pliny, Letters 10.96–97'
+  themes: [religious, legal, political]
+  original:
+    - Sollemne est mihi, domine, omnia de quibus dubito ad te referre. Quis enim potest melius vel cunctationem meam regere vel ignorantiam instruere? Cognitionibus de Christianis interfui numquam; ideo nescio quid et quatenus aut puniri soleat aut quaeri.
+    - Interrogavi ipsos an essent Christiani. Confitentes iterum ac tertio interrogavi supplicium minatus; perseverantes duci iussi. Neque enim dubitabam, qualecumque esset quod faterentur, pertinaciam certe et inflexibilem obstinationem debere puniri.
+    - Adfirmabant autem hanc fuisse summam vel culpae suae vel erroris, quod essent soliti stato die ante lucem convenire, carmenque Christo quasi deo dicere secum invicem.
+    - "[Trajan:] Conquirendi non sunt; si deferantur et arguantur, puniendi sunt, ita tamen ut, qui negaverit se Christianum esse idque re ipsa manifestum fecerit, id est supplicando dis nostris, quamvis suspectus in praeteritum, veniam ex paenitentia impetret. Sine auctore vero propositi libelli in nullo crimine locum habere debent. Nam et pessimi exempli nec nostri saeculi est."
+  translation:
+    - It is my custom, my lord, to refer to you everything about which I am in doubt. For who can better guide my hesitation or instruct my ignorance? I have never taken part in trials of Christians; therefore I do not know what is usually punished or investigated, or to what extent.
+    - I asked them whether they were Christians. Those who confessed I asked a second and a third time, threatening punishment; those who persisted I ordered to be led away. For I did not doubt that, whatever it was they confessed, their stubbornness and inflexible obstinacy certainly deserved to be punished.
+    - They maintained that the sum of their guilt or error was this, that they were accustomed to meet on a fixed day before dawn and to sing a hymn among themselves to Christ as to a god.
+    - "[Trajan replies:] They are not to be sought out; if they are denounced and convicted, they are to be punished, with this proviso: that anyone who denies being a Christian and makes this plain by his actual conduct, that is, by worshipping our gods, shall obtain pardon through repentance, however suspect he may have been in the past. Anonymous accusations, however, must have no place in any prosecution. For they set the worst kind of precedent and are not in keeping with the spirit of our age."
+  translator: Course translation from the Latin (selections from 10.96.1–3, 7 and 10.97).
+  context: >-
+    Pliny was sent by Trajan to Bithynia-Pontus around 110 to sort out the finances and administration of its cities. Christians
+    were denounced to him; he executed some, interrogated others, tortured two slave women called "ministrae", and wrote to the
+    emperor for guidance.
+  creator: Pliny, a senator and lawyer, and Trajan's secretariat replying in the emperor's name.
+  audience: The emperor; and, since Pliny published Book 10 or it was published soon after his death, a wider elite readership.
+  tells: >-
+    There was no general law against Christians; governors acted on denunciation. Being a Christian ("the name") was punishable,
+    and refusal to sacrifice was the test. It gives a rare outsider's description of Christian worship, the presence of
+    Christians in towns and countryside, and Rome's priority of order and loyalty over doctrine.
+  limits: >-
+    Pliny wrote as a careful administrator presenting himself well to the emperor. He understood Christianity poorly ("a
+    depraved, excessive superstition"). Letters cannot tell us how typical his experience was.
+  usage: >-
+    The fundamental text for the legal basis of persecution before 250 and for Roman provincial government by
+    consultation (Millar). It is often compared with Tacitus Annals 15.44 on Nero and with Christian martyr acts.
+  related: [pliny-fire-brigade, tacitus-annals-1]
+  exercise:
+    - q: What, according to Pliny, made Christians punishable, given that he found no crimes in their meetings?
+      model: >-
+        Their "obstinacy" in persisting under questioning, i.e. refusing a magistrate's order, and the name of Christian itself.
+        Their offence was defiance of authority and refusal to honour the gods and emperor, not specific crimes.
+    - q: What do Trajan's two limiting rules (not to seek them out; no anonymous accusations) reveal about Roman priorities?
+      model: >-
+        Rome wanted order and the appearance of fairness, not an inquisition. The emperor balanced the need to uphold the gods
+        and authority against the risk of malicious denunciations disrupting provincial society.
+  editions: [pliny-letters-walsh-2006]
+- id: pliny-fire-brigade
+  title: A fire brigade for Nicomedia?
+  kind: letter
+  author: Pliny the Younger and Trajan
+  date: {from: 110, to: 112, circa: true}
+  origin: Bithynia-Pontus
+  language: Latin
+  citation: 'Pliny, Letters 10.33–34'
+  themes: [political, social]
+  original:
+    - ''
+    - "[Trajan:] Tibi quidem secundum exempla complurium in mentem venit posse collegium fabrorum apud Nicomedenses constitui. Sed meminerimus provinciam istam et praecipue eas civitates eius modi factionibus esse vexatas. Quodcumque nomen ex quacumque causa dederimus iis, qui in idem contracti fuerint, hetaeriae eaeque brevi fient."
+  translation:
+    - "[Summary of Pliny's letter 10.33:] A great fire has destroyed many houses and two public buildings at Nicomedia. There were no pumps or buckets and the people stood by. Pliny proposes a guild of firemen (collegium fabrorum) limited to 150 members, which he promises to supervise closely."
+    - "[Trajan's reply, 10.34:] You have had the idea, following the example of many places, that a guild of firemen could be set up at Nicomedia. But let us remember that your province, and especially those cities, have been troubled by factions of this kind. Whatever name we give them, for whatever purpose, men who are gathered together for a common end will soon become political clubs."
+  translator: Course summary of 10.33 and course translation of 10.34.
+  context: >-
+    One of a sequence of letters about Nicomedia, capital of Bithynia, including others on a failed aqueduct and an unfinished
+    theatre. Trajan instead suggests providing equipment and telling property owners to put out fires themselves.
+  creator: Pliny and the imperial chancery.
+  audience: The emperor and, later, readers of Pliny's published letters.
+  tells: >-
+    Imperial suspicion of associations (collegia), even useful ones, because of political unrest in Greek cities; the
+    micromanagement of a province by letter; the practical weakness of city governments.
+  limits: >-
+    Both sides are self-presenting. We do not know what the "factions" had done, or how Nicomedia fared in the next fire.
+  usage: >-
+    Cited for Roman attitudes to associations, the limits of central government, and how emperors balanced order against
+    local welfare. It is the basis of one of this course's scenarios.
+  related: [pliny-christians]
+  exercise:
+    - q: Why does Trajan refuse a seemingly sensible request?
+      model: >-
+        He fears any organised association as a potential political club in a province known for factional strife. Order
+        outweighs efficiency; the same logic underlies suspicion of Christian meetings.
+  editions: [pliny-letters-walsh-2006]
+- id: vindolanda-birthday
+  title: Claudia Severa's birthday invitation
+  kind: tablet
+  date: {from: 97, to: 105, circa: true}
+  origin: Vindolanda, northern Britain (ink on wooden leaf tablet; British Museum)
+  language: Latin
+  citation: 'Tab. Vindol. II 291'
+  themes: [social]
+  original:
+    - Cl(audia) Severa Lepidinae [suae] [sa]l[u]tem. iii Idus Septembr[e]s, soror, ad diem sollemnem natalem meum rogo libenter facias ut venias ad nos iucundiorem mihi [diem] interventu tuo factura si [venies]. Cerialem tuum saluta. Aelius meus [et] filiolus salutant.
+    - "[In a second hand:] Sperabo te, soror. Vale, soror, anima mea, ita valeam, karissima, et have."
+  translation:
+    - Claudia Severa to her Lepidina, greetings. On the third day before the Ides of September [11 September], sister, for the day of the celebration of my birthday, I warmly invite you to make sure that you come to us, to make the day more enjoyable for me by your presence, if you come. Give my greetings to your Cerialis. My Aelius and my little son send him their greetings.
+    - "[In Severa's own hand:] I shall expect you, sister. Farewell, sister, my dearest soul, as I hope to prosper, and hail."
+  translator: Course translation from the Latin. Square brackets mark letters restored by the editors.
+  context: >-
+    Found in the 1970s in waterlogged deposits at the fort of Vindolanda, south of the later Hadrian's Wall. Lepidina was the wife
+    of Flavius Cerialis, prefect of the Ninth Cohort of Batavians; Severa's husband Aelius Brocchus commanded a nearby unit.
+  creator: >-
+    A scribe wrote the body of the letter; Claudia Severa added the closing lines herself, the earliest known example of a woman's
+    handwriting in Latin.
+  audience: Sulpicia Lepidina, at Vindolanda.
+  tells: >-
+    Officers' families lived on the frontier, kept up friendships across forts, and used the conventions of polite Latin
+    correspondence. "Sister" expresses friendship, not kinship. The letter humanises a military zone usually seen only through
+    soldiers.
+  limits: >-
+    It reflects the life of an elite equestrian family, not of soldiers or local Britons. A single letter cannot show how common
+    such networks were.
+  usage: >-
+    Used in studies of literacy (dictated text plus personal subscription), women's lives and family life in the army, and the
+    social world of the frontier (Bowman).
+  related: [vindolanda-brittunculi]
+  exercise:
+    - q: What does the change of handwriting suggest about literacy and letter-writing?
+      model: >-
+        Letters were often dictated to scribes, but writers might add a personal greeting themselves. Severa could write; the
+        personal subscription carried emotional weight. Literacy could be partial and practical rather than all or nothing.
+  editions: [bowman-thomas-1994, bowman-1994, vindolanda-online]
+- id: vindolanda-brittunculi
+  title: '"Wretched little Britons": a Vindolanda intelligence note'
+  kind: tablet
+  date: {from: 90, to: 100, circa: true}
+  origin: Vindolanda, northern Britain
+  language: Latin
+  citation: 'Tab. Vindol. II 164'
+  themes: [military, social]
+  original:
+    - "...nudi sunt Brittones ... equites gladis non utuntur equites nec residunt Brittunculi ut iaculos mittant."
+  translation:
+    - "...the Britons are unprotected [or: without armour] ... the cavalry do not use swords, nor do the wretched little Britons mount in order to throw javelins."
+  translator: 'Course translation of the legible part. The text is fragmentary and "nudi" may mean "without armour" rather than "naked".'
+  context: >-
+    A short memorandum, perhaps written by an officer about the fighting methods of local Britons, or possibly about the
+    suitability of British recruits.
+  creator: An unknown Roman officer or clerk.
+  audience: Probably another officer at Vindolanda.
+  tells: >-
+    How Roman soldiers talked among themselves about the people around them: the diminutive "Brittunculi" is contemptuous. It is
+    a rare unfiltered glimpse of attitudes, and of the military interest in local fighting styles.
+  limits: >-
+    Very fragmentary; context and purpose are uncertain. One officer's word cannot stand for "Roman attitudes".
+  usage: >-
+    Cited in discussions of Roman views of provincials and "barbarians", alongside literary stereotypes in Tacitus and Caesar,
+    and in debates about frontier relations.
+  related: [vindolanda-birthday, tacitus-agricola]
+  exercise:
+    - q: How does this document complicate the image of Romanisation in Tacitus' Agricola?
+      model: >-
+        Tacitus describes Britons being drawn into Roman culture; this note shows soldiers on the ground regarding Britons with
+        contempt and as a military problem. Integration and disdain coexisted, and attitudes varied by context.
+  editions: [bowman-thomas-1994, vindolanda-online]
+- id: tacitus-agricola
+  title: Tacitus on Britain, "civilisation" and empire
+  kind: biography
+  author: Tacitus
+  date: {from: 98, label: 'AD 98'}
+  origin: Rome
+  language: Latin
+  citation: 'Tacitus, Agricola 21 and 30'
+  themes: [political, cultural]
+  original:
+    - Paulatimque discessum ad delenimenta vitiorum, porticus et balinea et conviviorum elegantiam. Idque apud imperitos humanitas vocabatur, cum pars servitutis esset.
+    - "[Calgacus speaks:] Auferre trucidare rapere falsis nominibus imperium, atque ubi solitudinem faciunt, pacem appellant."
+  translation:
+    - And little by little they drifted towards the allurements of vice, porticoes and baths and elegant dinner parties. The ignorant called it "civilisation", when it was part of their enslavement.
+    - "[The Caledonian leader Calgacus speaks of the Romans:] To plunder, slaughter and steal they give the false name of empire; and where they make a desert, they call it peace."
+  translator: Course translation from the Latin.
+  context: >-
+    Tacitus' biography of his father-in-law Agricola, governor of Britain c. 77–84, written after Domitian's death. Chapter 21
+    describes Agricola's encouragement of towns, Latin and Roman dress among British elites; chapter 30 is a speech Tacitus
+    gives to Calgacus before the battle of Mons Graupius.
+  creator: Tacitus, a senator praising his father-in-law and indicting the tyranny of Domitian.
+  audience: The Roman elite.
+  tells: >-
+    A Roman analysis of cultural change as a tool of control, and a Roman author's imagining of the case against empire. Both show
+    that Romans could think critically about their own imperialism.
+  limits: >-
+    Calgacus' speech is Tacitus' invention, in polished Latin, using Roman moral categories. Chapter 21 compresses complex,
+    uneven change into a moral epigram and centres the governor.
+  usage: >-
+    Every discussion of "Romanisation" starts here (Haverfield, Millett, Woolf, Mattingly), and the Calgacus speech is a
+    standard text in debates about Roman imperialism and its critics.
+  related: [vindolanda-brittunculi, claudius-gauls]
+  exercise:
+    - q: Why might a Roman senator write such a powerful speech against Rome for a barbarian?
+      model: >-
+        Ancient historians composed speeches to set out issues; Tacitus uses Calgacus to voice ideas about liberty and tyranny
+        that resonated with senators who had lived under Domitian. The critique of empire mirrors his critique of autocracy at
+        Rome, and it heightens the stakes of Agricola's victory.
+    - q: What does chapter 21 assume about how Roman culture spread?
+      model: >-
+        That it was promoted from above by the governor and adopted by local elites, who saw it as civilisation but who were in
+        fact being tamed. Modern scholarship accepts elite involvement but questions the passivity and the one-way direction.
+  editions: [tacitus-agricola-birley-1999]
+- id: monte-testaccio
+  title: Monte Testaccio, Rome's hill of broken oil jars
+  kind: archaeology
+  date: {from: 1, to: 260, circa: true, label: 'mainly c. AD 140–260'}
+  origin: Testaccio district, Rome
+  language: Archaeology (with painted inscriptions in Latin)
+  citation: 'Excavations by J. M. Blázquez Martínez and J. Remesal Rodríguez since 1989'
+  themes: [economic]
+  translation:
+    - An artificial hill about 35 metres high and roughly a kilometre around, built almost entirely of broken olive-oil amphorae, deliberately stacked in terraces. Estimates of the number of vessels run to tens of millions. Most are of the Dressel 20 type from the Guadalquivir valley in Baetica (southern Spain), with later layers dominated by African amphorae.
+    - Many sherds carry stamps and painted labels (tituli picti) recording the weight of the jar and the oil, the names of shippers, the place of control and, in later periods, officials involved in the state supply (annona).
+  translator: Description of the site and its documents.
+  context: >-
+    Oil was decanted near the Tiber warehouses, and the empty jars, which could not be reused because of the residue, were
+    broken and dumped in an organised way, perhaps under official supervision.
+  creator: Workers of the Roman oil trade and annona, over two centuries.
+  audience: None; it is a rubbish dump, which makes it precious unintended evidence.
+  tells: >-
+    The sheer scale of long-distance bulk trade in the empire; the role of the state supply in moving goods to Rome; the
+    dominance of Spanish and later African oil; and, through the labels, the organisation of shipping and control.
+  limits: >-
+    It represents one commodity and one destination; it is hard to separate state-organised supply from private commerce. Only a
+    small part has been excavated.
+  usage: >-
+    A key exhibit in debates over the size and nature of the Roman economy (Finley vs. Temin and the quantifiers), and over how
+    far the state's needs drove trade.
+  related: [greenland-lead]
+  exercise:
+    - q: How can a rubbish dump be better evidence than a written text?
+      model: >-
+        It is unintentional: no one built it to impress or persuade. Its size and composition reflect actual quantities and
+        origins over time, and its labels record routine administration, free of literary bias.
+  editions: [scheidel-morris-saller-2007, bowman-wilson-2009]
+- id: greenland-lead
+  title: Lead in Greenland ice as an economic record
+  kind: archaeology
+  date: {from: -1100, to: 800, label: 'record spanning c. 1100 BC – AD 800'}
+  origin: Greenland ice cores (NGRIP2 and others)
+  language: Scientific data
+  citation: 'McConnell et al., PNAS 115 (2018)'
+  themes: [economic]
+  translation:
+    - Lead released by smelting silver-bearing ores in Europe travelled in the atmosphere and was deposited in Greenland snow, now ice. Annually resolved measurements show lead pollution rising sharply in the late Republic, peaking in the early empire, falling during the Antonine Plague after c. 165, and remaining low until the early Middle Ages.
+    - The authors link drops to periods of war and plague, and the high plateau of the first and second centuries to a large, stable, monetised economy that depended on silver mining, especially in Spain.
+  translator: Summary of the published findings.
+  context: >-
+    Ice cores provide continuous, precisely dated environmental records. Since silver was extracted from lead ores, airborne lead
+    is a proxy for mining and minting, and so indirectly for economic activity.
+  creator: Climate scientists and historians working together.
+  audience: Scientists and historians.
+  tells: >-
+    A quantitative curve for an aspect of the Roman economy where written sources give only anecdotes: the rise and decline of
+    silver production, with timing that matches major historical events.
+  limits: >-
+    It measures mining, not prosperity in general; sources of lead and atmospheric transport add uncertainty; correlation with
+    events is not proof of cause.
+  usage: >-
+    Increasingly used alongside shipwreck counts, coin hoards and animal bones as proxies for economic growth and crisis, and in
+    debates about the Antonine Plague's impact.
+  related: [monte-testaccio]
+  exercise:
+    - q: What can the lead record tell us about the Antonine Plague, and what can it not?
+      model: >-
+        It shows a sharp fall in mining around the 160s–170s, consistent with major disruption. It cannot show mortality
+        directly, separate plague from war (the Marcomannic wars began at the same time), or tell us about regions other than
+        the mining areas.
+  editions: [bowman-wilson-2009]
+- id: pompeii-walls
+  title: Writing on the walls of Pompeii
+  kind: inscription
+  date: {from: 50, to: 79, circa: true}
+  origin: Pompeii
+  language: Latin
+  citation: 'CIL IV 429; CIL IV 1904 (with variants)'
+  themes: [social, political]
+  original:
+    - C(aium) Iulium Polybium aed(ilem) o(ro) v(os) f(aciatis). Panem bonum fert.
+    - Admiror te, paries, non cecidisse ruinis, qui tot scriptorum taedia sustineas.
+  translation:
+    - I ask you to elect Gaius Julius Polybius aedile. He brings good bread.
+    - I am amazed, O wall, that you have not collapsed in ruins, since you bear the tedious scribblings of so many writers.
+  translator: Course translation from the Latin. Painted election notices (programmata) and scratched graffiti are both shown.
+  context: >-
+    Thousands of painted notices and scratched graffiti cover Pompeii's walls: election endorsements, advertisements, greetings,
+    insults, verses, accounts and jokes. The town was buried in AD 79.
+  creator: Professional sign-painters for the election notices; many anonymous individuals for the graffiti, including possibly children and slaves.
+  audience: Passers-by in the street.
+  tells: >-
+    Local politics was lively and competitive, candidates appealed on practical grounds (bread), and literacy was widespread
+    enough for public writing to be worth doing. Graffiti show humour, verse quotation and everyday concerns.
+  limits: >-
+    Pompeii is one town; programmata were sponsored and formulaic; graffiti preserve what people chose to write in public. We
+    cannot measure what share of residents could read.
+  usage: >-
+    Central to debates about literacy (Harris vs. more optimistic views), local politics and popular culture (Knapp, Beard).
+  related: [eurysaces-tomb]
+  exercise:
+    - q: What does the endorsement of Polybius suggest about what voters cared about?
+      model: >-
+        Practical benefits such as the food supply. Aediles oversaw markets, so promising good bread was a direct appeal to the
+        everyday interests of voters, and perhaps a hint that Polybius was a baker or connected to the trade.
+  editions: [beard-2008, knapp-2011]
+- id: eurysaces-tomb
+  title: Tomb of Eurysaces the baker
+  kind: inscription
+  date: {from: -50, to: -20, circa: true}
+  origin: Porta Maggiore, Rome
+  language: Latin
+  citation: 'CIL I² 1203–1205'
+  themes: [social, economic]
+  original:
+    - EST HOC MONIMENTUM MARCEI VERGILEI EVRYSACIS PISTORIS REDEMPTORIS APPARET
+  translation:
+    - This is the monument of Marcus Vergilius Eurysaces, baker, contractor, attendant.
+  translator: 'Course translation. "Apparet" probably refers to a post as an attendant (apparitor) of magistrates; it can also be read as "it is evident".'
+  context: >-
+    A large, unusual tomb outside one of Rome's gates, decorated with circular openings resembling grain measures or dough
+    kneaders and a frieze showing the stages of bread-making. Eurysaces was very probably a freedman (his Greek name suggests
+    slave origin).
+  creator: Eurysaces, and possibly his wife Atistia, whose epitaph was found nearby.
+  audience: Travellers entering Rome along two major roads.
+  tells: >-
+    A wealthy former slave advertising his trade and success, including contracts with the state (redemptor), presumably for
+    bread for official distribution. Freedmen could become rich and proud of their work, unlike the elite who disdained trade.
+  limits: >-
+    Successful freedmen are over-represented in such monuments; most slaves were never freed and most freedmen never rich.
+  usage: >-
+    A standard example in studies of freedmen, social mobility and non-elite values (Mouritsen, Joshel, Knapp).
+  related: [pompeii-walls]
+  exercise:
+    - q: How do the values expressed on this tomb differ from those of the Scipio Barbatus epitaph?
+      model: >-
+        Barbatus is praised for offices, virtue and conquest; Eurysaces for his trade and business success, shown proudly in
+        images of bread-making. Both seek public commemoration, but they define a worthy life very differently.
+  editions: [joshel-2010, mouritsen-2011]
+- id: dio-severus
+  title: Septimius Severus' last advice to his sons
+  kind: history
+  author: Cassius Dio
+  date: {from: 211, to: 229, circa: true, label: 'written c. 211–229, of AD 211'}
+  origin: Rome / Nicaea
+  language: Greek
+  citation: 'Cassius Dio 77(76).15.2'
+  themes: [political, military]
+  original:
+    - ὁμονοεῖτε, τοὺς στρατιώτας πλουτίζετε, τῶν ἄλλων πάντων καταφρονεῖτε.
+  translation:
+    - Be harmonious, enrich the soldiers, and scorn all other men.
+  translator: Course translation from the Greek. The book numbering differs between editions (76 or 77).
+  context: >-
+    Dio reports these as Severus' last words to Caracalla and Geta at York in 211. Within a year Caracalla had Geta murdered.
+  creator: Cassius Dio, a senator who disliked the soldiers' power and who had served under Severus.
+  audience: The senatorial readers of his history.
+  tells: >-
+    How a senatorial contemporary understood the Severan regime: power rested on the army, bought by pay increases, at the
+    expense of everyone else, including the Senate.
+  limits: >-
+    Deathbed sayings are a literary convention, often invented or polished. The line is Dio's verdict in Severus' mouth, and its
+    first clause is bitterly ironic given what happened next.
+  usage: >-
+    Quoted in almost every account of the third century as a summary of the military monarchy, and tested against evidence for
+    army pay and recruitment.
+  related: [constitutio-antoniniana]
+  exercise:
+    - q: Is this saying better evidence for Severus' policy or for Dio's view of it?
+      model: >-
+        For Dio's view. Whether or not Severus said it, the sentence condenses a hostile senatorial judgement. Severus' policy
+        must be reconstructed from evidence of pay rises, marriage rights and appointments, which do support part of the claim.
+  editions: [dio-cary-1914]
+- id: constitutio-antoniniana
+  title: The Constitutio Antoniniana
+  kind: papyrus
+  author: Caracalla
+  date: {from: 212, label: 'AD 212'}
+  origin: Egypt (Giessen papyrus, damaged; a Greek copy of the edict)
+  language: Greek
+  citation: 'P.Giss. 40 I'
+  themes: [legal, political]
+  translation:
+    - "[Damaged opening:] ...so that I may render thanks to the immortal gods, who preserved me in such [danger], I think that I can in this way magnificently and piously [make a suitable return] to their majesty, if I bring with me to the temples of the gods [all who] ... I give to all the [inhabitants of the world] Roman citizenship, while [every kind of community] remains, except the [dediticii]."
+  translator: 'Course translation of the heavily restored Greek text. Square brackets mark lost or uncertain words supplied by editors: the key phrases "inhabitants of the world" and "dediticii" are reconstructions.'
+  context: >-
+    In 212 Caracalla extended Roman citizenship to almost all free people in the empire. The edict is mentioned by Dio and the
+    jurist Ulpian. The only surviving text is this damaged Greek copy from Egypt, generally but not universally identified as the
+    edict.
+  creator: Caracalla's chancery, shortly after the murder of Geta (the "danger" may refer to Geta's alleged plot).
+  audience: The whole empire; copies were circulated in the provinces.
+  tells: >-
+    The edict presents the grant as a religious act of thanksgiving uniting all inhabitants in worship of the gods. With Dio's
+    claim that the aim was to increase inheritance tax (paid only by citizens), it shows how a momentous change could be
+    explained in different ways.
+  limits: >-
+    Fragmentary and heavily restored; the identity of the excluded "dediticii" is debated; we cannot see from it how much
+    difference citizenship made in practice.
+  usage: >-
+    Central to the history of citizenship, law and identity (Sherwin-White, Ando). The papyrus is also a lesson in
+    papyrology: how much of a "text" is restoration.
+  related: [dio-severus]
+  exercise:
+    - q: Dio says the edict was a tax measure; the papyrus speaks of thanks to the gods. Can both be true?
+      model: >-
+        Yes. Emperors often combined fiscal and ideological motives, and an official text would present the religious and
+        unifying rationale while a hostile senator emphasised money. Each source reflects its author's purposes.
+    - q: Why must the student be cautious when quoting the phrase "all the inhabitants of the world"?
+      model: >-
+        It is an editorial restoration of a gap in the papyrus, not words that survive. Arguments that depend on its exact
+        wording rest on modern reconstruction.
+  editions: [lewis-reinhold-1990, ando-2012]

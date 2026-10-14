@@ -1,0 +1,866 @@
+parts:
+  - id: p1
+    numeral: I
+    title: From Republic to Empire
+    subtitle: c. 753–27 BC
+    span: [-753, 14]
+    tone: cinnabar
+    summary: >-
+      How a city-state on the Tiber built institutions that shared power among competing aristocrats,
+      conquered Italy and then the Mediterranean, and was transformed by the wealth, armies and
+      inequalities that conquest produced, until one man held power that no Republican office could contain.
+    modules: [m01, m02, m03, m04]
+  - id: p2
+    numeral: II
+    title: The Imperial High Point
+    subtitle: AD 14–192
+    span: [14, 192]
+    tone: black
+    summary: >-
+      The Principate as a working system: how emperors without a formal constitution secured legitimacy,
+      how a small administration governed tens of millions through cities and local elites, and how
+      armies, taxes, trade and law held a Mediterranean empire together.
+    modules: [m05, m06, m07]
+  - id: p3
+    numeral: III
+    title: Crisis, Transformation and Division
+    subtitle: AD 193–493
+    span: [193, 493]
+    tone: ochre
+    summary: >-
+      Civil war, Persian and northern pressure and fiscal strain in the third century; the rebuilt state of
+      Diocletian and Constantine; the Christianisation of the empire; and the long, contested end of Roman
+      rule in the West.
+    modules: [m08, m09, m10, m11]
+  - id: p4
+    numeral: IV
+    title: The Eastern Roman Empire
+    subtitle: AD 395–1453
+    span: [395, 1453]
+    tone: porphyry
+    summary: >-
+      The Roman state that did not fall: Justinian's ambitions, the seventh-century catastrophe and
+      reinvention, the medieval empire of Constantinople, the Fourth Crusade and the Ottoman conquest of
+      1453, and why historians call these Romans “Byzantine”.
+    modules: [m12, m13, m14]
+  - id: p5
+    numeral: V
+    title: Thematic Studies
+    subtitle: Across the centuries
+    span: [-509, 1453]
+    tone: caeruleum
+    summary: >-
+      Studies that cut across the chronology: power, warfare, law, religion, slavery, gender and the family,
+      daily life, engineering, literature, provincial identities, environment and disease, the legacy of Rome
+      and the craft of the historian.
+    modules: [t01, t02, t03, t04, t05, t06, t07, t08, t09, t10, t11, t12, t13]
+
+modules:
+  # ----- PART I -----
+  - id: m01
+    part: p1
+    number: 1
+    title: Origins and the Early Republic
+    subtitle: Myth, archaeology and the making of a citizen state
+    span: [-1000, -264]
+    summary: >-
+      What can be known about early Rome when the earliest surviving narratives were written centuries later?
+      This module tests the traditions about kings and the first Republic against archaeology, then follows the
+      struggle between patricians and plebeians and the conquest of Italy, which created the alliance system on
+      which all later expansion rested.
+    objectives:
+      - Evaluate the reliability of the literary tradition on early Rome against archaeological evidence.
+      - Explain the Conflict of the Orders as a process that produced a new patricio-plebeian elite rather than a democratic revolution.
+      - Describe how Rome organised conquered Italy through colonies, citizenship grades and alliances, and why that system generated manpower.
+      - Analyse the Republican constitution as a set of practices balancing magistrates, Senate and assemblies.
+    lessons: [origins, early-republic, republican-constitution]
+    essays:
+      - id: m01-e1
+        prompt: How far can a historian write a narrative history of Rome before 390 BC?
+        guidance: >-
+          Distinguish what archaeology can establish (settlement, monumental building, trade, cult sites) from what only
+          the annalistic tradition supplies (names, dates, speeches, motives). Discuss Livy's own admissions about his
+          evidence, the fire of 390 problem, and the different stances of Cornell (cautious optimism about the structural
+          core of the tradition) and more sceptical scholars. A strong answer argues for a position about which *kinds*
+          of statement are possible.
+        readings: [cornell-1995, forsythe-2005, beard-2015]
+      - id: m01-e2
+        prompt: “The Conflict of the Orders did not democratise Rome; it widened the oligarchy.” Discuss.
+        guidance: >-
+          Consider the tribunate and the concilium plebis, the Licinio-Sextian laws, the lex Hortensia, and the emergence of
+          the nobilitas. Weigh what plebeians as a mass gained (debt reform, the end of nexum, legal publication) against what
+          wealthy plebeian families gained (access to the consulship and priesthoods).
+        readings: [cornell-1995, lintott-1999, flower-2010]
+    readings: [cornell-1995, forsythe-2005, lintott-1999, beard-2015, cah-7-2]
+
+  - id: m02
+    part: p1
+    number: 2
+    title: Mediterranean Empire
+    subtitle: Carthage, the Hellenistic East and the price of conquest, 264–133 BC
+    span: [-264, -133]
+    summary: >-
+      In little over a century Rome destroyed Carthage, humbled the Hellenistic kingdoms and acquired its first
+      provinces. This module asks why Rome expanded, how it won, and what conquest did to Italy: slaves, wealth,
+      provincial exploitation and a transformed countryside.
+    objectives:
+      - Narrate the three Punic Wars and explain Roman resilience, especially after Cannae.
+      - Assess competing explanations of Roman imperialism, from “defensive imperialism” to Harris and Eckstein.
+      - Explain how provinces were governed and exploited in the second century BC.
+      - Evaluate the evidence for the transformation of Italian agriculture and the growth of slavery.
+    lessons: [punic-wars, price-of-empire]
+    essays:
+      - id: m02-e1
+        prompt: Why did Rome win the Second Punic War?
+        guidance: >-
+          Avoid a list of battles. Weigh manpower and the Italian alliance system (Polybius' census figures for 225 BC),
+          the loyalty of most allies after Cannae, Roman political continuity and willingness to absorb losses, naval
+          control, the Spanish theatre, and Hannibal's strategic problem. Use Polybius critically.
+        readings: [goldsworthy-2000, hoyos-2011, rosenstein-2004]
+      - id: m02-e2
+        prompt: Was Roman expansion in the Middle Republic the result of Roman aggression or of the anarchic interstate system?
+        guidance: >-
+          Set Harris (structural Roman bellicosity rooted in aristocratic competition and economic gain) against Eckstein
+          (a realist reading in which all Mediterranean states were militarised). Test both against a case: the outbreak of
+          the First Punic War, the Second Macedonian War, or the destruction of Carthage.
+        readings: [harris-1979, eckstein-2006, beard-2015]
+    readings: [harris-1979, eckstein-2006, goldsworthy-2000, hopkins-1978, rosenstein-2004, cah-8]
+
+  - id: m03
+    part: p1
+    number: 3
+    title: The Fall of the Republic
+    subtitle: Land, armies and the breakdown of consensus, 133–44 BC
+    span: [-133, -44]
+    summary: >-
+      From the murder of Tiberius Gracchus to the Ides of March, Roman politics became lethal. This module traces how
+      disputes over land, citizenship, military commands and the courts escalated into civil war, and asks whether the
+      Republic was destroyed by ambitious individuals, by structural pressures, or by both.
+    objectives:
+      - Explain the Gracchan reform programmes and why they provoked lethal violence.
+      - Assess the significance of the Social War, Marius' commands and Sulla's march on Rome.
+      - Trace the careers of Pompey and Caesar and the institutional mechanisms they exploited.
+      - Compare major interpretations of the Republic's fall (Syme, Gruen, Meier, Brunt, Flower, Morstein-Marx).
+    lessons: [gracchi, marius-sulla, caesar]
+    essays:
+      - id: m03-e1
+        prompt: Was the fall of the Roman Republic inevitable after 133 BC?
+        guidance: >-
+          A good essay rejects a simple yes or no. Contrast Gruen's argument that Republican institutions were functioning
+          in the 60s and 50s with Meier's “crisis without alternative” and Brunt's emphasis on social grievance. Identify
+          moments of contingency (88, 60, 49 BC) and structural pressures (army recruitment, Italian enfranchisement,
+          extraordinary commands).
+        readings: [gruen-1974, syme-1939, brunt-1988, flower-2010]
+      - id: m03-e2
+        prompt: How did the relationship between generals and soldiers change between 107 and 49 BC, and why did it matter?
+        guidance: >-
+          Engage critically with the idea of “Marian reforms”: recent work (e.g. Cadiou) argues that recruitment from the
+          landless was gradual and that professionalisation has been exaggerated. Discuss veterans' land, Sulla's march,
+          and Caesar's army in 49.
+        readings: [brunt-1988, cadiou-2018, gruen-1974]
+    readings: [syme-1939, gruen-1974, brunt-1988, flower-2010, morstein-marx-2021, cah-9]
+
+  - id: m04
+    part: p1
+    number: 4
+    title: Augustus and the Principate
+    subtitle: From triumvir to princeps, 44 BC – AD 14
+    span: [-44, 14]
+    summary: >-
+      Octavian won a civil war and then spent forty years making autocracy look like restored tradition. This module
+      examines the constitutional settlements, the army, the image-making and the unsolved problem of succession that
+      Augustus bequeathed to his successors.
+    objectives:
+      - Explain the settlements of 27 and 23 BC and the powers on which the Principate rested.
+      - Analyse Augustan imagery and the Res Gestae as instruments of legitimacy.
+      - Evaluate Syme's “Roman Revolution” against cultural and consensual interpretations.
+      - Assess how Augustus attempted to solve the problem of succession.
+    lessons: [augustus-power, augustan-rome]
+    essays:
+      - id: m04-e1
+        prompt: “Augustus restored the Republic in form and abolished it in substance.” Discuss.
+        guidance: >-
+          Use the Res Gestae (especially 34) alongside Tacitus Annals 1.2–4 and Cassius Dio 53. Distinguish legal powers
+          (imperium proconsulare, tribunicia potestas) from informal power (auctoritas, patronage, control of the army) and
+          consider whether contemporaries could have recognised a “Republic” in the 20s BC.
+        readings: [syme-1939, galinsky-1996, cooley-2009, wallace-hadrill-1982]
+      - id: m04-e2
+        prompt: How important were images and monuments to the success of Augustus?
+        guidance: >-
+          Engage with Zanker's argument about a new visual language. Discuss the Prima Porta statue, the Ara Pacis, the Forum
+          of Augustus and coinage, and ask who saw these images and how they could have been “read”.
+        readings: [zanker-1988, galinsky-1996, beard-2015]
+    readings: [syme-1939, galinsky-1996, zanker-1988, cooley-2009, goldsworthy-2014, cah-10]
+
+  # ----- PART II -----
+  - id: m05
+    part: p2
+    number: 5
+    title: Dynasty and Legitimacy
+    subtitle: Julio-Claudians, AD 69 and the Flavians, AD 14–96
+    span: [14, 96]
+    summary: >-
+      How was an emperor made, and how was he unmade? This module studies the Julio-Claudian court, the
+      senatorial historians who shaped its reputation, the civil wars of AD 69 that revealed the army's role, and
+      the Flavian reconstruction of legitimacy.
+    objectives:
+      - Assess the reliability and biases of Tacitus, Suetonius and Cassius Dio on the Julio-Claudians.
+      - Explain the mechanisms of succession and why they repeatedly failed.
+      - Analyse the events of AD 69 and the “secret of empire” they revealed.
+      - Evaluate the Flavian strategies of legitimation, including the lex de imperio Vespasiani.
+    lessons: [julio-claudians, year-69-flavians]
+    essays:
+      - id: m05-e1
+        prompt: Were the “bad emperors” of the first century bad rulers, or bad for the senatorial class?
+        guidance: >-
+          Use one or two case studies (Gaius, Nero, Domitian). Separate administrative performance (provinces, finance,
+          frontier) from relations with the Senate. Consider Champlin on Nero's popular appeal and the conventions of
+          ancient biography.
+        readings: [champlin-2003, griffin-1984, wallace-hadrill-1983, beard-2023]
+      - id: m05-e2
+        prompt: What did the events of AD 68–69 reveal about the nature of imperial power?
+        guidance: >-
+          Start from Tacitus, Histories 1.4. Discuss the role of provincial armies, the praetorians, the Senate's
+          ratification, and Vespasian's construction of legitimacy (the lex de imperio Vespasiani, propaganda of healing
+          miracles, dynastic planning).
+        readings: [morgan-2006, levick-1999, wellesley-1975]
+    readings: [tacitus-annals-woodman-2004, suetonius-edwards-2000, champlin-2003, levick-1999, beard-2023, cah-10]
+
+  - id: m06
+    part: p2
+    number: 6
+    title: The Antonine Age
+    subtitle: Expansion, consolidation and strain, AD 96–192
+    span: [96, 192]
+    summary: >-
+      Gibbon thought the age from Nerva to Marcus Aurelius the happiest in human history. This module tests that
+      judgement: Trajan's wars and Hadrian's retrenchment, the ideology of adoption, the Antonine Plague and the
+      long Danubian wars, and the turn to Commodus.
+    objectives:
+      - Explain Trajan's expansion and Hadrian's decision to abandon some conquests.
+      - Evaluate the “adoptive emperors” as an ideology rather than a constitutional principle.
+      - Assess the scale and consequences of the Antonine Plague, noting the limits of the evidence.
+      - Critique Gibbon's judgement on the second century.
+    lessons: [trajan-hadrian, marcus-aurelius]
+    essays:
+      - id: m06-e1
+        prompt: Was Hadrian's abandonment of Trajan's eastern conquests a failure of nerve or a sound strategy?
+        guidance: >-
+          Consider the revolts of 115–117, the logistics of holding Mesopotamia, Hadrian's insecure accession, and the frontier
+          works. Link to the debate on whether Rome had a “grand strategy”.
+        readings: [birley-1997, luttwak-1976, isaac-1990]
+      - id: m06-e2
+        prompt: How far did the Antonine Plague transform the Roman Empire?
+        guidance: >-
+          Compare maximal (Duncan-Jones, Harper) and minimal (Bruun) readings of papyrological, epigraphic and numismatic proxies.
+          Discuss what kinds of evidence could ever measure mortality.
+        readings: [duncan-jones-1996, harper-2017, bruun-2007]
+    readings: [birley-1997, birley-1987, harper-2017, gibbon-1776, cah-11]
+
+  - id: m07
+    part: p2
+    number: 7
+    title: How the Empire Worked
+    subtitle: Army, provinces, cities, law and economy
+    span: [-27, 235]
+    summary: >-
+      The Roman Empire governed perhaps 60 million people with a few hundred senior officials. This module looks at
+      the machinery: the army and its frontiers, provincial government through cities and local elites, taxation,
+      citizenship and law, and an economy that historians still argue about.
+    objectives:
+      - Describe the organisation, recruitment and distribution of the imperial army.
+      - Explain how a minimal central administration depended on cities, elites and petition.
+      - Analyse the Pliny–Trajan correspondence as evidence for provincial government.
+      - Evaluate primitivist and market-based models of the Roman economy and the proxies used to test them.
+    lessons: [army-frontiers, governing-provinces, roman-economy]
+    essays:
+      - id: m07-e1
+        prompt: Did the Roman Empire have a grand strategy?
+        guidance: >-
+          Summarise Luttwak's three systems, then the critiques of Isaac, Whittaker and Mattern (information, ideology, honour,
+          the absence of a general staff). Use the frontiers of Britain or the East as a test case.
+        readings: [luttwak-1976, isaac-1990, whittaker-1994, mattern-1999]
+      - id: m07-e2
+        prompt: How “Roman” was government in the provinces?
+        guidance: >-
+          Use Pliny Letters 10, the Babatha archive or Egyptian papyri, and Millar's model of the reactive emperor. Discuss local
+          elites, cities and petition, and the significance of the Constitutio Antoniniana.
+        readings: [millar-1977, ando-2000, garnsey-saller-2014]
+    readings: [millar-1977, garnsey-saller-2014, goldsworthy-2003, scheidel-morris-saller-2007, finley-1973, temin-2013, cah-11]
+
+  # ----- PART III -----
+  - id: m08
+    part: p3
+    number: 8
+    title: The Third Century
+    subtitle: Severans, soldier-emperors and recovery, AD 193–284
+    span: [193, 284]
+    summary: >-
+      Between 235 and 284 more than twenty men were recognised as emperor in Rome and many more claimed the title. This
+      module examines the Severan dynasty's military monarchy, the Sasanian challenge, fragmentation and recovery, and
+      the historiographical question of whether this was really a “crisis”.
+    objectives:
+      - Analyse Severan rule and the significance of the Constitutio Antoniniana.
+      - Explain the interlocking military, political and fiscal problems of 235–284.
+      - Assess regional variation in the experience of the third century.
+      - Evaluate the concept of “crisis” as applied to this period.
+    lessons: [severans, third-century-crisis]
+    essays:
+      - id: m08-e1
+        prompt: Was there a “crisis of the third century”?
+        guidance: >-
+          Contrast Alföldy's argument that contemporaries perceived crisis with Witschel's regional analysis. Use coinage,
+          inscriptions (the epigraphic decline), and the Gallic and Palmyrene regimes as evidence.
+        readings: [ando-2012, potter-2014, witschel-1999]
+      - id: m08-e2
+        prompt: Why did Roman emperors lose control of the army after 235?
+        guidance: >-
+          Discuss the costs of military pay, the two-front problem created by the Sasanians, the importance of the emperor's
+          physical presence, and the Danubian officer class.
+        readings: [potter-2014, campbell-1984, ando-2012]
+    readings: [potter-2014, ando-2012, birley-1999, cah-12]
+
+  - id: m09
+    part: p3
+    number: 9
+    title: A New Empire
+    subtitle: Diocletian, Constantine and the reconstruction of the state, AD 284–337
+    span: [284, 337]
+    summary: >-
+      Diocletian and Constantine rebuilt the state: more provinces, a bigger army, a new tax system, a court-centred
+      monarchy, a new capital and, decisively, an emperor who favoured Christianity. This module asks what was new and
+      what was the culmination of third-century trends.
+    objectives:
+      - Describe the Tetrarchy and Diocletian's administrative, military and fiscal reforms.
+      - Analyse the Edict on Maximum Prices as evidence for policy and its limits.
+      - Compare the accounts of Constantine's conversion in Lactantius and Eusebius.
+      - Evaluate the significance of the foundation of Constantinople.
+    lessons: [diocletian, constantine]
+    essays:
+      - id: m09-e1
+        prompt: Compare Diocletian and Augustus as founders of a new political order.
+        guidance: >-
+          Both ended prolonged civil war and rebuilt institutions. Compare their relationship with the army, Senate and
+          traditional religion, the visibility of monarchy, and their succession arrangements and outcomes.
+        readings: [corcoran-2000, barnes-1982, syme-1939]
+      - id: m09-e2
+        prompt: Was Constantine's conversion sincere, and does it matter for historians?
+        guidance: >-
+          Compare Lactantius DMP 44 and Eusebius VC 1.28–32; consider Burckhardt's cynical reading and Barnes' account of a
+          committed Christian emperor. Argue whether policy can be explained without resolving inner belief.
+        readings: [barnes-2011, lenski-2012, brown-1971]
+    readings: [barnes-1982, corcoran-2000, lenski-2012, barnes-2011, cah-12]
+
+  - id: m10
+    part: p3
+    number: 10
+    title: Christian Empire
+    subtitle: Persecution, conversion and religious conflict, AD 250–450
+    span: [250, 450]
+    summary: >-
+      Christianity moved from a persecuted minority to the religion of emperors and then of the state. This module
+      examines how and why, what “Christianisation” meant in practice, and how religious conflict and coexistence
+      shaped late Roman society.
+    objectives:
+      - Explain the third-century persecutions and their causes.
+      - Assess explanations for Christian growth, including demographic models.
+      - Analyse imperial legislation on religion from Constantine to Theodosius II.
+      - Evaluate the language of “paganism”, conflict and coexistence.
+    lessons: [christianisation]
+    essays:
+      - id: m10-e1
+        prompt: Why did Christianity succeed in the Roman Empire?
+        guidance: >-
+          Weigh demographic growth models (Hopkins, Stark), social networks, charity and community, imperial patronage after
+          312, and coercion after 380. Distinguish the spread of Christianity before and after Constantine.
+        readings: [hopkins-1998, stark-1996, macmullen-1984, brown-2003]
+    readings: [brown-2003, macmullen-1984, lane-fox-1986, cameron-2011, beard-north-price-1998]
+
+  - id: m11
+    part: p3
+    number: 11
+    title: The End of the West
+    subtitle: Goths, Huns and the deposition of the last western emperor, AD 376–493
+    span: [376, 493]
+    summary: >-
+      In 376 the Goths crossed the Danube; a century later there was no emperor in the West. This module narrates
+      the political and military process, then confronts the oldest debate in Roman history: was this decline and fall,
+      or transformation?
+    objectives:
+      - Narrate the key stages from the Gothic crossing to Odoacer and Theoderic.
+      - Explain the role of the loss of Africa and of tax revenue in the western collapse.
+      - Assess the evidence for migration, ethnogenesis and accommodation.
+      - Evaluate “decline”, “fall” and “transformation” as historical frameworks.
+    lessons: [goths-adrianople, fall-of-the-west]
+    essays:
+      - id: m11-e1
+        prompt: Did the Western Roman Empire fall or was it transformed?
+        guidance: >-
+          Define terms. Use Ward-Perkins' archaeological evidence for material decline, Heather's fiscal-military argument,
+          Brown's and Halsall's emphasis on continuity and agency, and Wickham's regional economic analysis. Consider whose
+          experience you are describing.
+        readings: [ward-perkins-2005, heather-2005, halsall-2007, wickham-2005, brown-1971]
+      - id: m11-e2
+        prompt: Why did the East survive when the West did not?
+        guidance: >-
+          Compare geography (Constantinople's position), the wealth of Egypt and Anatolia, the relatively stable Persian frontier,
+          political structures (civilian court versus western generalissimos), and luck.
+        readings: [heather-2005, kulikowski-2007, millar-2006]
+    readings: [heather-2005, ward-perkins-2005, halsall-2007, goffart-1980, kulikowski-2007, cah-13, cah-14]
+
+  # ----- PART IV -----
+  - id: m12
+    part: p4
+    number: 12
+    title: Justinian's Empire
+    subtitle: Law, reconquest, plague and Hagia Sophia, AD 491–602
+    span: [491, 602]
+    summary: >-
+      Justinian codified Roman law, rebuilt Hagia Sophia and reconquered Africa and Italy, while plague and war strained
+      the empire. This module is also a masterclass in source criticism, because our main historian, Procopius, wrote
+      both praise and invective.
+    objectives:
+      - Explain the Corpus Iuris Civilis and its significance.
+      - Analyse the reconquest wars and their costs.
+      - Evaluate Procopius' Wars, Buildings and Secret History as evidence.
+      - Assess the Justinianic Plague debate.
+    lessons: [justinian]
+    essays:
+      - id: m12-e1
+        prompt: Was Justinian's reconquest of the West a mistake?
+        guidance: >-
+          Consider the speed of the Vandal war against the attrition of the Gothic war, the Persian front, finance, plague, and
+          the Lombard invasion of 568. Judge by the standards and information available to Justinian, not only hindsight.
+        readings: [maas-2005, sarris-2023, kaldellis-2023]
+    readings: [maas-2005, sarris-2023, kaldellis-2023, procopius-kaldellis-2014, cah-14]
+
+  - id: m13
+    part: p4
+    number: 13
+    title: Survival and Transformation
+    subtitle: From Heraclius to the Fourth Crusade, AD 602–1204
+    span: [602, 1204]
+    summary: >-
+      The seventh century nearly destroyed the empire: Persian conquest, Arab conquest and the loss of Egypt and Syria.
+      What survived was smaller, Greek-speaking, Orthodox and militarised, yet still Roman. This module follows the
+      reinvention and the long medieval empire to its catastrophe in 1204.
+    objectives:
+      - Explain the impact of the Persian and Arab wars of 602–698.
+      - Assess the debate on the origins of the themes.
+      - Trace the Macedonian expansion and the crisis after 1071.
+      - Explain the diversion of the Fourth Crusade to Constantinople.
+    lessons: [heraclius-islam, middle-byzantium]
+    essays:
+      - id: m13-e1
+        prompt: How did the Eastern Roman Empire survive the seventh century?
+        guidance: >-
+          Consider Constantinople's walls and navy, the Taurus frontier, administrative and military reorganisation, the role of
+          religion and imperial ideology, and Umayyad priorities.
+        readings: [haldon-1997, whittow-1996, kaldellis-2023]
+    readings: [haldon-1997, whittow-1996, herrin-2007, kaldellis-2023, chbe-2008]
+
+  - id: m14
+    part: p4
+    number: 14
+    title: The Last Centuries
+    subtitle: 1204–1453 and the question of Byzantium
+    span: [1204, 1453]
+    summary: >-
+      After the Fourth Crusade the Roman Empire was a cluster of successor states; restored in 1261, it shrank before the
+      Ottomans until Constantinople fell in 1453. The module ends by asking why modern historians invented “Byzantium”, and
+      what was lost by doing so.
+    objectives:
+      - Narrate the Latin conquest, the Nicaean restoration and the Ottoman advance.
+      - Analyse the siege of 1453 using multiple contemporary perspectives.
+      - Explain how and why the term “Byzantine” was adopted, and evaluate the case for “East Roman”.
+    lessons: [fall-of-constantinople, roman-or-byzantine]
+    essays:
+      - id: m14-e1
+        prompt: Should historians stop calling the Eastern Roman Empire “Byzantine”?
+        guidance: >-
+          Use Kaldellis' arguments about Roman identity (Romanía, Rhomaioi) and the counter-arguments for a convenient
+          periodising label. Discuss Hieronymus Wolf, the Enlightenment, and how naming shapes narratives of decline.
+        readings: [kaldellis-2019, cameron-2014, kaldellis-2023]
+    readings: [harris-2010, nicol-1993, phillips-2004, kaldellis-2019, cameron-2014]
+
+  # ----- PART V -----
+  - id: t01
+    part: p5
+    number: 15
+    title: Power and Legitimacy
+    subtitle: Emperors, succession, court and image
+    span: [-27, 1453]
+    summary: How Roman rulers claimed, displayed and lost legitimacy, and why succession was never settled.
+    objectives:
+      - Identify the constituencies whose consent an emperor needed.
+      - Analyse coins, monuments and ceremony as political communication.
+      - Explain why the Roman monarchy never developed a fixed rule of succession.
+    lessons: [power-legitimacy]
+    essays:
+      - id: t01-e1
+        prompt: “The emperor is what the emperor does” (Millar). Is a reactive model of imperial government convincing?
+        guidance: Test Millar's petition-and-response model against evidence for imperial initiative in war, building and ideology.
+        readings: [millar-1977, ando-2000, hopkins-1978]
+    readings: [millar-1977, ando-2000, beard-2023, zanker-1988]
+  - id: t02
+    part: p5
+    number: 16
+    title: Soldiers and Warfare
+    subtitle: Armies, battle, diplomacy and frontier societies
+    span: [-509, 1453]
+    summary: The experience of soldiers, the conduct of war and diplomacy, and the societies that grew up around the army.
+    objectives:
+      - Describe a soldier's career, pay, discipline and family life.
+      - Explain how Romans gathered intelligence and conducted diplomacy.
+      - Analyse frontier communities using Vindolanda and other documents.
+    lessons: [soldiers-lives]
+    essays:
+      - id: t02-e1
+        prompt: How far was the Roman army a society of its own?
+        guidance: Use Vindolanda, military diplomas and tombstones; consider marriage, citizenship, religion and local recruitment.
+        readings: [goldsworthy-2003, bowman-1994, pollard-2000]
+    readings: [goldsworthy-1996, goldsworthy-2003, lendon-2005, campbell-army-1994]
+  - id: t03
+    part: p5
+    number: 17
+    title: Law and Citizenship
+    subtitle: From the Twelve Tables to Justinian
+    span: [-451, 565]
+    summary: How Roman law developed, who made it, who could use it, and how citizenship expanded and changed meaning.
+    objectives:
+      - Trace the development of Roman law and the role of jurists.
+      - Explain the expansion of citizenship to AD 212 and the later distinction between honestiores and humiliores.
+      - Assess the reach of law into ordinary lives.
+    lessons: [roman-law]
+    essays:
+      - id: t03-e1
+        prompt: What did Roman citizenship mean before and after AD 212?
+        guidance: Compare the Republic, the Principate and the post-212 empire; discuss legal privilege, status distinctions and identity.
+        readings: [sherwin-white-1973, garnsey-1970, ando-2000]
+    readings: [nicholas-1962, frier-mcginn-2004, harries-1999, sherwin-white-1973]
+  - id: t04
+    part: p5
+    number: 18
+    title: Religion and Ritual
+    subtitle: Gods, cults, priests and the rise of Christianity
+    span: [-753, 450]
+    summary: Roman religion as civic practice, its priesthoods, ritual and innovation, and how Christianity changed what religion meant.
+    objectives:
+      - Explain Roman religion as practice rather than belief.
+      - Describe the major priesthoods and their political roles.
+      - Analyse the imperial cult and the integration of new cults.
+    lessons: [roman-religion]
+    essays:
+      - id: t04-e1
+        prompt: Is it useful to describe Roman religion as “a religion of practice, not belief”?
+        guidance: Engage with Beard, North and Price and with critics who stress personal piety, philosophy and mystery cults.
+        readings: [beard-north-price-1998, rives-2007, price-1984]
+    readings: [beard-north-price-1998, rives-2007, price-1984]
+  - id: t05
+    part: p5
+    number: 19
+    title: Slavery and Social Mobility
+    subtitle: Slaves, freedpeople and status
+    span: [-300, 600]
+    summary: The scale and character of Roman slavery, manumission, freedpeople and the possibilities and limits of social mobility.
+    objectives:
+      - Assess estimates of the slave population and its sources.
+      - Explain manumission and the position of freedpeople.
+      - Use funerary inscriptions as evidence for slave and freed lives.
+    lessons: [slavery-freedpeople]
+    essays:
+      - id: t05-e1
+        prompt: Why did Romans free so many slaves?
+        guidance: Discuss incentives for owners, the patron–freedman bond, the epigraphic bias toward freedpeople, and debates since Hopkins.
+        readings: [mouritsen-2011, hopkins-1978, joshel-2010]
+    readings: [joshel-2010, mouritsen-2011, bradley-1994, scheidel-1997]
+  - id: t06
+    part: p5
+    number: 20
+    title: Women, Gender and the Family
+    subtitle: Marriage, households and public roles
+    span: [-300, 600]
+    summary: Family structures, marriage and law, women's property and public roles, and how gender shaped Roman politics and representation.
+    objectives:
+      - Explain patria potestas, marriage forms and women's property rights.
+      - Analyse representations of women in elite literature and inscriptions.
+      - Assess women's public and civic roles.
+    lessons: [women-family]
+    essays:
+      - id: t06-e1
+        prompt: How much power did elite Roman women exercise, and by what means?
+        guidance: Use Fulvia, Livia, Julia Domna or Theodora; distinguish formal exclusion from informal influence and the bias of hostile sources.
+        readings: [treggiari-1991, hemelrijk-2015, dixon-1992]
+    readings: [treggiari-1991, dixon-1992, saller-1994, hemelrijk-2015, lefkowitz-fant-2016]
+  - id: t07
+    part: p5
+    number: 21
+    title: Daily Life
+    subtitle: Houses, food, clothing, baths and spectacle
+    span: [-200, 400]
+    summary: How Romans lived, ate, washed, dressed and were entertained, with Pompeii and Herculaneum at the centre.
+    objectives:
+      - Use archaeological evidence to reconstruct domestic space and its social meanings.
+      - Explain the social roles of baths, games and food distribution.
+      - Recognise the limits of Pompeii as typical evidence.
+    lessons: [daily-life]
+    essays:
+      - id: t07-e1
+        prompt: How typical was Pompeii?
+        guidance: Consider its size, date, region and the conditions of its destruction and excavation; compare Ostia and provincial towns.
+        readings: [wallace-hadrill-1994, beard-2008, knapp-2011]
+    readings: [wallace-hadrill-1994, beard-2008, fagan-1999, knapp-2011]
+  - id: t08
+    part: p5
+    number: 22
+    title: Architecture and Engineering
+    subtitle: Concrete, aqueducts, roads and cities
+    span: [-312, 537]
+    summary: Roman building technology and infrastructure, what it achieved and whom it served.
+    objectives:
+      - Explain Roman concrete and vaulting and their architectural consequences.
+      - Describe how aqueducts and roads were surveyed, built and maintained.
+      - Analyse infrastructure as political communication.
+    lessons: [engineering]
+    essays:
+      - id: t08-e1
+        prompt: Were Roman aqueducts primarily practical or political?
+        guidance: Use Frontinus, the evidence of baths and fountains, and the costs and benefactors recorded in inscriptions.
+        readings: [hodge-2002, adam-1994, wilson-jones-2000]
+    readings: [adam-1994, hodge-2002, wilson-jones-2000, ward-perkins-jb-1981]
+  - id: t09
+    part: p5
+    number: 23
+    title: Literature, Philosophy and Education
+    subtitle: Rhetoric, books and the life of the mind
+    span: [-240, 529]
+    summary: How Romans were educated, why rhetoric mattered, and how Latin literature and Greek philosophy served Roman society.
+    objectives:
+      - Describe the stages and purposes of elite education.
+      - Explain the political functions of rhetoric and literature.
+      - Analyse the Roman reception of Greek philosophy.
+    lessons: [literature-education]
+    essays:
+      - id: t09-e1
+        prompt: Why did rhetoric dominate Roman education for over five hundred years?
+        guidance: Link rhetorical training to law courts, politics, administration and elite identity, from Cicero to Augustine.
+        readings: [rawson-1985, morgan-1998, kaster-1988]
+    readings: [rawson-1985, morgan-1998, kaster-1988]
+  - id: t10
+    part: p5
+    number: 24
+    title: Provinces and Identities
+    subtitle: Romanisation, ethnicity and the limits of modern categories
+    span: [-200, 600]
+    summary: How provincial societies changed under Roman rule, and how Romans thought about peoples, ethnicity and difference.
+    objectives:
+      - Evaluate the concept of “Romanisation” and its alternatives.
+      - Analyse ancient ideas of ethnicity, environment and barbarism.
+      - Explain why modern ideas of race cannot simply be mapped onto antiquity, and why the question still matters.
+    lessons: [romanisation, race-ethnicity]
+    essays:
+      - id: t10-e1
+        prompt: Is “Romanisation” still a useful concept?
+        guidance: Trace Haverfield, Millett, Woolf, Webster and Mattingly; use a case study (Britain, Gaul or the Greek East).
+        readings: [millett-1990, woolf-1998, webster-2001, mattingly-2011]
+    readings: [woolf-1998, mattingly-2011, isaac-2004, mccoskey-2012, gruen-2011]
+  - id: t11
+    part: p5
+    number: 25
+    title: Environment, Disease and Demography
+    subtitle: Climate, plague and population
+    span: [-200, 750]
+    summary: Population, mortality, climate change and pandemics, and the new scientific evidence reshaping Roman history.
+    objectives:
+      - Explain Roman demographic conditions and how they are estimated.
+      - Assess palaeoclimate and genetic evidence and its limits.
+      - Evaluate arguments linking climate and disease to imperial crisis.
+    lessons: [environment-disease]
+    essays:
+      - id: t11-e1
+        prompt: How far did climate and disease cause the fall of Rome?
+        guidance: Assess Harper's argument and the critiques by Haldon and colleagues; consider causation, correlation and agency.
+        readings: [harper-2017, haldon-2018, mccormick-2012]
+    readings: [harper-2017, haldon-2018, mccormick-2012, scheidel-2001]
+  - id: t12
+    part: p5
+    number: 26
+    title: The Legacy of Rome
+    subtitle: Law, politics, architecture and imagination
+    span: [476, 2000]
+    summary: How later societies used Rome, from Charlemagne and the Ottomans to the American founders and fascist Italy.
+    objectives:
+      - Trace the transmission of Roman law and political vocabulary.
+      - Analyse the uses of Roman imagery in modern politics.
+      - Reflect critically on why “Rome” remains a political argument.
+    lessons: [legacy]
+    essays:
+      - id: t12-e1
+        prompt: Why has Rome been so useful to later political regimes?
+        guidance: Compare two receptions (e.g. the Holy Roman Empire, the US founders, Mussolini) and analyse what each needed from Rome.
+        readings: [beard-2015, kaldellis-2019, gibbon-1776]
+    readings: [gibbon-1776, beard-2015, wickham-2009]
+  - id: t13
+    part: p5
+    number: 27
+    title: How We Know
+    subtitle: Sources, historians and historiography
+    span: [-200, 2025]
+    summary: The craft of Roman history, from the ancient historians to Gibbon, Mommsen, Syme and today, and the methods of source criticism.
+    objectives:
+      - Identify the major ancient historians and their methods and agendas.
+      - Apply source criticism to literary, documentary and material evidence.
+      - Trace the major modern schools of interpretation.
+    lessons: [historiography]
+    essays:
+      - id: t13-e1
+        prompt: What can documentary evidence tell us that literary histories cannot?
+        guidance: Compare inscriptions, papyri, coins and tablets with Tacitus or Ammianus for one topic of your choice.
+        readings: [bodel-2001, howgego-1995, bagnall-1995]
+    readings: [bodel-2001, howgego-1995, bagnall-1995, gibbon-1776, syme-1939]
+
+terms:
+  - id: term-1
+    title: 'Term one: The Roman Republic'
+    summary: From the foundations to Augustus. Roughly 9–11 hours a week, with one essay due at the end of weeks 6 and 11.
+    weeks:
+      - week: 1
+        title: How do we know about Rome?
+        lessons: [historiography, origins]
+        tasks: [Read Livy's preface (Liv. pref.) and list his claims about evidence., Start a flashcard routine with the Terms deck.]
+      - week: 2
+        title: The early Republic
+        lessons: [early-republic]
+        tasks: [Complete the knowledge checks., 'Source exercise: the Twelve Tables.']
+      - week: 3
+        title: How the Republic worked
+        lessons: [republican-constitution, roman-religion]
+        tasks: ['Debate: how democratic was the Republic? Record your position.']
+      - week: 4
+        title: Carthage
+        lessons: [punic-wars]
+        tasks: ["Map work in the Atlas: follow Hannibal's route and the battles of 218–202 BC."]
+      - week: 5
+        title: Conquest and its consequences
+        lessons: [price-of-empire, slavery-freedpeople]
+        tasks: ['Debate: why did Rome expand?']
+      - week: 6
+        title: Essay week
+        lessons: []
+        tasks: [Write essay m02-e1 or m02-e2 (2,000 words)., Module quizzes 1–2.]
+      - week: 7
+        title: The Gracchi
+        lessons: [gracchi]
+        tasks: ['Scenario: the tribune of 133 BC.']
+      - week: 8
+        title: Marius, Sulla and the Italian question
+        lessons: [marius-sulla, women-family]
+        tasks: ['Lifespans view in People: who overlapped with whom?']
+      - week: 9
+        title: Caesar and the civil wars
+        lessons: [caesar]
+        tasks: ['Scenario: the Rubicon, January 49 BC.']
+      - week: 10
+        title: Augustus
+        lessons: [augustus-power, augustan-rome]
+        tasks: ['Source exercise: Res Gestae 34 with Tacitus Annals 1.2.']
+      - week: 11
+        title: Essay and review week
+        lessons: []
+        tasks: [Write essay m03-e1 or m04-e1., Module quizzes 3–4., Clear all due flashcards.]
+  - id: term-2
+    title: 'Term two: The Roman Empire, AD 14–337'
+    summary: From Tiberius to Constantine, with the thematic studies on how the empire worked.
+    weeks:
+      - week: 1
+        title: The Julio-Claudians
+        lessons: [julio-claudians, power-legitimacy]
+        tasks: ['Family tree work: trace the Julio-Claudian succession.']
+      - week: 2
+        title: AD 69 and the Flavians
+        lessons: [year-69-flavians]
+        tasks: ['Scenario: a legionary legate in AD 69.']
+      - week: 3
+        title: Trajan and Hadrian
+        lessons: [trajan-hadrian]
+        tasks: ['Debate: did Rome have a grand strategy?']
+      - week: 4
+        title: The army
+        lessons: [army-frontiers, soldiers-lives]
+        tasks: ['Source exercise: Vindolanda.']
+      - week: 5
+        title: Governing the provinces
+        lessons: [governing-provinces, roman-law]
+        tasks: ['Scenario: governing Bithynia with Pliny.']
+      - week: 6
+        title: Essay week
+        lessons: [romanisation]
+        tasks: [Write essay m07-e1 or m07-e2.]
+      - week: 7
+        title: The Roman economy
+        lessons: [roman-economy, daily-life]
+        tasks: ['Debate: primitivists and modernists.']
+      - week: 8
+        title: Marcus Aurelius and the Antonine Plague
+        lessons: [marcus-aurelius, engineering]
+        tasks: [Compare Gibbon's judgement with the plague evidence.]
+      - week: 9
+        title: The Severans and the third century
+        lessons: [severans, third-century-crisis]
+        tasks: ['Debate: was there a third-century crisis?']
+      - week: 10
+        title: Diocletian and Constantine
+        lessons: [diocletian, constantine]
+        tasks: ['Compare: Augustus and Diocletian.']
+      - week: 11
+        title: Essay and review week
+        lessons: []
+        tasks: [Write essay m08-e1 or m09-e1., Module quizzes 5–9.]
+  - id: term-3
+    title: 'Term three: Late Antiquity and Byzantium'
+    summary: Christianisation, the end of the West and the Eastern Roman Empire to 1453.
+    weeks:
+      - week: 1
+        title: The Christian empire
+        lessons: [christianisation]
+        tasks: ['Source exercise: Pliny and Trajan on the Christians, then Lactantius.']
+      - week: 2
+        title: Goths and Adrianople
+        lessons: [goths-adrianople, race-ethnicity]
+        tasks: ['Scenario: the council before Adrianople, AD 378.']
+      - week: 3
+        title: The end of the West
+        lessons: [fall-of-the-west]
+        tasks: ['Debate: decline, fall or transformation?']
+      - week: 4
+        title: Environment and disease
+        lessons: [environment-disease]
+        tasks: ['Compare: West and East in the fifth century.']
+      - week: 5
+        title: Justinian
+        lessons: [justinian]
+        tasks: ['Scenario: the Nika riot, AD 532.']
+      - week: 6
+        title: Essay week
+        lessons: [literature-education]
+        tasks: [Write essay m11-e1 or m11-e2.]
+      - week: 7
+        title: Heraclius and the rise of Islam
+        lessons: [heraclius-islam]
+        tasks: ['Atlas: compare the snapshots for AD 600 and AD 700.']
+      - week: 8
+        title: Middle Byzantium
+        lessons: [middle-byzantium]
+        tasks: ['Timeline: follow the causal links from 1071 to 1204.']
+      - week: 9
+        title: 1204–1453
+        lessons: [fall-of-constantinople]
+        tasks: [Read the 1453 sources and compare perspectives.]
+      - week: 10
+        title: Roman or Byzantine? Rome's legacy
+        lessons: [roman-or-byzantine, legacy]
+        tasks: ['Debate: who were the Byzantines?']
+      - week: 11
+        title: Review and examination practice
+        lessons: []
+        tasks: [Module quizzes 10–14., Timed essay (90 minutes) on a prompt you have not yet attempted.]

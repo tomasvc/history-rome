@@ -1,0 +1,553 @@
+- id: libelli-250
+  title: Certificates of sacrifice under Decius
+  kind: papyrus
+  date: {from: 250, label: 'June–July AD 250'}
+  origin: Egypt (several dozen papyri)
+  language: Greek
+  citation: 'Libelli of AD 250 (e.g. from Theadelphia and Oxyrhynchus)'
+  themes: [religious, political]
+  translation:
+    - To those appointed to supervise the sacrifices, from [name], son of [name], from the village of [name], aged about [number], [with a distinguishing mark such as a scar]. I have always sacrificed to the gods, and now, in your presence, in accordance with the edict, I have sacrificed and poured a libation and tasted the sacred offerings, and I ask you to certify this for me. Farewell.
+    - "[A second hand:] I, [name], saw you sacrificing. [Date in the first year of the Emperor Caesar Gaius Messius Quintus Trajanus Decius Pius Felix Augustus.]"
+  translator: 'Course translation of the common formula shared by the surviving certificates; individual documents vary in wording, and names and details differ in each.'
+  context: >-
+    At the start of his reign Decius ordered all inhabitants of the empire to sacrifice to the gods, presumably to secure divine
+    favour for the empire after years of crisis. Local commissions issued signed certificates to those who complied.
+  creator: Local officials and the individuals concerned, often through scribes.
+  audience: Officials checking compliance.
+  tells: >-
+    A remarkable piece of administration: an empire-wide religious act, documented person by person. Some certificates were
+    issued to people who were not Christians, including a priestess of a local crocodile god, showing that the measure was
+    universal and not aimed only at Christians.
+  limits: >-
+    Survivals come from Egypt, where papyrus survives; we cannot know how thoroughly the edict was enforced elsewhere. The texts
+    say nothing about motive.
+  usage: >-
+    Historians use the libelli with Cyprian's letters to reassess the Decian "persecution" as a religious loyalty measure with
+    severe consequences for Christians (Rives).
+  related: [pliny-christians, lactantius-vision]
+  exercise:
+    - q: What does the fact that non-Christians received certificates suggest about Decius' aims?
+      model: >-
+        That the edict was a general act of piety and loyalty, demanding participation from everyone, rather than a targeted
+        hunt for Christians. Christians suffered because they could not comply.
+  editions: [maas-2010, rives-2007]
+- id: price-edict
+  title: Diocletian's Edict on Maximum Prices
+  kind: law
+  author: Diocletian and colleagues
+  date: {from: 301, label: 'late AD 301'}
+  origin: Copies inscribed in public places, mainly in the Greek East (Aphrodisias, Stratonikeia and elsewhere)
+  language: Latin (with Greek copies)
+  citation: 'Edictum de pretiis rerum venalium'
+  themes: [economic, legal]
+  translation:
+    - "[Summary of the preface:] The emperors denounce the limitless greed of profiteers who drive up prices, especially where troops are stationed, so that soldiers' pay is consumed in a single purchase. They therefore fix maximum prices throughout the empire, and anyone who exceeds them, or withholds goods from sale, is to be punished with death."
+    - "[Selected entries, in denarii:] One army modius of wheat: 100. A farm labourer's daily wage, with maintenance: 25. An elementary teacher, per pupil per month: 50. A teacher of Greek or Latin literature (grammaticus), per pupil per month: 200. A teacher of rhetoric, per pupil per month: 250."
+  translator: Course summary of the preface and course translation of selected entries (from the edition by S. Lauffer); check figures against Corcoran (2000) before citing.
+  context: >-
+    Decades of debasement had left a coinage of low-value bronze denarii and rapid price rises. After a currency revaluation
+    in 301, the tetrarchs tried to cap prices for over a thousand goods, wages and transport costs.
+  creator: The tetrarchic chancery, in the names of all four emperors.
+  audience: All inhabitants; above all merchants and buyers in cities and around army bases.
+  tells: >-
+    An astonishing list of goods, services and wages that lets historians compare relative values, the official concern with
+    soldiers' purchasing power, and the tetrarchs' confidence that law could control markets.
+  limits: >-
+    Maximum prices are not actual prices. Lactantius says the edict caused goods to disappear and was soon abandoned. Copies are
+    fragmentary and mostly from the East.
+  usage: >-
+    Used for the history of prices, wages, education and textiles, and as evidence of the tetrarchic style of government:
+    moralising, centralising and ambitious.
+  related: [tetrarchs-porphyry]
+  exercise:
+    - q: Why does the preface stress the plight of soldiers?
+      model: >-
+        Soldiers were paid in cash and stationed in places where prices rose; their loyalty was the regime's foundation.
+        Protecting their purchasing power was both a practical and a political necessity.
+    - q: What do the teachers' rates suggest about the value placed on different levels of education?
+      model: >-
+        Rhetoric commanded five times the elementary rate per pupil, reflecting its prestige and its role in elite careers. The
+        hierarchy of fees mirrors the social hierarchy of education.
+  editions: [corcoran-2000]
+- id: tetrarchs-porphyry
+  title: The porphyry Tetrarchs
+  kind: archaeology
+  date: {from: 293, to: 305, circa: true}
+  origin: Probably Constantinople (taken to Venice after 1204); now at San Marco, Venice
+  language: Image
+  citation: 'Basilica of San Marco, Venice, south-west corner'
+  themes: [political, cultural]
+  image: tetrarchs-venice
+  translation:
+    - Two pairs of emperors carved in hard purple porphyry embrace each other, each with one hand on the hilt of an eagle-headed sword. The four are nearly identical, with stylised faces, cuirasses, cloaks and Pannonian caps. In each pair one figure is bearded (an Augustus) and one beardless or lightly bearded (a Caesar).
+  translator: Description. A missing foot of one figure was found in Istanbul in the 1960s, confirming the Constantinopolitan origin.
+  context: >-
+    The Tetrarchy (293–305) was presented as a harmonious college. The statues probably stood on columns in a public space in
+    Constantinople, from which they were looted in 1204.
+  creator: Imperial workshops, probably Egyptian-trained, since porphyry came only from Mons Porphyrites in Egypt.
+  audience: Inhabitants of a major imperial city.
+  tells: >-
+    The ideology of concord: interchangeable rulers whose unity guaranteed the empire's safety. The style abandons individual
+    portraiture for symbolic sameness and readiness for war.
+  limits: >-
+    It shows ideals, not relationships; the "concord" collapsed within a year of the abdications. Identification of which
+    tetrarch is which is uncertain.
+  usage: >-
+    A key image for the art and ideology of late antiquity, and for debates about the "abstraction" of late Roman portraits.
+  related: [price-edict, lactantius-vision]
+  exercise:
+    - q: Why might the sculptors have made the four rulers look almost identical?
+      model: >-
+        To express the ideology of unity and interchangeable, collegial rule: the empire was guarded by a single harmonious
+        power in four persons, rather than by individual personalities who might become rivals.
+  editions: [elsner-1998]
+- id: lactantius-vision
+  title: Lactantius on Constantine's dream before the Milvian Bridge
+  kind: religious
+  author: Lactantius
+  date: {from: 313, to: 315, circa: true}
+  origin: Probably Nicomedia or Gaul
+  language: Latin
+  citation: 'Lactantius, On the Deaths of the Persecutors 44.5'
+  themes: [religious, political]
+  original:
+    - Commonitus est in quiete Constantinus, ut caeleste signum dei notaret in scutis atque ita proelium committeret. Facit ut iussus est et transversa X littera, summo capite circumflexo, Christum in scutis notat.
+  translation:
+    - Constantine was advised in a dream to mark the heavenly sign of God on the shields of his soldiers and then to engage in battle. He did as he was commanded, and by means of the letter X turned sideways, with the top bent round, he marked Christ on the shields.
+  translator: Course translation from the Latin. The description seems to fit a cross with a looped top (a staurogram) or the Chi-Rho.
+  context: >-
+    Written within about three years of the battle (28 October 312) by a Christian rhetorician close to Constantine's court.
+  creator: Lactantius, tutor to Constantine's son Crispus.
+  audience: Christians, celebrating God's punishment of persecutors and favour to Constantine.
+  tells: >-
+    The earliest account of a Christian sign before the battle: a dream, not a vision in the sky, and a sign on shields.
+  limits: >-
+    Partisan Christian polemic. The sign's form is unclear; there is no mention of a public vision. Lactantius had reasons to
+    stress divine guidance.
+  usage: >-
+    Compared with Eusebius' later account and with a pagan panegyric of 310 describing Constantine's vision of Apollo in Gaul, to
+    reconstruct how the story of the conversion developed.
+  related: [eusebius-vision, milan-letter]
+  exercise:
+    - q: How does Lactantius' account differ from Eusebius'? Why might the differences matter?
+      model: >-
+        Lactantius describes a dream the night before the battle and a sign on shields; Eusebius, writing much later, describes
+        a midday vision of a cross of light in the sky seen by the whole army, then a dream, then the labarum. The story grew
+        over time, which affects how we judge the date and nature of Constantine's conversion.
+  editions: [lactantius-creed-1984]
+- id: eusebius-vision
+  title: Eusebius on Constantine's vision of the cross
+  kind: biography
+  author: Eusebius of Caesarea
+  date: {from: 337, to: 339, label: 'written c. 337–339'}
+  origin: Caesarea Maritima
+  language: Greek
+  citation: 'Eusebius, Life of Constantine 1.28–29'
+  themes: [religious, political]
+  translation:
+    - About the time of the midday sun, when the day was already declining, he said that he saw with his own eyes, in the heavens above the sun, a cross-shaped trophy formed from light, and a text attached to it which said, "By this, conquer" (τούτῳ νίκα). Amazement at the sight gripped both him and the whole army, which was accompanying him on a campaign and witnessed the miracle.
+    - He was, he said, wondering what the apparition meant; then, while he meditated and pondered long, night came upon him. Then in his sleep the Christ of God appeared to him with the sign which had appeared in the sky, and urged him to make himself a copy of the sign, and to use it as protection against the attacks of the enemy.
+  translator: 'Course translation from the Greek, following the order of 1.28.2–1.29. The famous phrase "in hoc signo vinces" is a later Latin rendering.'
+  context: >-
+    Eusebius completed the Life after Constantine's death in 337. He says that Constantine himself told him the story, "long
+    afterwards", and confirmed it on oath.
+  creator: Eusebius, bishop of Caesarea, who had met Constantine at Nicaea and elsewhere.
+  audience: Christian readers and the imperial family; it is panegyric as much as biography.
+  tells: >-
+    How Constantine wanted his conversion remembered late in life, and how the court and church shaped the story of a
+    God-chosen emperor.
+  limits: >-
+    Written twenty-five years after the battle, from the emperor's recollection; the date and place of the vision are vague
+    ("on a campaign"); Eusebius' purpose is apologetic.
+  usage: >-
+    Central evidence in the debate over Constantine's conversion; some historians link the "vision" to a solar halo phenomenon,
+    others to the Gallic vision of Apollo in 310.
+  related: [lactantius-vision, milan-letter]
+  exercise:
+    - q: Eusebius says Constantine swore to the truth of the story. What does this tell the historian?
+      model: >-
+        That this was the official account Constantine endorsed late in life. It is strong evidence for how he presented his
+        conversion, not proof of what happened in 312.
+  editions: [eusebius-vc-1999]
+- id: milan-letter
+  title: The "Edict of Milan" (letter of Licinius, 313)
+  kind: law
+  author: Constantine and Licinius
+  date: {from: 313, label: 'June 313'}
+  origin: Nicomedia (posted by Licinius)
+  language: Latin
+  citation: 'Lactantius, On the Deaths of the Persecutors 48.2; Greek version in Eusebius, Church History 10.5'
+  themes: [religious, legal]
+  original:
+    - Cum feliciter tam ego Constantinus Augustus quam etiam ego Licinius Augustus apud Mediolanum convenissemus atque universa quae ad commoda et securitatem publicam pertinerent, in tractatu haberemus, haec inter cetera quae videbamus pluribus hominibus profutura, vel in primis ordinanda esse credidimus, quibus divinitatis reverentia continebatur, ut daremus et Christianis et omnibus liberam potestatem sequendi religionem quam quisque voluisset.
+  translation:
+    - When I, Constantine Augustus, and I, Licinius Augustus, had happily met at Milan and were considering everything that pertained to the public good and security, we thought that among other things that we saw would benefit many people, those matters which concerned reverence for the divinity ought to be regulated first, so that we might grant both to the Christians and to all others free power to follow whatever religion each person wished.
+  translator: Course translation from the Latin.
+  context: >-
+    After Constantine's victory in 312, he and Licinius met at Milan early in 313. Licinius then defeated Maximinus Daia in the
+    East and issued this letter to governors, restoring confiscated Christian property.
+  creator: The two emperors' chanceries.
+  audience: Provincial governors and, through them, communities in the East.
+  tells: >-
+    A policy of religious freedom for all, with explicit restitution to Christians, framed as securing divine favour ("whatever
+    divinity there is in heaven") for the emperors and the state.
+  limits: >-
+    It is not an edict and was not issued at Milan; it survives in a Christian pamphlet. Its neutral language reflects the need
+    to satisfy both emperors and a largely non-Christian population.
+  usage: >-
+    Read against Galerius' edict of 311 and Theodosius' Cunctos populos of 380 to trace the change from toleration to
+    establishment of Christianity.
+  related: [lactantius-vision, cunctos-populos]
+  exercise:
+    - q: Compare the religious policy here with Cunctos populos (380). What changed?
+      model: >-
+        In 313 the emperors grant freedom to Christians and all others, with neutral language about "the divinity". In 380
+        Theodosius commands all peoples to follow a specific Nicene Christianity and brands others as heretics. The state moved
+        from toleration to defining and enforcing orthodoxy.
+  editions: [lactantius-creed-1984, eusebius-he-1989]
+- id: cunctos-populos
+  title: 'Cunctos populos: Theodosius defines Christian orthodoxy'
+  kind: law
+  author: Theodosius I, Gratian and Valentinian II
+  date: {from: 380, label: '28 February 380'}
+  origin: Thessalonica
+  language: Latin
+  citation: 'Theodosian Code 16.1.2'
+  themes: [religious, legal]
+  original:
+    - Cunctos populos, quos clementiae nostrae regit temperamentum, in tali volumus religione versari, quam divinum Petrum apostolum tradidisse Romanis religio usque ad nunc ab ipso insinuata declarat quamque pontificem Damasum sequi claret et Petrum Alexandriae episcopum virum apostolicae sanctitatis.
+  translation:
+    - It is our will that all the peoples whom the moderation of our clemency rules shall practise that religion which the divine apostle Peter transmitted to the Romans, as the religion that he introduced makes clear even to this day, and which it is evident that the pontiff Damasus follows, and Peter, bishop of Alexandria, a man of apostolic holiness.
+  translator: 'Course translation from the Latin. The law goes on to define belief in the Trinity and to call others "demented and insane" heretics.'
+  context: >-
+    Issued shortly after Theodosius, newly emperor in the East, was baptised in Thessalonica. It addressed the people of
+    Constantinople, where non-Nicene Christians controlled the churches. It was included in the Theodosian Code (438).
+  creator: Theodosius' chancery, in the names of all three emperors.
+  audience: The people of Constantinople; through the Code, all later officials and lawyers.
+  tells: >-
+    The emperor defines correct Christian belief by reference to named bishops and threatens dissenters with divine and imperial
+    punishment: a turning point in the relationship between empire and church.
+  limits: >-
+    Laws state intentions; enforcement varied and many laws were repeated because they were ignored. The Code's compilers
+    excerpted and edited the original.
+  usage: >-
+    Cited as the beginning of a Christian state religion and of religious coercion, read with the laws against sacrifice of
+    391–392 and with evidence for continuing pagan practice (Alan Cameron).
+  related: [milan-letter]
+  exercise:
+    - q: Why does the law name Damasus of Rome and Peter of Alexandria?
+      model: >-
+        To define orthodoxy by communion with recognised Nicene bishops of the most prestigious sees, giving a practical test and
+        excluding the non-Nicene bishops then dominant in Constantinople.
+  editions: [pharr-1952]
+- id: ammianus-adrianople
+  title: Ammianus on the Gothic crossing and Adrianople
+  kind: history
+  author: Ammianus Marcellinus
+  date: {from: 380, to: 395, circa: true, label: 'written c. 380–395'}
+  origin: Rome
+  language: Latin
+  citation: 'Ammianus Marcellinus 31.4 and 31.13.19'
+  themes: [military, political]
+  original:
+    - ''
+    - "[31.13.19] Nec ulla annalibus praeter Cannensem pugnam ita ad internecionem res legitur gesta."
+  translation:
+    - "[Summary of 31.4:] Rumours reached the emperor that the Goths, driven from their homes by the Huns, were begging to be received across the Danube. Valens' advisers flattered him that he would gain recruits and gold; officials were sent to ferry them over in boats day and night. The numbers were so great that, Ammianus says, it was as easy to count the sands of the Libyan desert. Corrupt commanders then exploited the starving refugees, trading dogs for children as slaves."
+    - "[31.13.19:] Nor, except for the battle of Cannae, do the annals record any battle fought with such slaughter."
+  translator: Course summary of 31.4–5 and course translation of 31.13.19.
+  context: >-
+    Book 31, the last of Ammianus' history, narrates the arrival of the Huns, the Gothic crossing of 376, the war, and the
+    battle near Adrianople on 9 August 378, where Valens was killed.
+  creator: Ammianus, a Greek-speaking officer from Antioch writing in Latin in Rome, a polytheist sympathetic to Julian.
+  audience: The senatorial aristocracy of Rome.
+  tells: >-
+    A detailed contemporary narrative that blames the disaster on Roman greed and incompetence as much as on the Goths, and
+    presents Adrianople as a catastrophe on the scale of Cannae.
+  limits: >-
+    Ammianus wrote after the event, with literary models (the comparison to Cannae), and was hostile to Valens. His numbers
+    are rhetorical. He did not witness the battle.
+  usage: >-
+    The basis of all reconstructions of 376–378 (Heather, Kulikowski, Halsall). Historians debate how far his "migration"
+    narrative reflects Roman stereotypes about barbarians.
+  related: [jerome-410, priscus-attila]
+  exercise:
+    - q: According to Ammianus, who was to blame for the Gothic war?
+      model: >-
+        Largely Roman officials: the emperor's advisers who welcomed the Goths for gain, and commanders who exploited them,
+        turning refugees into enemies. The Huns' pressure was the cause of the crossing; Roman greed and mismanagement caused the
+        war. Ammianus' moral framework shapes this blame.
+  editions: [ammianus-hamilton-1986]
+- id: jerome-410
+  title: Jerome on the sack of Rome
+  kind: letter
+  author: Jerome
+  date: {from: 412, circa: true}
+  origin: Bethlehem
+  language: Latin
+  citation: 'Jerome, Letter 127.12'
+  themes: [religious, military]
+  original:
+    - Haeret vox et singultus intercipiunt verba dictantis. Capitur urbs, quae totum cepit orbem.
+  translation:
+    - My voice sticks in my throat and sobs cut off my words as I dictate. The city is taken which took the whole world.
+  translator: Course translation from the Latin.
+  context: >-
+    Jerome, a Latin scholar living in Bethlehem, wrote this in a letter of consolation about Marcella, a Roman aristocratic
+    woman who died after being beaten by Goths during the sack of 410.
+  creator: Jerome (c. 347–420), translator of the Bible into Latin.
+  audience: Principia, Marcella's companion, and a wider circle of Christian aristocrats.
+  tells: >-
+    The emotional and symbolic shock of the sack among educated Christians, even far away; Rome remained the symbol of the world.
+  limits: >-
+    Rhetorical: the striking antithesis is a literary set-piece. Jerome was not in Rome. The physical damage of 410 was
+    limited compared with the symbolism.
+  usage: >-
+    Read with Augustine's City of God and Orosius to see how Christian writers interpreted the sack, and with archaeology for
+    its actual impact.
+  related: [ammianus-adrianople, marcellinus-476]
+  exercise:
+    - q: Why was the fall of the city so shocking even though Rome was no longer the emperor's residence?
+      model: >-
+        Rome symbolised the empire and civilisation itself; it had not been taken by a foreign enemy for 800 years. The sack
+        challenged beliefs, pagan and Christian, about Rome's eternity and divine protection.
+  editions: [maas-2010]
+- id: priscus-attila
+  title: Priscus at the court of Attila
+  kind: history
+  author: Priscus of Panium
+  date: {from: 449, label: 'embassy of AD 449; written later'}
+  origin: Constantinople
+  language: Greek
+  citation: 'Priscus, fragment 11.2 (Blockley)'
+  themes: [political, social]
+  translation:
+    - Priscus, an envoy from Constantinople, met at Attila's court a man dressed like a Hun who greeted him in Greek. He had been a merchant at Viminacium, was captured when the Huns took the city, fought well for his master, won his freedom and now lived among the Huns, married with children.
+    - The man argued that life among the Huns was better than under Rome, where taxes were crushing, the rich escaped justice, lawsuits were slow and expensive, and citizens were not allowed to bear arms for their own defence. Priscus replied with a defence of Roman law and institutions, and the man, weeping, said that the laws were fine and the constitution good, but those who governed were ruining it.
+  translator: 'Course paraphrase of the episode, not a verbatim translation. Read the full text in Blockley (1983) or Maas (2010).'
+  context: >-
+    Priscus accompanied an embassy of Theodosius II to Attila in 449 and later wrote a classicising history, surviving in
+    excerpts made in the tenth century. This episode is among the best known.
+  creator: Priscus, a rhetorician and diplomat.
+  audience: Educated Greek readers in Constantinople.
+  tells: >-
+    That people could cross from Roman to "barbarian" life and do well; and the critique of late Roman government, taxation and
+    justice that educated Romans themselves recognised.
+  limits: >-
+    The dialogue is a literary device in the tradition of Herodotus and Thucydides, probably shaped or invented to voice a debate
+    about the empire's flaws. Priscus gives himself the last word.
+  usage: >-
+    Used for the nature of the Hunnic polity, the permeability of the frontier, and late Roman self-criticism; Halsall and others
+    use it to question rigid Roman/barbarian categories.
+  related: [ammianus-adrianople]
+  exercise:
+    - q: Why might Priscus have invented or shaped this dialogue?
+      model: >-
+        To voice criticisms of Roman government safely through a character, in the tradition of historical debates, while
+        allowing a rebuttal. It lets him explore whether Rome's problem lay in its laws or its rulers.
+  editions: [blockley-1983, maas-2010]
+- id: marcellinus-476
+  title: Marcellinus Comes on 476
+  kind: history
+  author: Marcellinus Comes
+  date: {from: 518, to: 534, circa: true, label: 'written c. 518, extended to 534'}
+  origin: Constantinople
+  language: Latin
+  citation: 'Marcellinus Comes, Chronicle s.a. 476'
+  themes: [political]
+  original:
+    - Hesperium Romanae gentis imperium, quod septingentesimo nono urbis conditae anno primus Augustorum Octavianus Augustus tenere coepit, cum hoc Augustulo periit, anno decessorum regni imperatorum quingentesimo vigesimo secundo, Gothorum dehinc regibus Romam tenentibus.
+  translation:
+    - The western empire of the Roman people, which Octavianus Augustus, the first of the Augusti, began to rule in the 709th year from the foundation of the city, perished with this Augustulus, in the 522nd year of the reign of his predecessor emperors, the kings of the Goths thereafter holding Rome.
+  translator: Course translation from the Latin.
+  context: >-
+    A chronicle written in Latin at Constantinople by an official of Justinian's circle, arranged year by year.
+  creator: Marcellinus, a courtier (comes) from Illyricum.
+  audience: Latin readers in the East, including Justinian's court, which was planning war in the West.
+  tells: >-
+    This is the earliest source to treat 476 as the end of the western empire, neatly bookended by Augustus and "Augustulus".
+  limits: >-
+    Written forty years later in the East, with an interest in presenting the West as lost to "Gothic kings", which helped justify
+    Justinian's reconquest. Contemporaries in 476 did not see the date this way.
+  usage: >-
+    Croke's analysis of this passage shows how "the fall of Rome in 476" was manufactured as a turning point, a key text for
+    thinking about periodisation.
+  related: [jerome-410]
+  exercise:
+    - q: Why might a chronicler at Justinian's court want to present 476 as the end of the western empire?
+      model: >-
+        It framed the West as having fallen to illegitimate Gothic rule, making reconquest a restoration of the Roman empire,
+        which Justinian launched in 533–535. The symmetry of Augustus and Augustulus gives the claim rhetorical force.
+  editions: [marcellinus-croke-1995]
+- id: justinian-institutes
+  title: Justinian's preface to the Institutes
+  kind: law
+  author: Justinian
+  date: {from: 533, label: '21 November 533'}
+  origin: Constantinople
+  language: Latin
+  citation: 'Justinian, Institutes, preface (constitutio Imperatoriam) 1'
+  themes: [legal, political]
+  original:
+    - Imperatoriam maiestatem non solum armis decoratam, sed etiam legibus oportet esse armatam, ut utrumque tempus et bellorum et pacis recte possit gubernari et princeps Romanus victor existat non solum in hostilibus proeliis, sed etiam per legitimos tramites calumniantium iniquitates expellens.
+  translation:
+    - The imperial majesty should be not only adorned with arms but also armed with laws, so that both times, of war and of peace, may be rightly governed, and the Roman emperor may stand victorious not only in battles against the enemy but also by driving out the wickedness of false accusers through legal paths.
+  translator: Course translation from the Latin.
+  context: >-
+    Published with the Institutes, a textbook for first-year law students, in the same year as the Digest and during the war
+    against the Vandals.
+  creator: Justinian's legal commission under Tribonian, in the emperor's voice.
+  audience: Law students ("young people eager for the laws"), lawyers and officials.
+  tells: >-
+    Justinian's ideology of rulership: legislator and conqueror, with law and war as twin pillars of Roman majesty. It shows the
+    continuing Latin legal tradition in a Greek-speaking capital.
+  limits: >-
+    Programmatic rhetoric; it says nothing about how law worked in courts. The Latin-language Corpus was less accessible to most
+    eastern subjects than later Greek summaries.
+  usage: >-
+    Cited for Justinian's self-image and the political purpose of codification; the Institutes themselves remain a standard
+    introduction to Roman law.
+  related: [procopius-nika, procopius-buildings]
+  exercise:
+    - q: How does this preface link the codification of law with Justinian's wars?
+      model: >-
+        It presents arms and laws as the two ornaments of imperial majesty, making the legal project parallel to the reconquest
+        then under way in Africa: in both, the emperor restores Roman order.
+  editions: [justinian-institutes-1987]
+- id: procopius-nika
+  title: Theodora's speech during the Nika riot
+  kind: history
+  author: Procopius
+  date: {from: 545, to: 551, circa: true, label: 'written c. 545–551, of January 532'}
+  origin: Constantinople
+  language: Greek
+  citation: 'Procopius, Wars 1.24.33–37'
+  themes: [political]
+  translation:
+    - "[Theodora speaks:] Whether or not a woman should show daring among men, or be bold where men are hesitating, I do not think the present crisis allows us to consider. ... For one who has been an emperor, it is unbearable to be a fugitive. May I never be separated from this purple, nor live that day on which those who meet me will not call me empress."
+    - If now you wish to save yourself, O emperor, there is no difficulty. We have much money, and there is the sea, and here are the boats. But consider whether, once you have reached safety, you will not gladly exchange that safety for death. For my part I approve an old saying, that royalty is a good burial shroud.
+  translator: 'Course translation from the Greek (abridged). Procopius adapts the "old saying" from a remark about tyranny attributed to a Syracusan ruler.'
+  context: >-
+    In January 532 the circus factions rioted, burned much of the centre and proclaimed Hypatius emperor. Justinian prepared to
+    flee. Procopius says Theodora's speech persuaded the council to stay; Belisarius and Mundus then massacred the crowd in the
+    Hippodrome.
+  creator: Procopius, an eyewitness in the city who later wrote the Secret History attacking Theodora.
+  audience: Readers of his classicising history, steeped in Thucydides and Herodotus.
+  tells: >-
+    A dramatic portrait of the empress as decisive, and of a regime on the brink. Whether or not Theodora spoke so, contemporaries
+    believed she shaped policy.
+  limits: >-
+    Speeches in classicising history are composed by the author. The "old saying" is a learned allusion that undercuts the
+    praise, since it originally referred to tyranny. Procopius' later invective shows his hostility.
+  usage: >-
+    A test case for reading Procopius: praise with a sting, written by an author who also wrote the Secret History. Used for
+    Theodora's role and for the politics of the circus factions.
+  related: [procopius-buildings, justinian-institutes]
+  exercise:
+    - q: Why might the phrase "royalty is a good burial shroud" be double-edged?
+      model: >-
+        The original saying concerned "tyranny", not royalty; educated readers would recognise the allusion and hear Theodora
+        and Justinian implicitly cast as tyrants clinging to power, even as she appears courageous.
+  editions: [procopius-kaldellis-2014, procopius-secret-kaldellis-2010]
+- id: procopius-buildings
+  title: Procopius describes Hagia Sophia
+  kind: history
+  author: Procopius
+  date: {from: 553, to: 560, circa: true}
+  origin: Constantinople
+  language: Greek
+  citation: 'Procopius, Buildings 1.1.27, 45–46'
+  themes: [religious, cultural]
+  translation:
+    - The church has become a spectacle of marvellous beauty, overwhelming to those who see it and altogether incredible to those who only hear of it. It rises to a height that matches the sky, and as if surging up from among the other buildings it stands on high and looks down on the rest of the city.
+    - From the lightness of the building, the golden dome does not seem to rest on solid masonry, but to cover the space as if suspended from heaven by a golden chain.
+  translator: Course translation from the Greek (abridged).
+  context: >-
+    The Buildings is a panegyric on Justinian's construction programme. Its first book opens with Hagia Sophia, rebuilt after the
+    Nika riot in 532–537 by Anthemius of Tralles and Isidore of Miletus.
+  creator: Procopius, now writing in praise of the emperor he attacked in the Secret History.
+  audience: The court and the educated public of Constantinople.
+  tells: >-
+    How contemporaries experienced the building: light, height and the apparently floating dome, ringed by forty windows. It also
+    names the architects and describes structural problems during construction.
+  limits: >-
+    Panegyric, written to glorify Justinian; possibly unfinished; the dome Procopius describes collapsed in 558 and was rebuilt
+    higher.
+  usage: >-
+    Used with the surviving building and with Paul the Silentiary's poem of 563 to study Justinianic architecture, liturgy and
+    imperial ideology, and as a contrast with the Secret History.
+  related: [procopius-nika, justinian-institutes]
+  exercise:
+    - q: How can the same author praise Justinian here and attack him in the Secret History?
+      model: >-
+        Different genres served different purposes and audiences: public panegyric demanded praise, while the unpublished
+        invective expressed hostility. Some scholars also detect irony in the praise. The lesson is to read each work in light of
+        its genre rather than assume one is "true".
+  editions: [procopius-kaldellis-2014, mainstone-1988]
+- id: choniates-1204
+  title: Niketas Choniates on the sack of Constantinople
+  kind: history
+  author: Niketas Choniates
+  date: {from: 1206, to: 1217, circa: true}
+  origin: Nicaea
+  language: Greek
+  citation: 'Niketas Choniates, History, on the sack of April 1204'
+  themes: [religious, military]
+  translation:
+    - Choniates describes the crusaders smashing the holy icons, scattering relics, stripping the altar of Hagia Sophia and loading its treasures onto mules, and a prostitute seated on the patriarch's throne singing and dancing. He contrasts the crusaders' conduct with that of the Muslims who took Jerusalem in 1187, who had treated the Latins there with humanity.
+    - He tells how he escaped the city with his family, protected for a time by a Venetian merchant who passed them off as his prisoners.
+  translator: 'Course paraphrase of the account, not a verbatim translation. Read it in Magoulias (1984).'
+  context: >-
+    Choniates was a senior official in Constantinople in 1204 and wrote his history in exile at Nicaea, revising it as the
+    disaster sank in.
+  creator: A Byzantine statesman and scholar.
+  audience: Byzantine readers in the successor states.
+  tells: >-
+    The Byzantine experience of 1204 as sacrilege and catastrophe, and the bitterness that shaped Orthodox attitudes to the
+    Latin West for centuries.
+  limits: >-
+    Highly rhetorical and written in grief and anger; the comparison with Saladin is pointed polemic. He was an eyewitness to
+    part of the events only.
+  usage: >-
+    Read with Western accounts (Villehardouin, Robert of Clari) to compare perspectives on the same events, a classic exercise in
+    triangulating sources.
+  related: [kritoboulos-1453]
+  exercise:
+    - q: Why does Choniates compare the crusaders with the Muslims who took Jerusalem?
+      model: >-
+        To shame the self-proclaimed soldiers of Christ by contrast with "infidels" who showed more mercy, sharpening the
+        accusation of hypocrisy and sacrilege.
+  editions: [choniates-magoulias-1984, villehardouin-smith-2008]
+- id: kritoboulos-1453
+  title: Kritoboulos on the fall of Constantinople
+  kind: history
+  author: Kritoboulos of Imbros
+  date: {from: 1465, to: 1467, circa: true}
+  origin: Constantinople / Imbros
+  language: Greek
+  citation: 'Kritoboulos, History of Mehmed the Conqueror 1.72–74 (Riggs numbering)'
+  themes: [military, political]
+  translation:
+    - Kritoboulos describes the final assault on 29 May 1453, the death of the emperor Constantine fighting at the walls, and the plundering of the city by the victorious army. He presents Mehmed as weeping over the destruction and lamenting the fate of so great a city, and then turning to repopulate and restore it.
+  translator: 'Course paraphrase, not a verbatim translation. Read it in Riggs (1954).'
+  context: >-
+    Kritoboulos, a Greek notable from the island of Imbros, entered Ottoman service and wrote a history of Mehmed II in Greek, in
+    the style of Thucydides, dedicated to the sultan.
+  creator: A Greek who accepted Ottoman rule and sought to present it favourably.
+  audience: Mehmed II and Greek-reading elites under Ottoman rule.
+  tells: >-
+    A Greek view that treats the conquest as a change of dynasty within a continuing imperial city, and Mehmed as a worthy ruler
+    of it.
+  limits: >-
+    Written for the conqueror; the sultan's tears are a literary topos. He did not witness the siege.
+  usage: >-
+    Compared with Doukas, Sphrantzes, Barbaro and Ottoman sources to show how the same event was framed as catastrophe, divine
+    punishment or imperial succession.
+  related: [choniates-1204]
+  exercise:
+    - q: Why would a Greek historian present Mehmed sympathetically?
+      model: >-
+        He served Mehmed, wrote for him, and sought a place for the Greek elite in the new order; presenting the conquest as a
+        legitimate succession rather than barbarian destruction served both his patron and his community.
+  editions: [kritoboulos-riggs-1954, harris-2010]

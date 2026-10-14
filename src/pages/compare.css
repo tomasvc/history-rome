@@ -1,0 +1,108 @@
+.compare-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+  gap: 0 2.5rem;
+  border-top: 1px solid var(--rule);
+}
+@media (max-width: 560px) {
+  .compare-list {
+    grid-template-columns: 1fr;
+  }
+}
+.compare-list li {
+  padding: 1.1rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.compare-list p {
+  margin: 0.3rem 0;
+}
+.compare-tools {
+  margin-bottom: 1.25rem;
+}
+.compare-scroll {
+  overflow-x: auto;
+  border-top: 2px solid var(--text);
+}
+.compare-table {
+  width: 100%;
+  min-width: 720px;
+  border-collapse: collapse;
+}
+.compare-table th,
+.compare-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 0.85rem 1rem 0.85rem 0;
+  border-bottom: 1px solid var(--rule);
+}
+.compare-table thead th {
+  font-family: var(--f-display);
+  font-weight: 400;
+  font-size: 1.35rem;
+  border-bottom: 1px solid var(--rule-strong);
+}
+.compare-table thead .meta {
+  display: block;
+  margin-top: 0.15rem;
+}
+.cmp-col-label a {
+  text-decoration: none;
+}
+.dim-col {
+  width: 15rem;
+  font-family: var(--f-ui);
+  font-size: var(--fs-ui);
+  font-weight: 600;
+  color: var(--text-2);
+}
+thead .dim-col {
+  font-family: var(--f-ui);
+  font-size: var(--fs-sm);
+  color: var(--text-3);
+}
+.compare-table td {
+  font-size: 0.98rem;
+}
+.compare-table td .para {
+  max-width: none;
+}
+.compare-table td p {
+  margin-bottom: 0.4rem;
+}
+.cmp-note-btn {
+  display: block;
+  margin-top: 0.3rem;
+  font-weight: 400;
+}
+.cmp-note {
+  font-family: var(--f-text);
+  font-weight: 400;
+  color: var(--text);
+  font-size: 0.95rem;
+  margin-top: 0.4rem;
+  padding-left: 0.6rem;
+  border-left: 2px solid var(--cert-interpretation);
+}
+.cmp-note .para {
+  max-width: none;
+}
+.compare-bottom {
+  margin-top: 2rem;
+}
+.compare-bottom .rich .para {
+  max-width: 46rem;
+}
+.compare-exam {
+  margin-top: 2rem;
+  padding: 1.25rem 1.5rem;
+  border: 1px solid var(--rule-strong);
+  background: var(--surface);
+  max-width: 46rem;
+}
+.compare-exam h2 {
+  font-size: var(--fs-h3);
+  margin-bottom: 0.5rem;
+}

@@ -1,0 +1,648 @@
+- id: romulus
+  name: Romulus
+  floruit: {from: -753, label: 'traditional date 753 BC', note: 'Legendary; no contemporary evidence.'}
+  category: other
+  roles: [legendary founder, first king]
+  summary: The legendary founder and first king of Rome, son of Mars and the Vestal Rhea Silvia, who killed his twin Remus.
+  bio: >-
+    In the tradition recorded by Livy, Dionysius of Halicarnassus and Plutarch, Romulus and Remus were exposed as infants,
+    suckled by a she-wolf and raised by a shepherd; Romulus founded the city on the Palatine, killed his brother for leaping
+    the new wall, filled his city with refugees, seized wives from the Sabines, created the Senate and was finally taken up
+    into heaven as the god Quirinus.
+
+
+    The story is best read as evidence for how later Romans understood themselves: a people of mixed origins, founded in
+    violence, open to outsiders, governed by king and council, and protected by the gods. Fratricide at the foundation was
+    an uncomfortable motif that writers of the civil-war era found especially resonant.
+  evidence: >-
+    There is no contemporary evidence for Romulus. The foundation date of 753 BC is an antiquarian calculation of the first
+    century BC (associated with Varro). Archaeology shows huts on the Palatine from the tenth or ninth century and some
+    eighth-century features that a few excavators, notably Carandini, connect to the legend; most historians treat Romulus
+    as a myth that crystallised over centuries.
+  sources: [livy-preface]
+- id: tarquinius-superbus
+  name: Tarquinius Superbus
+  full: Lucius Tarquinius Superbus
+  floruit: {from: -534, to: -509, circa: true, note: 'Traditional dates.'}
+  category: ruler
+  roles: [king of Rome]
+  summary: The seventh and last king of Rome in the tradition, whose tyranny and his son's rape of Lucretia led to the expulsion of the monarchy.
+  bio: >-
+    Livy's Tarquin the Proud is a stock tyrant: he seized power by murder, ruled without consulting the Senate, built
+    ambitiously with forced labour and extended Roman power in Latium. When his son Sextus raped Lucretia, her suicide
+    prompted Lucius Junius Brutus and others to expel the royal family, and the Romans swore never again to accept a king.
+
+
+    The story served Republican ideology so well that its details are suspect, but the archaeology of sixth-century Rome
+    (the great temple of Jupiter on the Capitol, monumental building in the Forum) fits a powerful, Etruscan-influenced
+    monarchy, and the end of kingship around 500 BC is broadly credible.
+  evidence: >-
+    Known only from much later literary sources. The Lucretia story is shaped by Greek tyrant narratives. The date of
+    509 BC rests on Roman lists of consuls (the fasti), whose earliest entries are partly reconstructed.
+  relations:
+    - {to: romulus, type: successor, note: 'Last in the traditional line of seven kings that Romulus began.'}
+- id: appius-claudius-caecus
+  name: Appius Claudius Caecus
+  full: Appius Claudius Caecus
+  born: {from: -340, circa: true}
+  died: {from: -273, circa: true}
+  category: politician
+  roles: [censor 312 BC, consul 307 and 296 BC]
+  summary: Censor who built the Via Appia and Rome's first aqueduct, and the first Roman whose speech was remembered in writing.
+  bio: >-
+    As censor in 312 BC Appius Claudius began the Via Appia from Rome to Capua and the Aqua Appia, the first aqueduct,
+    using public money on a scale that alarmed traditionalists. He also controversially enrolled poorer citizens and sons
+    of freedmen in the tribes. Blind in old age (hence "Caecus"), he was said to have persuaded the Senate to reject peace
+    with Pyrrhus in 280/279 BC.
+
+
+    His career shows how public works, military roads and political reform went together as Rome expanded through Italy.
+  evidence: >-
+    Livy and later writers; an Augustan-era eulogy (elogium) from the Forum of Augustus summarises his career. His speech
+    against Pyrrhus was still read in Cicero's time.
+- id: pyrrhus
+  name: Pyrrhus
+  full: Pyrrhus, king of Epirus
+  born: {from: -319}
+  died: {from: -272}
+  category: foreign
+  roles: [king of Epirus, general]
+  summary: The Greek king whose costly victories over Rome in 280–279 BC gave us the phrase "Pyrrhic victory".
+  bio: >-
+    Invited by Tarentum to fight Rome, Pyrrhus brought a professional Hellenistic army with elephants and defeated the
+    Romans at Heraclea (280) and Asculum (279), but at heavy cost. Rome refused to negotiate and kept raising new armies
+    from its Italian alliance. After an inconclusive campaign in Sicily and defeat near Beneventum (275), he withdrew; Rome
+    then controlled peninsular Italy.
+  evidence: >-
+    Plutarch's Life of Pyrrhus and fragments of other historians. The Pyrrhic War is the first Roman war for which Greek
+    historians writing near the time are partly preserved.
+- id: hamilcar-barca
+  name: Hamilcar Barca
+  died: {from: -229}
+  category: foreign
+  roles: [Carthaginian general]
+  summary: Carthaginian commander in Sicily in the First Punic War who then built a Carthaginian power base in Spain.
+  bio: >-
+    Undefeated in Sicily, Hamilcar negotiated the peace of 241 BC, crushed the revolt of Carthage's unpaid mercenaries, and
+    from 237 led an expedition to Spain, where silver mines and Iberian manpower rebuilt Carthaginian strength. Polybius
+    believed his anger at the loss of Sicily and Sardinia was a deep cause of the Second Punic War, and tells the story of
+    the boy Hannibal swearing eternal enmity to Rome.
+  evidence: Polybius Books 1–3. No Carthaginian narrative survives; we see the Barcids through Greek and Roman eyes.
+  relations:
+    - {to: hannibal, type: parent, note: 'Hamilcar was Hannibal''s father (recorded on Hannibal''s entry).'}
+- id: hannibal
+  name: Hannibal
+  full: Hannibal Barca
+  born: {from: -247}
+  died: {from: -183, to: -181, label: '183/181 BC', note: 'Year of death uncertain.'}
+  category: foreign
+  roles: [Carthaginian general]
+  summary: The Carthaginian general who invaded Italy over the Alps in 218 BC and destroyed Roman armies at Trebia, Trasimene and Cannae, yet lost the war.
+  bio: >-
+    Hannibal inherited command in Spain in 221 BC, took Saguntum and in 218 marched through southern Gaul and over the
+    Alps. His victories culminated at Cannae (216), where a Roman army of perhaps 80,000 was enveloped and destroyed.
+    His strategy depended on detaching Rome's Italian allies; some defected, notably Capua, but most of central Italy
+    stayed loyal, and Rome refused to make peace. Unable to take Rome or win decisive reinforcement, he campaigned in
+    southern Italy for over a decade until recalled to Africa, where Scipio defeated him at Zama (202).
+
+
+    After the war he led Carthage's recovery as a magistrate, then fled to the Seleucid court and later to Bithynia,
+    where he took poison rather than be handed over to Rome.
+  evidence: >-
+    Polybius, who spoke with survivors and studied Hannibal's inscription at Lacinium, is the best source; Livy Books
+    21–30 are more dramatic and more hostile. Hannibal's own Greek historians, such as Silenus and Sosylus, are lost.
+    All surviving accounts were written by Rome's side or by Greeks within its orbit.
+  relations:
+    - {to: hamilcar-barca, type: parent}
+    - {to: scipio-africanus, type: rival, note: 'Defeated by Scipio at Zama, 202 BC.'}
+    - {to: fabius-maximus, type: rival}
+  sources: [polybius-manpower]
+- id: fabius-maximus
+  name: Fabius Maximus
+  full: Quintus Fabius Maximus Verrucosus "Cunctator"
+  born: {from: -280, circa: true}
+  died: {from: -203}
+  category: general
+  roles: [dictator 217 BC, consul five times]
+  summary: The "Delayer", dictator after Trasimene, whose strategy of avoiding battle with Hannibal was mocked at first and revered later.
+  bio: >-
+    After the disaster at Lake Trasimene in 217 BC Fabius was made dictator and shadowed Hannibal without risking battle,
+    preserving Rome's armies and starving the invader of supplies. The strategy was unpopular; the consuls of 216 sought
+    battle and met catastrophe at Cannae. Thereafter something like Fabian caution became Roman policy in Italy, while
+    the war was carried abroad in Spain and finally Africa, against Fabius' own advice about Scipio's invasion.
+  evidence: Polybius, Livy and Plutarch's Life of Fabius. The famous verse of Ennius, "one man by delaying restored the state for us", shows his later reputation.
+  relations:
+    - {to: hannibal, type: rival}
+    - {to: scipio-africanus, type: rival, note: 'Opposed Scipio''s plan to invade Africa.'}
+- id: scipio-africanus
+  name: Scipio Africanus
+  full: Publius Cornelius Scipio Africanus
+  born: {from: -236}
+  died: {from: -183, circa: true}
+  category: general
+  roles: [general, consul 205 and 194 BC]
+  summary: The general who conquered Carthaginian Spain and defeated Hannibal at Zama, ending the Second Punic War.
+  bio: >-
+    Given command in Spain in 210 BC at an unprecedented age and without having held the necessary offices, Scipio took
+    New Carthage (209) and expelled the Carthaginians from Spain (206). As consul he invaded Africa, forcing Carthage to
+    recall Hannibal, and won at Zama (202). His career foreshadowed later problems: extraordinary commands, personal
+    loyalty of soldiers, and a dominance that the aristocracy found threatening. He died in semi-exile after political
+    attacks led by Cato.
+  evidence: Polybius admired Scipio and knew his family; Livy adds legends of divine favour. The Scipionic tombs on the Via Appia preserve epitaphs of his family.
+  relations:
+    - {to: hannibal, type: rival}
+    - {to: cato-elder, type: rival}
+    - {to: cornelia, type: parent, note: 'Father of Cornelia, mother of the Gracchi.'}
+- id: cato-elder
+  name: Cato the Elder
+  full: Marcus Porcius Cato "Censorius"
+  born: {from: -234}
+  died: {from: -149}
+  category: politician
+  roles: [consul 195 BC, censor 184 BC, writer]
+  summary: A new man from Tusculum who made himself the voice of austere tradition, attacked Greek luxury, and urged the destruction of Carthage.
+  bio: >-
+    Cato rose from a farming family to the consulship and a famously harsh censorship, campaigning against luxury and
+    Hellenising fashions while learning Greek himself. His treatise On Agriculture is the earliest surviving Latin prose
+    work and describes a slave-run estate managed for profit. In his last years he ended every speech, it was said, by
+    insisting that Carthage must be destroyed.
+
+
+    Cato embodies the tensions of second-century Rome: an ideology of ancestral simplicity among men whose wealth and
+    power came from conquest.
+  evidence: His De Agri Cultura survives, with fragments of his history (Origines) and speeches; Plutarch's Life of Cato preserves many anecdotes, some invented.
+  relations:
+    - {to: scipio-africanus, type: rival}
+- id: polybius
+  name: Polybius
+  born: {from: -200, circa: true}
+  died: {from: -118, circa: true}
+  category: writer
+  roles: [historian, Achaean statesman, hostage]
+  summary: Greek statesman taken to Rome as a hostage in 167 BC who wrote the history of how Rome conquered the Mediterranean in under 53 years.
+  bio: >-
+    A leading figure of the Achaean League, Polybius was deported to Rome after the Third Macedonian War and became a friend
+    and mentor of Scipio Aemilianus, whom he accompanied to the destruction of Carthage in 146 BC. His Histories set out
+    to explain to Greeks how and why Rome came to rule almost the whole known world between 220 and 167 BC. Book 6
+    analyses the Roman constitution as a mixture of monarchy, aristocracy and democracy.
+  evidence: Five books survive complete and much of the rest in excerpts. He used documents, interviewed participants and walked Hannibal's route, but he wrote as a friend of the Scipios.
+  relations:
+    - {to: scipio-aemilianus, type: teacher, note: 'Polybius was Scipio Aemilianus'' mentor and companion.'}
+  sources: [polybius-constitution, polybius-manpower]
+- id: scipio-aemilianus
+  name: Scipio Aemilianus
+  full: Publius Cornelius Scipio Aemilianus Africanus
+  born: {from: -185}
+  died: {from: -129}
+  category: general
+  roles: [general, consul 147 and 134 BC]
+  summary: The commander who destroyed Carthage in 146 BC and Numantia in 133 BC; adoptive grandson of Africanus and brother-in-law of Tiberius Gracchus.
+  bio: >-
+    Son of Aemilius Paullus, the victor of Pydna, and adopted into the Cornelii Scipiones, Aemilianus was elected consul
+    in 147 BC though under age, and captured and razed Carthage in 146. A second irregular consulship brought the fall of
+    Numantia in Spain (133). He was married to Sempronia, sister of the Gracchi, but disapproved of Tiberius' methods;
+    his sudden death in 129, amid political conflict over the land commission, prompted rumours of murder.
+  evidence: Polybius was his friend; Appian and Plutarch narrate his campaigns; Cicero later idealised him in On the Commonwealth.
+  relations:
+    - {to: polybius, type: teacher}
+    - {to: scipio-africanus, type: adoptive-parent, note: 'Adopted by Africanus'' son, so Africanus'' adoptive grandson.'}
+    - {to: tiberius-gracchus, type: rival, note: 'Brother-in-law, critical of Tiberius'' tribunate.'}
+- id: cornelia
+  name: Cornelia
+  born: {from: -190, circa: true}
+  died: {from: -115, circa: true}
+  category: woman
+  roles: [mother of the Gracchi]
+  summary: Daughter of Scipio Africanus and mother of Tiberius and Gaius Gracchus, admired as the model Roman matron and educator of her sons.
+  bio: >-
+    Widowed young, Cornelia refused a proposal from a Ptolemaic king and devoted herself to her children's education. She
+    was famous for her learning and letters, and later honoured with a public statue, a rare distinction for a woman. The
+    story that she called her sons her "jewels" comes from a much later collection of anecdotes.
+  evidence: >-
+    Fragments of a letter attributed to her, urging Gaius not to stand for the tribunate, survive in manuscripts of
+    Cornelius Nepos; their authenticity is debated. The base of her statue, inscribed "Cornelia, daughter of Africanus,
+    mother of the Gracchi", survives in Rome.
+  relations:
+    - {to: scipio-africanus, type: parent}
+- id: tiberius-gracchus
+  name: Tiberius Gracchus
+  full: Tiberius Sempronius Gracchus
+  born: {from: -163, circa: true}
+  died: {from: -133}
+  category: politician
+  roles: [tribune of the plebs 133 BC]
+  summary: Tribune of 133 BC whose land reform, pushed through against senatorial opposition, ended with his killing by senators, the first such political murder in Rome for centuries.
+  bio: >-
+    From a distinguished plebeian family, Tiberius had served at Carthage and in Spain. As tribune he proposed to enforce
+    the old limit on occupation of public land (ager publicus) and distribute the surplus in small allotments, to restore
+    the class of peasant soldiers. When his colleague Octavius vetoed the bill, Tiberius had him deposed by the assembly,
+    an unprecedented act; he then proposed to fund the settlers from the bequest of Attalus III of Pergamum, intruding
+    into senatorial control of finance and foreign affairs. When he sought re-election, a group of senators led by the
+    pontifex maximus Scipio Nasica clubbed him and hundreds of supporters to death.
+  evidence: >-
+    Plutarch's Life and Appian's Civil Wars 1 are the main narratives, both written over two centuries later and shaped by
+    later debates. Boundary stones of the land commission (cippi Gracchani) confirm that the commission worked.
+  relations:
+    - {to: cornelia, type: parent}
+    - {to: gaius-gracchus, type: sibling}
+    - {to: scipio-aemilianus, type: rival}
+  sources: [gracchus-speech]
+- id: gaius-gracchus
+  name: Gaius Gracchus
+  full: Gaius Sempronius Gracchus
+  born: {from: -154, circa: true}
+  died: {from: -121}
+  category: politician
+  roles: [tribune of the plebs 123 and 122 BC]
+  summary: Younger brother of Tiberius whose wider reform programme (grain, courts, colonies, citizenship) ended in his death under the first "final decree" of the Senate.
+  bio: >-
+    Gaius held two tribunates (123–122 BC) and passed a remarkable range of laws: subsidised grain for citizens in Rome,
+    new colonies, road building, the transfer of the extortion court juries to the equites, and the auction of the tax
+    contracts for Asia. His proposal to extend citizenship to Latins and allies failed. In 121 the Senate passed its
+    emergency decree, and the consul Opimius attacked Gaius' supporters on the Aventine; Gaius had a slave kill him.
+    The violence, and the precedent of the decree, shaped the next century.
+  evidence: Plutarch, Appian, fragments of Gaius' own speeches quoted by later writers, and the epigraphic Latin text of an extortion law usually linked to his tribunate.
+  relations:
+    - {to: cornelia, type: parent}
+    - {to: tiberius-gracchus, type: sibling}
+- id: jugurtha
+  name: Jugurtha
+  died: {from: -104}
+  category: foreign
+  roles: [king of Numidia]
+  summary: Numidian king whose war with Rome (112–105 BC) exposed senatorial corruption and launched the career of Marius.
+  bio: >-
+    Jugurtha seized the Numidian throne by murdering rivals and, after killing Italian traders at Cirta, provoked war with
+    Rome. Sallust portrays a Senate repeatedly bribed into weakness; the war was finally won by Marius' quaestor Sulla, who
+    secured Jugurtha's betrayal by Bocchus of Mauretania. He was paraded in Marius' triumph and executed.
+  evidence: Sallust's Jugurthine War, a moralising monograph written in the 40s BC that uses the war to explain the rise of party strife.
+  relations:
+    - {to: marius, type: rival}
+- id: marius
+  name: Gaius Marius
+  full: Gaius Marius
+  born: {from: -157}
+  died: {from: -86}
+  category: general
+  roles: [general, consul seven times]
+  summary: A new man from Arpinum who held an unprecedented seven consulships, defeated Jugurtha and the Cimbri and Teutones, and ended his life in bloody civil war with Sulla.
+  bio: >-
+    Marius won the consulship of 107 BC against aristocratic opposition and took the Numidian command by popular vote,
+    enrolling volunteers from the propertyless (capite censi). Faced with migrating Cimbri and Teutones, who had destroyed a
+    Roman army at Arausio (105), the people elected him consul every year from 104 to 100; he won at Aquae Sextiae (102)
+    and Vercellae (101). In 88 the transfer of the Mithridatic command from Sulla to Marius provoked Sulla's march on
+    Rome. Marius returned by force in 87 with Cinna, massacred opponents, and died early in his seventh consulship in 86.
+  evidence: >-
+    Plutarch's Life of Marius and Sallust are the main sources. The idea of a single "Marian reform" of the army comes
+    mainly from modern historians extrapolating from Sallust's report of his recruitment in 107; recent scholarship
+    stresses gradual change.
+  relations:
+    - {to: sulla, type: rival}
+    - {to: jugurtha, type: rival}
+    - {to: caesar, type: other-family, note: 'Husband of Caesar''s aunt Julia.'}
+- id: sulla
+  name: Sulla
+  full: Lucius Cornelius Sulla Felix
+  born: {from: -138}
+  died: {from: -78}
+  category: general
+  roles: [general, consul 88 and 80 BC, dictator 82–79 BC]
+  summary: The first Roman to lead an army against Rome (88 BC); victor in civil war, dictator, author of the proscriptions and a conservative reform of the constitution.
+  bio: >-
+    Sulla served under Marius, captured Jugurtha, and made his name in the Social War. Consul in 88, he marched on Rome
+    when the people transferred his command against Mithridates to Marius, a decisive breach of norms. After fighting
+    Mithridates in Greece and Asia he returned, won the civil war at the Colline Gate (82), and as dictator published lists
+    of enemies whose killers were rewarded (the proscriptions). His legislation doubled the Senate, gave senators the
+    juries, curbed the tribunate and regulated careers. He resigned and died in retirement; many of his laws were undone
+    within a decade, but his example was not.
+  evidence: Plutarch's Life of Sulla and Appian; Sulla's lost memoirs underlie much of the tradition, including his claim to divine favour (Felix, "Lucky").
+  relations:
+    - {to: marius, type: rival}
+    - {to: mithridates, type: rival}
+    - {to: pompey, type: patron, note: 'Pompey raised an army for Sulla in 83 BC and was rewarded with commands.'}
+    - {to: crassus, type: patron}
+- id: mithridates
+  name: Mithridates VI
+  full: Mithridates VI Eupator, king of Pontus
+  born: {from: -135, circa: true}
+  died: {from: -63}
+  category: foreign
+  roles: [king of Pontus]
+  summary: King of Pontus who fought Rome in three wars and in 88 BC organised the massacre of Romans and Italians in Asia.
+  bio: >-
+    Exploiting hatred of Roman tax-farmers, Mithridates overran Asia in 89–88 BC and ordered the killing of Roman and Italian
+    residents, said to number 80,000. Sulla, Lucullus and finally Pompey fought him; driven from his kingdom, he died in the
+    Crimea in 63. The wars made the eastern commands the great prizes of late Republican politics.
+  evidence: Appian's Mithridatic Wars and Plutarch's Lives of Sulla, Lucullus and Pompey.
+  relations:
+    - {to: sulla, type: rival}
+    - {to: pompey, type: rival}
+- id: spartacus
+  name: Spartacus
+  died: {from: -71}
+  category: other
+  roles: [gladiator, rebel leader]
+  summary: Thracian gladiator who led the largest slave revolt in Roman history (73–71 BC) before defeat by Crassus.
+  bio: >-
+    Escaping from a gladiatorial school at Capua with about seventy others, Spartacus gathered an army of tens of thousands
+    of slaves and defeated several Roman forces. His aims are unclear; he seems to have tried to lead his followers out of
+    Italy rather than overturn slavery. Crassus defeated him in 71 and crucified six thousand captives along the Via Appia.
+  evidence: Appian, Plutarch's Life of Crassus and fragments of Sallust; all hostile, none from the rebels' side. Modern images of Spartacus as a revolutionary owe much to Marx and to fiction.
+  relations:
+    - {to: crassus, type: rival}
+- id: pompey
+  name: Pompey
+  full: Gnaeus Pompeius Magnus
+  born: {from: -106}
+  died: {from: -48}
+  category: general
+  roles: [general, consul 70, 55 and 52 BC]
+  summary: Rome's greatest general before Caesar, whose extraordinary commands against pirates and Mithridates reshaped the East; first Caesar's ally, then his opponent in civil war.
+  bio: >-
+    Pompey raised a private army for Sulla at 23, celebrated triumphs without having held office, and was consul in 70 BC.
+    The lex Gabinia (67) gave him three years' command over the whole Mediterranean against the pirates, which he cleared
+    in months; the lex Manilia (66) gave him the war against Mithridates, after which he reorganised the East, annexing
+    Syria. When the Senate refused to ratify his settlement, he formed an informal alliance with Crassus and Caesar (60/59),
+    sealed by his marriage to Caesar's daughter Julia. After Julia's death (54) and Crassus' (53) he drew closer to the
+    Senate, became sole consul in 52, and led the republican side in 49. Defeated at Pharsalus (48), he was murdered on
+    landing in Egypt.
+  evidence: Plutarch's Life of Pompey, Cicero's letters and speeches (including the speech for the Manilian law), Caesar's Civil War and Dio.
+  relations:
+    - {to: sulla, type: patron}
+    - {to: caesar, type: rival}
+    - {to: crassus, type: rival}
+    - {to: julia-caesaris, type: spouse}
+    - {to: cicero, type: ally}
+    - {to: mithridates, type: rival}
+- id: crassus
+  name: Crassus
+  full: Marcus Licinius Crassus
+  born: {from: -115, circa: true}
+  died: {from: -53}
+  category: politician
+  roles: [consul 70 and 55 BC]
+  summary: The richest man in Rome, who crushed Spartacus, financed allies like Caesar, and died in the disaster at Carrhae against Parthia.
+  bio: >-
+    Crassus made a fortune from the proscriptions and from property speculation, and built influence by lending to and
+    defending senators. He defeated Spartacus in 71, shared the consulship of 70 with his rival Pompey, and joined the
+    informal alliance with Pompey and Caesar in 60/59. Seeking military glory to match theirs, he invaded Parthia from
+    Syria and was killed after the defeat at Carrhae (53), removing the third man who had balanced the other two.
+  evidence: Plutarch's Life of Crassus; Cicero's letters; Dio.
+  relations:
+    - {to: sulla, type: patron}
+    - {to: pompey, type: rival}
+    - {to: caesar, type: ally}
+    - {to: spartacus, type: rival}
+- id: cicero
+  name: Cicero
+  full: Marcus Tullius Cicero
+  born: {from: -106}
+  died: {from: -43}
+  category: politician
+  roles: [orator, consul 63 BC, philosopher]
+  summary: The greatest Roman orator, a new man who rose to the consulship, suppressed Catiline, and was killed in the proscriptions of 43 BC; his letters are our best window on late Republican politics.
+  bio: >-
+    From Arpinum like Marius, Cicero rose through brilliance in the courts. As consul in 63 he exposed the conspiracy of
+    Catiline and had five conspirators executed without trial under the Senate's final decree, which led to his exile in
+    58 at the instigation of Clodius. Recalled in 57, he was pushed to the margins by the alliance of Pompey, Caesar and
+    Crassus, wrote philosophy and political theory, and joined Pompey reluctantly in 49. After Caesar's murder he led
+    senatorial resistance to Antony in the Philippics, and was proscribed and killed in 43.
+  evidence: >-
+    Over 900 letters to and from Cicero survive, along with 58 speeches and many treatises, making him the best-documented
+    person of the ancient world. That abundance is itself a bias: we see the late Republic largely through his eyes.
+  relations:
+    - {to: catiline, type: rival}
+    - {to: clodius, type: rival}
+    - {to: pompey, type: ally}
+    - {to: mark-antony, type: rival}
+    - {to: augustus, type: ally, note: 'Supported young Octavian against Antony in 44–43 BC; abandoned by him in the proscriptions.'}
+  sources: [cicero-attic-49]
+- id: catiline
+  name: Catiline
+  full: Lucius Sergius Catilina
+  born: {from: -108}
+  died: {from: -62}
+  category: politician
+  roles: [conspirator]
+  summary: Patrician who, after failing to win the consulship, organised an armed conspiracy in 63 BC, suppressed by Cicero.
+  bio: >-
+    A former Sullan, heavily indebted, Catiline campaigned on cancellation of debts and drew support from impoverished
+    aristocrats, Sullan veterans and Etrurian farmers. After his electoral defeats he plotted revolution; Cicero denounced
+    him in the Senate and he left Rome to join an army in Etruria, where he died fighting at Pistoria in 62.
+  evidence: Cicero's speeches Against Catiline and Sallust's Catilinarian War, both hostile; the conspiracy may have been more desperate and less coherent than they suggest.
+  relations:
+    - {to: cicero, type: rival}
+- id: cato-younger
+  name: Cato the Younger
+  full: Marcus Porcius Cato Uticensis
+  born: {from: -95}
+  died: {from: -46}
+  category: politician
+  roles: [senator, praetor 54 BC]
+  summary: Stoic senator and great-grandson of Cato the Elder who led uncompromising opposition to Caesar and killed himself at Utica rather than accept his clemency.
+  bio: >-
+    Cato built influence by rigid integrity and obstruction: filibustering, insisting on legal forms, opposing every
+    extraordinary command. He argued for the execution of the Catilinarians in 63 and blocked deals that might have kept
+    Pompey and Caesar apart from each other. After Thapsus (46) he committed suicide at Utica and became a martyr of
+    Republican liberty.
+  evidence: Plutarch's Life of Cato; Cicero's letters; the contest of pamphlets after his death (Cicero's Cato and Caesar's Anticato).
+  relations:
+    - {to: caesar, type: rival}
+    - {to: brutus, type: other-family, note: 'Brutus'' uncle and father-in-law.'}
+- id: clodius
+  name: Clodius
+  full: Publius Clodius Pulcher
+  born: {from: -93, circa: true}
+  died: {from: -52}
+  category: politician
+  roles: [tribune of the plebs 58 BC]
+  summary: Patrician who became a plebeian to hold the tribunate, made the grain dole free, organised the urban plebs, drove Cicero into exile, and was killed by Milo's gang.
+  bio: >-
+    Clodius had himself adopted into a plebeian family in 59 BC with Caesar's help. As tribune in 58 he made the grain
+    distribution free, restored the neighbourhood associations (collegia), and passed a law exiling anyone who had
+    executed citizens without trial, aimed at Cicero. His street gangs fought those of Milo until Milo's men killed him on
+    the Via Appia in 52; his supporters burned the Senate house as his funeral pyre.
+  evidence: Cicero, his bitter enemy, is the main source; recent work stresses Clodius' genuine popular base.
+  relations:
+    - {to: cicero, type: rival}
+- id: caesar
+  name: Julius Caesar
+  full: Gaius Julius Caesar
+  born: {from: -100}
+  died: {from: -44, label: '15 March 44 BC'}
+  category: general
+  roles: [general, consul 59 BC, dictator]
+  summary: Patrician popularis who conquered Gaul, crossed the Rubicon in 49 BC, won the civil war, and was murdered as dictator for life in 44 BC.
+  bio: >-
+    Caesar built a career through popular politics and debt: pontifex maximus in 63, consul in 59 with the support of
+    Pompey and Crassus, when he passed land laws by force over his colleague's objections. His command in Gaul (58–50)
+    brought conquest, enormous wealth and a devoted army, recorded in his own Commentaries. When the Senate, led by Pompey
+    and Cato, demanded he give up his command without the immunity of a second consulship, he crossed the Rubicon into
+    Italy in January 49. Victories at Pharsalus, Thapsus and Munda made him master of the Roman world. As dictator he
+    reformed the calendar, settled veterans and enlarged the Senate, and was granted honours that looked like kingship.
+    In February 44 he became dictator for life; on the Ides of March a group of senators led by Brutus and Cassius
+    stabbed him to death in the Senate meeting at Pompey's theatre.
+  evidence: >-
+    Caesar's own Gallic War and Civil War, Cicero's letters, Suetonius' and Plutarch's biographies, Appian and Dio. The
+    question of whether he aimed at monarchy has been argued since antiquity; Morstein-Marx has recently stressed his
+    popular legitimacy.
+  relations:
+    - {to: pompey, type: rival}
+    - {to: crassus, type: ally}
+    - {to: cato-younger, type: rival}
+    - {to: brutus, type: killed}
+    - {to: cassius, type: killed}
+    - {to: mark-antony, type: ally}
+    - {to: cleopatra, type: spouse, note: 'Liaison, not a Roman marriage; Cleopatra named her son Caesarion.'}
+    - {to: julia-caesaris, type: parent, note: 'Father of Julia, Pompey''s wife.'}
+  sources: [cicero-attic-49]
+- id: julia-caesaris
+  name: Julia (daughter of Caesar)
+  born: {from: -76, circa: true}
+  died: {from: -54}
+  category: woman
+  roles: [wife of Pompey]
+  summary: Caesar's only daughter, whose marriage to Pompey in 59 BC cemented their alliance; her death in childbirth in 54 loosened it.
+  bio: >-
+    Julia married Pompey in 59 BC, and ancient writers describe a genuinely affectionate marriage. Her death in 54, followed
+    by that of her child, removed a personal bond between the two men, and ancient and modern historians alike have seen
+    it as a step toward civil war.
+  evidence: Plutarch, Suetonius and Dio; the political interpretation of her death is ancient but should not be overstated.
+  relations:
+    - {to: caesar, type: parent}
+    - {to: pompey, type: spouse}
+- id: brutus
+  name: Brutus
+  full: Marcus Junius Brutus
+  born: {from: -85}
+  died: {from: -42}
+  category: politician
+  roles: [praetor 44 BC, assassin of Caesar]
+  summary: Leader of the conspiracy against Caesar, who claimed descent from the Brutus who expelled the kings, and died after defeat at Philippi.
+  bio: >-
+    Brutus fought for Pompey, was pardoned by Caesar and promoted to the praetorship. In 44 he joined Cassius in leading the
+    conspiracy, presenting the murder as tyrannicide in defence of libertas. Driven from Italy by Antony and Octavian's
+    advance, he raised armies in the East and minted coins advertising the killing, before defeat and suicide at Philippi
+    in 42.
+  evidence: Plutarch's Life of Brutus; Cicero's letters (including letters to and from Brutus); his own coins.
+  relations:
+    - {to: caesar, type: rival}
+    - {to: cassius, type: ally}
+    - {to: cato-younger, type: other-family}
+    - {to: mark-antony, type: rival}
+  sources: [eid-mar]
+- id: cassius
+  name: Cassius
+  full: Gaius Cassius Longinus
+  died: {from: -42}
+  category: general
+  roles: [praetor 44 BC, assassin of Caesar]
+  summary: Officer who survived Carrhae, fought for Pompey, was pardoned by Caesar and co-led the conspiracy against him.
+  bio: >-
+    Cassius saved the remnants of Crassus' army after Carrhae (53 BC) and defended Syria against Parthia. Pardoned after
+    Pharsalus, he organised the plot against Caesar with Brutus. He killed himself at the first battle of Philippi (42),
+    mistakenly believing Brutus defeated.
+  evidence: Plutarch's Lives of Brutus and Caesar; Appian; Dio.
+  relations:
+    - {to: brutus, type: ally}
+    - {to: caesar, type: rival}
+- id: mark-antony
+  name: Mark Antony
+  full: Marcus Antonius
+  born: {from: -83}
+  died: {from: -30}
+  category: general
+  roles: [consul 44 BC, triumvir]
+  summary: Caesar's lieutenant and consul at his death, triumvir with Octavian and Lepidus, partner of Cleopatra, and loser of the civil war at Actium.
+  bio: >-
+    Antony served with Caesar in Gaul and as his deputy in Italy. After the Ides he dominated Rome as consul, then clashed
+    with Octavian and the Senate, before forming the Second Triumvirate in 43. He defeated Brutus and Cassius at Philippi
+    (42) and took charge of the East, where he allied with Cleopatra and fought Parthia with limited success. His marriage
+    to Octavian's sister Octavia kept peace for a time; by 32 propaganda war had become real war, and after defeat at
+    Actium (31) he killed himself in Alexandria.
+  evidence: Plutarch's Life of Antony; Cicero's Philippics (vicious invective); Dio. Augustan propaganda shaped the image of an Antony enslaved by an Egyptian queen.
+  relations:
+    - {to: caesar, type: ally}
+    - {to: augustus, type: rival}
+    - {to: cleopatra, type: spouse}
+    - {to: octavia, type: spouse}
+    - {to: fulvia, type: spouse}
+    - {to: cicero, type: killed, note: 'Antony demanded Cicero''s inclusion in the proscriptions of 43 BC.'}
+    - {to: lepidus, type: colleague}
+- id: fulvia
+  name: Fulvia
+  died: {from: -40}
+  category: woman
+  roles: [political actor]
+  summary: Wife successively of Clodius, Curio and Mark Antony, and the first non-mythical Roman woman to appear on coins; she raised troops in the Perusine War.
+  bio: >-
+    Fulvia was deeply involved in the politics of her husbands. In 41 BC, with Antony's brother Lucius, she opposed
+    Octavian's land confiscations in Italy and helped raise forces; the war ended with the siege of Perusia. Sling bullets
+    from the siege carry obscene insults about her. She died in Greece in 40, and Antony then married Octavia.
+  evidence: Hostile literary sources (Cicero, Appian, Dio); coins from Lugdunum and Phrygia that may portray her as Victory; inscribed sling bullets from Perusia.
+  relations:
+    - {to: mark-antony, type: spouse}
+    - {to: clodius, type: spouse}
+- id: lepidus
+  name: Lepidus
+  full: Marcus Aemilius Lepidus
+  born: {from: -89, circa: true}
+  died: {from: -13, circa: true}
+  category: politician
+  roles: [triumvir, pontifex maximus]
+  summary: Caesar's master of horse and the third, weakest member of the Second Triumvirate, sidelined by Octavian in 36 BC.
+  bio: >-
+    Lepidus brought his army to Antony's side in 43 BC and joined the triumvirate. After helping defeat Sextus Pompeius in
+    Sicily (36) he tried to claim the island, but his troops defected to Octavian. He kept his priesthood as pontifex
+    maximus until his death, when Augustus took the office.
+  evidence: Appian and Dio; Res Gestae 10 alludes to Augustus waiting until his death to become pontifex maximus.
+  relations:
+    - {to: mark-antony, type: colleague}
+    - {to: augustus, type: colleague}
+- id: cleopatra
+  name: Cleopatra VII
+  full: Cleopatra VII Philopator
+  born: {from: -69}
+  died: {from: -30}
+  category: foreign
+  roles: [queen of Egypt]
+  summary: The last Ptolemaic ruler of Egypt, ally and lover of Caesar and then Antony, whose defeat at Actium ended Egypt's independence.
+  bio: >-
+    Cleopatra regained her throne with Caesar's help in 48–47 BC and bore a son, Ptolemy Caesar (Caesarion). Allied with
+    Antony from 41, she supplied money and fleets for his campaigns, and in the "Donations of Alexandria" (34) her
+    children received eastern kingdoms. Octavian declared war on her, not on Antony, in 32. After Actium she killed herself
+    in Alexandria (30) rather than be led in a triumph, and Egypt became the emperor's province.
+  evidence: >-
+    Almost all literary evidence is Roman and shaped by Augustan propaganda; coins, papyri and Egyptian temple reliefs show
+    her as a Hellenistic and pharaonic ruler. Her portraits are identified mainly from coins.
+  relations:
+    - {to: caesar, type: spouse}
+    - {to: mark-antony, type: spouse}
+    - {to: augustus, type: rival}
+- id: livy
+  name: Livy
+  full: Titus Livius
+  born: {from: -59, circa: true, note: 'Dates (59 BC – AD 17) come from Jerome; some scholars prefer 64 BC – AD 12.'}
+  died: {from: 17, circa: true}
+  category: writer
+  roles: [historian]
+  summary: Historian from Padua whose 142-book history of Rome from the foundation, written under Augustus, shaped the Roman past for all later readers.
+  bio: >-
+    Livy wrote Ab Urbe Condita over some forty years; 35 books survive (1–10 and 21–45), with summaries of most of the rest.
+    Not a senator and not a military man, he wrote history as moral example, frankly admitting that the earliest stories
+    were legends. His account of early Rome is the main narrative source for the kings and the early Republic.
+  evidence: The surviving books and the Periochae (summaries). Tacitus records that Augustus called him a "Pompeian" for his sympathy to the Republican side.
+  sources: [livy-preface]
+- id: virgil
+  name: Virgil
+  full: Publius Vergilius Maro
+  born: {from: -70}
+  died: {from: -19}
+  category: writer
+  roles: [poet]
+  summary: Poet of the Eclogues, Georgics and Aeneid, the epic of Rome's Trojan origins written under Augustus.
+  bio: >-
+    Born near Mantua, Virgil lived through the civil wars and land confiscations that his Eclogues reflect. Under Maecenas'
+    patronage he wrote the Georgics and then the Aeneid, unfinished at his death, which tells of Aeneas' journey from Troy
+    to Italy and foretells Augustus' age. Whether the poem celebrates or questions Augustan power is a long-running debate.
+  evidence: The poems themselves and an ancient life (by Donatus, from Suetonius).
